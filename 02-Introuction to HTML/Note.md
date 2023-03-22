@@ -23,7 +23,7 @@ HTML
 | `Link to specific elements` | Links to specific elements within a web page, such as headings or images, using the id attribute to identify the element |
   
 1. How to use anchor tag 
--> <a href="website link like example.com">Website text!</a>
+ <a href="website link like example.com">Website text!</a>
    This opens hyperlinked text "website text" to example.com
   
 2. Link new page to main page
