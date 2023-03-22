@@ -9,7 +9,6 @@ HTML
 - The text between the opening and closing anchor tags is the visible hyperlink text that the user clicks on to follow the link.
 - The target attribute can be used to specify where the linked resource should open, such as in a new window or tab.
 - The title attribute can be used to provide additional information about the hyperlink to the user.
-- The anchor tag can also be used to create bookmarks within a web page, allowing users to jump to specific sections of the page.
 - Anchor tags can also be used to link to specific elements within a web page, such as headings or images, by using the id attribute to identify the element.
   
   
