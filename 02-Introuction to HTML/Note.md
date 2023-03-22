@@ -23,10 +23,8 @@ HTML
 | `Link to specific elements` | Links to specific elements within a web page, such as headings or images, using the id attribute to identify the element |
   
 1. How to use anchor tag 
- ![image](https://user-images.githubusercontent.com/125631878/226855151-6ded1b77-24bc-451c-b5b0-e3c891fd0aa6.png)
-
-  <a href="website link like example.com">Website text!</a>  
-  This opens hyperlinked text "website text" to example.com
+  ![image](https://user-images.githubusercontent.com/125631878/226855329-de873234-2557-40fc-85de-9cfb9aae1d7d.png)
+   This opens hyperlinked text "website text" to example.com
   
 2. Link new page to main page
    1. Create new page name "Hobbies.html" in same folder of main page 
