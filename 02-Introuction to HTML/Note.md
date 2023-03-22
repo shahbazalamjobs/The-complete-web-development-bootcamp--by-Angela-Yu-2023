@@ -26,7 +26,7 @@ HTML
 ![image](https://user-images.githubusercontent.com/125631878/226837759-fc703d2c-b305-415b-8b3a-004aa4d37bb3.png)
   
   
-![image](https://user-images.githubusercontent.com/125631878/226848804-9806a8c7-bd2c-4e76-8ba5-3881b35f07c1.png)
+![image](https://user-images.githubusercontent.com/125631878/226849646-fadc8b0f-5d62-4523-bbad-fdb859660f10.png)
 
 
   
