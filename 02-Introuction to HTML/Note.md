@@ -15,13 +15,13 @@ HTML
   
 | Tag | Description |
 | --- | --- |
-| '<a>' | Represents the anchor tag in HTML |
-| 'href attribute' | Specifies the URL of the resource to which the hyperlink leads |
-| 'Visible hyperlink text' | The text between the opening and closing anchor tags that the user clicks on to follow the link |
-| 'target attribute' | Specifies where the linked resource should open, such as in a new window or tab |
-| 'title attribute' | attribute	Provides additional information about the hyperlink to the user |
-| 'Bookmark' | Creates bookmarks within a web page, allowing users to jump to specific sections of the page |
-| 'Link to specific elements' | Links to specific elements within a web page, such as headings or images, using the id attribute to identify the element |
+| `<a>` | Represents the anchor tag in HTML |
+| `href attribute` | Specifies the URL of the resource to which the hyperlink leads |
+| `Visible hyperlink text` | The text between the opening and closing anchor tags that the user clicks on to follow the link |
+| `target attribute` | Specifies where the linked resource should open, such as in a new window or tab |
+| `title attribute` | attribute	Provides additional information about the hyperlink to the user |
+| `Bookmark` | Creates bookmarks within a web page, allowing users to jump to specific sections of the page |
+| `Link to specific elements` | Links to specific elements within a web page, such as headings or images, using the id attribute to identify the element |
   
   
   
