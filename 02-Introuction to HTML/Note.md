@@ -23,5 +23,8 @@ HTML
 | `Link to specific elements` | Links to specific elements within a web page, such as headings or images, using the id attribute to identify the element |
   
   
+
+![image](https://user-images.githubusercontent.com/125631878/226846550-23fb6568-4328-4b40-92df-797a6e610341.png)
+
   
 ![image](https://user-images.githubusercontent.com/125631878/226837759-fc703d2c-b305-415b-8b3a-004aa4d37bb3.png)
