@@ -22,6 +22,17 @@ HTML
 | `Bookmark` | Creates bookmarks within a web page, allowing users to jump to specific sections of the page |
 | `Link to specific elements` | Links to specific elements within a web page, such as headings or images, using the id attribute to identify the element |
   
+1. How to use anchor tag 
+-> <a href="website link like example.com">Website text!</a>
+   This opens hyperlinked text "website text" to example.com
+  
+2. Link new page to main page
+-> 1. Create new page name "Hobbies.html" in same folder of main page 
+   2. Add Html boiler plate
+   3. Now add the content 
+   4. In main page use anchor tag <a>, add text "My hobbies", then add link in href "hobbies.html" 
+  
+  
   
 ![image](https://user-images.githubusercontent.com/125631878/226837759-fc703d2c-b305-415b-8b3a-004aa4d37bb3.png)
   
