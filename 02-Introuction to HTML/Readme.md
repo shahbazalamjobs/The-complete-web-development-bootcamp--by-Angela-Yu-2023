@@ -3,11 +3,6 @@
 # Anchor Tag:
 - The anchor tag is represented by the <a> element in HTML.
 - The anchor tag is used to create hyperlinks between web pages and other resources on the internet, such as documents or images.
-- The href attribute is used to specify the URL of the resource to which the hyperlink leads. 
-- The text between the opening and closing anchor tags is the visible hyperlink text that the user clicks on to follow the link.
-- The target attribute can be used to specify where the linked resource should open, such as in a new window or tab.
-- The title attribute can be used to provide additional information about the hyperlink to the user.
-- Anchor tags can also be used to link to specific elements within a web page, such as headings or images, by using the id attribute to identify the element.
   
  ---
   
