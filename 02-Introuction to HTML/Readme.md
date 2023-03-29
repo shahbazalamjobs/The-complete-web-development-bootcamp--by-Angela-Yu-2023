@@ -1,7 +1,5 @@
 # HTML
 
-
-
 # Anchor Tag:
 - The anchor tag is represented by the <a> element in HTML.
 - The anchor tag is used to create hyperlinks between web pages and other resources on the internet, such as documents or images.
@@ -77,6 +75,8 @@
 
 ---
   
+![image](https://user-images.githubusercontent.com/125631878/228603879-aa0d793b-87fe-4cfb-a2cd-5d87bfef5d78.png)
+  
 # HTML Forms
 - An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 - Forms are created using the <form> tag in HTML, which contains input fields and controls.
@@ -95,7 +95,7 @@
 ![image](https://user-images.githubusercontent.com/125631878/228603235-bc1bba90-a1c3-4eef-99c9-e28a78d44e8f.png)
 
 ---
-![image](https://user-images.githubusercontent.com/125631878/228603879-aa0d793b-87fe-4cfb-a2cd-5d87bfef5d78.png)
+
 
 
 
