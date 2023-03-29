@@ -49,7 +49,7 @@ HTML
 
   
   # Table
-- The <table> HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+- The `<table>` HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
 - HTML tables are used to display data in a tabular format, with rows and columns.
 - Tables are created using the <table> tag in HTML, with additional tags used for defining table rows (<tr>), table headings (<th>) and table data cells (<td>).
   
