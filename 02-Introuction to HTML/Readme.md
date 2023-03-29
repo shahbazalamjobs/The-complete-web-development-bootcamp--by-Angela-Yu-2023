@@ -53,6 +53,7 @@ HTML
 - HTML tables are used to display data in a tabular format, with rows and columns.
 - Tables are created using the <table> tag in HTML, with additional tags used for defining table rows (<tr>), table headings (<th>) and table data cells (<td>).
   
- ![image](https://user-images.githubusercontent.com/125631878/228588802-1711f6cc-9f0c-49e3-9ff5-7e76a6558473.png)
+  
+![image](https://user-images.githubusercontent.com/125631878/228588802-1711f6cc-9f0c-49e3-9ff5-7e76a6558473.png)
 
 
