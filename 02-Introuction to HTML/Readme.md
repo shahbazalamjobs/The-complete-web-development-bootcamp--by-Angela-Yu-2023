@@ -58,6 +58,13 @@ HTML
 ![image](https://user-images.githubusercontent.com/125631878/228591119-9e37ea55-5551-4871-8569-666cb37f05f6.png)
 ![image](https://user-images.githubusercontent.com/125631878/228592935-764b8c4c-a69e-4c06-a2e3-681c83f4d1b1.png)
 
+#Understanding This table of table
+![image](https://user-images.githubusercontent.com/125631878/228594879-390aa957-50ca-41ef-a85f-9b0ef27f9992.png)
+- Here two tables are nested in another table
+- Table 1 with HTML CSS and Javascript in 1 column with their respective stars in another column
+- Table 2 with ReactJs NodeJs and SQL in one column with their respective stars in another column 
+- Then we copy html code of table 1 and table 2 and paste it in another table in its column 1 and column 2
+
 
 
 
