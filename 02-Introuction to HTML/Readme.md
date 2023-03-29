@@ -11,6 +11,7 @@ HTML
 - The title attribute can be used to provide additional information about the hyperlink to the user.
 - Anchor tags can also be used to link to specific elements within a web page, such as headings or images, by using the id attribute to identify the element.
   
+ ---
   
 | Tag | Description |
 | --- | --- |
@@ -21,18 +22,19 @@ HTML
 | `title attribute` | attribute	Provides additional information about the hyperlink to the user |
 | `Bookmark` | Creates bookmarks within a web page, allowing users to jump to specific sections of the page |
 | `Link to specific elements` | Links to specific elements within a web page, such as headings or images, using the id attribute to identify the element |
-  
+ 
+---
 1. How to use anchor tag 
   ![image](https://user-images.githubusercontent.com/125631878/226855329-de873234-2557-40fc-85de-9cfb9aae1d7d.png)
    This opens hyperlinked text "website text" to example.com
-  
+---  
 2. Link new page to main page
    1. Create new page name "Hobbies.html" in same folder of main page 
    2. Add Html boiler plate
    3. Now add the content 
    4. In main page use anchor tag <a>, add text "My hobbies", then add link in href "hobbies.html" 
   
-  
+---  
   
 ![image](https://user-images.githubusercontent.com/125631878/226837759-fc703d2c-b305-415b-8b3a-004aa4d37bb3.png)
   
@@ -47,6 +49,7 @@ HTML
 
 ![image](https://user-images.githubusercontent.com/125631878/227139192-15e23329-0312-41d5-8b67-31062c42c8e8.png)
 
+---
   
   # Table
 -  `The <table> HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. `
@@ -55,15 +58,30 @@ HTML
  
 
 ![image](https://user-images.githubusercontent.com/125631878/228592462-f4a46665-b1f9-4bde-b268-9fd7d29d7de3.png)
+  ---
 ![image](https://user-images.githubusercontent.com/125631878/228591119-9e37ea55-5551-4871-8569-666cb37f05f6.png)
+  ---
 ![image](https://user-images.githubusercontent.com/125631878/228592935-764b8c4c-a69e-4c06-a2e3-681c83f4d1b1.png)
 
+  ---
 # Understanding This table of table
 ![image](https://user-images.githubusercontent.com/125631878/228594879-390aa957-50ca-41ef-a85f-9b0ef27f9992.png)
 - Here two tables are nested in another table
 - Table 1 with HTML CSS and Javascript in 1 column with their respective stars in another column
 - Table 2 with ReactJs NodeJs and SQL in one column with their respective stars in another column 
 - Then we copy html code of table 1 and table 2 and paste it in another table in its column 1 and column 2
+
+---
+  
+# HTML Forms
+  HTML forms are used to collect input from users, such as text, numbers, and selections.
+Forms are created using the <form> tag in HTML, which contains input fields and controls.
+Input fields include text boxes, radio buttons, checkboxes, dropdown menus, and more.
+Form controls include buttons for submitting or resetting the form, as well as hidden fields for storing additional data.
+Input fields and controls are defined using various HTML tags, such as <input>, <textarea>, <select>, and <button>.
+Form data can be sent to a server for processing using various methods, such as GET and POST.
+The server can respond with a new web page, or use the data to perform some action, such as adding a new user to a database.
+Form validation can be used to ensure that the user has entered valid data before submitting the form.
 
 
 
