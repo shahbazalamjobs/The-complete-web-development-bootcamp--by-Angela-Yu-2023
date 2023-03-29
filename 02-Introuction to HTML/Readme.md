@@ -43,13 +43,13 @@ HTML
 **********
   
 ![image](https://user-images.githubusercontent.com/125631878/227138836-a1a80d11-6e7d-46fc-86df-48f7b331ee7d.png)
-  ---
+  **********
 
 ![image](https://user-images.githubusercontent.com/125631878/227138920-b9ccad75-d1e2-4390-9126-bdcf830b5f4a.png)
-  ---
+  **********
 
 ![image](https://user-images.githubusercontent.com/125631878/227139103-4f61021e-faac-420d-82a4-f906ce6a45ef.png)
-  ---
+ **********
 
 ![image](https://user-images.githubusercontent.com/125631878/227139192-15e23329-0312-41d5-8b67-31062c42c8e8.png)
 
