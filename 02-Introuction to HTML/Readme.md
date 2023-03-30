@@ -75,16 +75,15 @@
 
 ![image](https://user-images.githubusercontent.com/125631878/228603879-aa0d793b-87fe-4cfb-a2cd-5d87bfef5d78.png)
   
-- An HTML form is used to collect user input. The user input is most often sent to a server for processing.
-- Forms are created using the <form> tag in HTML, which contains input fields and controls.
-- Input fields include text boxes, radio buttons, checkboxes, dropdown menus, and more.
-- Form controls include buttons for submitting or resetting the form, as well as hidden fields for storing additional data.
-- Input fields and controls are defined using various HTML tags, such as <input>, <textarea>, <select>, and <button>.
-- Form data can be sent to a server for processing using various methods, such as GET and POST.
-- The server can respond with a new web page, or use the data to perform some action, such as adding a new user to a database.
-- Form validation can be used to ensure that the user has entered valid data before submitting the form. ---
+* An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+* Forms are created using the <form> tag in HTML, which contains input fields and controls.
+* Input fields include text boxes, radio buttons, checkboxes, dropdown menus, and more.
+* Form controls include buttons for submitting or resetting the form, as well as hidden fields for storing additional data.
+* Input fields and controls are defined using various HTML tags, such as <input>, <textarea>, <select>, and <button>.
+* Form data can be sent to a server for processing using various methods, such as GET and POST.
+* The server can respond with a new web page, or use the data to perform some action, such as adding a new user to a database.
+* Form validation can be used to ensure that the user has entered valid data before submitting the form. ---
 
-# HTMLNew
 
 
 
