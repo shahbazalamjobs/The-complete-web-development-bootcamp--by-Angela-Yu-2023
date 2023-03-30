@@ -81,7 +81,7 @@
 ---
 ![image](https://user-images.githubusercontent.com/125631878/228929961-37f57e3d-d17f-43fa-b09b-18e033ac90ac.png)
 ---
-![image](https://user-images.githubusercontent.com/125631878/228930716-23c26d04-3717-43e3-95b7-bfb0fd45dc6e.png)
+![image](https://user-images.githubusercontent.com/125631878/228930898-432b4330-48e2-4106-ba6e-f8a421fa2980.png)
 ---  
 
 - HTML forms are used to collect user input from a web page.
