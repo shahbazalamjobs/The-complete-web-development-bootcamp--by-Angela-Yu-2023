@@ -79,8 +79,8 @@
 ---
 ![image](https://user-images.githubusercontent.com/125631878/228927641-44d20164-338f-4acc-8199-f41426c96b62.png)
 
-Here Input type is text in email, so if we write wrong email like `abcq78` it will not tell whether its right or wrong but if we change input type to email it will show us the error. <br>
-Also here in name attribute we write yourName, yourEmail, yourMessage which specifies the name of the input field, which is used to identify the field in the form data sent to the server.
+* Here Input type is text in email, so if we write wrong email like `abcq78` it will not tell whether its right or wrong but if we change input type to email it will show us the error. <br>
+* Also here in name attribute we write yourName, yourEmail, yourMessage which specifies the name of the input field, which is used to identify the field in the form data sent to the server.
 
 ---
 ![image](https://user-images.githubusercontent.com/125631878/228929961-37f57e3d-d17f-43fa-b09b-18e033ac90ac.png)
