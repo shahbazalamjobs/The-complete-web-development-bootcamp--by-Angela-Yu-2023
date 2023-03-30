@@ -83,7 +83,7 @@
 - Input fields and controls are defined using various HTML tags, such as <input>, <textarea>, <select>, and <button>.
 - Form data can be sent to a server for processing using various methods, such as GET and POST.
 - The server can respond with a new web page, or use the data to perform some action, such as adding a new user to a database.
-- Form validation can be used to ensure that the user has entered valid data before submitting the form. 
+- Form validation can be used to ensure that the user has entered valid data before submitting the `form`. 
 ---
   
 ## Title 2
