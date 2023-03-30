@@ -79,7 +79,8 @@
 - The server can respond with a new web page, or use the data to perform some action, such as adding a new user to a database.
 - Form validation can be used to ensure that the user has entered valid data before submitting the form.
 
-#HTML FORMS
+  ---
+# HTML FORMS
 
 ![image](https://user-images.githubusercontent.com/125631878/228599767-3d42ad9b-d906-4e59-a7e3-252e060b9100.png)
 
