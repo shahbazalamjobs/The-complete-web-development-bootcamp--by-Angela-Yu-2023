@@ -78,6 +78,7 @@
 ![image](https://user-images.githubusercontent.com/125631878/228924524-da5e5439-4ea4-4fae-b25d-5f3a06f6ccf4.png)
 ---
 ![image](https://user-images.githubusercontent.com/125631878/228927641-44d20164-338f-4acc-8199-f41426c96b62.png)
+Here Input type is text in email, so if we write wronf email like `abcq78` it will not tell whether its right or wrong but if we change input type to email it will show us the error
 ---
 ![image](https://user-images.githubusercontent.com/125631878/228929961-37f57e3d-d17f-43fa-b09b-18e033ac90ac.png)
 ---
