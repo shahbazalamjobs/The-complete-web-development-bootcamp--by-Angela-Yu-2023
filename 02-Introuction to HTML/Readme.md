@@ -82,3 +82,26 @@
 - Form data is typically sent to a server for processing using the HTTP protocol, using either the GET or POST method. The method is specified in the `<form>` element's method attribute.
 - The server can respond with a new web page, or use the data to perform some action, such as adding a new user to a database.
 - Form validation can be used to ensure that the user has entered valid data before submitting the form. Validation can be performed using JavaScript or server-side code.
+  
+| Attribute | Description |
+| --- | --- |
+| `<form>` | Defines the start and end of an HTML form. |
+| `action` | Specifies the URL of the script or server page that will handle form data when the form is submitted. |
+| `method` | Specifies the HTTP method to be used when submitting the form, usually either GET or POST. |
+| `target` | Specifies where the server response should be displayed, such as in a new window or frame. |
+| `enctype` | Specifies the encoding type used to submit the form data to the server. The most common value is `application/x-www-form-urlencoded`. |
+| `<input>` | Defines an input field within a form. The `type` attribute specifies the type of input, such as text, checkbox, or radio button. |
+| `name` | Specifies the name of the input field, which is used to identify the field in the form data sent to the server. |
+| `value` | Specifies the initial value of the input field. |
+| `required` | Specifies that the input field must be filled in before the form can be submitted. |
+| `<label>` | Associates a label with an input field, providing a description or prompt for the field. |
+| `for` | Specifies which input field the label is associated with, by referencing the `id` attribute of the input field. |
+| `<select>` | Defines a dropdown list of options within a form. |
+| `<option>` | Defines an option within a dropdown list. The `value` attribute specifies the value that will be sent to the server if the option is selected. |
+| `<textarea>` | Defines a multi-line input field within a form. |
+| `rows` | Specifies the number of visible rows in the textarea. |
+| `cols` | Specifies the number of visible columns in the textarea. |
+| `<button>` | Defines a button within a form, which can be used to submit the form or trigger a JavaScript function. |
+| `type` | Specifies the type of button, which can be "submit", "reset", or "button". |
+| `onclick` | Specifies a JavaScript function to be executed when the button is clicked. |
+
