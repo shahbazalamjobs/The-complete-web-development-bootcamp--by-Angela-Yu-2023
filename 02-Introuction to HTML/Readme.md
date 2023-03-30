@@ -36,8 +36,6 @@
 **********
 
 ![image](https://user-images.githubusercontent.com/125631878/228936818-e93e954d-87df-4801-9967-405480f324da.png)
-4
-![image](https://user-images.githubusercontent.com/125631878/227138836-a1a80d11-6e7d-46fc-86df-48f7b331ee7d.png)
   **********
 
 ![image](https://user-images.githubusercontent.com/125631878/227138920-b9ccad75-d1e2-4390-9126-bdcf830b5f4a.png)
