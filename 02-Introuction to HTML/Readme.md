@@ -72,9 +72,9 @@
 # HTML Forms
   
 ![image](https://user-images.githubusercontent.com/125631878/228599767-3d42ad9b-d906-4e59-a7e3-252e060b9100.png)
-
+---
 ![image](https://user-images.githubusercontent.com/125631878/228603879-aa0d793b-87fe-4cfb-a2cd-5d87bfef5d78.png)
-
+---
 
 - An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 - Forms are created using the <form> tag in HTML, which contains input fields and controls.
@@ -84,10 +84,7 @@
 - Form data can be sent to a server for processing using various methods, such as GET and POST.
 - The server can respond with a new web page, or use the data to perform some action, such as adding a new user to a database.
 - Form validation can be used to ensure that the user has entered valid data before submitting the form. 
+---
+  
+## Title 2
 
-
-Whenever we add a <form> tag in the HTML, it is going to ask for some action for submitting that particular form in the backend for future reference. So, for now, we will write it as backend.php. All the data submitted in a form will be stored automatically in the backend “backend.php” after submitting it.
-
-The template will look like-
-
-<form action= “backend.php”>
