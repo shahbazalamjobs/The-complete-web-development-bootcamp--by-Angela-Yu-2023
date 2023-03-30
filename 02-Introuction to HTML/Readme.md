@@ -54,11 +54,11 @@
 - Tables are created using the `<table>` tag in HTML, with additional tags used for defining table rows `<tr>`, table headings `<th>` and table data cells `<td>`.
  
 
-![image](https://user-images.githubusercontent.com/125631878/228592462-f4a46665-b1f9-4bde-b268-9fd7d29d7de3.png)
+![image](https://user-images.githubusercontent.com/125631878/228939097-985fbb00-015d-48ee-826a-7fb25acc2153.png)
   ---
-![image](https://user-images.githubusercontent.com/125631878/228591119-9e37ea55-5551-4871-8569-666cb37f05f6.png)
+![image](https://user-images.githubusercontent.com/125631878/228939292-c9c0cc2a-8578-4022-a003-cb62847234f3.png)
   ---
-![image](https://user-images.githubusercontent.com/125631878/228592935-764b8c4c-a69e-4c06-a2e3-681c83f4d1b1.png)
+![image](https://user-images.githubusercontent.com/125631878/228939569-a675fb86-bbba-4861-b1ba-ba1489447627.png)
 
   ---
 # Understanding This table of table
