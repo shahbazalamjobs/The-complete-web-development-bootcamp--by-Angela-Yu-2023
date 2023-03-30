@@ -106,16 +106,16 @@
 | `onclick` | Specifies a JavaScript function to be executed when the button is clicked. |
 
 
-In HTML, the `<label>` element is used to associate a text label with a form control, such as an input field or checkbox. Here's an example of how to use labels with form controls:  
+- In HTML, the `<label>` element is used to associate a text label with a form control, such as an input field or checkbox. Here's an example of how to use labels with form controls:  
  
 `<label for="name">Name:</label>` <br>
 `<input type="text" id="name" name="name" />`
 
-In this example, the `<label>` element contains the text "Name:", which serves as a label for the `<input>` element. The for attribute of the `<label>` element specifies that it is associated with the input field whose id attribute is "name". This means that clicking on the label will focus the input field and allow the user to enter their name.
+- In this example, the `<label>` element contains the text "Name:", which serves as a label for the `<input>` element. The for attribute of the `<label>` element specifies that it is associated with the input field whose id attribute is "name". This means that clicking on the label will focus the input field and allow the user to enter their name.
 
   
-Whenever we add a `<form>` tag in the HTML, it is going to ask for some action for submitting that particular form in the backend for future reference. So, for now, we will write it as index.html. All the data submitted in a form will be stored automatically in the backend “index.html” after submitting it.
+- Whenever we add a `<form>` tag in the HTML, it is going to ask for some action for submitting that particular form in the backend for future reference. So, for now, we will write it as index.html. All the data submitted in a form will be stored automatically in the backend “index.html” after submitting it.
 
-The template will look like-
+- The template will look like-
 
 `<form action= “index.html”>`
