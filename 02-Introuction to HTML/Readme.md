@@ -119,7 +119,7 @@
 - The template will look like-
 `<form action= “index.html”>` <br>
 
- To get the input type as an email in the form, the syntax is
+- To get the input type as an email in the form, the syntax is
   `<input type="email" name="myEmail">`
 - The name here is used so that the backend can recognize the tag that we are using.
   
