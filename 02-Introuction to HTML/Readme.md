@@ -117,9 +117,9 @@
 - Whenever we add a `<form>` tag in the HTML, it is going to ask for some action for submitting that particular form in the backend for future reference. So, for now, we will write it as index.html. All the data submitted in a form will be stored automatically in the backend “index.html” after submitting it.
 
 - The template will look like-
-`<form action= “index.html”>`
-  
-- To get the input type as an email in the form, the syntax is
+`<form action= “index.html”>` <br>
+  ---
+ To get the input type as an email in the form, the syntax is
   `<input type="email" name="myEmail">`
 - The name here is used so that the backend can recognize the tag that we are using.
   
