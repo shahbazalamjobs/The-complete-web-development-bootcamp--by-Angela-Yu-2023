@@ -112,3 +112,10 @@ In HTML, the `<label>` element is used to associate a text label with a form con
 `<input type="text" id="name" name="name" />`
 
 In this example, the `<label>` element contains the text "Name:", which serves as a label for the `<input>` element. The for attribute of the `<label>` element specifies that it is associated with the input field whose id attribute is "name". This means that clicking on the label will focus the input field and allow the user to enter their name.
+
+  
+Whenever we add a <form> tag in the HTML, it is going to ask for some action for submitting that particular form in the backend for future reference. So, for now, we will write it as index.html. All the data submitted in a form will be stored automatically in the backend “backend.php” after submitting it.
+
+The template will look like-
+
+`<form action= “index.html”>`
