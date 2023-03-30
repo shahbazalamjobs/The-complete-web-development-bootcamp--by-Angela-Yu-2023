@@ -84,3 +84,10 @@
 - Form data can be sent to a server for processing using various methods, such as GET and POST.
 - The server can respond with a new web page, or use the data to perform some action, such as adding a new user to a database.
 - Form validation can be used to ensure that the user has entered valid data before submitting the form. 
+
+
+Whenever we add a <form> tag in the HTML, it is going to ask for some action for submitting that particular form in the backend for future reference. So, for now, we will write it as backend.php. All the data submitted in a form will be stored automatically in the backend “backend.php” after submitting it.
+
+The template will look like-
+
+<form action= “backend.php”>
