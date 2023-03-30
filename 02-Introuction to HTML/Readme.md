@@ -75,6 +75,8 @@
 ---
 ![image](https://user-images.githubusercontent.com/125631878/228603879-aa0d793b-87fe-4cfb-a2cd-5d87bfef5d78.png)
 ---
+![image](https://user-images.githubusercontent.com/125631878/228924524-da5e5439-4ea4-4fae-b25d-5f3a06f6ccf4.png)
+---
 - HTML forms are used to collect user input from a web page.
 - Forms are created using the <form> element in HTML, which contains input fields and controls.
 - Input fields can include text boxes, radio buttons, checkboxes, dropdown menus, and more. Each input field is defined using an appropriate HTML tag, such as `<input>`, `<select>`, or `<textarea>`.
