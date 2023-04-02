@@ -65,29 +65,6 @@ This example includes a <!DOCTYPE> declaration, an <html> element that encloses 
 
 
 
-| **Details** | 
-- `<!DOCTYPE html>`: The `<!DOCTYPE>` declaration is used to specify the version of HTML used in the document.
-- `<html>`: The `<html>` element is the root element of an HTML page.
-- `<head>`: The `<head>` element contains meta information about the document, such as the page title and links to stylesheets.
-- `<title>`: The `<title>` element specifies the title of the document, which is displayed in the browser's title bar.
-- `<body>`: The `<body>` element contains the content of the document, such as headings, paragraphs, images, and links.
-- `<h1>`, `<p>`, etc.: These are examples of HTML tags that are used to structure and format content on a web page. |
-
-| **Example** | 
-|
-```
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My First Web Page</title>
-  </head>
-  <body>
-    <h1>Welcome to my website</h1>
-    <p>This is my first web page.</p>
-  </body>
-</html>
-``` 
-|
 
 
 
