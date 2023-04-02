@@ -118,11 +118,22 @@ We want single line broder with white color. We can do this by changing border s
                background-color: white;
                border-style: none;
                height: 2px;
-          }
+       }
    ```
-
+   
 ![image](https://user-images.githubusercontent.com/125631878/229375157-7f3d212c-dd48-4683-a279-8b43a7cf1ddb.png)
 
+**********
+
+- We can also change height of image
+
+ ``` 
+ img {
+    height: 20px;
+ }
+ ```
+
+![image](https://user-images.githubusercontent.com/125631878/229375452-af322cef-3422-43da-89d4-856ddcb99cc6.png)
 
 **********
 
