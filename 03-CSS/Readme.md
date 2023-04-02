@@ -26,9 +26,8 @@
 
 **********
 
-![image](https://user-images.githubusercontent.com/125631878/229371246-0a35f1f9-3ed9-428a-a49f-3d5850d87f54.png)
-
-2 ![image](https://user-images.githubusercontent.com/125631878/229366687-1c3954bb-1a3f-4550-8edc-40a54ba31d98.png) <br> 
+![image](https://user-images.githubusercontent.com/125631878/229371302-bc9478a4-aba9-4cbb-b4a9-d0d84d76434d.png)
+<br> 
 - Here we made whole website background light sky blue color using html tag body which is not appropriate as HTML tags like body should not be used for styling purposes.<br> 
 - For this we use external styling sheets
 
