@@ -70,7 +70,7 @@
    
   ![image](https://user-images.githubusercontent.com/125631878/229372206-e510a512-ce44-435c-a4eb-e46e614a2516.png)
    
-  | Value | Description |
+| Value | Description |
 | --- | --- |
 | `none` | No border is displayed. |
 | `hidden` | Same as `none`, except that it still takes up space. |
