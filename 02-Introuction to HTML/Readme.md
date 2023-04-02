@@ -63,6 +63,30 @@ This example includes a <!DOCTYPE> declaration, an <html> element that encloses 
 
 **********
 
+HTML Tags
+ 
+ Tag | Description
+--- | ---
+`<html>` | Defines the root element of an HTML document
+`<head>` | Contains metadata about the document that is not displayed in the browser
+`<title>` | Defines the title of the document that is displayed in the browser's title bar
+`<body>` | Contains the visible content of the document
+`<h1>` to `<h6>` | Define six levels of headings (h1 being the most important)
+`<p>` | Defines a paragraph of text
+`<a>` | Defines a hyperlink to another webpage or resource
+`<img>` | Defines an image to be displayed on the page
+`<ul>` | Defines an unordered list (a list with bullet points)
+`<ol>` | Defines an ordered list (a list with numbers or letters)
+`<li>` | Defines a list item within an ordered or unordered list
+`<table>` | Defines a table
+`<tr>` | Defines a table row
+`<th>` | Defines a table header cell
+`<td>` | Defines a table data cell
+`<form>` | Defines a form for user input
+`<input>` | Defines an input field where the user can enter data
+`<button>` | Defines a clickable button
+`<select>` | Defines a drop-down list
+`<option>` | Defines an option in a drop-down list
 
 
 
