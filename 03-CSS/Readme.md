@@ -29,10 +29,20 @@
 ![image](https://user-images.githubusercontent.com/125631878/229366687-1c3954bb-1a3f-4550-8edc-40a54ba31d98.png) <br> 
 - Here we made whole website background light sky blue color using html tag body which is not appropriate as HTML tags like body should not be used for styling purposes.<br> 
 - For this we use external styling sheets
-
   
 # Writing CSS code in HTML page only
+  
+  
 - Write `<sheet>` tag between `<head>` tag of html code snippet
+  
+- In order to select HTML tag, specify the name of the element you want to change (which in this case is body)
+   ```
+    <style>
+                body {
+                        background-color: #DAF5FF;
+                }                           
+    </style>
+   ```
   
   
 - To change the background color of a website using CSS, you can use the background-color property. Here's an example:
