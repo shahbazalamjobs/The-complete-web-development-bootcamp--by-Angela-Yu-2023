@@ -115,12 +115,12 @@ We want single line broder with white color. We can do this by changing border s
 **********
    
       ```  
-    hr {
-                        background-color: white;
-                        border-style: none;
-                        height: 2px;
-       }
-  ```
+       hr {
+                           background-color: white;
+                           border-style: none;
+                           height: 2px;
+          }
+      ```
 
 **********
 
