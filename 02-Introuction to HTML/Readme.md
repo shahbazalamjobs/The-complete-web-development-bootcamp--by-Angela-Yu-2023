@@ -130,13 +130,13 @@ Readability and maintainability: Semantic HTML can make code easier to read and 
 
 Some commonly used semantic HTML tags include:
 
-`<header>`: Defines the top section of a page or a section of a page.
-`<nav>`: Defines a section for navigation links.
-`<article>`: Defines a self-contained section of content, such as a blog post or news article.
-`<section>`: Defines a generic section of content.
-`<aside>`: Defines content that is tangentially related to the main content of the page, such as a sidebar.
-`<footer>`: Defines the bottom section of a page or a section of a page.
-By using semantic HTML tags appropriately, developers can create web pages that are more accessible, more easily understood by search engines, and more maintainable over time. 
+`<header>`: Defines the top section of a page or a section of a page. <br>
+`<nav>`: Defines a section for navigation links. <br>
+`<article>`: Defines a self-contained section of content, such as a blog post or news article.<br>
+`<section>`: Defines a generic section of content.<br>
+`<aside>`: Defines content that is tangentially related to the main content of the page, such as a sidebar. <br>
+`<footer>`: Defines the bottom section of a page or a section of a page. <br>
+By using semantic HTML tags appropriately, developers can create web pages that are more accessible, more easily understood by search engines, and more maintainable over time. <br>
  
  
 ## Example of using semantic HTML
