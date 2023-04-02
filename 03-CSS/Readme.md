@@ -50,7 +50,9 @@
   ```
   [Note]: Instead of changing attributes of all `<hr>` in HTML we can simply do once by changing hr attribute in `<style>` tag inside `<head>` tag
   ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
+  ![image](https://user-images.githubusercontent.com/125631878/229371008-2f0cbd29-ee9f-47d5-810e-ea93392f73b2.png)
 
+   
 **********
 
   ## Explanation
@@ -96,7 +98,8 @@ All modern web browsers come with a set of default CSS styles. These styles are 
 | `clear` | `none` | The default clear value for most HTML elements. |
 
 
-   ![Uploading image.png…]()
+
+
 
 **********
 ## Writing CSS code in HTML page only   
