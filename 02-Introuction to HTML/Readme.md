@@ -39,7 +39,6 @@ HTML is a foundational technology for front-end web development, and is often us
 | --- |
 | **Description** | The basic HTML structure provides a foundation for all web pages and consists of a few essential elements. Understanding these elements is essential for creating well-formed HTML documents. |
 | **Syntax** | 
-
 ```
 <!DOCTYPE html>
 <html>
@@ -51,8 +50,8 @@ HTML is a foundational technology for front-end web development, and is often us
     <p>Paragraph text</p>
   </body>
 </html>
-```
-
+``` 
+|
 
 | **Details** | 
 - `<!DOCTYPE html>`: The `<!DOCTYPE>` declaration is used to specify the version of HTML used in the document.
@@ -63,7 +62,7 @@ HTML is a foundational technology for front-end web development, and is often us
 - `<h1>`, `<p>`, etc.: These are examples of HTML tags that are used to structure and format content on a web page. |
 
 | **Example** | 
-
+|
 ```
 <!DOCTYPE html>
 <html>
@@ -76,7 +75,7 @@ HTML is a foundational technology for front-end web development, and is often us
   </body>
 </html>
 ``` 
-
+|
 
 
 
