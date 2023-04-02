@@ -53,7 +53,7 @@ HTML is a foundational technology for front-end web development, and is often us
 </html>
 ```
 
-|
+
 | **Details** | 
 - `<!DOCTYPE html>`: The `<!DOCTYPE>` declaration is used to specify the version of HTML used in the document.
 - `<html>`: The `<html>` element is the root element of an HTML page.
@@ -75,8 +75,8 @@ HTML is a foundational technology for front-end web development, and is often us
     <p>This is my first web page.</p>
   </body>
 </html>
-``` |
-```
+``` 
+
 
 
 
