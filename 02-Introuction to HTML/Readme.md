@@ -114,6 +114,7 @@ HTML tags are enclosed in angle brackets `(< and >)`, with the tag name inside. 
  
 **********
 
+# Semantic HTML
  
 Semantic HTML refers to the use of HTML markup to reinforce the meaning of the content on a web page rather than only defining its presentation or appearance. In other words, semantic HTML is all about using HTML elements in a way that accurately reflects the meaning of the content they contain.
 
@@ -138,6 +139,36 @@ Some commonly used semantic HTML tags include:
 By using semantic HTML tags appropriately, developers can create web pages that are more accessible, more easily understood by search engines, and more maintainable over time. 
  
  
+## Example of using semantic HTML
+ ``` 
+<header>
+  <h1>My Blog</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <article>
+    <h2>My First Post</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in faucibus massa. Donec varius, justo eget tincidunt commodo, sem purus molestie erat, nec elementum leo purus in risus. Ut pharetra augue eu velit pharetra malesuada. Nunc tincidunt tellus vel orci hendrerit dictum.</p>
+  </article>
+  <aside>
+    <h3>Popular Posts</h3>
+    <ul>
+      <li><a href="#">Post 1</a></li>
+      <li><a href="#">Post 2</a></li>
+      <li><a href="#">Post 3</a></li>
+    </ul>
+  </aside>
+</main>
+<footer>
+  <p>Copyright © 2023</p>
+</footer>
+``` |
  
 **********
 
@@ -189,7 +220,7 @@ By using semantic HTML tags appropriately, developers can create web pages that 
 
 ---
   
-  # Table
+# Table
 -  The <table> HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. 
 - HTML tables are used to display data in a tabular format, with rows and columns.
 - Tables are created using the `<table>` tag in HTML, with additional tags used for defining table rows `<tr>`, table headings `<th>` and table data cells `<td>`.
