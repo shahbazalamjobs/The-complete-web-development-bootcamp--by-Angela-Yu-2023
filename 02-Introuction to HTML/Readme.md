@@ -336,6 +336,9 @@ HTML media refers to the ability of HTML to embed and display various types of m
 </svg>
 
  
+ ![image](https://user-images.githubusercontent.com/125631878/229377083-3c3377d9-4ef5-44e0-9bf5-9088756de69b.png)
+
+ 
  ```
  
 | HTML Media	| Description |
