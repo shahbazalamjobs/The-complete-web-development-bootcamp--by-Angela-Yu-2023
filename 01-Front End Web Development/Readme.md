@@ -73,4 +73,4 @@ This entire process happens within seconds and is repeated millions of times eve
 
 **********
 
-`Front End Development questions:` https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/README.md
+`Front End Development interview questions:` https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/README.md
