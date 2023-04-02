@@ -56,14 +56,7 @@
    Output: <br>
    ![image](https://user-images.githubusercontent.com/125631878/229371693-30219604-08bf-4cbc-895b-f8305c594bd4.png)
    
-   
-   ```  
-    hr {
-                        background-color: white;
-                        border-style: none;
-                        height: 2px;
-       }
-  ```
+
   [Note]: Instead of changing attributes of all `<hr>` in HTML we can simply do once by changing hr attribute in `<style>` tag inside `<head>` tag
   
 - Default CSS of `<hr>`
@@ -85,12 +78,13 @@
    | `outset` | The border looks like it is coming out of the page. |
 
    
-|The border-style property may be specified using one, two, three, or four values.|
-|---|
-|When one value is specified, it applies the same style to all four sides.|
-|When two values are specified, the first style applies to the top and bottom, the second to the left and right.|
-|When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.|
-|When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise).|
+   |The border-style property may be specified using one, two, three, or four values.|
+   |---|
+   |When one value is specified, it applies the same style to all four sides.|
+   |When two values are specified, the first style applies to the top and bottom, the second to the left and right.|
+   |When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.|
+   |When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise).|
+    
    
 - Inset border-style
   
@@ -98,8 +92,28 @@
   ![image](https://user-images.githubusercontent.com/125631878/229372397-8d2b7ace-739c-4ea6-a5a3-30b1c1291a0f.png)
 
   ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
-  
+ 
+ 
+We want single line broder with white color. We can do this by changing border style to none. So, we can overwrite the default browser value by specifying a new value for it using CSS
    
+   ```  
+    hr {
+                        background-color: white;
+                        border-style: none;                      
+       }
+  ```
+   ![image](https://user-images.githubusercontent.com/125631878/229373522-df38a887-e97d-4f29-a721-77ea539ea1bb.png)
+   
+**********
+   
+      ```  
+    hr {
+                        background-color: white;
+                        border-style: none;
+                        height: 2px;
+       }
+  ```
+
 **********
 
   ## Explanation
