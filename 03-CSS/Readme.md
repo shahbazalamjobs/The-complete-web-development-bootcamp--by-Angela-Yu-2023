@@ -41,14 +41,12 @@
     </style>
    ```
 - If want to change whole horizontal rows `<hr>` color using css
-  ```
-  
+  ```  
     hr {
                         background-color: white;
                         border-style: none;
                         height: 2px;
        }
-  
   ```
   
 - To change the background color of a website using CSS, you can use the background-color property. Here's an example:
