@@ -134,6 +134,7 @@ Some commonly used semantic HTML tags include:
 `<section>`: Defines a generic section of content.<br>
 `<aside>`: Defines content that is tangentially related to the main content of the page, such as a sidebar. <br>
 `<footer>`: Defines the bottom section of a page or a section of a page. <br>
+ 
 By using semantic HTML tags appropriately, developers can create web pages that are more accessible, more easily understood by search engines, and more maintainable over time. <br>
  
  
