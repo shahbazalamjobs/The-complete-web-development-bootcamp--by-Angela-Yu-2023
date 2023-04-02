@@ -112,6 +112,7 @@ We want single line broder with white color. We can do this by changing border s
    ![image](https://user-images.githubusercontent.com/125631878/229374160-dd39a567-c2a2-4203-9638-e1551219a0fa.png)
 
 
+- Now height = 2px 
    ```  
        hr {
                background-color: white;
@@ -119,6 +120,9 @@ We want single line broder with white color. We can do this by changing border s
                height: 2px;
           }
    ```
+
+![image](https://user-images.githubusercontent.com/125631878/229375157-7f3d212c-dd48-4683-a279-8b43a7cf1ddb.png)
+
 
 **********
 
