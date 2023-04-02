@@ -40,7 +40,7 @@ HTML is a foundational technology for front-end web development, and is often us
 | **Description** | The basic HTML structure provides a foundation for all web pages and consists of a few essential elements. Understanding these elements is essential for creating well-formed HTML documents. |
 | **Syntax** | 
 
-```
+
 <!DOCTYPE html>
 <html>
   <head>
