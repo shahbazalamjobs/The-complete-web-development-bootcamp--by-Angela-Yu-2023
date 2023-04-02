@@ -174,7 +174,6 @@ By using semantic HTML tags appropriately, developers can create web pages that 
 - The anchor tag is represented by the <a> element in HTML.
 - The anchor tag is used to create hyperlinks between web pages and other resources on the internet, such as documents or images.
   
-**********
   
 | Tag | Description |
 | --- | --- |
