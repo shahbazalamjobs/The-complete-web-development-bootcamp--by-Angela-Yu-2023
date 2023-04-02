@@ -336,7 +336,6 @@ HTML media refers to the ability of HTML to embed and display various types of m
  
  ```
  
- 
 | HTML Media	| Description |
 |---|---|
 | `<img>` |	Inserts an image into the web page.|
@@ -350,6 +349,23 @@ HTML media refers to the ability of HTML to embed and display various types of m
  
 
 **********
+ 
+
+| HTML Best Practices | Description |
+|---------------------|-------------|
+| Use proper document structure | Use the correct HTML structure, including the <html>, <head>, and <body> tags. |
+| Use semantic HTML | Use HTML tags that accurately describe the content they contain, such as <nav>, <header>, <footer>, and <main>. |
+| Use valid HTML | Ensure that your HTML code conforms to the HTML standard and is free of errors. Use a validator tool to check your code. |
+| Use alt attributes for images | Use descriptive alt attributes for images to ensure that users with visual impairments can understand the content. |
+| Use descriptive and concise titles | Use concise and descriptive titles for your web pages that accurately reflect their content. |
+| Use CSS for presentation | Use CSS to style your HTML elements rather than using inline styles or deprecated HTML attributes. |
+| Optimize images and other media | Optimize images and other media to reduce page load times and improve the user experience. Use the appropriate file formats and compression techniques. |
+| Use responsive design | Ensure that your web pages are optimized for different screen sizes and devices. Use responsive design techniques such as media queries and flexible layouts. |
+| Test your code | Test your HTML code in different browsers and devices to ensure that it works correctly and looks good. Use developer tools and testing frameworks to automate your testing. |
+| Keep your code organized | Use consistent and readable code formatting and commenting to make your code easier to maintain and update. |
+
+ 
+ **********
  
 # Launch Website in Github
 
