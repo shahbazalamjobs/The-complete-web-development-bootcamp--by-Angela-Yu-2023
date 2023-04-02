@@ -378,3 +378,4 @@ HTML media refers to the ability of HTML to embed and display various types of m
 6. On that same page you will get website link
 ![image](https://user-images.githubusercontent.com/125631878/228951355-d62e86d6-6ced-429c-8368-2a77c588de0b.png)
 
+My first website Link using HTML only: https://shahbazalamjobs.github.io/FirstWebsite/
