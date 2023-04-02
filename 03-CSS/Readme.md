@@ -97,11 +97,11 @@
 We want single line broder with white color. We can do this by changing border style to none. So, we can overwrite the default browser value by specifying a new value for it using CSS
    
    ```  
-    hr {
-                        background-color: white;
-                        border-style: none;                      
+       hr {
+                           background-color: white;
+                           border-style: none;                      
        }
-  ```
+   ```
    ![image](https://user-images.githubusercontent.com/125631878/229373522-df38a887-e97d-4f29-a721-77ea539ea1bb.png)
    
    - Now whole border is gone completely gone. (The border is also a rectangle type but here its height has become 0 pixel).
@@ -115,11 +115,11 @@ We want single line broder with white color. We can do this by changing border s
 **********
    
       ```  
-       hr {
-                           background-color: white;
-                           border-style: none;
-                           height: 2px;
-          }
+          hr {
+                              background-color: white;
+                              border-style: none;
+                              height: 2px;
+             }
       ```
 
 **********
