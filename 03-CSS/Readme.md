@@ -23,3 +23,10 @@
 | Layout | Refers to the arrangement of HTML elements on a web page. CSS provides a range of layout options, such as float, display, and flexbox. |
 | Media queries | Used to apply different styles to a web page based on the size or orientation of the device it's being viewed on. |
 | External CSS | Can be linked to HTML documents using a <link> tag in the <head> section, allowing for consistent styling across multiple pages. |
+
+**********
+
+![image](https://user-images.githubusercontent.com/125631878/229366687-1c3954bb-1a3f-4550-8edc-40a54ba31d98.png)
+Here we made whole website background light sky blue color using html tag body which is not appropriate as HTML tags like body should not be used for styling purposes.
+For this we use external styling sheets
+
