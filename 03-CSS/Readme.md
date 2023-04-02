@@ -106,9 +106,9 @@ We want single line broder with white color. We can do this by changing border s
    
    - Now whole border is gone completely gone. (The border is also a rectangle type but here its height has become 0 pixel).
    - To make them appear use pesticide extension.
-   
    - We can see using pesticide that the pixel of hr has become 0 because of none border style.
    - So use the height property of css to change height of hr element. (Change height to 2 px)
+   
    ![image](https://user-images.githubusercontent.com/125631878/229374160-dd39a567-c2a2-4203-9638-e1551219a0fa.png)
 
    
