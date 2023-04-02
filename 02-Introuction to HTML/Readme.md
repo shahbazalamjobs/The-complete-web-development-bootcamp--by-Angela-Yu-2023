@@ -138,7 +138,7 @@
   `<input type="email" name="myEmail">`
 - The name here is used so that the backend can recognize the tag that we are using.
   
-  **********
+**********
   
 # Readme
 
