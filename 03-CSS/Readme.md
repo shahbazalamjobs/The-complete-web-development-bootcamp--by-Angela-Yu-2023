@@ -44,7 +44,20 @@
    ![image](https://user-images.githubusercontent.com/125631878/229371008-2f0cbd29-ee9f-47d5-810e-ea93392f73b2.png)
    
 - If want to change whole horizontal rows `<hr>` color using css
-  ```  
+     ```  
+        hr {
+                           background-color: white;
+        }
+    ```
+   
+   Code: <br> 
+   ![image](https://user-images.githubusercontent.com/125631878/229371603-965a9e8c-092e-4784-a4a0-69f0ed7c022b.png) 
+   
+   Output: <br>
+   ![image](https://user-images.githubusercontent.com/125631878/229371693-30219604-08bf-4cbc-895b-f8305c594bd4.png)
+   
+   
+   ```  
     hr {
                         background-color: white;
                         border-style: none;
