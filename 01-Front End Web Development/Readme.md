@@ -52,6 +52,28 @@ Encryption: To ensure that data transmitted over the internet is secure, encrypt
 
 Overall, the internet is a complex system that relies on a variety of technologies and protocols to ensure that data is transmitted reliably and securely between devices around the world.
 
+## 2
+The internet is a global network of computers and servers that communicate with each other using a standardized set of protocols. Here is a simplified explanation of how the internet works:
+
+Devices: The internet is accessed through various devices such as computers, smartphones, and tablets, which are connected to the internet via Wi-Fi or cellular networks.
+
+ISP: An Internet Service Provider (ISP) provides internet connectivity to devices through wired or wireless connections. ISPs are connected to other networks around the world and exchange data with each other to ensure that all devices are able to access the internet.
+
+Protocols: The internet uses a standardized set of protocols such as TCP/IP, HTTP, and FTP to transmit data between devices. These protocols ensure that data is transmitted in a reliable and secure manner.
+
+DNS: The Domain Name System (DNS) is responsible for converting human-readable domain names (e.g. google.com) into machine-readable IP addresses (e.g. 216.58.194.174). This allows devices to connect to web servers and other devices on the internet.
+
+Routing: Data is transmitted between devices using a process called routing. When a device sends data, it is divided into small packets and sent to the nearest router. The router then forwards the packets to the next router until they reach their destination.
+
+Web servers: Web servers are computers that store and serve web pages and other content over the internet. When a user types a URL into their web browser, the browser sends a request to the appropriate web server, which then sends the requested content back to the user's device.
+
+Encryption: To ensure that data transmitted over the internet is secure, encryption is used to scramble the data so that it cannot be intercepted or read by unauthorized parties. Common encryption protocols include SSL and TLS.
+
+Overall, the internet is a complex system that relies on a variety of technologies and protocols to ensure that data is transmitted reliably and securely between devices around the world.
+
+
+
+
 ## Example of how does internet works
 
 Let's say you want to access a website such as Google.com. Here's what happens when you type the URL into your web browser:
