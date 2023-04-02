@@ -137,6 +137,22 @@ We want single line broder with white color. We can do this by changing border s
 
 **********
 
+We can also change the width of the hr
+ 
+ ```
+ hr {
+                        background-color: white;
+                        border-style: none;
+                        height: 2px;
+                        width: 100px;
+                }
+ ```
+
+   
+**********
+
+**********   
+
   ## Explanation
 - To change the background color of a website using CSS, you can use the background-color property. Here's an example:
    ```
