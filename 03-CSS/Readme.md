@@ -85,6 +85,12 @@
    | `outset` | The border looks like it is coming out of the page. |
 
    
+|The border-style property may be specified using one, two, three, or four values.|
+|---|
+|When one value is specified, it applies the same style to all four sides.|
+|When two values are specified, the first style applies to the top and bottom, the second to the left and right.|
+|When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.|
+|When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise).|
    
 - Inset border-style
    
