@@ -76,6 +76,8 @@ All modern web browsers come with a set of default CSS styles. These styles are 
 
 **********
 
+
+# Default CSS in browser   
 | CSS Property | Default Value | Description |
 | --- | --- | --- |
 | `font-family` | `sans-serif` | The default font family used for most HTML elements. This is typically a generic sans-serif font like Arial or Helvetica. |
