@@ -29,7 +29,7 @@
 ![image](https://user-images.githubusercontent.com/125631878/229366687-1c3954bb-1a3f-4550-8edc-40a54ba31d98.png) <br> 
 - Here we made whole website background light sky blue color using html tag body which is not appropriate as HTML tags like body should not be used for styling purposes.<br> 
 - For this we use external styling sheets
-  
+
 ## Writing CSS code in HTML page only 
 - Write `<sheet>` tag between `<head>` tag of html code snippet
 - In order to select HTML tag, specify the name of the element you want to change (which in this case is body)
@@ -51,6 +51,8 @@
   [Note]: Instead of changing attributes of all `<hr>` in HTML we can simply do once by changing hr attribute in `<style>` tag inside `<head>` tag
   ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
 
+**********
+
   ## Explanation
 - To change the background color of a website using CSS, you can use the background-color property. Here's an example:
    ```
@@ -70,7 +72,29 @@
   
    - In this example, the .header selector targets a specific element with the class name header, and sets the background-color property to #333, which is a dark gray color.
 
-  
+All modern web browsers come with a set of default CSS styles. These styles are known as User Agent Stylesheets, and they provide a consistent visual appearance for HTML elements across different web pages.
+
+**********
+
+| CSS Property | Default Value | Description |
+| --- | --- | --- |
+| `font-family` | `sans-serif` | The default font family used for most HTML elements. This is typically a generic sans-serif font like Arial or Helvetica. |
+| `font-size` | `16px` | The default font size used for most HTML elements. |
+| `margin` | Varies by element | Most HTML elements have default margin values, which can vary between browsers. |
+| `padding` | Varies by element | Most HTML elements have default padding values, which can vary between browsers. |
+| `color` | `#000` | The default text color for most HTML elements. |
+| `background-color` | `transparent` | The default background color for most HTML elements. |
+| `text-decoration` | `underline` | Links are typically underlined by default. |
+| `text-align` | `left` | The default text alignment for most HTML elements. |
+| `border` | Varies by element | Most HTML elements have default border styles, widths, and colors, which can vary between browsers. |
+| `outline` | None | The default outline style for most HTML elements. |
+| `list-style` | `disc` | The default bullet style used for unordered lists. |
+| `display` | Varies by element | Most HTML elements have default display values, which can vary between browsers. |
+| `float` | `none` | The default float value for most HTML elements. |
+| `clear` | `none` | The default clear value for most HTML elements. |
+
+
+**********
 ## Writing CSS code in HTML page only   
 - Remember to save your CSS file and link it to your HTML document using the link tag in the head section of your HTML document for the changes to take effect.
   
