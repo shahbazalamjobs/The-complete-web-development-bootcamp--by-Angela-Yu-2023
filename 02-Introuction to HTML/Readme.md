@@ -34,7 +34,7 @@ HTML is a foundational technology for front-end web development, and is often us
 
 
 
-
+```
 | Basic HTML Structure |
 | --- |
 | **Description** | The basic HTML structure provides a foundation for all web pages and consists of a few essential elements. Understanding these elements is essential for creating well-formed HTML documents. |
@@ -51,7 +51,7 @@ HTML is a foundational technology for front-end web development, and is often us
     <p>Paragraph text</p>
   </body>
 </html>
-```html:
+```
 
 
 
