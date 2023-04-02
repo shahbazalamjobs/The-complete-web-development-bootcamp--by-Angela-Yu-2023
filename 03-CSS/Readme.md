@@ -43,4 +43,15 @@
    - In this example, the body selector targets the entire webpage and sets the background-color property to #f1f1f1, which is a light gray color. You can replace this color value with any other color you want.
 }
 
-css
+- If you only want to change the background color of a specific element, you can use the same property on that element. For example:
+  ```
+     .header {
+     background-color: #333;
+   }
+  ``` 
+  
+   - In this example, the .header selector targets a specific element with the class name header, and sets the background-color property to #333, which is a dark gray color.
+  
+- Remember to save your CSS file and link it to your HTML document using the link tag in the head section of your HTML document for the changes to take effect.
+  
+  css
