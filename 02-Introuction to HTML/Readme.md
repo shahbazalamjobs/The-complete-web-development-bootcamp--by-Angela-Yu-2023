@@ -168,7 +168,10 @@ By using semantic HTML tags appropriately, developers can create web pages that 
   <p>Copyright © 2023</p>
 </footer>
 ``` 
- 
+
+![image](https://user-images.githubusercontent.com/125631878/229376771-05d1a783-8216-4b78-85e5-c5ab2c22b653.png)
+
+
 **********
 
 # Anchor Tag:
@@ -195,8 +198,7 @@ By using semantic HTML tags appropriately, developers can create web pages that 
    1. Create new page name "Hobbies.html" in same folder of main page 
    2. Add Html boiler plate
    3. Now add the content 
-   4. In main page use anchor tag <a>, add text "My hobbies", then add link in href "hobbies.html" 
-  
+   4. In main page use anchor tag <a>, add text "My hobbies", then add link in href "hobbies.html"   
 ---  
   
 ![image](https://user-images.githubusercontent.com/125631878/226837759-fc703d2c-b305-415b-8b3a-004aa4d37bb3.png)
