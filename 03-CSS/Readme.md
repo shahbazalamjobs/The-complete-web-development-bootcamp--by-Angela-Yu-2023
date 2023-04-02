@@ -85,6 +85,7 @@
    | `outset` | The border looks like it is coming out of the page. |
 
    
+   
 - Inset border-style
    
   ![image](https://user-images.githubusercontent.com/125631878/229372397-8d2b7ace-739c-4ea6-a5a3-30b1c1291a0f.png)
