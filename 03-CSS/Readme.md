@@ -48,7 +48,11 @@
                         height: 2px;
        }
   ```
+  [Note]: Instead of changing attributes of all `<hr>` in HTML we can simply do once by changing hr attribute in `<style>` tag inside `<head>` tag
+  ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
+
   
+  ## Explanation
 - To change the background color of a website using CSS, you can use the background-color property. Here's an example:
    ```
     body {
