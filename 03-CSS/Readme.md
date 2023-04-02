@@ -96,6 +96,8 @@ All modern web browsers come with a set of default CSS styles. These styles are 
 | `clear` | `none` | The default clear value for most HTML elements. |
 
 
+   ![Uploading image.png…]()
+
 **********
 ## Writing CSS code in HTML page only   
 - Remember to save your CSS file and link it to your HTML document using the link tag in the head section of your HTML document for the changes to take effect.
