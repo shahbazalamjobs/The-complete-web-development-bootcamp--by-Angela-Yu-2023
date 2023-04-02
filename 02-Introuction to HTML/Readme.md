@@ -57,14 +57,33 @@ Here is an example of the basic HTML structure:
 </html>
 ```
 
-This example includes a <!DOCTYPE> declaration, an <html> element that encloses the entire document, a <head> element with a <title> element, and a <body> element with some content. This is the basic structure that you will build upon when creating your own HTML documents.
+This example includes a `<!DOCTYPE>` declaration, an `<html>` element that encloses the entire document, a `<head>` element with a `<title>` element, and a `<body>` element with some content. This is the basic structure that you will build upon when creating your own HTML documents.
 
 
 
 **********
 
-HTML Tags
+# HTML Tags
  
+HTML tags are elements used to structure content and give meaning to text in an HTML document. They are used to define the layout and appearance of a web page, as well as to provide functionality through attributes and events.
+
+HTML tags are enclosed in angle brackets `(< and >)`, with the tag name inside. Some tags require an opening tag `(<tag>)` and a closing tag `(</tag>)` to define the content within, while others are self-closing `(<tag />)` and do not require a closing tag.
+
+- For example, the `<p>` tag is used to define a paragraph of text and requires both an opening and a closing tag:
+`<p>This is a paragraph of text.</p>`
+
+- The `<img>` tag, on the other hand, is self-closing and does not require a closing tag:
+`<img src="image.jpg" alt="Description of the image" />`
+ 
+
+- HTML tags can also have attributes that provide additional information about the element, such as id, class, href, src, and alt. Attributes are added to the opening tag and consist of a name and a value, separated by an equals sign:
+
+`<a href="https://www.example.com">Click here to visit Example.com</a>`
+- In this example, the <a> tag defines a hyperlink and includes the href attribute, which specifies the URL that the link should point to.
+
+
+-  
+  
  Tag | Description
 --- | ---
 `<html>` | Defines the root element of an HTML document
@@ -92,6 +111,34 @@ HTML Tags
 
 
 
+ 
+**********
+
+ 
+Semantic HTML refers to the use of HTML markup to reinforce the meaning of the content on a web page rather than only defining its presentation or appearance. In other words, semantic HTML is all about using HTML elements in a way that accurately reflects the meaning of the content they contain.
+
+For example, using the `<header>` tag for the top section of a page, the `<nav>` tag for the navigation menu, and the `<footer>` tag for the bottom section of a page are all examples of using semantic HTML to reinforce the structure and meaning of the content.
+
+Here are some key benefits of using semantic HTML:
+
+Accessibility: Semantic HTML can make web content more accessible to people using screen readers and other assistive technologies, as it provides more context and structure to the content.
+
+Search Engine Optimization (SEO): Search engines use semantic HTML to better understand the content of a web page and its relevance to user searches, potentially improving its ranking in search results.
+
+Readability and maintainability: Semantic HTML can make code easier to read and maintain by accurately reflecting the meaning and structure of the content.
+
+Some commonly used semantic HTML tags include:
+
+`<header>`: Defines the top section of a page or a section of a page.
+`<nav>`: Defines a section for navigation links.
+`<article>`: Defines a self-contained section of content, such as a blog post or news article.
+`<section>`: Defines a generic section of content.
+`<aside>`: Defines content that is tangentially related to the main content of the page, such as a sidebar.
+`<footer>`: Defines the bottom section of a page or a section of a page.
+By using semantic HTML tags appropriately, developers can create web pages that are more accessible, more easily understood by search engines, and more maintainable over time. 
+ 
+ 
+ 
 **********
 
 # Anchor Tag:
