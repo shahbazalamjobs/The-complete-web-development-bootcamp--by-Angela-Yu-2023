@@ -104,6 +104,14 @@ We want single line broder with white color. We can do this by changing border s
   ```
    ![image](https://user-images.githubusercontent.com/125631878/229373522-df38a887-e97d-4f29-a721-77ea539ea1bb.png)
    
+   - Now whole border is gone completely gone. (The border is also a rectangle type but here its height has become 0 pixel).
+   - To make them appear use pesticide extension.
+   
+   - We can see using pesticide 
+   ![image](https://user-images.githubusercontent.com/125631878/229374160-dd39a567-c2a2-4203-9638-e1551219a0fa.png)
+
+   
+   
 **********
    
       ```  
