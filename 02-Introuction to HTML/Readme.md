@@ -81,8 +81,6 @@ HTML tags are enclosed in angle brackets `(< and >)`, with the tag name inside. 
 `<a href="https://www.example.com">Click here to visit Example.com</a>`
 - In this example, the <a> tag defines a hyperlink and includes the href attribute, which specifies the URL that the link should point to.
 
-
--  
   
  Tag | Description
 --- | ---
@@ -310,11 +308,50 @@ By using semantic HTML tags appropriately, developers can create web pages that 
   `<input type="email" name="myEmail">`
 - The name here is used so that the backend can recognize the tag that we are using.
   
-**********
-  
-# Readme
+********** 
+HTML media refers to the ability of HTML to embed and display various types of media content within a web page, such as images, audio, and video. Here are some examples of HTML media:
 
-Launch Website in Github
+
+ 
+ ```
+ 
+ <img src="image.jpg" alt="Alternative text for the image">
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+
+ 
+ ```
+ 
+ 
+| HTML Media	| Description |
+|---|---|
+| `<img>` |	Inserts an image into the web page.|
+| `<audio>` |	Embeds audio content into the web page.|
+| `<video>` |	Embeds video content into the web page.|
+| `<figure>` |	Groups related media content and their captions.|
+| `<figcaption>` |	Defines the caption for a <figure> element.|
+| `<source>`	| Specifies multiple sources for media elements like <audio> and <video>.|
+| `<track>` |	Adds timed text tracks to media elements like <audio> and <video>.|
+ 
+ 
+
+**********
+ 
+# Launch Website in Github
 
 1. Create new repository
 2. Upload all the files
