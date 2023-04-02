@@ -150,6 +150,15 @@ We can also change the width of the hr
 
 ![image](https://user-images.githubusercontent.com/125631878/229375751-327357da-9931-4f12-bdb4-12c55aee43f3.png)
 
+We can also use % to change width like
+```
+   hr {
+                           background-color: white;
+                           border-style: none;
+                           height: 2px;
+                           width: 30%;
+   }   
+```
    
 **********
 
