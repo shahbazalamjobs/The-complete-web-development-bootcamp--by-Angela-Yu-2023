@@ -67,7 +67,12 @@
   [Note]: Instead of changing attributes of all `<hr>` in HTML we can simply do once by changing hr attribute in `<style>` tag inside `<head>` tag
   
 - Default CSS of `<hr>`
+   
   ![image](https://user-images.githubusercontent.com/125631878/229372206-e510a512-ce44-435c-a4eb-e46e614a2516.png)
+
+- Inset border-style
+   
+  ![image](https://user-images.githubusercontent.com/125631878/229372397-8d2b7ace-739c-4ea6-a5a3-30b1c1291a0f.png)
 
   ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
   
