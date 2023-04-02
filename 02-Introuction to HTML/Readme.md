@@ -351,8 +351,8 @@ HTML media refers to the ability of HTML to embed and display various types of m
 **********
  
 
-| HTML Best Practices | Description           |
-|---------------------|-----------------------|
+| HTML Best Practices       | Description           |
+|---------------------------|-----------------------|
 | Use proper document structure | Use the correct HTML structure, including the <html>, <head>, and <body> tags. |
 | Use semantic HTML | Use HTML tags that accurately describe the content they contain, such as <nav>, <header>, <footer>, and <main>. |
 | Use valid HTML | Ensure that your HTML code conforms to the HTML standard and is free of errors. Use a validator tool to check your code. |
