@@ -69,10 +69,6 @@
   Default CSS of `<hr>`
   ![image](https://user-images.githubusercontent.com/125631878/229372206-e510a512-ce44-435c-a4eb-e46e614a2516.png)
 
-  ![image](https://user-images.githubusercontent.com/125631878/229372115-9d1d15ec-05e7-4560-b4f7-78c136d8c40f.png)
-
-
-
   ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
   
 
