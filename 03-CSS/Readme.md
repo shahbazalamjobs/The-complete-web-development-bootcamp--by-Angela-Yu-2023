@@ -69,7 +69,21 @@
 - Default CSS of `<hr>`
    
   ![image](https://user-images.githubusercontent.com/125631878/229372206-e510a512-ce44-435c-a4eb-e46e614a2516.png)
+   
+  | Value | Description |
+| --- | --- |
+| `none` | No border is displayed. |
+| `hidden` | Same as `none`, except that it still takes up space. |
+| `dotted` | The border is a series of dots. |
+| `dashed` | The border is a series of short dashes. |
+| `solid` | The border is a solid line. |
+| `double` | The border is a double line. |
+| `groove` | The border looks like it is carved into the page. |
+| `ridge` | The border looks like a ridge. |
+| `inset` | The border looks like it is pressed into the page. |
+| `outset` | The border looks like it is coming out of the page. |
 
+   
 - Inset border-style
    
   ![image](https://user-images.githubusercontent.com/125631878/229372397-8d2b7ace-739c-4ea6-a5a3-30b1c1291a0f.png)
