@@ -335,11 +335,10 @@ HTML media refers to the ability of HTML to embed and display various types of m
   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
 </svg>
 
- 
- ![image](https://user-images.githubusercontent.com/125631878/229377083-3c3377d9-4ef5-44e0-9bf5-9088756de69b.png)
-
- 
  ```
+
+![image](https://user-images.githubusercontent.com/125631878/229377117-d87299eb-a3df-48bc-8ae5-a3c1948e6bf8.png)
+ 
  
 | HTML Media	| Description |
 |---|---|
