@@ -242,18 +242,39 @@ We can also use % to change width like
    |When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.|
    |When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise).|
    
-3. We use
+3. Now this
    ```
    border-style: dotted none none;
    ```
    ![image](https://user-images.githubusercontent.com/125631878/229452008-9bd6dd04-8430-4755-817a-c8c11166fb5b.png)
    
-4. Or we can use 
+4. Or 
    ```
    border-style: none;
    border-top-style: dotted;
    ```
-    
+
+5. Or
+   ```
+                body {
+                        background-color: #DAF5FF;
+                }
+
+                hr {
+                        border-style: none;
+                        border-top-style: dotted;
+                        border-color: grey;
+                        border-width: 5px;
+                        width: 10%;
+                }
+   ```
+![image](https://user-images.githubusercontent.com/125631878/229593823-3034d0cf-56b2-43eb-b3c5-1de931a94a51.png)
+
+
+6. Or
+   ```
+   
+   ```
 **********   
 ```
       <html>  
