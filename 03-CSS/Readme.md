@@ -226,6 +226,13 @@ We can also use % to change width like
    }
    ```
    Output:![image](https://user-images.githubusercontent.com/125631878/229448876-99b1c0fe-fcad-4e70-b075-d80ba487f6fb.png)
+   
+2. It is giving us dotted line in all 4 border with some height
+   So lets make height = 0, by just removing height code or = 0px
+   ![image](https://user-images.githubusercontent.com/125631878/229449823-c2bc74a2-9bb9-476d-9c7a-1ecfd0129d19.png)
+
+   
+   
 
    
    
