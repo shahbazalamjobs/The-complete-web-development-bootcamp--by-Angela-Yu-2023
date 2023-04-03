@@ -32,7 +32,7 @@
 - For this we use external styling sheets
 
 
-## Changin background color
+## Changing background color
 - To change the background color of a website using CSS, you can use the background-color property. Here's an example:
    ```
     body {
