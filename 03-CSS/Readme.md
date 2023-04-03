@@ -215,6 +215,37 @@ We can also use % to change width like
    
 **********
 
+## Task is to make hr small width with dotted lines
+   
+   ```
+   hr {
+                        background-color: white;
+                        border-style: dotted;
+                        height: 2px;
+                        width: 30%;
+   }
+   ```
+
+   
+   
+   
+   
+**********   
+
+   
+   
+   
+   
+**********   
+
+
+   
+
+**********   
+
+   
+   
+   
 **********   
 
 
