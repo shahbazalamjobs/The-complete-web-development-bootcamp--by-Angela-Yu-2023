@@ -225,8 +225,8 @@ We can also use % to change width like
                         width: 30%;
    }
    ```
-   Output:
-   ![image](https://user-images.githubusercontent.com/125631878/229448429-69a68d5d-ec1a-4f1d-8472-28f6c26de38c.png)
+   Output:![image](https://user-images.githubusercontent.com/125631878/229448876-99b1c0fe-fcad-4e70-b075-d80ba487f6fb.png)
+
    
    
 
