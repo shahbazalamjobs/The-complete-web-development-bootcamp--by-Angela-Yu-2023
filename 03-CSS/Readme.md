@@ -31,6 +31,32 @@
 - Here we made whole website background light sky blue color using html tag body which is not appropriate as HTML tags like body should not be used for styling purposes.<br> 
 - For this we use external styling sheets
 
+
+## Changin background color
+- To change the background color of a website using CSS, you can use the background-color property. Here's an example:
+   ```
+    body {
+    background-color: #f1f1f1;
+   }
+   ```
+   - In this example, the body selector targets the entire webpage and sets the background-color property to #f1f1f1, which is a light gray color. You can replace this color value with any other color you want.
+
+
+- If you only want to change the background color of a specific element, you can use the same property on that element. For example:
+  ```
+     .header {
+     background-color: #333;
+   }
+  ``` 
+  
+   - In this example, the .header selector targets a specific element with the class name header, and sets the background-color property to #333, which is a dark gray color.
+
+All modern web browsers come with a set of default CSS styles. These styles are known as User Agent Stylesheets, and they provide a consistent visual appearance for HTML elements across different web pages.
+
+**********
+
+
+
 ## Writing CSS code in HTML page only 
 - Write `<sheet>` tag between `<head>` tag of html code snippet
 - In order to select HTML tag, specify the name of the element you want to change (which in this case is body)
@@ -164,28 +190,7 @@ We can also use % to change width like
 
 **********   
 
-  ## Explanation
-- To change the background color of a website using CSS, you can use the background-color property. Here's an example:
-   ```
-    body {
-    background-color: #f1f1f1;
-   }
-   ```
-   - In this example, the body selector targets the entire webpage and sets the background-color property to #f1f1f1, which is a light gray color. You can replace this color value with any other color you want.
 
-
-- If you only want to change the background color of a specific element, you can use the same property on that element. For example:
-  ```
-     .header {
-     background-color: #333;
-   }
-  ``` 
-  
-   - In this example, the .header selector targets a specific element with the class name header, and sets the background-color property to #333, which is a dark gray color.
-
-All modern web browsers come with a set of default CSS styles. These styles are known as User Agent Stylesheets, and they provide a consistent visual appearance for HTML elements across different web pages.
-
-**********
 
 
 # Default CSS in browser   
