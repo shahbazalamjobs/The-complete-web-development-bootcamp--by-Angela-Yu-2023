@@ -59,6 +59,8 @@ All modern web browsers come with a set of default CSS styles. These styles are 
 
 ## Writing CSS code in HTML page only 
 - Write `<sheet>` tag between `<head>` tag of html code snippet
+![image](https://user-images.githubusercontent.com/125631878/229580893-b83815e7-3efb-4bdc-b372-5b69d44cf667.png)
+
 - In order to select HTML tag, specify the name of the element you want to change (which in this case is body)
    ```
     <style>
