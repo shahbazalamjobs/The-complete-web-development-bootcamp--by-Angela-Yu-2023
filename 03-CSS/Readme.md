@@ -216,7 +216,7 @@ We can also use % to change width like
 **********
 
 ## Task is to make hr small width with dotted lines
-   
+1. Input:   
    ```
    hr {
                         background-color: white;
@@ -225,6 +225,10 @@ We can also use % to change width like
                         width: 30%;
    }
    ```
+   Output:
+   ![image](https://user-images.githubusercontent.com/125631878/229448429-69a68d5d-ec1a-4f1d-8472-28f6c26de38c.png)
+   
+   
 
    
    
