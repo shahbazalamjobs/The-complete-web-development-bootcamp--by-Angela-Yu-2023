@@ -268,8 +268,10 @@ We can also use % to change width like
           p.outset {border-style: outset;}  
           p.hidden {border-style: hidden;}  
           </style>  
+         
           </head>  
           <body>  
+             
           <p class="none">No border.</p>  
           <p class="dotted">A dotted border.</p>  
           <p class="dashed">A dashed border.</p>  
@@ -279,7 +281,8 @@ We can also use % to change width like
           <p class="ridge">A ridge border.</p>  
           <p class="inset">An inset border.</p>  
           <p class="outset">An outset border.</p>  
-          <p class="hidden">A hidden border.</p>  
+          <p class="hidden">A hidden border.</p> 
+             
       </body>  
       </html> 
 ``` 
