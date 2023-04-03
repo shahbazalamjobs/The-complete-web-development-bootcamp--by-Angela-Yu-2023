@@ -230,8 +230,15 @@ We can also use % to change width like
 2. It is giving us dotted line in all 4 border with some height
    So lets make height = 0, by just removing height code or = 0px
    ![image](https://user-images.githubusercontent.com/125631878/229449823-c2bc74a2-9bb9-476d-9c7a-1ecfd0129d19.png)
-
+   here we have box with 0px height and only has border around it
    
+[Note]: 
+   |The border-style property may be specified using one, two, three, or four values.|
+   |---|
+   |When one value is specified, it applies the same style to all four sides.|
+   |When two values are specified, the first style applies to the top and bottom, the second to the left and right.|
+   |When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.|
+   |When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise).|
    
 
    
