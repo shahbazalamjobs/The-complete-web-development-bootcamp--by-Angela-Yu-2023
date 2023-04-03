@@ -241,8 +241,16 @@ We can also use % to change width like
    |When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise).|
    
 3. We use
-   `border-style: dotted none none;`
+   ```
+   border-style: dotted none none;
+   ```
    ![image](https://user-images.githubusercontent.com/125631878/229452008-9bd6dd04-8430-4755-817a-c8c11166fb5b.png)
+   
+4. Or we can use 
+   ```
+   border-style: none;
+   border-top-style: dotted;
+   ```
 
 
    
