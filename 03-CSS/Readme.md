@@ -251,19 +251,41 @@ We can also use % to change width like
    border-style: none;
    border-top-style: dotted;
    ```
-
-
-   
-   
-
-   
-   
-   
-   
+    
 **********   
+ ```
+      <html>  
+      <head>  
+      <style>  
+          p.none {border-style: none;}  
+          p.dotted {border-style: dotted;}  
+          p.dashed {border-style: dashed;}  
+          p.solid {border-style: solid;}  
+          p.double {border-style: double;}  
+          p.groove {border-style: groove;}  
+          p.ridge {border-style: ridge;}  
+          p.inset {border-style: inset;}  
+          p.outset {border-style: outset;}  
+          p.hidden {border-style: hidden;}  
+          </style>  
+          </head>  
+          <body>  
+          <p class="none">No border.</p>  
+          <p class="dotted">A dotted border.</p>  
+          <p class="dashed">A dashed border.</p>  
+          <p class="solid">A solid border.</p>  
+          <p class="double">A double border.</p>  
+          <p class="groove">A groove border.</p>  
+          <p class="ridge">A ridge border.</p>  
+          <p class="inset">An inset border.</p>  
+          <p class="outset">An outset border.</p>  
+          <p class="hidden">A hidden border.</p>  
+      </body>  
+      </html> 
+ ```   
 
-   
-   
+      ![image](https://user-images.githubusercontent.com/125631878/229573457-ae8e3762-d61b-4940-872a-a2241de0dfcb.png)
+  
    
    
 **********   
