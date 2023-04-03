@@ -253,7 +253,7 @@ We can also use % to change width like
    ```
     
 **********   
- ```
+```
       <html>  
       <head>  
       <style>  
@@ -282,9 +282,10 @@ We can also use % to change width like
           <p class="hidden">A hidden border.</p>  
       </body>  
       </html> 
- ```   
+``` 
 
-      ![image](https://user-images.githubusercontent.com/125631878/229573457-ae8e3762-d61b-4940-872a-a2241de0dfcb.png)
+Output:
+![image](https://user-images.githubusercontent.com/125631878/229573457-ae8e3762-d61b-4940-872a-a2241de0dfcb.png)     
   
    
    
