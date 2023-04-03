@@ -255,11 +255,7 @@ We can also use % to change width like
    ```
 
 5. Or
-   ```
-                body {
-                        background-color: #DAF5FF;
-                }
-
+   ```                
                 hr {
                         border-style: none;
                         border-top-style: dotted;
@@ -270,13 +266,11 @@ We can also use % to change width like
    ```
 ![image](https://user-images.githubusercontent.com/125631878/229593823-3034d0cf-56b2-43eb-b3c5-1de931a94a51.png)
 
+**********   
 
-6. Or
-   ```
+### Border Types
    
    ```
-**********   
-```
       <html>  
       <head>  
       <style>  
@@ -314,27 +308,26 @@ Output:
 ![image](https://user-images.githubusercontent.com/125631878/229573457-ae8e3762-d61b-4940-872a-a2241de0dfcb.png)     
   
    
-   
-**********   
-
-
-   
-
-**********   
-
-   
-   
-   
-**********   
-
-
-
-
-
-
-
 **********
 ## Writing CSS code in HTML page only   
 - Remember to save your CSS file and link it to your HTML document using the link tag in the head section of your HTML document for the changes to take effect.
   
-  
+**********   
+
+1. We first create CSS folder and make styles.css page inside it
+![image](https://user-images.githubusercontent.com/125631878/229595546-1db1436f-4520-4261-8ec2-ec93fccc832b.png)
+
+2. Now we cut paste the style code from HTML `<style>` to `style.css`
+
+3. Then link the css file in html   
+   ```
+   <link rel="stylesheet" href="CSS/styles.css">
+   ```
+   
+
+**********   
+
+   
+   
+   
+**********   
