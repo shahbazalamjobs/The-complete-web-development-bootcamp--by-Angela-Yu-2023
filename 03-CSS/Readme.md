@@ -319,7 +319,7 @@ Output:
 
 2. Now we cut paste the style code from HTML `<style>` to `style.css`
 
-3. Then link the css file in html   
+3. Then link the css file in html `<head>`
    ```
    <link rel="stylesheet" href="CSS/styles.css">
    ```
