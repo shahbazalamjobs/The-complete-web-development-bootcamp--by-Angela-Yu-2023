@@ -84,7 +84,32 @@ All modern web browsers come with a set of default CSS styles. These styles are 
    
 
   [Note]: Instead of changing attributes of all `<hr>` in HTML we can simply do once by changing hr attribute in `<style>` tag inside `<head>` tag
-  
+
+   
+ 
+ 
+   # Default CSS in browser   
+   | CSS Property | Default Value | Description |
+   | --- | --- | --- |
+   | `font-family` | `sans-serif` | The default font family used for most HTML elements. This is typically a generic sans-serif font like Arial or Helvetica. |
+   | `font-size` | `16px` | The default font size used for most HTML elements. |
+   | `margin` | Varies by element | Most HTML elements have default margin values, which can vary between browsers. |
+   | `padding` | Varies by element | Most HTML elements have default padding values, which can vary between browsers. |
+   | `color` | `#000` | The default text color for most HTML elements. |
+   | `background-color` | `transparent` | The default background color for most HTML elements. |
+   | `text-decoration` | `underline` | Links are typically underlined by default. |
+   | `text-align` | `left` | The default text alignment for most HTML elements. |
+   | `border` | Varies by element | Most HTML elements have default border styles, widths, and colors, which can vary between browsers. |
+   | `outline` | None | The default outline style for most HTML elements. |
+   | `list-style` | `disc` | The default bullet style used for unordered lists. |
+   | `display` | Varies by element | Most HTML elements have default display values, which can vary between browsers. |
+   | `float` | `none` | The default float value for most HTML elements. |
+   | `clear` | `none` | The default clear value for most HTML elements. |
+
+**********
+   
+   
+   
 - Default CSS of `<hr>`
    
   ![image](https://user-images.githubusercontent.com/125631878/229372206-e510a512-ce44-435c-a4eb-e46e614a2516.png)
@@ -191,25 +216,6 @@ We can also use % to change width like
 **********   
 
 
-
-
-# Default CSS in browser   
-| CSS Property | Default Value | Description |
-| --- | --- | --- |
-| `font-family` | `sans-serif` | The default font family used for most HTML elements. This is typically a generic sans-serif font like Arial or Helvetica. |
-| `font-size` | `16px` | The default font size used for most HTML elements. |
-| `margin` | Varies by element | Most HTML elements have default margin values, which can vary between browsers. |
-| `padding` | Varies by element | Most HTML elements have default padding values, which can vary between browsers. |
-| `color` | `#000` | The default text color for most HTML elements. |
-| `background-color` | `transparent` | The default background color for most HTML elements. |
-| `text-decoration` | `underline` | Links are typically underlined by default. |
-| `text-align` | `left` | The default text alignment for most HTML elements. |
-| `border` | Varies by element | Most HTML elements have default border styles, widths, and colors, which can vary between browsers. |
-| `outline` | None | The default outline style for most HTML elements. |
-| `list-style` | `disc` | The default bullet style used for unordered lists. |
-| `display` | Varies by element | Most HTML elements have default display values, which can vary between browsers. |
-| `float` | `none` | The default float value for most HTML elements. |
-| `clear` | `none` | The default clear value for most HTML elements. |
 
 
 
