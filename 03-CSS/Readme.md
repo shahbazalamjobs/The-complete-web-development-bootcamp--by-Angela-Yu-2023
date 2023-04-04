@@ -351,7 +351,7 @@ Now lets change the color of h1 size text
    ```
    
    Output:
-   ![image](https://user-images.githubusercontent.com/125631878/229732752-ca58390a-7221-4068-bbe0-297cf3baed40.png)
+   ![image](https://user-images.githubusercontent.com/125631878/229733319-a2dd01f6-7178-4e53-88e4-d8196349f112.png)
  
    
 **********   
