@@ -339,7 +339,7 @@ Output:
           width: 10%;
       }
    ```
-   Using above css code we get same light blue backgound and dotted horizontal row in main index page
+   Using above css code we get same light blue backgound and dotted horizontal row in main index page. <br>
    We can also change the colour of hobbbies and contact background by placing the CSS link code in their respective `<head>`
    
 **********   
