@@ -324,10 +324,34 @@ Output:
    <link rel="stylesheet" href="CSS/styles.css">
    ```
    
+   Now use this code in style.css
+   
+   ```
+      body {
+       background-color: #DAF5FF;
+      }
 
+      hr {
+          border-style: none;
+          border-top-style: dotted;
+          border-color: grey;
+          border-width: 5px;
+          width: 10%;
+      }
+   ```
+   Using above css code we get same light blue backgound and dotted horizontal row in main index page
+   We can also change the colour of hobbbies and contact background by placing the CSS link code in their respective `<head>`
+   
 **********   
-
+Now lets change the color of h1 size text
+   ```
+      h1 {
+       color: #62CDFF;
+   }
+   ```
    
-   
+   Output:
+   ![image](https://user-images.githubusercontent.com/125631878/229732752-ca58390a-7221-4068-bbe0-297cf3baed40.png)
+ 
    
 **********   
