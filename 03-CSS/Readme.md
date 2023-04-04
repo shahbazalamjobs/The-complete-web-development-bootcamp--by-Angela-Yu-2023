@@ -44,9 +44,9 @@
 
 - If you only want to change the background color of a specific element, you can use the same property on that element. For example:
   ```
-     .header {
+  .header {
      background-color: #333;
-   }
+  }
   ``` 
   
    - In this example, the .header selector targets a specific element with the class name header, and sets the background-color property to #333, which is a dark gray color.
@@ -65,7 +65,7 @@ All modern web browsers come with a set of default CSS styles. These styles are 
    ```
     <style>
                 body {
-                        background-color: #DAF5FF;
+                      background-color: #DAF5FF;
                 }                           
     </style>
    ```
@@ -73,9 +73,9 @@ All modern web browsers come with a set of default CSS styles. These styles are 
    
 - If want to change whole horizontal rows `<hr>` color using css
      ```  
-        hr {
-                           background-color: white;
-        }
+     hr {
+        background-color: white;
+     }
     ```
    
    Code: <br> 
@@ -152,10 +152,10 @@ All modern web browsers come with a set of default CSS styles. These styles are 
 We want single line broder with white color. We can do this by changing border style to none. So, we can overwrite the default browser value by specifying a new value for it using CSS
    
    ```  
-       hr {
-                           background-color: white;
-                           border-style: none;                      
-       }
+    hr {
+         background-color: white;
+         border-style: none;                      
+    }
    ```
    ![image](https://user-images.githubusercontent.com/125631878/229373522-df38a887-e97d-4f29-a721-77ea539ea1bb.png)
    
@@ -169,11 +169,11 @@ We want single line broder with white color. We can do this by changing border s
 
 - Now height = 2px 
    ```  
-       hr {
-               background-color: white;
-               border-style: none;
-               height: 2px;
-       }
+    hr {
+         background-color: white;
+         border-style: none;
+         height: 2px;
+    }
    ```
    
 ![image](https://user-images.githubusercontent.com/125631878/229375157-7f3d212c-dd48-4683-a279-8b43a7cf1ddb.png)
@@ -196,23 +196,23 @@ We can also change the width of the hr
  
  ```
  hr {
-                        background-color: white;
-                        border-style: none;
-                        height: 2px;
-                        width: 100px;
-                }
+      background-color: white;
+      border-style: none;
+      height: 2px;
+      width: 100px;
+ }
  ```
 
 ![image](https://user-images.githubusercontent.com/125631878/229375751-327357da-9931-4f12-bdb4-12c55aee43f3.png)
 
 We can also use % to change width like
 ```
-   hr {
-                           background-color: white;
-                           border-style: none;
-                           height: 2px;
-                           width: 30%;
-   }   
+hr {
+      background-color: white;
+      border-style: none;
+      height: 2px;
+      width: 30%;
+}   
 ```
    
 **********
@@ -221,10 +221,10 @@ We can also use % to change width like
 1. Input:   
    ```
    hr {
-                        background-color: white;
-                        border-style: dotted;
-                        height: 2px;
-                        width: 30%;
+         background-color: white;
+         border-style: dotted;
+         height: 2px;
+         width: 30%;
    }
    ```
    Output:![image](https://user-images.githubusercontent.com/125631878/229448876-99b1c0fe-fcad-4e70-b075-d80ba487f6fb.png)
@@ -256,13 +256,13 @@ We can also use % to change width like
 
 5. Or
    ```                
-                hr {
-                        border-style: none;
-                        border-top-style: dotted;
-                        border-color: grey;
-                        border-width: 5px;
-                        width: 10%;
-                }
+    hr {
+         border-style: none;
+         border-top-style: dotted;
+         border-color: grey;
+         border-width: 5px;
+         width: 10%;
+    }
    ```
 ![image](https://user-images.githubusercontent.com/125631878/229593823-3034d0cf-56b2-43eb-b3c5-1de931a94a51.png)
 
@@ -345,14 +345,14 @@ Output:
 **********   
 Now lets change the color of h1, h3 size text and thead
    ```
-      h1 {
+   h1 {
        color: #62CDFF;
    }
-      h3 {
+   h3 {
        color: #62CDFF;
    }
 
-thead {
+   thead {
        color: #62CDFF;
    }
    ```
