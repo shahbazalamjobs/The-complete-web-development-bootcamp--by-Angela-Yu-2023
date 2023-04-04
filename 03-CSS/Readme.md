@@ -343,15 +343,24 @@ Output:
    We can also change the colour of hobbbies and contact background by placing the CSS link code in their respective `<head>`
    
 **********   
-Now lets change the color of h1 size text
+Now lets change the color of h1, h3 size text and thead
    ```
       h1 {
+       color: #62CDFF;
+   }
+      h3 {
+       color: #62CDFF;
+   }
+
+thead {
        color: #62CDFF;
    }
    ```
    
    Output:
    ![image](https://user-images.githubusercontent.com/125631878/229733319-a2dd01f6-7178-4e53-88e4-d8196349f112.png)
- 
+   
+   As CSS is linked to hobbies and contact form, so their body color and text color will change simultaneously <br>
+   This will give us
    
 **********   
