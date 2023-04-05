@@ -423,11 +423,70 @@ p {
 ```
 This rule targets all `<p>` elements and sets their color property to red.
 
-![image](https://user-images.githubusercontent.com/125631878/230029566-2e73d689-04ae-4718-b668-82d49f0b3498.png)
-   
-   
+![image](https://user-images.githubusercontent.com/125631878/230029566-2e73d689-04ae-4718-b668-82d49f0b3498.png)  
 
 **********   
+
+A CSS selector is a pattern that is used to select HTML elements on a web page that you want to style. Selectors are the foundation of CSS, as they provide a way to target specific elements in your HTML markup and apply styling to them.
+
+There are different types of selectors in CSS, including:
+
+1. Element selectors:
+   - Selects HTML elements based on their tag name. For example, you can use "p" to select all paragraphs on a page.
+   ```
+      p {
+     font-size: 16px;
+   }
+   ```
+   - This will select all <p> elements on the page and apply a font size of 16 pixels to them.
+   
+2. Class selector: 
+   - Selects HTML elements based on their class attribute. Class selectors are prefixed with a dot (".") and are followed by the name of the class. For example, you can use ".my-class" to select all elements with the class name "my-class".
+   ```
+      .my-class {
+     color: blue;
+   }
+   ```
+   This will select all elements with the class name "my-class" and apply a blue color to them. In the HTML, the class is defined like this: <div class="my-class">.
+   
+3. ID selectors:
+   - Selects HTML elements based on their ID attribute. ID selectors are prefixed with a hash symbol ("#") and are followed by the name of the ID. For example, you can use "#my-id" to select the element with the ID "my-id".
+   ```
+      #my-id {
+     background-color: yellow;
+   }
+   ```
+   - This will select the element with the ID "my-id" and apply a yellow background color to it. In the HTML, the ID is defined like this: <div id="my-id">.
+   
+4. Attribute selectors: 
+   - Selects HTML elements based on their attributes. Attribute selectors are enclosed in square brackets and contain the name of the attribute and an optional value. For example, you can use "[href]" to select all elements with the "href" attribute, or "[href='https://example.com']" to select elements with the "href" attribute set to "https://example.com".
+   ```
+      a[href="https://example.com"] {
+     color: red;
+   }
+   ```
+ 
+5. Pseudo-class selectors: 
+   - Selects HTML elements based on their state or position in the document. Pseudo-class selectors are prefixed with a colon (":") and are followed by the name of the state or position. For example, you can use ":hover" to select an element when the user hovers over it with the mouse. 
+  ```
+     a:hover {
+     text-decoration: underline;
+   }
+  ```
+   - This will select all <a> elements when the user hovers over them with the mouse and apply an underline text decoration to them.
+   
+6. Combinators:
+   - Combinators are used to select elements based on their relationship to other elements. There are several types of combinators, including descendant selectors, child selectors, and adjacent sibling selectors.
+   
+   ```
+      ul > li {
+     list-style: none;
+   }
+   ```
+   - This will select all <li> elements that are direct children of a <ul> element and remove the list-style from them.
+
+
+
 
 
    
