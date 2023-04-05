@@ -172,7 +172,7 @@ CSS code:
   
    Code: <br> 
   ![image](https://user-images.githubusercontent.com/125631878/230065568-af134f66-dcea-4a4e-adb1-fb0b54ab6573.png) 
-  2. ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
+  ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
  
  
 We want single line broder with white color. We can do this by changing border style to none. So, we can overwrite the default browser value by specifying a new value for it using CSS
