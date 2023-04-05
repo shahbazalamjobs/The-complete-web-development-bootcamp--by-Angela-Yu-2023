@@ -392,7 +392,7 @@ And we're seeing that the color that we desire, which we set inside our styleshe
 And if you look carefully inside our new buggy index.html, then here an inline CSS rule inside the body tag to turn the body's background color to white. <br>
 We can make our desired background by removing the HTML body styling <br>
 
-Lets add inline css in style and set background color as red, so we are having 3 colors 1. white inside html body attribute, 2. external css body light blue 3. inline css red color inside style <br>
+Lets add internal css in style and set background color as red, so we are having 3 colors 1. white inside inline css, 2. light blue inside external css body  3. red color inside internal css <br>
 
 Still white color overrides red and light blue color.
    
