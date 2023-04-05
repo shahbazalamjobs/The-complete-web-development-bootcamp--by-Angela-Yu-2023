@@ -550,7 +550,7 @@ There are different types of selectors in CSS, including:
   1. Using tag selector h1{} 
   2. Using ID selector #heading{} 
 - But in output heading color is of blue and not red 
-- The h1 color being red but it's crossed out because the id heading is more specific 
+- The h1 color being red but it's crossed out because the id heading is more specific <br>
   `When both an ID selector and a tag selector are used in CSS, the ID selector will take precedence over the tag selector. This is because ID selectors have a higher specificity value than tag selectors.`
 
 this is the one that we see on our web site.
