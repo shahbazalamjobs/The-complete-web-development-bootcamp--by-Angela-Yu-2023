@@ -421,7 +421,7 @@ p {
   color: red;
 }
 ```
-This rule targets all '<p>' elements and sets their color property to red.
+This rule targets all `<p>` elements and sets their color property to red.
 
    
    
