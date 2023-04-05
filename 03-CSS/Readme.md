@@ -440,7 +440,7 @@ There are different types of selectors in CSS, including:
      font-size: 16px;
    }
    ```
-   - This will select all <p> elements on the page and apply a font size of 16 pixels to them.
+   - This will select all `<p>` elements on the page and apply a font size of 16 pixels to them.
    
 2. Class selector: 
    - Selects HTML elements based on their class attribute. Class selectors are prefixed with a dot (".") and are followed by the name of the class. For example, you can use ".my-class" to select all elements with the class name "my-class".
