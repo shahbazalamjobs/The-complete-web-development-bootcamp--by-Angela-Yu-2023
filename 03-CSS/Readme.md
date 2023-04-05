@@ -218,7 +218,6 @@ We want single line broder with white color. We can do this by changing border s
 **********
 
 We can also change the width of the hr
- 
     ```
     hr {
          background-color: white;
