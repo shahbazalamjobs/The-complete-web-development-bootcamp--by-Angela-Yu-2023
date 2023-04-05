@@ -59,8 +59,12 @@ CSS is added to HTML pages to format the document according to information in th
 1. Internal CSS:
    - You can add CSS to an HTML page using the <style> element in the <head> section of your HTML document.
    
-![image](https://user-images.githubusercontent.com/125631878/230058367-60609e74-b66f-4838-b25f-605acb649cb1.png)
-   
+![image](https://user-images.githubusercontent.com/125631878/230058963-14499dcb-a232-43c7-abe0-401a55a016b9.png)
+![image](https://user-images.githubusercontent.com/125631878/230059319-8b12a553-ee73-4f9d-88b6-63a6a65983e0.png)
+
+- In this example, the <style> element is used to define a CSS rule that sets the color of the <h1> element to blue.   
+---
+
    
    
    
