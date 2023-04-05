@@ -554,7 +554,7 @@ There are different types of selectors in CSS, including:
 - `When both an ID selector and a tag selector are used in CSS, the ID selector will take precedence over the tag selector. This is because ID selectors have a higher specificity value than tag selectors.`
    
 
-this is the one that we see on our web site.
+This is the one that we see on our web site.
    
 ![image](https://user-images.githubusercontent.com/125631878/230074193-ec1edba4-556f-4623-a9fb-9601af471909.png)
 
