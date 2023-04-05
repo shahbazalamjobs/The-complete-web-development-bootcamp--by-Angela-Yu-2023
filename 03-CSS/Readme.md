@@ -367,9 +367,21 @@ Now lets change the color of h1, h3 size text and thead
  
 ## Debugging CSS code using chrome developers tools
 
-Copy the error code given, inside index.html then find the error using chrome developer tools 
+Copy the error code given, inside index.html then find the error using chrome developer tools <br>
 We can see that website css is gone 
 ![image](https://user-images.githubusercontent.com/125631878/229992191-feb8fa9c-5ae5-4a8c-bd35-9253b1270411.png)
+
+Open chrome developer tools / inspect tools (shortcut: ctrl + shift + I)
+![image](https://user-images.githubusercontent.com/125631878/229992758-f6d9028f-5922-409f-be44-796b0d599faf.png)
+
+Here we can see 2 errors
+   1. File not found: /C:/css/styles.css
+   2. File not found: image.png
+
+Debugging
+   1. Location of css is in same directory as where is index.html: change location to: css/styles.css 
+   2. Image file name image.png not present: put image with same name in same directory 
+
 
 
 
