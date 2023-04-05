@@ -540,18 +540,18 @@ There are different types of selectors in CSS, including:
    }
 
    ```
-   - This will apply the font family of Arial or any sans-serif font to all headings and paragraphs on the page.
-   - 
-
-
-
-   
+   - This will apply the font family of Arial or any sans-serif font to all headings and paragraphs on the page.  
    
 
 **********   
 
+![image](https://user-images.githubusercontent.com/125631878/230074193-ec1edba4-556f-4623-a9fb-9601af471909.png)
+
    
+![image](https://user-images.githubusercontent.com/125631878/230070390-150e1ab3-e486-4b65-9a2d-d448444f73be.png)
+
    
+  
    
 
 
