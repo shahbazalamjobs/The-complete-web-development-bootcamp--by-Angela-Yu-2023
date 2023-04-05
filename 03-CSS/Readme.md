@@ -104,9 +104,6 @@ CSS code:
      }
     ```
    
-   Code: <br> 
-   ![image](https://user-images.githubusercontent.com/125631878/230065568-af134f66-dcea-4a4e-adb1-fb0b54ab6573.png)
-   
    Output: <br>
    ![image](https://user-images.githubusercontent.com/125631878/229371693-30219604-08bf-4cbc-895b-f8305c594bd4.png)
    
@@ -172,7 +169,10 @@ CSS code:
    Displays a border that makes the element appear embedded.When applied to a table cell with border-collapse set to collapsed.Displays a border with a carved appearance.
   ![image](https://user-images.githubusercontent.com/125631878/229372397-8d2b7ace-739c-4ea6-a5a3-30b1c1291a0f.png)
 
-  ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
+  
+   Code: <br> 
+  ![image](https://user-images.githubusercontent.com/125631878/230065568-af134f66-dcea-4a4e-adb1-fb0b54ab6573.png) 
+  2. ![image](https://user-images.githubusercontent.com/125631878/229370126-113382c6-3656-4804-9140-057b70c01504.png)
  
  
 We want single line broder with white color. We can do this by changing border style to none. So, we can overwrite the default browser value by specifying a new value for it using CSS
