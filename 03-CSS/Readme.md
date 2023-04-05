@@ -54,10 +54,28 @@
 All modern web browsers come with a set of default CSS styles. These styles are known as User Agent Stylesheets, and they provide a consistent visual appearance for HTML elements across different web pages.
 
 **********
+   
+CSS is added to HTML pages to format the document according to information in the style sheet. There are three ways to insert CSS in HTML documents.
+1. Internal CSS:
+   - You can add CSS to an HTML page using the <style> element in the <head> section of your HTML document.
+   
+![image](https://user-images.githubusercontent.com/125631878/230058367-60609e74-b66f-4838-b25f-605acb649cb1.png)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+**********
 
 
 
 ## Writing CSS code in HTML page only 
+   
 - Write `<sheet>` tag between `<head>` tag of html code snippet
 ![image](https://user-images.githubusercontent.com/125631878/229580893-b83815e7-3efb-4bdc-b372-5b69d44cf667.png)
 
@@ -498,7 +516,26 @@ There are different types of selectors in CSS, including:
    ```
    - This will select all `<li>` elements that are direct children of a `<ul>` element and remove the list-style from them.
 
+7. Universal Selector:
+   - The Universal Selector matches any element type. It is denoted by an asterisk (*) symbol. When used alone, it selects all elements on the page.
+   ```
+      * {
+     font-size: 16px;
+   }
+   ```
+   - This will apply the font size of 16 pixels to all elements on the page like `<h1>` `<p>` `<p=class1>` `<h2>` and all others elecments  
+   
+8. Group Selector:
+   - The grouping selector is used to select all the elements with the same style definitions.
+   - Grouping selector is used to minimize the code. Commas are used to separate each selector in grouping.
+   ```
+      h1, h2, h3, p {
+     font-family: Arial, sans-serif;
+   }
 
+   ```
+   - This will apply the font family of Arial or any sans-serif font to all headings and paragraphs on the page.
+   - 
 
 
 
