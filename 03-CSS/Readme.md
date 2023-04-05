@@ -400,18 +400,14 @@ We can see that in second code background color is gone. So lets see the error
 
 # CSS syntax
 
-|---|
-|CSS (Cascading Style Sheets) syntax is a set of rules that define how to write CSS code. Here's a basic breakdown of CSS syntax:|
+| Term | Definition |
+| --- | --- |
+| Selector | The selector is the HTML element that you want to apply styles to. |
+| Property | The property is the characteristic or attribute of the HTML element that you want to style, such as color or font-size. |
+| Value | The value is the specific value that you want to set for the property, such as red for color or 16px for font-size. |
+| Declaration | The combination of the property and value is called a declaration. Declarations are separated by semicolons. |
+| Rule Set | A rule set consists of one or more declarations enclosed in curly braces {} and preceded by a selector. |
 
-|Selector: The selector is the HTML element that you want to apply styles to.|
-
-|Property: The property is the characteristic or attribute of the HTML element that you want to style, such as color or font-size.|
-
-|Value: The value is the specific value that you want to set for the property, such as red for color or 16px for font-size.|
-
-|Declaration: The combination of the property and value is called a declaration. Declarations are separated by semicolons.|
-
-|Rule Set: A rule set consists of one or more declarations enclosed in curly braces {} and preceded by a selector.|
    
    
 
