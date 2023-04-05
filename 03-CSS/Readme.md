@@ -75,7 +75,8 @@ CSS code:
 
    
 3. Inline CSS:
-- Finally, you can add CSS directly to an HTML element using the style attribute.
+ - Finally, you can add CSS directly to an HTML element using the style attribute.
+
 ![image](https://user-images.githubusercontent.com/125631878/230061561-5926dd00-7e71-4999-8392-5ede1e3378b7.png)
    
 **********
