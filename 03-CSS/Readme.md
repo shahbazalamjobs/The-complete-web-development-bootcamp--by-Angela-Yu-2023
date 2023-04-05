@@ -182,11 +182,11 @@ We want single line broder with white color. We can do this by changing border s
 
 - We can also change height of image
 
- ``` 
- img {
-    height: 20px;
- }
- ```
+    ``` 
+    img {
+       height: 20px;
+    }
+    ```
 
 ![image](https://user-images.githubusercontent.com/125631878/229375452-af322cef-3422-43da-89d4-856ddcb99cc6.png)
 
@@ -194,26 +194,26 @@ We want single line broder with white color. We can do this by changing border s
 
 We can also change the width of the hr
  
- ```
- hr {
-      background-color: white;
-      border-style: none;
-      height: 2px;
-      width: 100px;
- }
- ```
+    ```
+    hr {
+         background-color: white;
+         border-style: none;
+         height: 2px;
+         width: 100px;
+    }
+    ```
 
 ![image](https://user-images.githubusercontent.com/125631878/229375751-327357da-9931-4f12-bdb4-12c55aee43f3.png)
 
 We can also use % to change width like
-```
-hr {
-      background-color: white;
-      border-style: none;
-      height: 2px;
-      width: 30%;
-}   
-```
+   ```
+   hr {
+         background-color: white;
+         border-style: none;
+         height: 2px;
+         width: 30%;
+   }   
+   ```
    
 **********
 
@@ -409,18 +409,18 @@ We can see that in second code background color is gone. So lets see the error
 | Rule Set | A rule set consists of one or more declarations enclosed in curly braces {} and preceded by a selector. |
 
 Here's an example of CSS syntax:
-```
-   selector {
-   property: value;
-}
-```
+   ```
+         selector {
+         property: value;
+      }
+   ```
 
 For instance, to set the font color of all paragraphs in a document to red, the following CSS rule can be used:
-```
-p {
-  color: red;
-}
-```
+   ```
+      p {
+        color: red;
+      }
+   ```
 This rule targets all `<p>` elements and sets their color property to red.
 
 ![image](https://user-images.githubusercontent.com/125631878/230029566-2e73d689-04ae-4718-b668-82d49f0b3498.png)  
@@ -481,11 +481,11 @@ There are different types of selectors in CSS, including:
  
 5. Pseudo-class selectors: 
    - Selects HTML elements based on their state or position in the document. Pseudo-class selectors are prefixed with a colon (":") and are followed by the name of the state or position. For example, you can use ":hover" to select an element when the user hovers over it with the mouse. 
-  ```
-     a:hover {
-     text-decoration: underline;
-   }
-  ```
+     ```
+        a:hover {
+        text-decoration: underline;
+      }
+     ```
    - This will select all `<a>` elements when the user hovers over them with the mouse and apply an underline text decoration to them.
    
 6. Combinators:
