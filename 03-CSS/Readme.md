@@ -561,7 +561,7 @@ There are different types of selectors in CSS, including:
 
 ![image](https://user-images.githubusercontent.com/125631878/230074511-170d4715-0b00-42bd-99af-ec37265b6d55.png)
 
-### Shahi Paneer website:
+> Shahi Paneer website:
    
 ![image](https://user-images.githubusercontent.com/125631878/230070390-150e1ab3-e486-4b65-9a2d-d448444f73be.png)
 
