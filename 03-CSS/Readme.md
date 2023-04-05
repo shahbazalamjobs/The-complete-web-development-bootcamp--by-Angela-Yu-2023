@@ -396,17 +396,11 @@ Lets add internal css in style and set background color as red, so we are having
 
 Still white color overrides red and light blue color.
    
-   
-
-
-   
-
-
-   
-   
-
 **********   
 
+
+   
+   
 
    
    
