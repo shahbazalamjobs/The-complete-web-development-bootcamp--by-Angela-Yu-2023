@@ -424,6 +424,8 @@ We can see that in second code background color is gone. So lets see the error
 
 # CSS syntax
 
+![image](https://user-images.githubusercontent.com/125631878/230029566-2e73d689-04ae-4718-b668-82d49f0b3498.png)  
+   
 | Term | Definition |
 | --- | --- |
 | Selector | The selector is the HTML element that you want to apply styles to. Tag like `<h1>`, `<title>` etc. |
@@ -447,7 +449,6 @@ For instance, to set the font color of all paragraphs in a document to red, the 
    ```
 This rule targets all `<p>` elements and sets their color property to red.
 
-![image](https://user-images.githubusercontent.com/125631878/230029566-2e73d689-04ae-4718-b668-82d49f0b3498.png)  
 
 **********   
 
