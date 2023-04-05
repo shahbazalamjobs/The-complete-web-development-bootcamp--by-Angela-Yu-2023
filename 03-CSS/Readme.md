@@ -427,6 +427,8 @@ This rule targets all `<p>` elements and sets their color property to red.
 
 **********   
 
+# CSS Selector
+   
 A CSS selector is a pattern that is used to select HTML elements on a web page that you want to style. Selectors are the foundation of CSS, as they provide a way to target specific elements in your HTML markup and apply styling to them.
 
 There are different types of selectors in CSS, including:
