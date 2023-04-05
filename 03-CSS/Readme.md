@@ -544,12 +544,18 @@ There are different types of selectors in CSS, including:
    
 
 **********   
-
+# Shahi Paneer Fansite
+- A new site is made where two emoji of Paneer and Brocoli are used and their background color are changed
+- Also we are changing heading using CSS by two ways 
+  1. Using tag selector h1{} 
+  2. Using ID selector #heading{} 
+   
 ![image](https://user-images.githubusercontent.com/125631878/230074193-ec1edba4-556f-4623-a9fb-9601af471909.png)
 
    
 ![image](https://user-images.githubusercontent.com/125631878/230070390-150e1ab3-e486-4b65-9a2d-d448444f73be.png)
 
+![image](https://user-images.githubusercontent.com/125631878/230074511-170d4715-0b00-42bd-99af-ec37265b6d55.png)
    
   
    
