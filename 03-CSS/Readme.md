@@ -408,7 +408,19 @@ We can see that in second code background color is gone. So lets see the error
 | Declaration | The combination of the property and value is called a declaration. Declarations are separated by semicolons. |
 | Rule Set | A rule set consists of one or more declarations enclosed in curly braces {} and preceded by a selector. |
 
-   
+Here's an example of CSS syntax:
+```
+   selector {
+   property: value;
+}
+```
+
+For instance, to set the font color of all paragraphs in a document to red, the following CSS rule can be used:
+```
+p {
+  color: red;
+}
+```
    
 
    
