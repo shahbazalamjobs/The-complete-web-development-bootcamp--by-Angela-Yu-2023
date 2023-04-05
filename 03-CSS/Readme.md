@@ -451,7 +451,7 @@ There are different types of selectors in CSS, including:
      text-align: center;  
    }
    ```
-   - This will select all elements with the class name "my-class" and apply a blue color and align text to center. 
+   - This will select all elements with the class name "my-class" and apply a blue color and align text to center to them. 
    In the HTML, the class is defined like this: `<div class="my-class">`
    - The above code will make all the tags with class name "my-class" blue color and center align `<h1 class="my-class">` and `<p class="my-class">`
    
@@ -505,5 +505,18 @@ There are different types of selectors in CSS, including:
    
 
 
-**********   
+********** 
+   
+   
+   
+   
+   
+   
+     
+
+********** 
+********** 
+********** 
+********** 
+********** 
    
