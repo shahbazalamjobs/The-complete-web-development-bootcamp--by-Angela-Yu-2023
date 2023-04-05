@@ -59,15 +59,13 @@ CSS is added to HTML pages to format the document according to information in th
 1. Internal CSS:
    - You can add CSS to an HTML page using the <style> element in the <head> section of your HTML document.
    
-![image](https://user-images.githubusercontent.com/125631878/230059625-25972865-ed29-4651-ac03-7c7d4824abc4.png)
-
 ![image](https://user-images.githubusercontent.com/125631878/230059319-8b12a553-ee73-4f9d-88b6-63a6a65983e0.png)
 
 - In this example, the <style> element is used to define a CSS rule that sets the color of the <h1> element to blue.   
 ---
 
 2. External CSS:
-   - Another way to add CSS to an HTML document is by creating an external CSS file and linking it to the HTML document using the <link> element in the <head> section of your HTML document.
+ - Another way to add CSS to an HTML document is by creating an external CSS file and linking it to the HTML document using the <link> element in the <head> section of your HTML document.
 
 HTML code:
 ![image](https://user-images.githubusercontent.com/125631878/230060845-14156de5-e77c-4c76-af7e-f0ea2edbd648.png)
@@ -77,7 +75,7 @@ CSS code:
 
    
 3. Inline CSS:
-   - Finally, you can add CSS directly to an HTML element using the style attribute.
+- Finally, you can add CSS directly to an HTML element using the style attribute.
 ![image](https://user-images.githubusercontent.com/125631878/230061561-5926dd00-7e71-4999-8392-5ede1e3378b7.png)
    
 **********
