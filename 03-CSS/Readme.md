@@ -365,6 +365,15 @@ Now lets change the color of h1, h3 size text and thead
    
 **********   
  
+## Debugging CSS code using chrome developers tools
+
+Copy the error code given, inside index.html then find the error using chrome developer tools <br>
+We can see that website css is gone <br>
+![image](https://user-images.githubusercontent.com/125631878/229992191-feb8fa9c-5ae5-4a8c-bd35-9253b1270411.png)
+
+
+
+
    
    
    
