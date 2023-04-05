@@ -105,9 +105,7 @@ CSS code:
     ```
    
    Code: <br> 
-   ![image](https://user-images.githubusercontent.com/125631878/230064834-d86468cb-4dbd-43d1-aca0-527733d28b83.png)
-
-   2. ![image](https://user-images.githubusercontent.com/125631878/229371603-965a9e8c-092e-4784-a4a0-69f0ed7c022b.png) 
+   ![image](https://user-images.githubusercontent.com/125631878/230065568-af134f66-dcea-4a4e-adb1-fb0b54ab6573.png)
    
    Output: <br>
    ![image](https://user-images.githubusercontent.com/125631878/229371693-30219604-08bf-4cbc-895b-f8305c594bd4.png)
