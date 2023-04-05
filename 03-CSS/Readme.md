@@ -449,7 +449,7 @@ There are different types of selectors in CSS, including:
      color: blue;
    }
    ```
-   This will select all elements with the class name "my-class" and apply a blue color to them. In the HTML, the class is defined like this: <div class="my-class">.
+   This will select all elements with the class name "my-class" and apply a blue color to them. In the HTML, the class is defined like this: `<div class="my-class">`.
    
 3. ID selectors:
    - Selects HTML elements based on their ID attribute. ID selectors are prefixed with a hash symbol ("#") and are followed by the name of the ID. For example, you can use "#my-id" to select the element with the ID "my-id".
@@ -458,7 +458,7 @@ There are different types of selectors in CSS, including:
      background-color: yellow;
    }
    ```
-   - This will select the element with the ID "my-id" and apply a yellow background color to it. In the HTML, the ID is defined like this: <div id="my-id">.
+   - This will select the element with the ID "my-id" and apply a yellow background color to it. In the HTML, the ID is defined like this: `<div id="my-id">`.
    
 4. Attribute selectors: 
    - Selects HTML elements based on their attributes. Attribute selectors are enclosed in square brackets and contain the name of the attribute and an optional value. For example, you can use "[href]" to select all elements with the "href" attribute, or "[href='https://example.com']" to select elements with the "href" attribute set to "https://example.com".
@@ -475,7 +475,7 @@ There are different types of selectors in CSS, including:
      text-decoration: underline;
    }
   ```
-   - This will select all <a> elements when the user hovers over them with the mouse and apply an underline text decoration to them.
+   - This will select all `<a>` elements when the user hovers over them with the mouse and apply an underline text decoration to them.
    
 6. Combinators:
    - Combinators are used to select elements based on their relationship to other elements. There are several types of combinators, including descendant selectors, child selectors, and adjacent sibling selectors.
@@ -485,7 +485,7 @@ There are different types of selectors in CSS, including:
      list-style: none;
    }
    ```
-   - This will select all <li> elements that are direct children of a <ul> element and remove the list-style from them.
+   - This will select all `<li>` elements that are direct children of a `<ul>` element and remove the list-style from them.
 
 
 
