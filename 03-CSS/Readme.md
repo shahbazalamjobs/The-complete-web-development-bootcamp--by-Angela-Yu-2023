@@ -547,11 +547,14 @@ There are different types of selectors in CSS, including:
 # Shahi Paneer Fansite
 - A new site is made where two emoji of Paneer and Brocoli are used and their background color are changed
 - Also we are changing heading color using CSS by two ways 
-  1. Using tag selector h1{} 
-  2. Using ID selector #heading{} 
+  1. Using tag selector h1{}  (here selecting red color)
+  2. Using ID selector #heading{}   (here selecting blue color)
 - But in output heading color is of blue and not red 
 - The h1 color being red but it's crossed out because the id heading is more specific <br>
-  `When both an ID selector and a tag selector are used in CSS, the ID selector will take precedence over the tag selector. This is because ID selectors have a higher specificity value than tag selectors.`
+- `When both an ID selector and a tag selector are used in CSS, the ID selector will take precedence over the tag selector. This is because ID selectors have a higher specificity value than tag selectors.`
+- Specificity is a value assigned to each CSS selector, which determines which styles will be applied to an element if there are conflicting rules. The more specific the selector, the higher its specificity value.
+- In CSS, selectors are evaluated from left to right. So if a selector has an ID selector on the left, followed by a tag selector on the right, the ID selector will be more specific than the tag selector.
+   
 
 this is the one that we see on our web site.
    
