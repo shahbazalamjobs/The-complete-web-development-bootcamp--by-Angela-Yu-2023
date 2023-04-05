@@ -448,9 +448,12 @@ There are different types of selectors in CSS, including:
    ```
       .my-class {
      color: blue;
+     text-align: center;  
    }
    ```
-   This will select all elements with the class name "my-class" and apply a blue color to them. In the HTML, the class is defined like this: `<div class="my-class">`.
+   - This will select all elements with the class name "my-class" and apply a blue color and align text to center to them. 
+   In the HTML, the class is defined like this: `<div class="my-class">`
+   - The above code will make all the tags with class name "my-class" blue color and center align `<h1 class="my-class">` and `<p class="my-class">`
    
 3. ID selectors:
    - Selects HTML elements based on their ID attribute. ID selectors are prefixed with a hash symbol ("#") and are followed by the name of the ID. For example, you can use "#my-id" to select the element with the ID "my-id".
