@@ -112,7 +112,6 @@ CSS code:
 
    
  
- 
    # Default CSS in browser 
      Most modern web browsers come with default CSS styles that are applied to HTML elements unless overridden by custom styles. The default styles may vary slightly between different browsers, 
    
