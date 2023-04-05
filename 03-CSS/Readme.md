@@ -423,6 +423,8 @@ p {
 ```
 This rule targets all `<p>` elements and sets their color property to red.
 
+![image](https://user-images.githubusercontent.com/125631878/230028968-15a9cc79-b2ae-461d-b69e-22f23a3b66d3.png)
+
    
    
 
