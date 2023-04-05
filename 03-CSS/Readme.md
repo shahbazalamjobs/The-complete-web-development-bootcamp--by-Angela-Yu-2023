@@ -367,7 +367,7 @@ Now lets change the color of h1, h3 size text and thead
  
 ## Debugging CSS code using chrome developers tools
 
-Copy the error code given, inside index.html then find the error using chrome developer tools <br>
+### 1. Copy the error code given, inside index.html then find the error using chrome developer tools <br>
 We can see that website css is gone 
 ![image](https://user-images.githubusercontent.com/125631878/229992191-feb8fa9c-5ae5-4a8c-bd35-9253b1270411.png)
 
@@ -380,20 +380,26 @@ Here we can see 2 errors
 
 Debugging
    1. Location of css is in same directory as where is index.html: change location to: css/styles.css 
-   2. Image file name image.png not present: put image with same name in same directory 
-
-
-
-
-
-   
-   
-   
-   
-   
-   
+   2. Image file name image.png not present: put image with same name in same directory    
    
 **********   
+### 2. Now copy the second code 
+We can see that in second code background color is gone. So lets see the error 
+![image](https://user-images.githubusercontent.com/125631878/229994837-40b782fe-0272-4038-9ecf-5a2ee5523977.png)
+   
+![image](https://user-images.githubusercontent.com/125631878/229995997-368c06ec-c200-4c9d-889b-6a55c89b2cc2.png)
+And we're seeing that the color that we desire, which we set inside our stylesheet, is being crossed out and overridden by this white color. <br>
+And if you look carefully inside our new buggy index.html, then here an inline CSS rule inside the body tag to turn the body's background color to white. <br>
+We can make our desired background by removing the HTML body styling <br>
+
+Lets add inline css in style and set background color as red, so we are having 3 colors 1. white inside html body attribute, 2. external css body light blue 3. inline css red color inside style <br>
+
+Still white color overrides red and light blue color.
+   
+   
+
+
+   
 
 
    
