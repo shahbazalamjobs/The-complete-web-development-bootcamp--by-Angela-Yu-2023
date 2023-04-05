@@ -388,16 +388,17 @@ We can see that in second code background color is gone. So lets see the error
 ![image](https://user-images.githubusercontent.com/125631878/229994837-40b782fe-0272-4038-9ecf-5a2ee5523977.png)
    
 ![image](https://user-images.githubusercontent.com/125631878/229995997-368c06ec-c200-4c9d-889b-6a55c89b2cc2.png)
-And we're seeing that the color that we desire, which we set inside our stylesheet, is being crossed out and overridden by this white color. <br>
-And if you look carefully inside our new buggy index.html, then here an inline CSS rule inside the body tag to turn the body's background color to white. <br>
-We can make our desired background by removing the HTML body styling <br>
+- And we're seeing that the color that we desire, which we set inside our stylesheet, is being crossed out and overridden by this white color. <br>
+- And if you look carefully inside our new buggy index.html, then here an inline CSS rule inside the body tag to turn the body's background color to white. <br>
+- We can make our desired background by removing the HTML body styling <br>
 
-Lets add internal css in style and set background color as red, so we are having 3 colors 1. white inside inline css, 2. light blue inside external css body  3. red color inside internal css <br>
+- Lets add internal css in style and set background color as red, so we are having 3 colors 1. white inside inline css, 2. light blue inside external css body  3. red color inside internal css <br>
 
-Still white color overrides red and light blue color.
+- Still white color overrides red and light blue color.
    
 **********   
 
+# CSS syntax
 
    
    
