@@ -470,6 +470,7 @@ There are different types of selectors in CSS, including:
    
 2. Class selector: 
    - Selects HTML elements based on their class attribute. Class selectors are prefixed with a dot (".") and are followed by the name of the class. For example, you can use ".my-class" to select all elements with the class name "my-class".
+   - Apply styles to multiple elements with the same class name.
    ```
       .my-class {
      color: blue;
@@ -489,6 +490,7 @@ There are different types of selectors in CSS, including:
    
 3. ID selectors:
    - Selects HTML elements based on their ID attribute. ID selectors are prefixed with a hash symbol ("#") and are followed by the name of the ID. For example, you can use "#my-id" to select the element with the ID "my-id".
+   -  You cannot have two ID selectors with the same name on the same web page. Each ID selector must have a unique name because the ID selector is used to select and apply styles to a specific HTML element on a web page.
    ```
       #my-id {
      background-color: yellow;
