@@ -545,8 +545,8 @@ There are different types of selectors in CSS, including:
 
 ## Specificity of selectors
 - In CSS, selectors are used to target specific HTML elements on a web page and apply styles to them.
-- The specificity of a selector refers to how specific it is in targeting elements on a web page.
-  `**Element selectors < Class selectors < ID selectors < Inline styles **`
+- The specificity of a selector refers to how specific it is in targeting elements on a web page. <br> <br>
+  `Element selectors < Class selectors < ID selectors < Inline styles`
    
 - If multiple CSS selectors target the same HTML element, their specificities are compared.
 - The selector with the highest specificity will apply its styles to the element.
