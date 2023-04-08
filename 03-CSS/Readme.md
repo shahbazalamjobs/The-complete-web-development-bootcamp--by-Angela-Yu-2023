@@ -598,7 +598,7 @@ There are different types of selectors in CSS, including:
  - Example:
   ![image](https://user-images.githubusercontent.com/125631878/230733209-a7c1e709-2007-4825-8e93-b6a1f5601604.png)
 
- - In this example, the <div> element contains a heading (`<h1>`) and a paragraph (`<p>`) element. The content inside the `<div>` tag will be grouped together and can be targeted with CSS selectors to apply styling or other functionality.
+ - In this example, the `<div>` element contains a heading (`<h1>`) and a paragraph (`<p>`) element. The content inside the `<div>` tag will be grouped together and can be targeted with CSS selectors to apply styling or other functionality.
 
  - You can also use the id and class attributes on the `<div>` tag to further customize and target specific elements on the page. For example:
    ![image](https://user-images.githubusercontent.com/125631878/230733282-a3e7540f-3306-4cb9-98d5-54f2ea7bb45b.png)
@@ -622,4 +622,3 @@ There are different types of selectors in CSS, including:
 **********   
      
    
-g
