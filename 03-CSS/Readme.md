@@ -634,7 +634,6 @@ There are different types of selectors in CSS, including:
  - So now in chrome developer, selecting div .. inside element.style <br>
    we write background color: blue;  but background doesn't change this is because of 0 height 
    ![image](https://user-images.githubusercontent.com/125631878/230735729-abddad89-8a03-4d9c-bf70-1a265403744d.png)
-   ![image](https://user-images.githubusercontent.com/125631878/230735628-073f87a1-b0c1-407b-9596-6e67b689625c.png)
 
  - So we will add height: 100px; <br>
    Now we can see the blue color div
