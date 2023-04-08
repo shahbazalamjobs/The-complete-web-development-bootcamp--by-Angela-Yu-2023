@@ -626,11 +626,19 @@ There are different types of selectors in CSS, including:
  - Here we are creating a more beautiful website using CSS
  - Inside body we used h1 and p tag and later on we used empty div tag 
  - Using Pesticide we saw h1 and p box but not of div .. that was because the height of div was 0 where as width was: 878.400
- - 
+ 
  ![image](https://user-images.githubusercontent.com/125631878/230734221-67861a26-6767-48dd-8759-b7b78b832e06.png)
- ![image](https://user-images.githubusercontent.com/125631878/230734270-17b2f7e3-8576-4e32-8e2f-58ad2cc570eb.png)
+ ![image](https://user-images.githubusercontent.com/125631878/230734270-17b2f7e3-8576-4e32-8e2f-58ad2cc570eb.png)  
+ ![image](https://user-images.githubusercontent.com/125631878/230734114-5bc19719-9dba-4f2b-a90a-60a6ea4c851d.png)
+   
+ - So now in chrome developer, selecting div .. inside element.style <br>
+   we write background color: blue;  but background doesn't change this is because of 0 height 
+   ![image](https://user-images.githubusercontent.com/125631878/230735729-abddad89-8a03-4d9c-bf70-1a265403744d.png)
+   ![image](https://user-images.githubusercontent.com/125631878/230735628-073f87a1-b0c1-407b-9596-6e67b689625c.png)
 
+ - So we will add height: 100px; <br>
+   Now we can see the blue color div
+   ![image](https://user-images.githubusercontent.com/125631878/230735690-ba5c5137-9104-4207-bc42-f880a58cbe8a.png)
 
    
    
-![image](https://user-images.githubusercontent.com/125631878/230734114-5bc19719-9dba-4f2b-a90a-60a6ea4c851d.png)
