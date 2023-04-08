@@ -590,12 +590,34 @@ There are different types of selectors in CSS, including:
 - The rel attribute is used to define the type of link being used and how the linked resource should be used by the current document.
 - Common values of rel attribute are: "stylesheet" is used for linking style sheet to HTML document and "icon" value is used to link a favicon icon to a website.
    
-
-
 **********   
    
+ ## Div
+   
+ - In HTML, the <div> tag is a container element that is used to group together other elements and apply styles or functionality to them as a group. The "div" stands for "division" and it is often used to divide a web page into logical sections or to organize content into columns or rows.
+ - Example:
+  ![image](https://user-images.githubusercontent.com/125631878/230733209-a7c1e709-2007-4825-8e93-b6a1f5601604.png)
 
+ - In this example, the <div> element contains a heading (<h1>) and a paragraph (<p>) element. The content inside the <div> tag will be grouped together and can be targeted with CSS selectors to apply styling or other functionality.
+---
+
+ - You can also use the id and class attributes on the <div> tag to further customize and target specific elements on the page. For example:
+   ![image](https://user-images.githubusercontent.com/125631878/230733282-a3e7540f-3306-4cb9-98d5-54f2ea7bb45b.png)
+
+ - In this example, the first <div> tag has an id attribute of "header", which can be targeted with CSS to apply specific styles to the header of the page. The second <div> tag has a class attribute of "section", which can be used to style all sections of the page in a similar way.
+   
 **********
 
-  
+| Point | Explanation |
+| ----- | ----- |
+| Container element | The `<div>` tag is a container element that groups together other elements on a web page. |
+| Logical sections | It is used to divide a web page into logical sections or to organize content into columns or rows. |
+| "div" stands for... | The "div" in `<div>` stands for "division". |
+| Content | You can add other HTML elements, such as headings, paragraphs, images, and lists, inside a `<div>` tag to group them together. |
+| CSS selectors | The content inside a `<div>` tag can be targeted with CSS selectors to apply styling or other functionality. |
+| `id` and `class` attributes | You can use the `id` and `class` attributes on a `<div>` tag to further customize and target specific elements on the page. |
+| `id` attribute | The `id` attribute can be used to target a specific element on the page with CSS or JavaScript. |
+| `class` attribute | The `class` attribute can be used to apply styles or functionality to multiple elements on the page. |
+| Commonly used | The `<div>` tag is a very commonly used element in HTML and is often used in conjunction with other layout and styling techniques to create a visually appealing and organized web page. |
+     
    
