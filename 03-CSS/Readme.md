@@ -575,13 +575,19 @@ There are different types of selectors in CSS, including:
 ### Shahi Paneer website:   
 ![image](https://user-images.githubusercontent.com/125631878/230074511-170d4715-0b00-42bd-99af-ec37265b6d55.png)
 
-
    
-  
-   
-
-
 **********   
+# Intermediate CSS
+
+## Favicon
+- A favicon is a small icon that represents a website or web application and is typically displayed in the browser's address bar or next to the page title in a tab.
+- To add a favicon to a website, you need to create a small image file and save it as a .ico, .png, or .gif file. 
+- Then, you can add the favicon code to the HTML header of your website using the following code:
+  ```
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  ```
+
+
 
 **********   
    
