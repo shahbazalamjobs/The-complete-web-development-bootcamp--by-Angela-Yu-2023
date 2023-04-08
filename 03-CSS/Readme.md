@@ -639,4 +639,4 @@ There are different types of selectors in CSS, including:
    Now we can see the blue color div
 ![image](https://user-images.githubusercontent.com/125631878/230735690-ba5c5137-9104-4207-bc42-f880a58cbe8a.png)
 - We can also change margin of div in box by clicking the top, left, right, bottom and giving their values, and it will automatically get added in element.style locally for temporary period, but will not change the real codebase
-![image](https://user-images.githubusercontent.com/125631878/230736367-c93e3cf3-7ac0-419a-bad6-805fae0be5a4.png)
+![image](https://user-images.githubusercontent.com/125631878/230736473-73a23c4a-00a2-46e2-9cd9-0e982ec6ad0e.png)
