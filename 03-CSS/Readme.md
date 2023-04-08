@@ -586,7 +586,10 @@ There are different types of selectors in CSS, including:
   ```
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   ```
-
+- The <link> tag in HTML is used to link external resources such as CSS stylesheets, favicon images, web fonts, and more. It is placed in the head section of an HTML document
+- The rel attribute is used to define the type of link being used and how the linked resource should be used by the current document.
+- Common values of rel attribute are: "stylesheet" is used for linking style sheet to HTML document and "icon" value is used to link a favicon icon to a website.
+   
 
 
 **********   
