@@ -599,7 +599,6 @@ There are different types of selectors in CSS, including:
   ![image](https://user-images.githubusercontent.com/125631878/230733209-a7c1e709-2007-4825-8e93-b6a1f5601604.png)
 
  - In this example, the <div> element contains a heading (`<h1>`) and a paragraph (`<p>`) element. The content inside the `<div>` tag will be grouped together and can be targeted with CSS selectors to apply styling or other functionality.
----
 
  - You can also use the id and class attributes on the `<div>` tag to further customize and target specific elements on the page. For example:
    ![image](https://user-images.githubusercontent.com/125631878/230733282-a3e7540f-3306-4cb9-98d5-54f2ea7bb45b.png)
@@ -619,5 +618,7 @@ There are different types of selectors in CSS, including:
 | `id` attribute | The `id` attribute can be used to target a specific element on the page with CSS or JavaScript. |
 | `class` attribute | The `class` attribute can be used to apply styles or functionality to multiple elements on the page. |
 | Commonly used | The `<div>` tag is a very commonly used element in HTML and is often used in conjunction with other layout and styling techniques to create a visually appealing and organized web page. |
+   
+**********   
      
    
