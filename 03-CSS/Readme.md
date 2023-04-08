@@ -623,6 +623,10 @@ There are different types of selectors in CSS, including:
      
  # Css - My Style
  
+ - Here we are creating a more beautiful website using CSS
+ - Inside body we used h1 and p tag and later on we used empty div tag 
+ - Using Pesticide we saw h1 and p box but not of div .. that was because the height of div was 0 where as width was: 878.400
+ - 
  ![image](https://user-images.githubusercontent.com/125631878/230734221-67861a26-6767-48dd-8759-b7b78b832e06.png)
  ![image](https://user-images.githubusercontent.com/125631878/230734270-17b2f7e3-8576-4e32-8e2f-58ad2cc570eb.png)
 
