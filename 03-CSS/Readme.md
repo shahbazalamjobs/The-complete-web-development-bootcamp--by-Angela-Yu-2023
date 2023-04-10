@@ -664,7 +664,7 @@ Understanding the box model is important for designing web pages, as it helps en
 ![image](https://user-images.githubusercontent.com/125631878/230943160-1b409bae-1390-4a95-a92c-508099cac80e.png)
    
 - Same divs but now body and h3 with 0 margin
-![image](https://user-images.githubusercontent.com/125631878/230943075-68c7e897-dc01-443b-89b3-318cc6f891be.png)
+![image](https://user-images.githubusercontent.com/125631878/230944096-7c645ce7-e902-4cd6-b473-0288aa8a4a40.png)
 
 
 
