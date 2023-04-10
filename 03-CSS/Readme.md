@@ -660,7 +660,7 @@ The box model consists of four layers:
 Each layer of the box model is added to the previous layer to calculate the total size of the box. For example, the total width of an element would be the sum of its content width, padding width, and border width. <br>
 Understanding the box model is important for designing web pages, as it helps ensure that elements are properly sized and positioned on the page.
 
-- 3 divs with different color default margins
+- 3 divs with different color default body margins
 ![image](https://user-images.githubusercontent.com/125631878/230943160-1b409bae-1390-4a95-a92c-508099cac80e.png)
    
 - Same divs but now body and h3 with 0 margin
