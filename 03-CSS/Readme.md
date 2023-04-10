@@ -668,9 +668,9 @@ Understanding the box model is important for designing web pages, as it helps en
 
 ## Challenge
 3 boxes with 200x200px, box 1: 10px border & 20px padding, box 2: 20px border, box 3: 10px border <br>
-We used position: absolute; top: 260px; left: 260px;
+We used `position: absolute; top: 260px; left: 260px;`
 ![image](https://user-images.githubusercontent.com/125631878/230947580-a3b4292b-e806-4f12-9710-a3809b292e70.png)
 
 Angela yu's way <br>
-Used margin-left:260px;
+Used `margin-left:260px;`
 ![image](https://user-images.githubusercontent.com/125631878/230953029-438dd733-3850-446c-b6ed-3be7bf8565b6.png)
