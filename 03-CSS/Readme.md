@@ -653,15 +653,10 @@ There are different types of selectors in CSS, including:
 The box model consists of four layers:
 
 - Content: This is the actual content of the HTML element, such as text, images, or videos. The content is surrounded by padding.
-
 - Padding: This is the space between the content and the element's border. It is defined using the padding property in CSS.
-
 - Border: This is a line that surrounds the element's padding. It is defined using the border property in CSS.
-
 - Margin: This is the space between the element's border and the neighboring elements. It is defined using the margin property in CSS.
-
 - Each layer of the box model is added to the previous layer to calculate the total size of the box. For example, the total width of an element would be the sum of its content width, padding width, and border width.
-
 - Understanding the box model is important for designing web pages, as it helps ensure that elements are properly sized and positioned on the page.
 
 
