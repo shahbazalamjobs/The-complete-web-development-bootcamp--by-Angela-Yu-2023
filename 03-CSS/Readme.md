@@ -661,10 +661,10 @@ Each layer of the box model is added to the previous layer to calculate the tota
 Understanding the box model is important for designing web pages, as it helps ensure that elements are properly sized and positioned on the page.
 
 - 3 divs with different color default margins
-![image](https://user-images.githubusercontent.com/125631878/230941983-9a539c4c-dfad-476e-a355-e75fbea19eb5.png)
+![image](https://user-images.githubusercontent.com/125631878/230943075-68c7e897-dc01-443b-89b3-318cc6f891be.png)
    
 - Above divs with 0 margin
-![image](https://user-images.githubusercontent.com/125631878/230942848-eaeb9684-d899-4093-8e69-a3d0e7e52a19.png)
+![image](https://user-images.githubusercontent.com/125631878/230943160-1b409bae-1390-4a95-a92c-508099cac80e.png)
 
 
 
