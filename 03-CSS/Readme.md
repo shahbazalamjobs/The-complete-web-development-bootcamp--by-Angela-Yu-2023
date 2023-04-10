@@ -648,7 +648,7 @@ There are different types of selectors in CSS, including:
 # Box Model of CSS
 - In CSS, the Box Model is a conceptual model that describes how elements are rendered on a web page. Each HTML element on a page is considered a rectangular box, with properties such as width, height, padding, border, and margin, that determine how the box is sized and positioned.
 
- ![image](https://user-images.githubusercontent.com/125631878/230939830-1b6322cb-f8fb-47c9-bd54-62436ce6498f.png)
+ ![image](https://user-images.githubusercontent.com/125631878/230940443-be8b1d38-bd54-4e5c-99d5-93c26d16d4b8.png)
    
 The box model consists of four layers:
 
