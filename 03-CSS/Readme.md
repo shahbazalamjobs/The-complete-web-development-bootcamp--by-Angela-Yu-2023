@@ -663,7 +663,7 @@ Understanding the box model is important for designing web pages, as it helps en
 - 3 divs with different color default margins
 ![image](https://user-images.githubusercontent.com/125631878/230943160-1b409bae-1390-4a95-a92c-508099cac80e.png)
    
-- Above divs with 0 margin
+- Same divs  0 mabut now body and h3 with 0 margin
 ![image](https://user-images.githubusercontent.com/125631878/230943075-68c7e897-dc01-443b-89b3-318cc6f891be.png)
 
 
