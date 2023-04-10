@@ -667,5 +667,5 @@ Understanding the box model is important for designing web pages, as it helps en
 ![image](https://user-images.githubusercontent.com/125631878/230944096-7c645ce7-e902-4cd6-b473-0288aa8a4a40.png)
 
 ## Challenge
-Make 
+3 boxes with 200x200px, box 1: 10px border & 20px padding, box 2: 20px border, box 3: 10px border
 ![image](https://user-images.githubusercontent.com/125631878/230947580-a3b4292b-e806-4f12-9710-a3809b292e70.png)
