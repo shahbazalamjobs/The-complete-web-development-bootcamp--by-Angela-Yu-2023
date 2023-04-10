@@ -644,3 +644,26 @@ There are different types of selectors in CSS, including:
 ![image](https://user-images.githubusercontent.com/125631878/230735690-ba5c5137-9104-4207-bc42-f880a58cbe8a.png)
 - We can also change margin of div in box by clicking the top, left, right, bottom and giving their values, and it will automatically get added in element.style locally for temporary period, but will not change the real codebase
 ![image](https://user-images.githubusercontent.com/125631878/230736473-73a23c4a-00a2-46e2-9cd9-0e982ec6ad0e.png)
+
+# Box Model of CSS
+- In CSS, the Box Model is a conceptual model that describes how elements are rendered on a web page. Each HTML element on a page is considered a rectangular box, with properties such as width, height, padding, border, and margin, that determine how the box is sized and positioned.
+
+ ![image](https://user-images.githubusercontent.com/125631878/230939830-1b6322cb-f8fb-47c9-bd54-62436ce6498f.png)
+   
+The box model consists of four layers:
+
+- Content: This is the actual content of the HTML element, such as text, images, or videos. The content is surrounded by padding.
+
+- Padding: This is the space between the content and the element's border. It is defined using the padding property in CSS.
+
+- Border: This is a line that surrounds the element's padding. It is defined using the border property in CSS.
+
+- Margin: This is the space between the element's border and the neighboring elements. It is defined using the margin property in CSS.
+
+- Each layer of the box model is added to the previous layer to calculate the total size of the box. For example, the total width of an element would be the sum of its content width, padding width, and border width.
+
+- Understanding the box model is important for designing web pages, as it helps ensure that elements are properly sized and positioned on the page.
+
+
+
+
