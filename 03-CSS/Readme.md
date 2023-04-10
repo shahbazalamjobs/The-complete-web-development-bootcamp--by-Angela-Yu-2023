@@ -604,6 +604,10 @@ There are different types of selectors in CSS, including:
    ![image](https://user-images.githubusercontent.com/125631878/230733282-a3e7540f-3306-4cb9-98d5-54f2ea7bb45b.png)
 
  - In this example, the first `<div>` tag has an id attribute of "header", which can be targeted with CSS to apply specific styles to the header of the page. The second `<div>` tag has a class attribute of "section", which can be used to style all sections of the page in a similar way.
+ 
+ - Normal div with height and andth of 200px and skyblue background color:
+ ![image](https://user-images.githubusercontent.com/125631878/230939022-14630934-b47c-4720-a430-3687e7510467.png)
+
    
 **********
 
