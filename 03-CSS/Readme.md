@@ -709,5 +709,7 @@ Used `margin-left:260px;`
 
    
 9) list-item: The element is displayed as a list item, like the li element in an unordered or ordered list.
+![image](https://user-images.githubusercontent.com/125631878/231161613-8693cf71-e3ad-4b00-859e-4e333c07db28.png)
 
+   
 These values can be set using the display property in CSS, for example:
