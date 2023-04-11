@@ -743,3 +743,5 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 
 - none display
 ![image](https://user-images.githubusercontent.com/125631878/231244546-77bac2a6-08f7-4f86-b835-01c3704d4b21.png)
+
+![image](https://user-images.githubusercontent.com/125631878/231245223-70b3361c-61d4-4640-98d6-88f1dd9346ac.png)
