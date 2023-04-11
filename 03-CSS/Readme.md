@@ -701,7 +701,6 @@ Used `margin-left:260px;`
 ![image](https://user-images.githubusercontent.com/125631878/231156844-5a82a6df-88ec-4357-a425-43845d024336.png)
    
 7) table: The element is displayed as a table, with table-related properties like table-row and table-cell.
-![image](https://user-images.githubusercontent.com/125631878/231157312-e0ce966c-3c4f-4785-9af2-53ce85548144.png)
 ![image](https://user-images.githubusercontent.com/125631878/231160793-0fe2abbc-4852-4f63-8b9e-c59c1aee107b.png)
 
 
