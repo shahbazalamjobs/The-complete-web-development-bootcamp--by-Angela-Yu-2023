@@ -734,3 +734,6 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 **********
 - We can change width of block (`<p>`) but not of inline (`<span>`)
 ![image](https://user-images.githubusercontent.com/125631878/231237257-5e7b6be1-63b1-476f-bbb9-9884f94b84e3.png)
+
+- Changing display property of `block to inline` and `inline to block`
+![image](https://user-images.githubusercontent.com/125631878/231241325-2fc9bce9-e8c5-4dcd-9946-8e360006ec0f.png)
