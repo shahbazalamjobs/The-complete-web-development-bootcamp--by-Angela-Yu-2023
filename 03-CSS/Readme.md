@@ -723,4 +723,4 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 **********
    
 Using Pesticide we can look at display property whether their width is till end or up to limit
-![image](https://user-images.githubusercontent.com/125631878/231231324-1dfe7d37-0dd4-4a88-a876-be609277ce51.png)
+![image](https://user-images.githubusercontent.com/125631878/231231840-55803541-9c21-4041-ad2b-8fe278588a91.png)
