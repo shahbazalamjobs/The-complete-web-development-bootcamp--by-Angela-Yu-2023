@@ -689,17 +689,24 @@ Used `margin-left:260px;`
 ![image](https://user-images.githubusercontent.com/125631878/231154531-ecc13dcf-5e93-4cbe-8027-0deb1f3e9c0e.png)
 
 3) inline-block: The element is displayed inline, but it also has a width and height, allowing it to have padding and margins.
+![image](https://user-images.githubusercontent.com/125631878/231154969-5f6d6a92-f73e-472b-8d03-6ed101a621dc.png)
+   
+4) none: The element is not displayed at all, effectively hiding it from view.
+![image](https://user-images.githubusercontent.com/125631878/231155432-3596c85b-90a8-4fe4-85ea-1eb92369b5b0.png)
 
-5) none: The element is not displayed at all, effectively hiding it from view.
+5) flex: The element is displayed as a flex container, allowing its children to be flex items.
+![image](https://user-images.githubusercontent.com/125631878/231156571-cecf1fa5-45fe-45e7-8c77-5828304c3f58.png)
+   
+6) grid: The element is displayed as a grid container, allowing its children to be grid items.
+![image](https://user-images.githubusercontent.com/125631878/231156844-5a82a6df-88ec-4357-a425-43845d024336.png)
+   
+7) table: The element is displayed as a table, with table-related properties like table-row and table-cell.
+![image](https://user-images.githubusercontent.com/125631878/231157312-e0ce966c-3c4f-4785-9af2-53ce85548144.png)
 
-6) flex: The element is displayed as a flex container, allowing its children to be flex items.
+8) inline-table: The element is displayed as an inline-level table.
+![image](https://user-images.githubusercontent.com/125631878/231158669-7b775073-9922-470b-95e0-567f6467c7fe.png)
 
-7) grid: The element is displayed as a grid container, allowing its children to be grid items.
-
-8) table: The element is displayed as a table, with table-related properties like table-row and table-cell.
-
-9) inline-table: The element is displayed as an inline-level table.
-
-10) list-item: The element is displayed as a list item, like the li element in an unordered or ordered list.
+   
+9) list-item: The element is displayed as a list item, like the li element in an unordered or ordered list.
 
 These values can be set using the display property in CSS, for example:
