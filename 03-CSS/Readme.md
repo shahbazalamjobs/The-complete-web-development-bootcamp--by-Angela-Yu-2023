@@ -674,3 +674,32 @@ We used `position: absolute; top: 260px; left: 260px;`
 Angela yu's way <br>
 Used `margin-left:260px;`
 ![image](https://user-images.githubusercontent.com/125631878/230953029-438dd733-3850-446c-b6ed-3be7bf8565b6.png)
+
+
+# Display property in CSS
+
+- The display property in CSS is used to specify the type of rendering box used for an HTML element. It determines how an element should be displayed on the web page.
+
+- There are several possible values for the display property:
+
+1) block: The element is displayed as a block-level element, which takes up the full width of its container and starts on a new line.
+![image](https://user-images.githubusercontent.com/125631878/231153273-c90e6d69-3ce8-41d0-83c4-6e2875bc5398.png)
+
+
+2) inline: The element is displayed inline, which means it flows with the text and does not start on a new line.
+
+3) inline-block: The element is displayed inline, but it also has a width and height, allowing it to have padding and margins.
+
+5) none: The element is not displayed at all, effectively hiding it from view.
+
+6) flex: The element is displayed as a flex container, allowing its children to be flex items.
+
+7) grid: The element is displayed as a grid container, allowing its children to be grid items.
+
+8) table: The element is displayed as a table, with table-related properties like table-row and table-cell.
+
+9) inline-table: The element is displayed as an inline-level table.
+
+10) list-item: The element is displayed as a list item, like the li element in an unordered or ordered list.
+
+These values can be set using the display property in CSS, for example:
