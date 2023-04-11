@@ -702,6 +702,8 @@ Used `margin-left:260px;`
    
 7) table: The element is displayed as a table, with table-related properties like table-row and table-cell.
 ![image](https://user-images.githubusercontent.com/125631878/231157312-e0ce966c-3c4f-4785-9af2-53ce85548144.png)
+![image](https://user-images.githubusercontent.com/125631878/231160793-0fe2abbc-4852-4f63-8b9e-c59c1aee107b.png)
+
 
 8) inline-table: The element is displayed as an inline-level table.
 ![image](https://user-images.githubusercontent.com/125631878/231158669-7b775073-9922-470b-95e0-567f6467c7fe.png)
