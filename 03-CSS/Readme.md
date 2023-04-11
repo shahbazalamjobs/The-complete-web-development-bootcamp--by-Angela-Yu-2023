@@ -741,4 +741,5 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 - Span inline-block
 ![image](https://user-images.githubusercontent.com/125631878/231243162-47b23163-812f-409d-82cc-a96c4fdf8392.png)
 
+- none display
 ![image](https://user-images.githubusercontent.com/125631878/231244546-77bac2a6-08f7-4f86-b835-01c3704d4b21.png)
