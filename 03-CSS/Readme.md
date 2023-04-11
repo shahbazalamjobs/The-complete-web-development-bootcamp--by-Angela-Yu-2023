@@ -679,7 +679,7 @@ Used `margin-left:260px;`
 # Display property in CSS
 
 - The display property in CSS is used to specify the type of rendering box used for an HTML element. It determines how an element should be displayed on the web page.
-
+- Syntax: `display:value;`
 - There are several possible values for the display property:
 
 1) block: The element is displayed as a block-level element, which takes up the full width of its container and starts on a new line.
@@ -715,4 +715,7 @@ Used `margin-left:260px;`
 ![image](https://user-images.githubusercontent.com/125631878/231161613-8693cf71-e3ad-4b00-859e-4e333c07db28.png)
 
    
-These values can be set using the display property in CSS, for example:
+<br>
+**[Note]**: `Span:` In HTML, the <span> element is an inline-level element that is used as a container for small pieces of content within a larger block-level element.
+
+The <span> element doesn't have any semantic meaning, and is typically used for styling purposes, such as changing the color, font size, or font family of a small piece of text.
