@@ -688,12 +688,13 @@ Used `margin-left:260px;`
 ![image](https://user-images.githubusercontent.com/125631878/231154706-a45325a9-aaf2-43b3-ae7b-cb411ef45e0f.png)
 
 2) inline: The element is displayed inline, which means it flows with the text and does not start on a new line.
+- Common inlin elements are: ` <span> , <a> , <em> , <b> `
 ![image](https://user-images.githubusercontent.com/125631878/231154531-ecc13dcf-5e93-4cbe-8027-0deb1f3e9c0e.png)
 
-3) inline-block: The element is displayed inline, but it also has a width and height, allowing it to have padding and margins.
+3) inline-block: The element is displayed inline, but it also has a width and height, allowing it to have padding and margins. or It, is very similar to inline element but the difference is that you are able to set the width and height.
 ![image](https://user-images.githubusercontent.com/125631878/231154969-5f6d6a92-f73e-472b-8d03-6ed101a621dc.png)
    
-4) none: The element is not displayed at all, effectively hiding it from view.
+4) none: The element is not displayed at all, effectively hiding it from view. Or The "none" value totally removes the element from the page. It will not take any space.
 ![image](https://user-images.githubusercontent.com/125631878/231155432-3596c85b-90a8-4fe4-85ea-1eb92369b5b0.png)
 
 5) flex: The element is displayed as a flex container, allowing its children to be flex items.
