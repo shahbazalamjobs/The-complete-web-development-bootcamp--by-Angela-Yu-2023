@@ -726,7 +726,9 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 - Using Pesticide we can look at display property whether their width is till end or up to a certain length
 ![image](https://user-images.githubusercontent.com/125631878/231231840-55803541-9c21-4041-ad2b-8fe278588a91.png)
 
-
+   
+**********  
+block (`<p>`) Vs inline (`<span>`)
 ![image](https://user-images.githubusercontent.com/125631878/231236941-e11db8cb-00a0-428a-926a-b7dc238a1a21.png)
    
 **********
