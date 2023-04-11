@@ -737,3 +737,6 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 
 - Changing display property of `block to inline` and `inline to block`
 ![image](https://user-images.githubusercontent.com/125631878/231241325-2fc9bce9-e8c5-4dcd-9946-8e360006ec0f.png)
+
+- Span inline-block
+![image](https://user-images.githubusercontent.com/125631878/231243162-47b23163-812f-409d-82cc-a96c4fdf8392.png)
