@@ -718,3 +718,6 @@ Used `margin-left:260px;`
 **[Note]**: `Span:` In HTML, the `<span>` element is an inline-level element that is used as a container for small pieces of content within a larger block-level element.
 
 The `<span>` element doesn't have any semantic meaning, and is typically used for styling purposes, such as changing the color, font size, or font family of a small piece of text.
+![image](https://user-images.githubusercontent.com/125631878/231229840-3ea5588f-5e59-4fc0-85ec-50397dfff2b7.png)
+
+Using Pesticide we can look at display property whether their width is till end or up to limit
