@@ -683,6 +683,8 @@ Used `margin-left:260px;`
 - There are several possible values for the display property:
 
 1) block: The element is displayed as a block-level element, which takes up the full width of its container and starts on a new line.
+- Common block elements are : `<p> , <h1> through <h6> , <div> , <ol> , <ul> , <li> , <form>`
+   
 ![image](https://user-images.githubusercontent.com/125631878/231154706-a45325a9-aaf2-43b3-ae7b-cb411ef45e0f.png)
 
 2) inline: The element is displayed inline, which means it flows with the text and does not start on a new line.
