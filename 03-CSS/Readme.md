@@ -720,12 +720,15 @@ Used `margin-left:260px;`
 The `<span>` element doesn't have any semantic meaning, and is typically used for styling purposes, such as changing the color, font size, or font family of a small piece of text.
 ![image](https://user-images.githubusercontent.com/125631878/231229840-3ea5588f-5e59-4fc0-85ec-50397dfff2b7.png)
 
+   
 **********  
+   
 - Using Pesticide we can look at display property whether their width is till end or up to a certain length
 ![image](https://user-images.githubusercontent.com/125631878/231231840-55803541-9c21-4041-ad2b-8fe278588a91.png)
 
 
 ![image](https://user-images.githubusercontent.com/125631878/231236941-e11db8cb-00a0-428a-926a-b7dc238a1a21.png)
+   
 **********
 - We can change width of block (`<p>`) but not of inline (`<span>`)
 ![image](https://user-images.githubusercontent.com/125631878/231237257-5e7b6be1-63b1-476f-bbb9-9884f94b84e3.png)
