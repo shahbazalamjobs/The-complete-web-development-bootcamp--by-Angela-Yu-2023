@@ -696,6 +696,7 @@ Used `margin-left:260px;`
 
 5) flex: The element is displayed as a flex container, allowing its children to be flex items.
 ![image](https://user-images.githubusercontent.com/125631878/231156571-cecf1fa5-45fe-45e7-8c77-5828304c3f58.png)
+![image](https://user-images.githubusercontent.com/125631878/231159325-a7165364-dfe0-444c-b417-e732c057b6e0.png)
    
 6) grid: The element is displayed as a grid container, allowing its children to be grid items.
 ![image](https://user-images.githubusercontent.com/125631878/231156844-5a82a6df-88ec-4357-a425-43845d024336.png)
