@@ -728,7 +728,7 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 
    
 **********  
-block (`<p>`) Vs inline (`<span>`)
+- block (`<p>`) Vs inline (`<span>`)
 ![image](https://user-images.githubusercontent.com/125631878/231236941-e11db8cb-00a0-428a-926a-b7dc238a1a21.png)
    
 **********
