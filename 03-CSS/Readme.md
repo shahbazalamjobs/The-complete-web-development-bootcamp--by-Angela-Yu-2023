@@ -688,7 +688,7 @@ Used `margin-left:260px;`
 ![image](https://user-images.githubusercontent.com/125631878/231154706-a45325a9-aaf2-43b3-ae7b-cb411ef45e0f.png)
 
 2) inline: The element is displayed inline, which means it flows with the text and does not start on a new line.
-- Common inlin elements are: ` <span> , <a> , <em> , <b> `
+- Common inlin elements are: ` <span> , <a> , <em> , <b> , <img> `
 ![image](https://user-images.githubusercontent.com/125631878/231154531-ecc13dcf-5e93-4cbe-8027-0deb1f3e9c0e.png)
 
 3) inline-block: The element is displayed inline, but it also has a width and height, allowing it to have padding and margins. or It, is very similar to inline element but the difference is that you are able to set the width and height.
