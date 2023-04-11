@@ -720,4 +720,7 @@ Used `margin-left:260px;`
 The `<span>` element doesn't have any semantic meaning, and is typically used for styling purposes, such as changing the color, font size, or font family of a small piece of text.
 ![image](https://user-images.githubusercontent.com/125631878/231229840-3ea5588f-5e59-4fc0-85ec-50397dfff2b7.png)
 
+**********
+   
 Using Pesticide we can look at display property whether their width is till end or up to limit
+![image](https://user-images.githubusercontent.com/125631878/231231324-1dfe7d37-0dd4-4a88-a876-be609277ce51.png)
