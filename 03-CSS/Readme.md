@@ -766,6 +766,20 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 4) CSS Absolute Positioning: The absolute positioning is used to position an element relative to the first parent element that has a position other than static. If no such element is found, the containing block is HTML. With the absolute positioning, you can place an element anywhere on a page.   
 
 ![image](https://user-images.githubusercontent.com/125631878/231466188-cabba2e3-4a2c-4662-8ebe-231195e15769.png)
+   
+   
+| No. | Property | Description | Values |
+| --- | --- | ------ | --- |
+| 1 | bottom | It is used to set the bottom margin edge for a positioned box. | `auto`, `length`, `%`, `inherit` |
+| 2 | clip | It is used to clip an absolutely positioned element. | `shape`, `auto`, `inherit` |
+| 3 | cursor | It is used to specify the type of cursors to be displayed. | `url`, `auto`, `crosshair`, `default`, `pointer`, `move`, `e-resize`, `ne-resize`, `nw-resize`, `n-resize`, `se-resize`, `sw-resize`, `s-resize`, `w-resize`, `text`, `wait`, `help` |
+| 4 | left | It sets a left margin edge for a positioned box. | `auto`, `length`, `%`, `inherit` |
+| 5 | overflow | This property is used to define what happens if content overflows an element's box. | `auto`, `hidden`, `scroll`, `visible`, `inherit` |
+| 6 | position | It is used to specify the type of positioning for an element. | `absolute`, `fixed`, `relative`, `static`, `inherit` |
+| 7 | right | It is used to set a right margin edge for a positioned box. | `auto`, `length`, `%`, `inherit` |
+| 8 | top | It is used to set a top margin edge for a positioned box. | `auto`, `length`, `%`, `inherit` |
+| 9 | z-index | It is used to set the stack order of an element. | `number`, `auto`, `inherit` |
+
 
 **********
    
