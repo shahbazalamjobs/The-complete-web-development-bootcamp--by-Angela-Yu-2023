@@ -752,7 +752,7 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 # Relative Position in CSS
 - Challenge: Using div make 3 square boxes of 100px side of colors blue, yellow, red. Then align these boxes in same line and arrange them in this sequence: red, blue, yellow using relative positioning
 
-![image](https://user-images.githubusercontent.com/125631878/231398003-1453bc60-0716-416e-97b9-3f17b50d6a8d.png)
+![image](https://user-images.githubusercontent.com/125631878/231399169-87e00878-d14a-493b-a66a-a8add332b9ed.png)
 ![image](https://user-images.githubusercontent.com/125631878/231397801-0472b91c-4e06-4f9a-bbec-489b4bcb2f1c.png)
 
 
