@@ -767,7 +767,7 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 
 ![image](https://user-images.githubusercontent.com/125631878/231466188-cabba2e3-4a2c-4662-8ebe-231195e15769.png)
    
-   
+## All CSS Position Properties   
 | No. | Property | Description | Values |
 | --- | --- | ------ | --- |
 | 1 | bottom | It is used to set the bottom margin edge for a positioned box. | `auto`, `length`, `%`, `inherit` |
