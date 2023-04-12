@@ -750,6 +750,23 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 **********
 
 # Relative Position in CSS
+- CSS positioning refers to the technique used to position HTML elements on a webpage. There are different types of CSS positions, each with its own set of rules and properties. The most common types of positions are:
+   
+1) CSS Static Positioning: This is a by default position for HTML elements. It always positions an element according to the normal flow of the page. It is not affected by the top, bottom, left and right properties.
+
+
+2) CSS Fixed Positioning: The fixed positioning property helps to put the text fixed on the browser. This fixed test is positioned relative to the browser window, and doesn't move even you scroll the window.
+   
+![image](https://user-images.githubusercontent.com/125631878/231464973-b96eea88-7d94-4d90-ba19-36c24961ad43.png)
+
+3) CSS Relative Positioning: The relative positioning property is used to set the element relative to its normal position.
+   
+![image](https://user-images.githubusercontent.com/125631878/231465493-a8ecd908-f011-4db6-8cfc-09f741a4e8a9.png)
+
+4) CSS Absolute Positioning: The absolute positioning is used to position an element relative to the first parent element that has a position other than static. If no such element is found, the containing block is HTML. With the absolute positioning, you can place an element anywhere on a page.   
+![image](https://user-images.githubusercontent.com/125631878/231466188-cabba2e3-4a2c-4662-8ebe-231195e15769.png)
+
+   
 - Challenge: Using div make 3 square boxes of 100px side of colors blue, yellow, red. Then align these boxes in same line and arrange them in this sequence: red, blue, yellow using relative positioning
 
 ![image](https://user-images.githubusercontent.com/125631878/231399169-87e00878-d14a-493b-a66a-a8add332b9ed.png)
