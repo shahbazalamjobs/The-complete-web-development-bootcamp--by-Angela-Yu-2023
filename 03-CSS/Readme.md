@@ -766,6 +766,7 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 4) CSS Absolute Positioning: The absolute positioning is used to position an element relative to the first parent element that has a position other than static. If no such element is found, the containing block is HTML. With the absolute positioning, you can place an element anywhere on a page.   
 ![image](https://user-images.githubusercontent.com/125631878/231466188-cabba2e3-4a2c-4662-8ebe-231195e15769.png)
 
+**********
    
 - Challenge: Using div make 3 square boxes of 100px side of colors blue, yellow, red. Then align these boxes in same line and arrange them in this sequence: red, blue, yellow using relative positioning
 
