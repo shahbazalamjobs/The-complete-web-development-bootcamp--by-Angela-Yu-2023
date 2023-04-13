@@ -806,3 +806,7 @@ Angela Yu Solution:
    
 Now lets put red box inside a container then the position of absolute red box will change relative to the container box
 ![image](https://user-images.githubusercontent.com/125631878/231753443-acf32f4b-2a22-4671-95b6-472c4e5aa11b.png)
+
+**********
+
+![image](https://user-images.githubusercontent.com/125631878/231754457-2fbdad5f-5b6f-4985-9ec4-913e031e8c8c.png)
