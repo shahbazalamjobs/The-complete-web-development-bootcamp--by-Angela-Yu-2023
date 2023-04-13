@@ -801,8 +801,8 @@ Angela Yu Solution:
 ![image](https://user-images.githubusercontent.com/125631878/231750266-9700c0dc-265e-4051-b108-8d0380e5daf3.png)   
 - Here the position of box changes relative to body of html 
 - There was inbuilt css bcoz of which there was inbuilt margin which we decreased to 0 (margin: 0) [note: if pixel is 0px we directly write 0 and no px]
-- 
 
-
-
-
+**********
+   
+Now lets put red box inside a container then the position of absolute red box will change relative to the container box
+![image](https://user-images.githubusercontent.com/125631878/231753443-acf32f4b-2a22-4671-95b6-472c4e5aa11b.png)
