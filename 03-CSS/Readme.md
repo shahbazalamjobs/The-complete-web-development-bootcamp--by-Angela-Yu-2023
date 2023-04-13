@@ -785,7 +785,7 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 
 **********
    
-- Challenge: Using div make 3 square boxes of 100px side of colors blue, yellow, red. Then align these boxes in same line and arrange them in this sequence: red, blue, yellow using relative positioning
+- Challenge: Using div make 3 square boxes of 100px side of colors blue, yellow, red. Then align these boxes in same line and arrange them in this sequence: red, blue, yellow using `relative positioning`
    
 Our Solution:
 ![image](https://user-images.githubusercontent.com/125631878/231399169-87e00878-d14a-493b-a66a-a8add332b9ed.png)
@@ -795,6 +795,11 @@ Angela Yu Solution:
 ![image](https://user-images.githubusercontent.com/125631878/231490342-2dd3bc78-789d-4208-9118-99d33c9987a5.png)
 
 **********
+   
+- Challenge: Using div make 3 square boxes of 100px side of colors blue, yellow, red. Then align these boxes in same line and arrange them in this sequence: red, blue, yellow using `absolute positioning`
+
+![image](https://user-images.githubusercontent.com/125631878/231750266-9700c0dc-265e-4051-b108-8d0380e5daf3.png)
+
 
 
 
