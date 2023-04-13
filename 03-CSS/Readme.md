@@ -790,7 +790,8 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 Our Solution:
 ![image](https://user-images.githubusercontent.com/125631878/231399169-87e00878-d14a-493b-a66a-a8add332b9ed.png)
 ![image](https://user-images.githubusercontent.com/125631878/231397801-0472b91c-4e06-4f9a-bbec-489b4bcb2f1c.png)
-- Here the position of boxes change with respect to their own original position
+- Here the position of boxes change with respect to their own original position <br>
+
 Angela Yu Solution:
 ![image](https://user-images.githubusercontent.com/125631878/231490342-2dd3bc78-789d-4208-9118-99d33c9987a5.png)
 
