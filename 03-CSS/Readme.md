@@ -790,8 +790,7 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 Our Solution:
 ![image](https://user-images.githubusercontent.com/125631878/231399169-87e00878-d14a-493b-a66a-a8add332b9ed.png)
 ![image](https://user-images.githubusercontent.com/125631878/231397801-0472b91c-4e06-4f9a-bbec-489b4bcb2f1c.png)
-- Here the position of boxes change with respect to their own original position <br>
-
+- Here the position of boxes change with respect to their own original position
 Angela Yu Solution:
 ![image](https://user-images.githubusercontent.com/125631878/231490342-2dd3bc78-789d-4208-9118-99d33c9987a5.png)
 
@@ -809,5 +808,7 @@ Now lets put red box inside a container then the position of absolute red box wi
 ![image](https://user-images.githubusercontent.com/125631878/231753443-acf32f4b-2a22-4671-95b6-472c4e5aa11b.png)
 
 **********
-
+Blue and yellow are still relative to body and not container, the text are coming directly under the container if no top used [in container range (0-300px)]
 ![image](https://user-images.githubusercontent.com/125631878/231754457-2fbdad5f-5b6f-4985-9ec4-913e031e8c8c.png)
+
+**********
