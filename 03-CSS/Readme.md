@@ -749,7 +749,9 @@ The `<span>` element doesn't have any semantic meaning, and is typically used fo
 
 **********
 
-# Relative Position in CSS
+# Position Properties in CSS
+
+![image](https://user-images.githubusercontent.com/125631878/231745806-c8f3b20a-7949-4ff6-845b-568d67deb228.png)
 - CSS positioning refers to the technique used to position HTML elements on a webpage. There are different types of CSS positions, each with its own set of rules and properties. The most common types of positions are:
    
 1) CSS Static Positioning: This is a by default position for HTML elements. It always positions an element according to the normal flow of the page. It is not affected by the top, bottom, left and right properties.
@@ -792,8 +794,7 @@ Our Solution:
 Angela Yu Solution:
 ![image](https://user-images.githubusercontent.com/125631878/231490342-2dd3bc78-789d-4208-9118-99d33c9987a5.png)
 
+**********
 
-   
-   
-   
+
 
