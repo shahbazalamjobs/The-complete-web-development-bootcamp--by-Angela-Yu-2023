@@ -821,6 +821,15 @@ This CSS property is used to provide a comma-separated list of font families. It
 - family-name: It is the name of the font-family such as "Courier", "Arial", "Times", etc.
 - generic-family: It is the name of the generic family that includes five categories, which are "serif", "sans-serif", "cursive", "fantasy", and "monospace". It should be placed at last in the list of the font family names.  
  
+`Default Serif is Times and Sans-serif is Arial`
+   
+```
+p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+```
+- If "Open Sans" is not available, the browser will try "Helvetica Neue", and if that's not available either, it will fall back to a generic sans-serif font.
+ 
 | Property | Description |
 | --- | --- |
 | `font-family` | Sets the typeface of the text |
@@ -833,3 +842,8 @@ This CSS property is used to provide a comma-separated list of font families. It
 | Web fonts | Custom fonts that can be loaded using services like Google Fonts or Font Squirrel |
 | `@font-face` | Rule for defining custom fonts and including them in your CSS |
 | Accessibility | Considerations for ensuring legibility and contrast of text for users with disabilities |
+
+![image](https://user-images.githubusercontent.com/125631878/232249245-78201b2b-8471-4809-a83a-ba5a0e4f8b27.png)
+
+![image](https://user-images.githubusercontent.com/125631878/232249574-2bfec586-c6c4-4344-b95c-59fb10446433.png)
+
