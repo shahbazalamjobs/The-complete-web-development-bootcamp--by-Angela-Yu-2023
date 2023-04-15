@@ -1,7 +1,15 @@
 # Art of centering elements
-Inside container or parent element (here body) use ` text-align: centering;` which will center everything inside that doesn't have a width set
+Inside container or parent element (here body) use ` text-align: centering;` which will center everything inside that doesn't have a width set, but if it has any width set, then will have to use auto in margin like here
 
 ![image](https://user-images.githubusercontent.com/125631878/232238809-afc19def-6ec1-4502-9994-a2961e2d4c47.png)
+
+**********
+Bottom cloud and mountain are next to each other and also mountain is not in center, so fisrt we have to move bottom cloud from its static position using `css position properties` 
+- This is done by giving class to bottom cloud image then using giving it absolute position in style.css
+- Now our mountain in in middle and cloud is in random position
+![image](https://user-images.githubusercontent.com/125631878/232239445-9f0bf45b-1e67-4023-8c3c-68d346824601.png)
+- After this we will position both the clouds in proper position
+![image](https://user-images.githubusercontent.com/125631878/232238958-e764cbcd-615d-4e1a-a6c2-423b34a4a1d1.png)
 
 
 ## My CSS website look
