@@ -850,8 +850,10 @@ p {
 | Web fonts | Custom fonts that can be loaded using services like Google Fonts or Font Squirrel |
 | `@font-face` | Rule for defining custom fonts and including them in your CSS |
 | Accessibility | Considerations for ensuring legibility and contrast of text for users with disabilities |
-
+   
+## Font Family
 ![image](https://user-images.githubusercontent.com/125631878/232249846-ee8c1d1e-1614-436a-a5d8-637f33b7b84e.png)
 
+# Font
 ![image](https://user-images.githubusercontent.com/125631878/232249574-2bfec586-c6c4-4344-b95c-59fb10446433.png)
 
