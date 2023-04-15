@@ -6,7 +6,7 @@ Inside container or parent element (here body) use ` text-align: centering;` whi
 **********
 Bottom cloud and mountain are next to each other and also mountain is not in center, so fisrt we have to move bottom cloud from its static position using `css position properties` 
 ![image](https://user-images.githubusercontent.com/125631878/232238958-e764cbcd-615d-4e1a-a6c2-423b34a4a1d1.png)
-- This is done by giving class to bottom cloud image then using giving it absolute position in style.css
+- This is done by giving class to bottom cloud image, then giving it absolute position in style.css
 - Now our mountain in in middle and bottom cloud is in random position
 
 ![image](https://user-images.githubusercontent.com/125631878/232239445-9f0bf45b-1e67-4023-8c3c-68d346824601.png)
@@ -16,6 +16,9 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
 - We are setting our top container as relative 
 - Now lets give our top some padding to give some space 
 ![image](https://user-images.githubusercontent.com/125631878/232245199-632c989d-3277-4386-8709-31f722b6a457.png)
+- Giving absolute position to both cloud and giving it specific pixels to move them in better location
+- Finally this website by using Angela's code:
+![image](https://user-images.githubusercontent.com/125631878/232245917-7719e750-923a-42fe-9f67-51ffee8a35f5.png)
 
 **********
 
