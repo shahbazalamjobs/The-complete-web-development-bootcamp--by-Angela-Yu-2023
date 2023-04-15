@@ -816,7 +816,7 @@ Blue and yellow are still relative to body and not container, the text are comin
    
 This CSS property is used to provide a comma-separated list of font families. It sets the font-face for the text content of an element. This property can hold multiple font names as a fallback system, i.e., if one font is unsupported in the browser, then others can be used. The different font-family is used for making attractive web pages.
 
-==There are two types of font-family names in CSS, which are defined below==
+<mark>There are two types of font-family names in CSS, which are defined below</mark>
 
 - family-name: It is the name of the font-family such as "Courier", "Arial", "Times", etc.
 - generic-family: It is the name of the generic family that includes five categories, which are "serif", "sans-serif", "cursive", "fantasy", and "monospace". It should be placed at last in the list of the font family names.  
