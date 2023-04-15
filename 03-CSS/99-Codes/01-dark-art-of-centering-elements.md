@@ -21,7 +21,7 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
 ![image](https://user-images.githubusercontent.com/125631878/232245917-7719e750-923a-42fe-9f67-51ffee8a35f5.png)
 
 
-## My Personal HTML code
+## This CSS Angela's HTML code
 
 ```
 <!DOCTYPE html>
@@ -61,7 +61,7 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
 </html>
 ```
 
-CSS
+## This CSS Angela's CSS code
 ```
 body {
     margin: 0px;
