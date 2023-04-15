@@ -47,13 +47,11 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
         <img class="mountain" src="images/mountain.png" alt="mountain-img">
 
     </div>
-
+    
     <div class="middle-container">
     </div>
-
     <div class="bottom-container">
-
-
+    
     </div>
 
 </body>
@@ -183,5 +181,4 @@ p {
     position: relative;
     top: 90px;
 }
-
 ```
