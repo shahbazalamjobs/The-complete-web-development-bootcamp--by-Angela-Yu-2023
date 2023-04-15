@@ -843,6 +843,7 @@ p {
 - Web safe fonts are fonts that are pre-installed on most computers and devices, and are therefore reliably available to use on websites.
 - Fonts include common sans-serif and serif fonts like Arial, Helvetica, Times New Roman, and Georgia.
 - Ensure that the text on your website is displayed consistently across different devices and operating systems.
+- Use this for best safe fonts : https://www.cssfontstack.com/
    
    
 | Property | Description |
