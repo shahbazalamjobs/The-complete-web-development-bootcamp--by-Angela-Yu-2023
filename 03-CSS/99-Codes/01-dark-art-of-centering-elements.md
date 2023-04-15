@@ -17,6 +17,7 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
 - Now lets give our top some padding to give some space 
   Before:  
   ![image](https://user-images.githubusercontent.com/125631878/232241848-b5e723df-02b2-4688-b263-464e51eb680e.png)
+![image](https://user-images.githubusercontent.com/125631878/232242453-e43e79e3-cbbb-481f-a363-8a700b6bf81f.png)
 
 
 
