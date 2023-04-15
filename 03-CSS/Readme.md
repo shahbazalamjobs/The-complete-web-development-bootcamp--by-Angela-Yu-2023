@@ -851,7 +851,7 @@ p {
 | `@font-face` | Rule for defining custom fonts and including them in your CSS |
 | Accessibility | Considerations for ensuring legibility and contrast of text for users with disabilities |
 
-![image](https://user-images.githubusercontent.com/125631878/232249245-78201b2b-8471-4809-a83a-ba5a0e4f8b27.png)
+![image](https://user-images.githubusercontent.com/125631878/232249846-ee8c1d1e-1614-436a-a5d8-637f33b7b84e.png)
 
 ![image](https://user-images.githubusercontent.com/125631878/232249574-2bfec586-c6c4-4344-b95c-59fb10446433.png)
 
