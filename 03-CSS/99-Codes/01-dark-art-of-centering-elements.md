@@ -1,5 +1,8 @@
 # Art of centering elements
-Inside container (here body) use ` text-align: centering;`
+Inside container or parent element (here body) use ` text-align: centering;` which will center everything inside that doesn't have a width set
+
+![image](https://user-images.githubusercontent.com/125631878/232238809-afc19def-6ec1-4502-9994-a2961e2d4c47.png)
+
 
 ## My CSS website look
 
