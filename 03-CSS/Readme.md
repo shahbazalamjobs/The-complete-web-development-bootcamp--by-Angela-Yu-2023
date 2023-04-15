@@ -812,3 +812,16 @@ Blue and yellow are still relative to body and not container, the text are comin
 ![image](https://user-images.githubusercontent.com/125631878/231754457-2fbdad5f-5b6f-4985-9ec4-913e031e8c8c.png)
 
 **********
+# Font Styling
+| Property | Description |
+| --- | --- |
+| `font-family` | Sets the typeface of the text |
+| `font-size` | Sets the size of the text |
+| `font-weight` | Sets the weight of the text (bold or normal) |
+| `font-style` | Sets the style of the text (italic or normal) |
+| `text-transform` | Changes the case of the text |
+| `text-decoration` | Adds underlines, line-throughs, or overlines to the text |
+| `font` | Shorthand for setting multiple font-related properties |
+| Web fonts | Custom fonts that can be loaded using services like Google Fonts or Font Squirrel |
+| `@font-face` | Rule for defining custom fonts and including them in your CSS |
+| Accessibility | Considerations for ensuring legibility and contrast of text for users with disabilities |
