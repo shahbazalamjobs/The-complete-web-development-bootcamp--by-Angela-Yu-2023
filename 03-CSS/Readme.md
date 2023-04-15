@@ -837,7 +837,14 @@ p {
 }
 ```
 - If "Open Sans" is not available, the browser will try "Helvetica Neue", and if that's not available either, it will fall back to a generic sans-serif font.
- 
+
+[Note]: If our used font is not installed in one of the browsers, then default font will be used which change the look and feel of website
+- So, here come `web safe font`, there is a set of font families where most operating system will be able to render it correctly
+- Web safe fonts are fonts that are pre-installed on most computers and devices, and are therefore reliably available to use on websites.
+- Fonts include common sans-serif and serif fonts like Arial, Helvetica, Times New Roman, and Georgia.
+- Ensure that the text on your website is displayed consistently across different devices and operating systems.
+   
+   
 | Property | Description |
 | --- | --- |
 | `font-family` | Sets the typeface of the text |
