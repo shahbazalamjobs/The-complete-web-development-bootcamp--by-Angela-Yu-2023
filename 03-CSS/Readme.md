@@ -855,5 +855,5 @@ p {
 ![image](https://user-images.githubusercontent.com/125631878/232249846-ee8c1d1e-1614-436a-a5d8-637f33b7b84e.png)
 
 ## Font Family Property
-![image](https://user-images.githubusercontent.com/125631878/232249987-ae5e2e90-a334-4f76-9104-44fddcdfe313.png)
+![image](https://user-images.githubusercontent.com/125631878/232250047-e39fc82b-0fc0-4309-a3d9-2e400c4c2e5a.png)
 
