@@ -11,7 +11,13 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
 
 ![image](https://user-images.githubusercontent.com/125631878/232239445-9f0bf45b-1e67-4023-8c3c-68d346824601.png)
 
-- After this we will position top clouds in proper position
+- After this we will position both clouds in proper position
+- We had absolute position for bottom cloud, in order for it to have relative position to something, one of its parents has to have its position sets as relative. And if we dont then it will be relative to the body
+- We are setting our top container as relative 
+- Now lets give our top some padding to give some space 
+  Before:  
+  ![image](https://user-images.githubusercontent.com/125631878/232241848-b5e723df-02b2-4688-b263-464e51eb680e.png)
+
 
 
 
