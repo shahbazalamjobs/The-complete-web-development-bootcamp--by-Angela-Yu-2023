@@ -20,14 +20,9 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
 - Finally this website by using Angela's code:
 ![image](https://user-images.githubusercontent.com/125631878/232245917-7719e750-923a-42fe-9f67-51ffee8a35f5.png)
 
-**********
-
-## My CSS website look
-
-![image](https://user-images.githubusercontent.com/125631878/232237376-dd66e6f4-90f7-4c02-a249-9d0b694d6b85.png)
-
 
 ## My Personal HTML code
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -66,7 +61,71 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
 </html>
 ```
 
+CSS
+```
+body {
+    margin: 0px;
+    text-align: center;
+
+}
+
+h1 {
+    width: 10%;
+    margin: 0 auto;
+
+}
+
+p {
+    position: relative;
+
+}
+
+.top-container {
+    background-color: #DAF5FF;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.middle-container {
+
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.bottom-container {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 470px;
+    bottom: 300px;
+}
+```
+
+**********
+
+## My CSS website look
+
+![image](https://user-images.githubusercontent.com/125631878/232237376-dd66e6f4-90f7-4c02-a249-9d0b694d6b85.png)
+
+
 ## My Personal CSS code
+[Note]: My html code is same as above
 ```
 body {
     margin: 0px;
