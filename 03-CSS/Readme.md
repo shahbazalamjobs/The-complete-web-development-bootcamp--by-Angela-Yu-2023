@@ -823,6 +823,14 @@ This CSS property is used to provide a comma-separated list of font families. It
  
 `Default Serif is Times and Sans-serif is Arial`
    
+## Syntax: 
+```
+selector {
+  font-family: value;
+}
+```
+- Here, selector refers to the element(s) you want to style, and value is a comma-separated list of font family names and/or generic family names.
+   
 ```
 p {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
