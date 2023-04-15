@@ -15,11 +15,7 @@ Bottom cloud and mountain are next to each other and also mountain is not in cen
 - We had absolute position for bottom cloud, in order for it to have relative position to something, one of its parents has to have its position sets as relative. And if we dont then it will be relative to the body
 - We are setting our top container as relative 
 - Now lets give our top some padding to give some space 
-  Before:  
-  ![image](https://user-images.githubusercontent.com/125631878/232241848-b5e723df-02b2-4688-b263-464e51eb680e.png)
 ![image](https://user-images.githubusercontent.com/125631878/232242453-e43e79e3-cbbb-481f-a363-8a700b6bf81f.png)
-
-
 
 
 ## My CSS website look
