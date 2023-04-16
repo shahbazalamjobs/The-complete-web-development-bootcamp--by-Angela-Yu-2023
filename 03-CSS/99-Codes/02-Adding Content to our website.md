@@ -210,6 +210,63 @@ o/p:
 
 `Text font size for : 1em = 100% = medium = 16px`
 
+**********
+
 ![image](https://user-images.githubusercontent.com/125631878/232326844-088522d9-820c-4546-8f72-23241a8cafe1.png)
 
+## HTML code
+```
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="box1">Using px units </div>
+  <div id="box2">Using % units</div>
+  <div id="box3">Using em units</div>
+  <div id="box4">Using rem units</div>
+</body>
+</html>
 
+```
+
+## CSS code
+```
+  /* using px units */
+  #box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  /* using % units */
+  #box2 {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    font-size: 100%;
+  }
+
+  /* using em units */
+  #box3 {
+    width: 5em;
+    height: 5em;
+    background-color: green;
+    font-size: 1.5em;
+    padding: 1em;
+  }
+
+  /* using rem units */
+  #box4 {
+    width: 5rem;
+    height: 5rem;
+    background-color: yellow;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+```
+
+**********
