@@ -2,7 +2,9 @@
 ## Adding Content to our website
 - Our new website looks 
 ![image](https://user-images.githubusercontent.com/125631878/232312164-80a9ec0b-65b6-40c7-87c3-4322d4ee9062.png)
-![image](https://user-images.githubusercontent.com/125631878/232312205-ce04a390-8c36-41c2-a52e-090b2e50c521.png)
+![image](https://user-images.githubusercontent.com/125631878/232312376-d931b98a-5f3b-4578-8313-72ebec6f75ca.png)
+![image](https://user-images.githubusercontent.com/125631878/232312400-09a38ec1-9fdf-47dc-b1d2-e2abc1203352.png)
+
 
 ### HTML code
 ```
