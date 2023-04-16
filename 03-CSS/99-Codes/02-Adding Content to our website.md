@@ -288,7 +288,9 @@ o/p:
 - That way the text size will follow the size of the browser window:
 
 ![image](https://user-images.githubusercontent.com/125631878/232328631-f73479f1-fe31-4797-a5bf-282e1770b188.png)
-
+```
+Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+```
 
 **********
 
