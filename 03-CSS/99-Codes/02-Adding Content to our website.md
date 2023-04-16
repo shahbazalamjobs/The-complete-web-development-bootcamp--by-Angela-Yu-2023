@@ -147,3 +147,61 @@ img.skills {
     bottom: 300px;
 }
 ```
+
+**********
+
+- In browser some users heave font size preference as (very small, small, medium,large, very large) whereas default size is medium.
+- But even if user has font size other that default medium, the size of font in our website will not change because we used px `font-size: 90px;` which is not dynamic. size in terms of % is dynamic like (120%)
+- [Note]: 100% is equal to 16px
+
+
+```
+<html>
+
+<head>
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 2em;
+            /* will be 32px (2 x 16px) */
+        }
+
+        p {
+            font-size: 1.2rem;
+            /* will be 19.2px (1.2 x 16px) */
+        }
+
+        @media screen and (max-width: 768px) {
+
+            /* reduce font size on smaller screens */
+            body {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Dynamic Font Size Example</h1>
+    <p>This is an example of how you can use dynamic font size in CSS to adjust the font size based on the user's device or browser window size.</p>
+</body>
+
+</html>
+```
+o/p:
+![image](https://user-images.githubusercontent.com/125631878/232320051-9f4464c5-b081-42ab-a524-72c3fd131d65.png)
+
+
+- In this example, we're setting the base font size for the body element to 16px, and using em and rem units to set font sizes for the h1 and p elements respectively. This will allow the font size to scale proportionally with the base font size. We've also added a media query to reduce the font size on smaller screens using px units.
+
+
+
+
+
+
+
+
+
