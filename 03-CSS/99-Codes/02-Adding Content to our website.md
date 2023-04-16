@@ -227,7 +227,6 @@ o/p:
   <div id="box4">Using rem units</div>
 </body>
 </html>
-
 ```
 
 ## CSS code
@@ -266,7 +265,6 @@ o/p:
     font-size: 1.5rem;
     padding: 1rem;
   }
-
 ```
 
 **********
@@ -279,6 +277,9 @@ To allow users to resize the text (in the browser menu), many developers use em 
 The size can be calculated from pixels to em using this formula: pixels/16=em
 
 ![image](https://user-images.githubusercontent.com/125631878/232327950-37f2e6ef-e3ba-4934-ac35-b2672c92ae6d.png)
+
+![image](https://user-images.githubusercontent.com/125631878/232328006-11dd31a9-c494-404a-b2a3-12c74d23ee45.png)
+
 
 
 **********
