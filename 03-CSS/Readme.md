@@ -865,10 +865,10 @@ p {
 ## Font Family Property
 ![image](https://user-images.githubusercontent.com/125631878/232250047-e39fc82b-0fc0-4309-a3d9-2e400c4c2e5a.png)
 
-## Instead of using embedding code 
+## How to use font family 
 
-- Adding a font normally means installing the font on your computer or device and then using it in your software or application. This method works well if the font is a standard font that is available on most devices and operating systems, and if you only need to use the font for local display purposes. 
-- Using font embedding, involves embedding the font file itself into your software or website, allowing you to use the font without relying on it being installed on the user's device. This is particularly useful if you are using a custom font that is not widely available, or if you want to ensure consistent display across different devices. But can increase loading times and file sizes.
+- Normal Font: Adding a font normally means installing the font on your computer or device and then using it in your software or application. This method works well if the font is a standard font that is available on most devices and operating systems, and if you only need to use the font for local display purposes. 
+- Embedding Font: Using font embedding, involves embedding the font file itself into your software or website, allowing you to use the font without relying on it being installed on the user's device. This is particularly useful if you are using a custom font that is not widely available, or if you want to ensure consistent display across different devices. But can increase loading times and file sizes.
 - Embedding can be done using various methods such as Google Fonts or Adobe Fonts
 
-
+![image](https://user-images.githubusercontent.com/125631878/232288275-c79d2065-da3a-4b0c-a1ef-327fd4f7f806.png)
