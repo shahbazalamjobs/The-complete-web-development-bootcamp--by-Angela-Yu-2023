@@ -210,10 +210,6 @@ o/p:
 
 `Text font size for : 1em = 100% = medium = 16px`
 
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/125631878/232326844-088522d9-820c-4546-8f72-23241a8cafe1.png)
 
 
