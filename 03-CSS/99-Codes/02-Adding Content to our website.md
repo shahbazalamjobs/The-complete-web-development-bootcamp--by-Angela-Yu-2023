@@ -154,6 +154,9 @@ img.skills {
 - But even if user has font size other that default medium, the size of font in our website will not change because we used px `font-size: 90px;` which is not dynamic. size in terms of % is dynamic like (120%)
 - [Note]: 100% is equal to 16px
 
+- Dynamic font size in CSS allows you to adjust the font size of your text based on the size of the user's device or browser window. 
+- This means that your text will scale up or down proportionally depending on the available space, ensuring that your content remains readable and accessible on any device. 
+- You can use CSS units like "em", "rem", or "vw" to set font size relative to the viewport width, making it easier to achieve a consistent and responsive design.
 
 ```
 <html>
@@ -196,7 +199,7 @@ o/p:
 
 
 - In this example, we're setting the base font size for the body element to 16px, and using em and rem units to set font sizes for the h1 and p elements respectively. This will allow the font size to scale proportionally with the base font size. We've also added a media query to reduce the font size on smaller screens using px units.
-- 
+
 
 
 
