@@ -277,6 +277,10 @@ To allow users to resize the text (in the browser menu), many developers use em 
 The size can be calculated from pixels to em using this formula: pixels/16=em
 
 ![image](https://user-images.githubusercontent.com/125631878/232327950-37f2e6ef-e3ba-4934-ac35-b2672c92ae6d.png)
+![image](https://user-images.githubusercontent.com/125631878/232328201-ba245751-d77b-4ae2-9c41-6e367777eabc.png)
+
+![image](https://user-images.githubusercontent.com/125631878/232328252-2ffe960c-5b87-476e-a0c3-3f926349e9bb.png)
+
 
 
 
