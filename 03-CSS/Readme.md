@@ -867,8 +867,17 @@ p {
 
 ## How to use font family 
 
-- Normal Font: Adding a font normally means installing the font on your computer or device and then using it in your software or application. This method works well if the font is a standard font that is available on most devices and operating systems, and if you only need to use the font for local display purposes. 
-- Embedding Font: Using font embedding, involves embedding the font file itself into your software or website, allowing you to use the font without relying on it being installed on the user's device. This is particularly useful if you are using a custom font that is not widely available, or if you want to ensure consistent display across different devices. But can increase loading times and file sizes.
+- **Normal Font:** Adding a font normally means installing the font on your computer or device and then using it in your software or application. This method works well if the font is a standard font that is available on most devices and operating systems, and if you only need to use the font for local display purposes. 
+- **Embedding Font:** Using font embedding, involves embedding the font file itself into your software or website, allowing you to use the font without relying on it being installed on the user's device. This is particularly useful if you are using a custom font that is not widely available, or if you want to ensure consistent display across different devices. But can increase loading times and file sizes.
 - Embedding can be done using various methods such as Google Fonts or Adobe Fonts
 
+Use Google embedding Font:
 ![image](https://user-images.githubusercontent.com/125631878/232288275-c79d2065-da3a-4b0c-a1ef-327fd4f7f806.png)
+1. Select all the fonts of desired size you want
+2. Copy the api link and paste it inside link of head
+3. Then copy the css rules to specify families and paste it in css h1, h2, p with the desired font families  
+   
+   
+   
+   
+   
