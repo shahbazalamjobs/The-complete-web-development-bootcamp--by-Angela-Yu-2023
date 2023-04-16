@@ -270,18 +270,24 @@ o/p:
 **********
 
 ## Set Font Size With Em
-To allow users to resize the text (in the browser menu), many developers use em instead of pixels.
+- To allow users to resize the text (in the browser menu), many developers use em instead of pixels.
 
-1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
+- 1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
 
-The size can be calculated from pixels to em using this formula: pixels/16=em
+- The size can be calculated from pixels to em using this formula: pixels/16=em
 
 ![image](https://user-images.githubusercontent.com/125631878/232327950-37f2e6ef-e3ba-4934-ac35-b2672c92ae6d.png)
-![image](https://user-images.githubusercontent.com/125631878/232328201-ba245751-d77b-4ae2-9c41-6e367777eabc.png)
+
+## Use a Combination of Percent and Em
 
 ![image](https://user-images.githubusercontent.com/125631878/232328252-2ffe960c-5b87-476e-a0c3-3f926349e9bb.png)
 
+## Responsive Font Size
+- The text size can be set with a vw unit, which means the "viewport width".
 
+- That way the text size will follow the size of the browser window:
+
+![image](https://user-images.githubusercontent.com/125631878/232328558-54c7827b-2c48-4bb4-a80d-8261d833bc94.png)
 
 
 **********
