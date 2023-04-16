@@ -287,7 +287,7 @@ o/p:
 
 - That way the text size will follow the size of the browser window:
 
-![image](https://user-images.githubusercontent.com/125631878/232328558-54c7827b-2c48-4bb4-a80d-8261d833bc94.png)
+![image](https://user-images.githubusercontent.com/125631878/232328631-f73479f1-fe31-4797-a5bf-282e1770b188.png)
 
 
 **********
