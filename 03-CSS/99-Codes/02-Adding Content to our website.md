@@ -1,7 +1,8 @@
 
 ## Adding Content to our website
 - Our new website looks 
-
+![image](https://user-images.githubusercontent.com/125631878/232312164-80a9ec0b-65b6-40c7-87c3-4322d4ee9062.png)
+![image](https://user-images.githubusercontent.com/125631878/232312205-ce04a390-8c36-41c2-a52e-090b2e50c521.png)
 
 ### HTML code
 ```
