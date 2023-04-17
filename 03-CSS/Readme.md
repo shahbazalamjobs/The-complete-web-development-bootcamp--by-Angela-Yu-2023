@@ -946,3 +946,38 @@ But let’s use it in our markup like this:
 ```
 output: 
 ![image](https://user-images.githubusercontent.com/125631878/232495666-716f5b20-5e5e-42ed-a466-a8d6d94eba91.png)
+
+**********
+
+## rem unit   
+- The rem unit, short for root em is a relative unit that’ll always be based upon the font-size value of the root element, which is the `<html>` element. And if the `<html>` element doesn’t have a specified font-size, the browser default of 16px is used.
+- So that means that, by using the rem unit, the values of parent elements are ignored, and only the value of the root is taken into consideration.
+
+With a similar example, but in rem:   
+```
+.html {
+  font-size: 16px;
+}
+.parent {
+  font-size: 15px;
+}
+.child-rem {
+  font-size: 2rem;
+}
+```
+```
+<div class="parent">
+  I'm 15px
+  <div class="child-rem">
+  I'm 32px, as expected
+    <div class="child-rem">
+    I'm 32px, yep!
+      <div class="child-rem">
+      I'm 32px, like clockwork!
+      </div>
+    </div>
+  </div>
+</div>
+```
+![image](https://user-images.githubusercontent.com/125631878/232518332-09922c4d-98d4-4eba-b739-e8651b5f12df.png)
+   
