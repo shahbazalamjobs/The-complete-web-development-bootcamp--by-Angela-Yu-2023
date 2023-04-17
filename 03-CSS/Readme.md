@@ -909,6 +909,6 @@ Let’s take this simple example:
      padding: 2em 1em;
    }
 ```   
-   
-   
-   
+- The padding top and bottom on .child will be 54px. That’s 2 times the font-size of our current element’s font size (2 * 27px)
+- The padding left and right on .child will be of 27px. That’s 1 time the font-size of our element. 
+  
