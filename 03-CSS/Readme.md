@@ -915,3 +915,32 @@ Let’s take this simple example:
 ` [Note]:`  
 `- When em units are used on font-size, the size is relative to the font-size of the parent.` <br>
 `- When used on other properties, it’s relative to the font-size of the element itself.`
+---
+<h3> Compounding Effect: <h3>
+The unit can compound from one level to the other.
+- Let’s keep a similar basic example:   
+```
+   .parent {
+     font-size: 15px;
+   }
+   .child {
+     font-size: 2em;
+   }
+```
+But let’s use it in our markup like this:
+```
+<div class="parent">
+  I'm 15px
+  <div class="child">
+  I'm 30px, as expected
+    <div class="child">
+    I'm 60px, trouble starts!
+      <div class="child">
+      I'm 120px, now we're really in trouble!
+      </div>
+    </div>
+  </div>
+</div>
+```
+output: 
+![image](https://user-images.githubusercontent.com/125631878/232495666-716f5b20-5e5e-42ed-a466-a8d6d94eba91.png)
