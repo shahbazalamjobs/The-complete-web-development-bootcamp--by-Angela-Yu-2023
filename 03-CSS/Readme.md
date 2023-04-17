@@ -913,7 +913,7 @@ Let’s take this simple example:
 - The padding left and right on .child will be of 27px. That’s 1 time the font-size of our element. 
   
 ` [Note]:`  
-`- When em units are used on font-size, the size is relative to the font-size of the parent.` <br>
+`- When em units are used on font-size, the size is relative to the font-size of the parent.` 
 `- When used on other properties, it’s relative to the font-size of the element itself.`
 ---
 **Compounding Effect:**
