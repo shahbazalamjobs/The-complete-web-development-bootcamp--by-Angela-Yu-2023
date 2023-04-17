@@ -915,7 +915,7 @@ Let’s take this simple example:
 `[Note]:`
 `- When em units are used on font-size, the size is relative to the font-size of the parent.`
 `- When used on other properties, it’s relative to the font-size of the element itself.`
----
+
 **Compounding Effect:**
 The unit can compound from one level to the other.
 - Let’s keep a similar basic example:   
