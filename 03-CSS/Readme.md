@@ -981,3 +981,4 @@ With a similar example, but in rem:
 ```
 ![image](https://user-images.githubusercontent.com/125631878/232518332-09922c4d-98d4-4eba-b739-e8651b5f12df.png)
    
+` [Note]: Some people like to design everything in rem units for consistency and predictability, while others like to also use em units in places where the influence of nearby parent elements would make sense.`
