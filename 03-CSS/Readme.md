@@ -880,11 +880,7 @@ p {
 **********
 
 ## rem vs em units in CSS
-- CSS offers many unit choices for developers.
-- In responsive design, relative units like em or rem provide adaptability and flexibility.
-- Em and rem units allow sizes to be based on font sizes defined higher up in the markup.
-- Em units are borrowed from typography and allow setting the font size of an element relative to its parent.
-- If a value for font size is not specified for a parent element, a value will be looked for higher up in the DOM tree.
-- Em units can be used for more than just setting font size and can be used on other properties like padding, margin, width, and height.
-- When em units are used on properties other than font size, the value is relative to the element's own font size.
+- em units for the font-size property will be relative to the font-size of the parent element. 
+- em units on other properties than font-size will be relative to the font-size of the current element.
+- rem units sizes will always be relative to the font-size of the root html element
    
