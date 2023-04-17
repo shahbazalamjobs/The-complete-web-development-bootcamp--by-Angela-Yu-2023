@@ -884,3 +884,31 @@ p {
 - em units on other properties than font-size will be relative to the font-size of the current element.
 - rem units sizes will always be relative to the font-size of the root html element
    
+Let’s take this simple example:
+```
+   .parent {
+     font-size: 18px;
+   }
+   .child {
+     font-size: 1.5em;
+   }
+```
+- With that example, the child would have a font-size of 27px (1.5 * 18px = 27px).
+- If the parent element doesn’t specify a value for font-size, a value will be looked for higher up in the DOM tree.
+- If no font-size is specified all the way up to the root element `(<html>)`, then the browser default of 16px is used.
+---
+- em units are also used in padding, width, height, max-width.
+- When em units are used on other properties than font-size, the value is relative to the element's own font-size
+
+```
+   .parent {
+     font-size: 18px;
+   }
+   .child {
+     font-size: 1.5em;
+     padding: 2em 1em;
+   }
+```   
+   
+   
+   
