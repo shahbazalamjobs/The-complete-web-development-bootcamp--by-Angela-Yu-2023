@@ -916,7 +916,7 @@ Let’s take this simple example:
 `- When em units are used on font-size, the size is relative to the font-size of the parent.` <br>
 `- When used on other properties, it’s relative to the font-size of the element itself.`
 ---
-<h3> Compounding Effect: <h3>
+**Compounding Effect:**
 The unit can compound from one level to the other.
 - Let’s keep a similar basic example:   
 ```
