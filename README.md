@@ -8,5 +8,5 @@ Original old course free: https://appbrewery.com/p/legacy-complete-web-developme
 
 
 |---|
-| My First HTML site: https://shahbazalamjobs.github.io/FirstWebsite/ |
-| My Second HTML site: https://shahbazalamjobs.github.io/second-site/ |
+| My First HTML site:| https://shahbazalamjobs.github.io/FirstWebsite/ |
+| My Second HTML site:| https://shahbazalamjobs.github.io/second-site/ |
