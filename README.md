@@ -11,4 +11,4 @@ Original old course free: https://appbrewery.com/p/legacy-complete-web-developme
 | Website Name           | URL                                               |
 |------------------------|---------------------------------------------------|
 | My First HTML site      | https://shahbazalamjobs.github.io/FirstWebsite/    |
-| My Second CSS site     | https://shahbazalamjobs.github.io/second-site/     |
+| My Second CSS site     | https://shahbazalamjobs.github.io/Second-site/     |
