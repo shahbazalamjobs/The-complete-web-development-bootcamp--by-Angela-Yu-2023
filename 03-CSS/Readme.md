@@ -1033,4 +1033,8 @@ The clear property can have one of the following values:
 This example clears the float to the left. Here, it means that the <div2> element is pushed below the left floated <div1> element: 
    
 **********
+
+![image](https://user-images.githubusercontent.com/125631878/233987107-eb154705-04ae-447d-bf1d-5bf13765ecda.png)
    
+![image](https://user-images.githubusercontent.com/125631878/233988162-50d88f3f-5f8c-4b46-92a7-826d6908c12f.png)
+
