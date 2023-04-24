@@ -1038,3 +1038,25 @@ This example clears the float to the left. Here, it means that the <div2> elemen
    
 ![image](https://user-images.githubusercontent.com/125631878/233988162-50d88f3f-5f8c-4b46-92a7-826d6908c12f.png)
 
+*****
+
+## The z-index Property
+- When elements are positioned, they can overlap other elements.
+- The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+- An element can have a positive or negative stack order:
+- Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display: flex elements).
+   
+## Overflow
+   
+- The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+The overflow property has the following values:
+   
+| Property Value | Description |
+|---|---|
+| `visible` | Default. The overflow is not clipped. The content renders outside the element's box |
+| `hidden` | The overflow is clipped, and the rest of the content will be invisible |
+| `scroll` | The overflow is clipped, and a scrollbar is added to see the rest of the content |
+| `auto` | Similar to scroll, but it adds scrollbars only when necessary |
+   
+![image](https://user-images.githubusercontent.com/125631878/233992099-9c347e05-f0cb-445f-8921-a0cad30f65ee.png)
