@@ -995,7 +995,6 @@ With a similar example, but in rem:
 
 ## The float Property
 - The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
-
 | Property Value | Description |
 |---|---|
 | `left`| The element floats to the left of its container |
@@ -1004,3 +1003,8 @@ With a similar example, but in rem:
 | `inherit`| The element inherits the float value of its parent |
 
 - In its simplest use, the float property can be used to wrap text around images.
+![image](https://user-images.githubusercontent.com/125631878/233981810-cc68fb5e-fac1-4820-b4a4-23adc18c5056.png)
+![image](https://user-images.githubusercontent.com/125631878/233981982-b57a64e2-f11c-49e0-90c8-aa83d5de9374.png)
+![image](https://user-images.githubusercontent.com/125631878/233982713-2b35659f-9876-4cca-a214-e09eaef55418.png)
+   
+
