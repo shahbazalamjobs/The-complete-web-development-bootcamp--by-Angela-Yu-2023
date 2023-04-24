@@ -1026,5 +1026,11 @@ The clear property can have one of the following values:
 | `inherit` |  The element inherits the clear value from its parent |   
 
 - When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.
-
+   
+**********
+   
 ![image](https://user-images.githubusercontent.com/125631878/233986305-8e1a63ca-51a0-49e1-95fb-248c3f29573b.png)
+This example clears the float to the left. Here, it means that the <div2> element is pushed below the left floated <div1> element: 
+   
+**********
+   
