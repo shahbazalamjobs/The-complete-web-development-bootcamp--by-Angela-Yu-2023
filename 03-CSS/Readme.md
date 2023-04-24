@@ -1076,7 +1076,7 @@ The overflow property has the following values:
 **********
 
 # Responsive website design
-- Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones):
+- Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones): <br>
 More Details: https://www.w3schools.com/html/html_responsive.asp
 
 
