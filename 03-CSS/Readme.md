@@ -1060,3 +1060,15 @@ The overflow property has the following values:
 | `auto` | Similar to scroll, but it adds scrollbars only when necessary |
    
 ![image](https://user-images.githubusercontent.com/125631878/233992099-9c347e05-f0cb-445f-8921-a0cad30f65ee.png)
+
+![image](https://user-images.githubusercontent.com/125631878/233993055-c8f60a23-27be-4a37-aa09-f697b3e27195.png)
+
+![image](https://user-images.githubusercontent.com/125631878/233993162-fb5f29e9-17d5-4c73-9c63-aa2c969395c2.png)
+
+![image](https://user-images.githubusercontent.com/125631878/233993267-3b10a148-e575-4865-a490-7ff6d0166bd2.png)
+
+![image](https://user-images.githubusercontent.com/125631878/233993342-1e62a986-1eb3-48ba-957c-2d068292e812.png)
+
+![image](https://user-images.githubusercontent.com/125631878/233993431-1ad00a11-5790-43b1-87cf-1a28eb6dffeb.png)
+
+![image](https://user-images.githubusercontent.com/125631878/233993502-3e555b5c-7a54-4404-b008-3cf07525d119.png)
