@@ -1072,3 +1072,14 @@ The overflow property has the following values:
 ![image](https://user-images.githubusercontent.com/125631878/233993431-1ad00a11-5790-43b1-87cf-1a28eb6dffeb.png)
 
 ![image](https://user-images.githubusercontent.com/125631878/233993674-c03827a6-6fc4-4940-92db-8ef6736a0166.png)
+
+**********
+
+# Responsive website design
+- Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones):
+More Details: https://www.w3schools.com/html/html_responsive.asp
+
+
+**********
+
+**********
