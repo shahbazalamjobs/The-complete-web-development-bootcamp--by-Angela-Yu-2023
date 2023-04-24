@@ -988,7 +988,7 @@ With a similar example, but in rem:
 
 **********
 
-## CSS Layout - float and clear
+## CSS Layout - float, clear and clearfix
 
 - The CSS float property specifies how an element should float.
 - The CSS clear property specifies what elements can float beside the cleared element and on which side.
@@ -1006,5 +1006,22 @@ With a similar example, but in rem:
 ![image](https://user-images.githubusercontent.com/125631878/233981810-cc68fb5e-fac1-4820-b4a4-23adc18c5056.png)
 ![image](https://user-images.githubusercontent.com/125631878/233981982-b57a64e2-f11c-49e0-90c8-aa83d5de9374.png)
 ![image](https://user-images.githubusercontent.com/125631878/233982713-2b35659f-9876-4cca-a214-e09eaef55418.png)
+![image](https://user-images.githubusercontent.com/125631878/233982892-c06a2c94-daf7-4f6a-8872-99e4bd83068e.png)
+![image](https://user-images.githubusercontent.com/125631878/233983003-65b5f6b3-1b0d-469c-9dd5-f961f66d6d36.png)
+![image](https://user-images.githubusercontent.com/125631878/233983288-6fd063fe-7272-4fa8-9e3b-e6a518cf6554.png)
    
+   
+## Clear 
+- When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property.
+- The clear property specifies what should happen with the element that is next to a floating element.
 
+The clear property can have one of the following values:
+| Property Value | Description |
+|---|---|
+| `none` |  The element is not pushed below left or right floated elements. This is default |
+| `left` |  The element is pushed below left floated elements `left - The element is pushed below left floated elements |
+| `right` | The element is pushed below right floated elements |
+| `both` | The element is pushed below both left and right floated elements | 
+| `inherit` |  The element inherits the clear value from its parent |   
+
+- When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.
