@@ -995,6 +995,7 @@ With a similar example, but in rem:
 
 ## The float Property
 - The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+   
 | Property Value | Description |
 |---|---|
 | `left`| The element floats to the left of its container |
