@@ -1199,46 +1199,6 @@ More detail: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
 
 **********
 
-1. Background Image to cover full screen 
-
-i. <br>
-```
-  html,body {
-    height: 100%;
-    margin: 0;
-  }
-
-  img.background {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-```
-
-- The object-fit property is used to control how an image fits inside its container. 
-- When we set it to cover, the image is scaled to fit the container as large as possible without being stretched or cropped. 
-- This means that the image fills the available space completely, while maintaining its aspect ratio, which ensures that the image does not look distorted or stretched out.
-
-
-ii. <br>
-```
-  .container {
-      background-image: url("Image.png");
-      height: 100vh;
-      background-repeat: no-repeat;
-      width: 100%;
-      background-size: cover;
-      background-position: center;
-  }
-```
-
-![image](https://user-images.githubusercontent.com/125631878/233698273-4e22c42e-3ce0-4552-b2a1-fe3da371aea5.png)
-
-**********
-
-
-**********
-
 # Responsive website design
 - Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones): <br>
 More Details: https://www.w3schools.com/html/html_responsive.asp
