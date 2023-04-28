@@ -2,7 +2,7 @@
 
 - Flexbox: Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to fill additional space or shrink to fit into smaller spaces. This article explains all the fundamentals.
 
-More Details: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+- More Details: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 
 ## Flexbox block diagram
 
