@@ -2,18 +2,7 @@
 
 # Flexbox Cheat Sheet
 
-![image](https://user-images.githubusercontent.com/125631878/235134392-492dbf82-63d4-4827-8c5b-8ef5518c5763.png)
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/125631878/235134980-deefb646-becb-438b-b23e-4e17bd491fc8.png)
 
 
 
