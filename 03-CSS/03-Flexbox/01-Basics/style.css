@@ -1,0 +1,71 @@
+.container {
+    border: solid 5px blue;
+    display: flex;
+    /* height: 50vh; */
+
+    /*  
+    Change direction rowwise, columnwise and their reverse
+    flex-direction: row / column / row-reverse / column-reverse 
+    */
+
+    /*  
+    Change direction of content
+    justify-content: center / flex-start / flex-end ; 
+    */
+
+    /*
+    align-items: center / flex-start /flex-end;   
+    */
+
+    /*  
+    brings content box down when width of device decreases (for mobile and tablet)
+    flex-wrap: wrap-reverse; 
+    */
+
+    /*  
+    shortcut for flex direction and flex-wrap
+    flex-flow: row wrap;
+    */
+
+    /* [Note:] Property of containers are above  */
+
+}
+
+.item {
+    /* padding: 12px; */
+    background-color: aquamarine;
+    border: solid 2px black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/* 
+    order is used for arranging in order with highest order digit in last of order  
+    */
+
+.item1 {
+    align-self: center;
+    /*     
+    increases size in respect to default flex-grow i.e. 1
+    flex-grow: 2; 
+    */
+
+    /* 
+    decreases the size of given flex box (width) in respect to default flex-shrink i.e. 1
+    */
+    /* flex-shrink: 2; */
+
+}
+
+.item2 {
+
+    /*
+    flex-grow: 3; 
+    */
+
+    /*
+    [Note:] Property of items are above
+    */
+
+}
