@@ -21,8 +21,6 @@
 Combinators: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators
 
 Univeral selectors: https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
-
-**********
  
 Flex-Direction: https://appbrewery.github.io/flexboxfroggy/
 
