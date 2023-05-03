@@ -1,12 +1,7 @@
-## Flexbox sizing
-**FLexbox shrinking and growing**
-
----
-
-In Flexbox, the container is responsible for distributing available space among its child items. If the total size of the child items exceeds the size of the container, the items will shrink to fit within the available space.
-In Flexbox, child items within a container can be sized using flexible sizing, which allows them to grow and shrink to fit within the available space.
-
-The flexible sizing behavior of child items is controlled by the flex-grow and flex-shrink properties.
+## Flexbox sizing (FLexbox shrinking and growing)
+- In Flexbox, the container is responsible for distributing available space among its child items. If the total size of the child items exceeds the size of the container, the items will shrink to fit within the available space.
+- In Flexbox, child items within a container can be sized using flexible sizing, which allows them to grow and shrink to fit within the available space.
+- The flexible sizing behavior of child items is controlled by the flex-grow and flex-shrink properties.
 ---
 
 - Lets us have a webpage with 4 paragraph, all of them will be covering full width of viewport as they are block elements
