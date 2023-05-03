@@ -13,10 +13,15 @@
 - Flexbox first look if there is max / min width set, then flex-basis, then width, then content width
 - When we shrink the size of window then items shrinks automatically to minimum content width (here max size word in sentence)  
 ![image](https://user-images.githubusercontent.com/125631878/235954729-2c90f394-d591-4a02-be19-d0ea4e1188a5.png)
-- Max-width: It looks at longest possible line of text 
-- Min-width : It looks at longest word
+- Max-width: It looks at longest possible line of text Or determines Maxmimum length items can grow to
+- Min-width : It looks at longest word Or determines minimum size items can shrink to
 - While shrinking the window, items shrinks to min width
 - If item has both width and flex-basis set, then width will be ignored and only look at more important property i.e. flex-basis
 ![image](https://user-images.githubusercontent.com/125631878/235957979-99725640-c097-4215-8cf7-876149fe77ad.png)
 
+---
+
+- If flex item has max-width < flex-basis, then item will set to max-width
+- If flex item has flex-basis < max-width, then item will set first set to flex-basis if item content is `<=` flex-basis  but if item content is `> flex-basis <= or > max-width` then item will set to max-width (as max-width is maximum length item content can go)
+- 
 
