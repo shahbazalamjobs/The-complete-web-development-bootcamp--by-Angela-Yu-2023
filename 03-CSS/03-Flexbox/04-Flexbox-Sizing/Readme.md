@@ -25,3 +25,8 @@
 - If flex item has flex-basis `<` max-width, then item will set first set to flex-basis if item content is `<=` flex-basis  but if item content is `> flex-basis <= or`  content is ` > max-width` then item will set to max-width (as max-width is maximum length item content can go)
 - If min-width `>` flex-basis, then item set to min-width
 
+---
+
+Flexbox sizing exercise: https://appbrewery.github.io/flexbox-sizing-exercise/
+
+---
