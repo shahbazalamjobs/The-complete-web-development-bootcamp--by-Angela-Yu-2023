@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Sizing</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px 350px;
+            grid-template-rows: 100px 100px;
+            text-align: center;
+        }
+
+        .container2 {
+            display: grid;
+            grid-template-columns: 200px auto;
+            grid-template-rows: 80px 120px auto;
+        }
+
+        .container3 {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr 2fr;
+        }
+
+        .container4 {
+            display: grid;
+            grid-template-columns: 200px minmax(200px, 600px);
+            grid-template-rows: 50px minmax(50px, 150px);
+        }
+
+        .container5 {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: 100px 100px;
+        }
+
+        .item {
+            border: solid green 2px;
+            background-color: greenyellow;
+            padding: 5px;
+        }
+
+        hr {
+            margin-top: 20px;
+            border: solid lightgrey 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Grid Sizing</h1>
+    <h3>Fixed grid sizing</h3>
+
+    <hr>
+
+    <p> grid-template-columns: 150px 350px; <br>
+        grid-template-rows: 100px 100px;
+    </p>
+
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+    <hr>
+
+    <h3>Auto size grid</h3>
+    <p> grid-template-columns: 200px auto; <br>
+        grid-template-rows: 80px 120px auto;
+    </p>
+
+    <div class="container2">
+        <div class="item"></div>
+        <div class="item">Auto column takes 100% width of window</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"> Auto row takes size of content</div>
+    </div>
+
+    <hr>
+
+    <h3>Fractional size grid</h3>
+    <p> grid-template-columns: 1fr 2fr; <br>
+        grid-template-rows: 1fr 2fr;
+    </p>
+
+    <div class="container3">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+    <hr>
+
+    <h3>Min Max size</h3>
+    <p>
+        grid-template-columns: 200px minmax(200px, 600px); <br>
+        grid-template-rows: 50px minmax(50px, 150px);
+    </p>
+
+    <div class="container4">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+    <hr>
+
+    <h3>Repeat</h3>
+    <p>
+        display: grid; <br>
+        grid-template-columns: repeat(3, 100px); <br>
+        grid-template-rows: 100px 100px;
+    </p>
+
+    <div class="container5">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+</body>
+
+</html>
