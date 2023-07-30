@@ -97,3 +97,93 @@ console.log(typeof value3); // Output: "boolean"
 console.log(typeof value4); // Output: "object"
 
 ```
+### Variable
+
+1. **Variables:**
+   - Variables are used to store and manipulate data in JavaScript.
+   - They act as named containers that hold values.
+   - In JavaScript, you can declare variables using `var`, `let`, or `const` keywords.
+
+2. **Declaring a Variable:**
+   - Use `var`, `let`, or `const` to declare a variable, followed by the variable name.
+   - Variables declared with `var` and `let` can change their values, while `const` variables are read-only (immutable).
+
+   Example:
+   ```javascript
+   var age = 30;
+   let name = "John";
+   const pi = 3.14;
+   ```
+
+3. **Assigning Values:**
+   - You can assign values to variables using the assignment operator (`=`).
+
+   Example:
+   ```javascript
+   let num = 42;
+   let message = "Hello, world!";
+   ```
+
+4. **Changing Values:**
+   - Variables declared with `var` or `let` can have their values changed or updated.
+
+   Example:
+   ```javascript
+   let count = 10;
+   count = count + 1; // Now count is 11
+   ```
+
+5. **Constant Variables (`const`):**
+   - Variables declared with `const` cannot be reassigned after their initial value.
+
+   Example:
+   ```javascript
+   const appName = "My App";
+   // appName = "New App"; // This will result in an error
+   ```
+
+6. **Variable Scope:**
+   - The scope of a variable determines its accessibility within the code.
+   - Variables declared with `var` have function scope, while those declared with `let` or `const` have block scope.
+
+   Example:
+   ```javascript
+   function exampleFunction() {
+       var x = 10; // x is accessible inside this function
+       let y = 20; // y is accessible only within this block
+       if (true) {
+           var z = 30; // z is accessible within the entire function
+           console.log(y); // Output: 20
+       }
+       console.log(z); // Output: 30
+   }
+   ```
+   
+---   
+### Swap 2 variable values
+To swap the values of two variables in JavaScript, you can use a temporary variable to store one of the values temporarily. Here's a simple code example to swap the values of two variables:
+
+```javascript
+let a = 10;
+let b = 20;
+
+console.log("Before swapping:");
+console.log("a:", a); // Output: 10
+console.log("b:", b); // Output: 20
+
+// Swapping using a temporary variable
+let temp = a;
+a = b;
+b = temp;
+
+console.log("After swapping:");
+console.log("a:", a); // Output: 20
+console.log("b:", b); // Output: 10
+```
+
+- Values of `a` and `b` are initially set to 10 and 20, respectively.
+- We then use the `temp` variable to temporarily store the value of `a`.
+- Next, we assign the value of `b` to `a`, effectively swapping their values.
+- Finally, we assign the value stored in `temp` (the original value of `a`) to `b`, completing the swap.
+
+After the swapping process, the variables `a` and `b` will hold each other's values.
