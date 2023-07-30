@@ -83,3 +83,17 @@ let message = "Hello";
 console.log(typeof num); // Output: "number"
 console.log(typeof message); // Output: "string"
 ```
+---
+`typeof` operator is used to determine the data type of a value or variable
+```js
+let value1 = 42;
+let value2 = "Hello";
+let value3 = true;
+let value4 = { key: "value" };
+
+console.log(typeof value1); // Output: "number"
+console.log(typeof value2); // Output: "string"
+console.log(typeof value3); // Output: "boolean"
+console.log(typeof value4); // Output: "object"
+
+```
