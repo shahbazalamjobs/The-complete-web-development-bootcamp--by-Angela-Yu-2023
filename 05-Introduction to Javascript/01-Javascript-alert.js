@@ -1,2 +1,0 @@
-// Alert use 
-alert("Hello")
