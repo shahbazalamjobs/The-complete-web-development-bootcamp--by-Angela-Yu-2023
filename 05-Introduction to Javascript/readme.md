@@ -504,4 +504,29 @@ console.log(result); // Output: 15
 - In this example, `sayHello()` is called without any parameters, and it logs "Hello, World!" to the console.
 - The `addNumbers(a, b)` function is called with two parameters (`5` and `10`), and it returns the sum of the two numbers, which is then logged to the console.
 
+---
+Challenge: https://stanford.edu/~cpiech/karel/ide.html
+- Move Karel Diagonally and placing the beeper
+```js
+/**
+ * Welcome to the Stanford Karel IDE.
+ * This is a free space for you to 
+ * write any Karel program you want.
+ **/
+function main(){
+   
+   putBeeperThenTurnLeft();
+   putBeeperThenTurnLeft();
+   putBeeperThenTurnLeft();
+   putBeeperThenTurnLeft();
+   putBeeper();
+}
 
+function putBeeperThenTurnLeft(){
+   putBeeper();
+   move();
+   turnLeft();
+   move();
+   turnRight();
+}
+```
