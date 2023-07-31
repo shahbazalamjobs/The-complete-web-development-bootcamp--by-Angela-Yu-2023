@@ -467,4 +467,41 @@ num -= 5; // Equivalent to: num = num - 5;
 
 console.log(num); // Output: 15
 ```
+---
+- In JavaScript, a function is a reusable block of code that can be defined once and executed (called) multiple times.
+- Functions are essential building blocks in JavaScript programming and are used to encapsulate a set of instructions that perform a specific task or calculation.
+- They help in organizing code, promoting code reusability, and improving code maintainability.
+  
+**Creating a Function:**
+
+You can define a function using the `function` keyword, followed by the function name, a pair of parentheses `()`, and a set of curly braces `{}` containing the function's code.
+
+```javascript
+// Function without parameters and return value
+function sayHello() {
+  console.log("Hello, World!");
+}
+
+// Function with parameters and return value
+function addNumbers(a, b) {
+  return a + b;
+}
+```
+
+**Calling a Function:**
+
+Once a function is defined, you can call it by using its name followed by a pair of parentheses `()`. If the function takes parameters, you pass the values inside the parentheses.
+
+```javascript
+// Calling a function without parameters
+sayHello(); // Output: Hello, World!
+
+// Calling a function with parameters
+let result = addNumbers(5, 10);
+console.log(result); // Output: 15
+```
+
+- In this example, `sayHello()` is called without any parameters, and it logs "Hello, World!" to the console.
+- The `addNumbers(a, b)` function is called with two parameters (`5` and `10`), and it returns the sum of the two numbers, which is then logged to the console.
+
 
