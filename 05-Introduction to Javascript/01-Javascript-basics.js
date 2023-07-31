@@ -101,4 +101,9 @@ alert("Hello, " + message)
 
 var dogAge = prompt("Enter dog's age: ");
 var humanAge =  (dogAge - 2) * 4 + 21;
-alert(humanAge);
+alert("Yours age is " + humanAge + " when, dogs age is " + dogAge)
+
+/* ---------------- */
+
+
+
