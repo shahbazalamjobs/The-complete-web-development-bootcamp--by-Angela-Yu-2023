@@ -308,3 +308,19 @@ After the swapping process, the variables `a` and `b` will hold each other's val
    let greeting = `Hello, ${name}!`;
    console.log(greeting); // Output: "Hello, Alice!"
    ```
+
+---
+
+## String Length
+
+- JavaScript provides a `length` property for strings to determine their length.
+- The `length` property returns the number of characters in the string, including spaces and special characters.
+- To get the length of a string, access the `length` property of the string variable.
+
+```js
+let myString = "Hello, World!";
+let lengthOfString = myString.length;
+console.log(lengthOfString); // Output: 13
+```
+
+  
