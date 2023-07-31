@@ -402,9 +402,7 @@ let result = base ** exponent;
 console.log(result); // Output: 8 (2^3)
 ```
 
-```
-
-Sure! Here's a more simplified explanation with basic code examples for the increment and decrement operators in JavaScript:
+---
 
 **Increment (++) Operator:**
 
