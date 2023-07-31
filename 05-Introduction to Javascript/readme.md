@@ -324,6 +324,7 @@ console.log(lengthOfString); // Output: 13
 ```
 ---
 
+## UpperCase and LowerCase
 - We can convert strings to uppercase and lowercase using the `toUpperCase()` and `toLowerCase()` methods, respectively.
 - These methods return new strings with all alphabetic characters in the original string converted to the desired case, while non-alphabetic characters remain unchanged.
 
