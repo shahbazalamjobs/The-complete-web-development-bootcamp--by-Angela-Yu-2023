@@ -69,5 +69,34 @@ alert(message.slice(0,20))
 // Shortcut slicing with user entering message then get slice to 51 characters
 alert(prompt("Compose your tweet").slice(0,50));
 
+/* ---------------- */
+
+var message = "usually much shorter";
+message = message.toUpperCase()
+//Output: USUALLY MUCH SHORTER
+
+/* ---------------- */
+
+var message = "usually much shorter";
+message = message.toLowerCase()
+//Output: usually much shorter
+
+
+/* ---------------- */
+// Enter your Name, then change first character to uppercase and rest characters to lowercasr
+message = prompt("Enter your message: ")
+
+var firstChar = message.slice(0,1)
+var secondChar = message.slice(1)
+
+firstChar = firstChar.toUpperCase()
+secondChar = secondChar.toLowerCase()
+
+message = firstChar + secondChar
+
+alert("Hello, " + message)
+
+
+
 
 
