@@ -322,5 +322,26 @@ let myString = "Hello, World!";
 let lengthOfString = myString.length;
 console.log(lengthOfString); // Output: 13
 ```
+---
 
-  
+- We can convert strings to uppercase and lowercase using the `toUpperCase()` and `toLowerCase()` methods, respectively.
+- These methods return new strings with all alphabetic characters in the original string converted to the desired case, while non-alphabetic characters remain unchanged.
+
+Here's how to use `toUpperCase()` and `toLowerCase()`:
+
+1. To convert a string to uppercase:
+```javascript
+let originalString = "Hello, World!";
+let upperCaseString = originalString.toUpperCase();
+
+console.log(upperCaseString); // Output: HELLO, WORLD!
+```
+
+2. To convert a string to lowercase:
+```javascript
+let originalString = "Hello, World!";
+let lowerCaseString = originalString.toLowerCase();
+
+console.log(lowerCaseString); // Output: hello, world!
+```
+---
