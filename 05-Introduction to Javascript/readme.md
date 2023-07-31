@@ -448,5 +448,26 @@ console.log(result); // Output: 10 (num's current value was used)
 console.log(num);    // Output: 9 (num was decremented by 1)
 ```
 
-
 ---
+
+The code `x += 5` is a shorthand notation for incrementing the value of the variable `x` by 5. 
+It is equivalent to `x = x + 5`. 
+`x -= 5` is a shorthand notation for decrementing the value of `x` by 5, which is equivalent to `x = x - 5`.
+**Increment using `+=`:**
+
+```javascript
+let num = 10;
+num += 5; // Equivalent to: num = num + 5;
+
+console.log(num); // Output: 15
+```
+
+**Decrement using `-=`:**
+
+```javascript
+let num = 20;
+num -= 5; // Equivalent to: num = num - 5;
+
+console.log(num); // Output: 15
+```
+
