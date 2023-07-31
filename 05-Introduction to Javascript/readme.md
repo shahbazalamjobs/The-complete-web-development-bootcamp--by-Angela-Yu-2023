@@ -346,3 +346,58 @@ let lowerCaseString = originalString.toLowerCase();
 console.log(lowerCaseString); // Output: hello, world!
 ```
 ---
+- Basic arithmetic operations like addition, subtraction, multiplication, division, and more using standard arithmetic operators.
+
+1. Addition (+):
+```javascript
+let num1 = 5;
+let num2 = 10;
+let sum = num1 + num2;
+
+console.log(sum); // Output: 15
+```
+
+2. Subtraction (-):
+```javascript
+let num1 = 20;
+let num2 = 8;
+let difference = num1 - num2;
+
+console.log(difference); // Output: 12
+```
+
+3. Multiplication (*):
+```javascript
+let num1 = 4;
+let num2 = 6;
+let product = num1 * num2;
+
+console.log(product); // Output: 24
+```
+
+4. Division (/):
+```javascript
+let num1 = 15;
+let num2 = 3;
+let quotient = num1 / num2;
+
+console.log(quotient); // Output: 5
+```
+
+5. Modulus (%):
+```javascript
+let num1 = 17;
+let num2 = 5;
+let remainder = num1 % num2;
+
+console.log(remainder); // Output: 2
+```
+
+6. Exponentiation (**):
+```javascript
+let base = 2;
+let exponent = 3;
+let result = base ** exponent;
+
+console.log(result); // Output: 8 (2^3)
+```
