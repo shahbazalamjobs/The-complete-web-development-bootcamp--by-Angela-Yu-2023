@@ -152,3 +152,20 @@ function getMilk(money) {
 getMilk(10);
 
 // Price of 1 bottle of milk = 1.5$
+
+/* ---------------- */
+// Challenge: input your age then chec how many days, weeks, months left to reach age of 90
+function lifeInWeeks(age) {
+    
+/************Don't change the code above************/    
+    
+    //Write your code here.
+    var yearsLeft = 90 - age;
+    var noOfDays = yearsLeft * 365;
+    var noOfMonths = yearsLeft * 12;
+    var noOfWeeks = yearsLeft * 52;
+    console.log("You have " + noOfDays + " days, " + noOfWeeks + " weeks, and " + noOfMonths + " months left.")
+    
+/*************Don't change the code below**********/
+}
+
