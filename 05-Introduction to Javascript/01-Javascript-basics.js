@@ -105,5 +105,34 @@ alert("Yours age is " + humanAge + " when, dogs age is " + dogAge)
 
 /* ---------------- */
 
+// Functions
 
 
+
+// Function to take money and give to output the no. of bottles
+
+function getMilk(money) {   
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("Buy " + Math.floor(money / 1.5) + " bottles of milk");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
+
+getMilk(10);
+
+// Price of 1 bottle of milk = 1.5$
