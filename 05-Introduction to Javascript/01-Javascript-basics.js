@@ -224,6 +224,41 @@ console.log(randomNum2);
 
 /* ---------------- */
 
+// if, else, and else if statements:
+
+// Example of the if Statement
+let hour = 14;
+let greeting;
+
+if (hour < 18) {
+  greeting = "Good day";
+}
+
+console.log(greeting); // Output: "Good day"
+
+// Example of the else Statement
+let hour2 = 20;
+
+if (hour2 < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+console.log(greeting); // Output: "Good evening"
+
+// Example of the else if Statement
+let time = 15;
+
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+console.log(greeting); // Output: "Good day"
 
 
 /* ---------------- */
@@ -231,3 +266,30 @@ console.log(randomNum2);
 
 
 /* ---------------- */
+
+
+
+
+/* ---------------- */
+
+
+
+
+
+/* ---------------- */
+
+
+
+
+
+
+/* ---------------- */
+
+
+
+
+
+
+/* ---------------- */
+
+
