@@ -750,3 +750,7 @@ In this example, `num == str` is `true` because the `==` operator performs type 
 It is generally recommended to use `===` (strict equality) whenever possible to avoid unexpected behavior caused by type coercion.
 
 ---
+
+- When comparing two strings, "2" will be greater than "12", because (alphabetically) 1 is less than 2.
+- To secure a proper result, variables should be converted to the proper type before comparison
+  
