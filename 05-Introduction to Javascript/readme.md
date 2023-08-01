@@ -717,3 +717,36 @@ console.log(greeting); // Output: "Good day"
 ```
 
 ---
+
+In JavaScript, `==` and `===` are comparison operators used to compare two values. However, they have different behaviors and are used in different contexts.
+
+**`==` (Equality Operator):**
+
+- The `==` operator checks for equality of values, allowing for type coercion (implicit type conversion) if the operands have different data types.
+- If the operands have the same data type, `==` performs a simple value comparison.
+- If the operands have different data types, JavaScript attempts to convert one or both of the operands to a common data type before comparison.
+- This can sometimes lead to unexpected results, as certain values may be considered equal when their data types differ.
+- For example, `"5" == 5` is `true` because the string `"5"` is converted to a number before comparison.
+
+**`===` (Strict Equality Operator):**
+
+- The `===` operator checks for equality of values and data types, without performing type coercion.
+- It requires both operands to have the same data type and the same value to be considered equal.
+- This is considered the safer and more reliable equality check, as it ensures that no implicit type conversion takes place.
+- For example, `"5" === 5` is `false` because the data types (string and number) are different, even though their values are both `5`.
+
+Example:
+
+```javascript
+let num = 5;
+let str = "5";
+
+console.log(num == str);  // Output: true (Equality with type coercion)
+console.log(num === str); // Output: false (Strict equality, different data types)
+```
+
+In this example, `num == str` is `true` because the `==` operator performs type coercion and considers the string `"5"` equal to the number `5`. However, `num === str` is `false` because the `===` operator checks for both value and data type, which are different in this case.
+
+It is generally recommended to use `===` (strict equality) whenever possible to avoid unexpected behavior caused by type coercion.
+
+---
