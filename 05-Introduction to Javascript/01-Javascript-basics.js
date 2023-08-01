@@ -106,10 +106,26 @@ alert("Yours age is " + humanAge + " when, dogs age is " + dogAge)
 /* ---------------- */
 
 // Functions
+// Syntax
+function functionName(parameter1, parameter2, ...) {
+  // Function code or instructions go here
+  // ...
+  // Optionally, use 'return' statement to send a value back
+  return result;
+}
+
+// function to add numbers
+function addNumbers(a, b) {
+  return a + b;
+}
+
+let result = addNumbers(5, 10);
+console.log(result); // Output: 15
 
 
 
-// Function to take money and give to output the no. of bottles
+
+// Function to leave house till market then take money and give to output the no. of bottles and then return tohouse
 
 function getMilk(money) {   
   console.log("leaveHouse");
