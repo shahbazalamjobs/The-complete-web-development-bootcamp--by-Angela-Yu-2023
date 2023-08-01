@@ -754,3 +754,31 @@ It is generally recommended to use `===` (strict equality) whenever possible to 
 - When comparing two strings, "2" will be greater than "12", because (alphabetically) 1 is less than 2.
 - To secure a proper result, variables should be converted to the proper type before comparison
   
+---
+
+In JavaScript, when you compare two strings using comparison operators such as `<`, `>`, `<=`, `>=`, or `===`, the comparison is done based on their Unicode character codes (ASCII values) rather than their numeric values. This means that JavaScript performs a lexicographic (dictionary-style) comparison on the characters of the strings.
+
+Here's what happens in the comparison "2" > "12":
+
+1. JavaScript compares the first characters of both strings, which are "2" and "1".
+2. Since "1" has a smaller Unicode character code than "2", JavaScript determines that "1" is less than "2".
+3. Therefore, the string "2" is greater than the string "12" because the first character "2" is greater than the first character "1".
+
+This behavior can sometimes lead to unexpected results, especially when you are comparing numbers represented as strings. For example, if you compare "2" and "12" as numbers, you would expect "2" to be less than "12". However, as strings, "2" is greater than "12" due to their lexicographic comparison.
+
+To ensure proper comparison results, especially when dealing with numbers represented as strings, you should convert the strings to their corresponding numeric values before doing the comparison. This can be achieved using functions like `parseInt()` or `parseFloat()`:
+
+```javascript
+let num1 = "2";
+let num2 = "12";
+
+// Convert the strings to numbers before comparison
+let numericNum1 = parseInt(num1);
+let numericNum2 = parseInt(num2);
+
+console.log(numericNum1 < numericNum2); // Output: true
+```
+
+In this example, both "2" and "12" are converted to their numeric values before comparison, so the result is `true`, indicating that 2 is indeed less than 12.
+
+---
