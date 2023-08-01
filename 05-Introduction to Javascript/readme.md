@@ -598,4 +598,82 @@ console.log(randomNum1);
 let randomNum2 = getRndIntegerInclusive(20, 30);
 console.log(randomNum2);
 ```
+---
+### Comparison Types
+
+It appears that the provided content explains JavaScript Comparison and Logical Operators. It covers comparison operators, logical operators, and the conditional (ternary) operator. Here's a summary of the content:
+
+**Comparison Operators:**
+Comparison operators are used to determine equality or difference between variables or values.
+
+- `==`: Equal to
+- `===`: Equal value and equal type
+- `!=`: Not equal
+- `!==`: Not equal value or not equal type
+- `>`: Greater than
+- `<`: Less than
+- `>=`: Greater than or equal to
+- `<=`: Less than or equal to
+
+**Logical Operators:**
+Logical operators are used to determine the logic between variables or values.
+
+- `&&`: And (both conditions must be true)
+- `||`: Or (at least one condition must be true)
+- `!`: Not (negates the result)
+
+**Conditional (Ternary) Operator:**
+JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+
+Syntax: `variablename = (condition) ? value1 : value2`
+
+**Comparing Different Types:**
+When comparing data of different types, JavaScript may convert one of the values to another type to perform the comparison. This can lead to unexpected results, so it's essential to be cautious when comparing different types.
+
+**The Nullish Coalescing Operator (??):**
+The `??` operator returns the first argument if it is not nullish (null or undefined). Otherwise, it returns the second argument.
+
+```js
+// Comparison Operators
+let x = 5;
+let y = 8;
+
+console.log(x == 8);      // Output: false
+console.log(x == 5);      // Output: true
+console.log(x == "5");    // Output: true
+console.log(x === 5);     // Output: true
+console.log(x === "5");   // Output: false
+console.log(x != 8);      // Output: true
+console.log(x !== 5);     // Output: false
+console.log(x !== "5");   // Output: true
+console.log(x !== 8);     // Output: true
+console.log(x > 8);       // Output: false
+console.log(x < 8);       // Output: true
+console.log(x >= 8);      // Output: false
+console.log(x <= 8);      // Output: true
+
+// Logical Operators
+console.log((x < 10 && y > 1));    // Output: true (both conditions are true)
+console.log((x == 5 || y == 5));   // Output: false (both conditions are false)
+console.log(!(x == y));           // Output: true (negating false)
+
+// Conditional (Ternary) Operator
+let age = 17;
+let voteable = (age < 18) ? "Too young" : "Old enough";
+console.log(voteable);    // Output: "Too young" (age is less than 18)
+
+// Comparing Different Types
+let num1 = 2;
+let num2 = "12";
+console.log(num1 < num2);          // Output: true (string "12" converts to number 12)
+console.log(num1 > num2);          // Output: false (string "12" converts to number 12)
+console.log(num1 == num2);         // Output: false (string "12" does not equal number 2)
+console.log("2" < "12");           // Output: false (comparing strings, "2" > "1" alphabetically)
+
+// The Nullish Coalescing Operator (??)
+let name = null;
+let text = "missing";
+let result = name ?? text;
+console.log(result);    // Output: "missing" (name is null, so the result is "missing")
+```
 
