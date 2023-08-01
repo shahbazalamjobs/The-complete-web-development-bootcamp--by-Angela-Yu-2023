@@ -545,6 +545,57 @@ function bmiCalculator(weight, height){
     return Math.round(bmi);
 }
 ```
+---
 
+```js
+// Math.random()
+// Returns a random number between 0 (inclusive) and 1 (exclusive)
+let randomNum = Math.random();
+console.log(randomNum);
 
+// JavaScript Random Integers
+// Math.random() used with Math.floor() can be used to return random integers
+
+// Returns a random integer from 0 to 9
+let randomInteger1 = Math.floor(Math.random() * 10);
+console.log(randomInteger1);
+
+// Returns a random integer from 0 to 10
+let randomInteger2 = Math.floor(Math.random() * 11);
+console.log(randomInteger2);
+
+// Returns a random integer from 0 to 99
+let randomInteger3 = Math.floor(Math.random() * 100);
+console.log(randomInteger3);
+
+// Returns a random integer from 0 to 100
+let randomInteger4 = Math.floor(Math.random() * 101);
+console.log(randomInteger4);
+
+// Returns a random integer from 1 to 10
+let randomInteger5 = Math.floor(Math.random() * 10) + 1;
+console.log(randomInteger5);
+
+// Returns a random integer from 1 to 100
+let randomInteger6 = Math.floor(Math.random() * 100) + 1;
+console.log(randomInteger6);
+
+// A Proper Random Function
+// Function to return a random number between min (included) and max (excluded)
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+// Function to return a random number between min and max (both included)
+function getRndIntegerInclusive(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Example usage of the custom random functions
+let randomNum1 = getRndInteger(5, 15);
+console.log(randomNum1);
+
+let randomNum2 = getRndIntegerInclusive(20, 30);
+console.log(randomNum2);
+```
 
