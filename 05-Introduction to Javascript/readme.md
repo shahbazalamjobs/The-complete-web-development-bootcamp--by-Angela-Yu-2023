@@ -873,3 +873,94 @@ if (numbers.includes(targetNumber)) {
 ```
 
 - In this example, the `includes()` method is used to check if the `targetNumber` (which is `3` in this case) exists in the `numbers` array. The output will vary depending on whether the target number is found in the array or not.
+
+---
+
+JavaScript provides several types of loops that allow you to repeatedly execute a block of code. Here are the main types of loops in JavaScript:
+
+1. **for Loop:**
+   The `for` loop is used to execute a block of code a specified number of times.
+   
+   ```javascript
+   for (initialization; condition; iteration) {
+     // Code to be executed
+   }
+   ```
+   
+   Example:
+   ```javascript
+   for (let i = 0; i < 5; i++) {
+     console.log(i);
+   }
+   ```
+
+2. **while Loop:**
+   The `while` loop is used to execute a block of code as long as a specified condition is true.
+   
+   ```javascript
+   while (condition) {
+     // Code to be executed
+   }
+   ```
+   
+   Example:
+   ```javascript
+   let i = 0;
+   while (i < 5) {
+     console.log(i);
+     i++;
+   }
+   ```
+
+3. **do...while Loop:**
+   The `do...while` loop is similar to the `while` loop, but it guarantees that the code block is executed at least once before checking the condition.
+   
+   ```javascript
+   do {
+     // Code to be executed
+   } while (condition);
+   ```
+   
+   Example:
+   ```javascript
+   let i = 0;
+   do {
+     console.log(i);
+     i++;
+   } while (i < 5);
+   ```
+
+4. **for...in Loop:**
+   The `for...in` loop is used to iterate over the properties of an object.
+   
+   ```javascript
+   for (variable in object) {
+     // Code to be executed
+   }
+   ```
+   
+   Example:
+   ```javascript
+   const person = { name: "John", age: 30, job: "developer" };
+   for (let key in person) {
+     console.log(key, person[key]);
+   }
+   ```
+
+5. **for...of Loop:**
+   The `for...of` loop is used to iterate over the values of an iterable (like arrays, strings, etc.).
+   
+   ```javascript
+   for (variable of iterable) {
+     // Code to be executed
+   }
+   ```
+   
+   Example:
+   ```javascript
+   const colors = ["red", "green", "blue"];
+   for (let color of colors) {
+     console.log(color);
+   }
+   ```
+
