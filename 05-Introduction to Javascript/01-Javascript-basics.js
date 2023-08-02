@@ -325,16 +325,50 @@ function bmiCalculator (weight, height) {
 
 /* ---------------- */
 
+/*
+Check year is leap or not 
+A year is a leap year if it is evenly divisible by 4 ;
+except if that year is also evenly divisible by 100;
+unless that year is also evenly divisible by 400.
+*/
 
+// 1st sol
+function isLeap(year) {
+    
+    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+        console.log("Leap year.");
+    } else {
+        console.log("Not leap year.");
+    }  
+}
 
-
-
+// 2nd sol
+function isLeap(year) {     
+    if(year % 4 === 0){
+        if(year % 100 === 0){
+            if(year % 400 === 0){
+                return "Leap year.";
+            }
+            else 
+                return "Not leap year.";
+        }
+        else
+            return "Leap year.";
+    }
+    else 
+        return "Not leap year.";
+}
 
 /* ---------------- */
 
+// Use of array and check if one element is present or not using includes()
 
-
-
+var names = ["Shahbaz", "Akshay", "Ajay", "SRK", "Amitabh"];
+if(names.includes("Ajay")){
+    console.log("Yes it is present");    
+}
+else
+    console.log("No it is not");
 
 
 /* ---------------- */
