@@ -263,11 +263,40 @@ console.log(greeting); // Output: "Good day"
 
 /* ---------------- */
 
+// If else condition 
 
+prompt("Enter boys Name: ");
+prompt("Enter girls Name: ");
+
+var loveScore = Math.random() * 100 + 1;
+Math.floor(loveScore);
+
+if(loveScore > 70){
+  alert("The love score is " + loveScore + " it's like as Kanye loves Kanye" );
+}
+else {
+  alert("The love score is " + loveScore);
+}
 
 /* ---------------- */
 
+// Comparators use
 
+prompt("Enter boys Name: ");
+prompt("Enter girls Name: ");
+
+var loveScore = Math.random() * 100 + 1;
+Math.floor(loveScore);
+
+if(loveScore > 30 && loveScore <= 70){
+  alert("The love score is " + loveScore + " it's like as Kanye loves Kanye" );
+}
+else if(loveScore > 20) {
+  alert("The love score is mid: " + loveScore);
+}
+else {
+  alert("The lovescore is: " + loveScore );
+}
 
 
 /* ---------------- */
