@@ -857,4 +857,19 @@ fruits.forEach(function(fruit) {
 });
 ```
 
-Arrays are incredibly versatile and essential in programming. They allow you to store and manipulate collections of data efficiently.
+Arrays allow you to store and manipulate collections of data efficiently.
+---
+
+- Certainly! The `includes()` method is used to check if an element exists in an array. 
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+const targetNumber = 3;
+
+if (numbers.includes(targetNumber)) {
+  console.log(`The array includes ${targetNumber}.`);
+} else {
+  console.log(`The array does not include ${targetNumber}.`);
+}
+```
+
+In this example, the `includes()` method is used to check if the `targetNumber` (which is `3` in this case) exists in the `numbers` array. The output will vary depending on whether the target number is found in the array or not.
