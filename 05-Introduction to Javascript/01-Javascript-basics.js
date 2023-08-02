@@ -422,21 +422,25 @@ function fizzBuzz() {
 fizzBuzz();
 
 
+/* ---------------- */
 
+/*
+
+You are going to write a function which will select a random name from a list of names. The person selected will have to pay for everybody's food bill.   
+
+Example Input : ["Angela", "Ben", "Jenny", "Michael", "Chloe"]
+Example Output : Michael is going to buy lunch today!
+
+*/
+
+function whosPaying(names) {    
+    var elements = names.length;    // dont use () with length like length()   & we can also use let in place of var
+    var randomNameIndex = Math.floor(Math.random() * elements) ;    // Dont forget Math.floor to make fraction a whole no
+    return names[randomIndex] + " is going to buy lunch today!";    
+}
 
 /* ---------------- */
 
-
-
-
-
-
-
-
-
-
-
-/* ---------------- */
 
 
 
