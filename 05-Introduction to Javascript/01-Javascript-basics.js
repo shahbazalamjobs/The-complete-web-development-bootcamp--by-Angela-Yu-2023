@@ -364,12 +364,12 @@ function isLeap(year) {
 // Use of array and check if one element is present or not using includes()
 
 var names = ["Shahbaz", "Akshay", "Ajay", "SRK", "Amitabh"];
-if(names.includes("Ajay")){
+var yourName = prompt("Enter your name to check if your name is in list: ")
+if(names.includes(yourName)){
     console.log("Yes it is present");    
 }
 else
     console.log("No it is not");
-
 
 /* ---------------- */
 
