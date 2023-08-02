@@ -372,14 +372,47 @@ else
     console.log("No it is not");
 
 /* ---------------- */
+// Error in the code below
 
+var output = [];
+var num = 1;
 
+function fizzBuzz(num){
+    output.push(num);
+    console.log(output);
+    num += 1;
 
+    if(num === 101){
+        return;
+    }
+    fizzBuzz(num);
+}
 
+/*
+The code you've provided seems to be an implementation of the FizzBuzz problem using recursion. However, there is an issue with the scope of the num variable inside the function. It appears that you are passing num as an argument to the fizzBuzz function, but you are also using a global variable num. This can lead to unexpected behavior.
+To fix this, you can remove the argument from the function and use the global num variable directly. Here's the corrected code:
+*/
 
+/* 
 
+var output = [];
+var num = 1;
 
+function fizzBuzz() {
+    output.push(num);
+    console.log(output);
+    num += 1;
 
+if (num === 101) {
+    return;
+  }
+
+    fizzBuzz();
+}
+
+fizzBuzz();
+
+*/
 
 /* ---------------- */
 
