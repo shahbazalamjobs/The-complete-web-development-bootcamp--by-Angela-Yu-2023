@@ -393,8 +393,6 @@ The code you've provided seems to be an implementation of the FizzBuzz problem u
 To fix this, you can remove the argument from the function and use the global num variable directly. Here's the corrected code:
 */
 
-/* 
-
 var output = [];
 var num = 1;
 
@@ -406,13 +404,11 @@ function fizzBuzz() {
 if (num === 101) {
     return;
   }
-
     fizzBuzz();
 }
-
 fizzBuzz();
 
-*/
+
 
 /* ---------------- */
 
