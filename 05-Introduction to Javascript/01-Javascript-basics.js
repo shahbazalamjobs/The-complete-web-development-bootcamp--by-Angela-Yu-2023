@@ -441,24 +441,52 @@ function whosPaying(names) {
 
 /* ---------------- */
 
+// Use of while loop 
 
+var output = [];
+var num = 1;
 
+function fizzBuzz() {
 
+    while(num <= 100) {
 
+        if (num % 3 === 0 && num % 5 === 0) {
+            output.push("FizzBuzz");
+        } else if (num % 3 === 0) {
+            output.push("Fizz");
+        } else if (num % 5 === 0) {
+            output.push("Buzz");
+        } else {
+            output.push(num);
+        }    
+        num++;
+    }
+    console.log(output);        
+}
+              
 
-
-
-
+fizzBuzz();
 
 
 /* ---------------- */
 
+// To print n no.s of bottle etc etc ... from n = 99 to n = 1 using loop
 
+var i = 99;
+var j = i - 1;
+while (i > 0) {
+    console.log(i + " bottles of beer on the wall " + i + " bottles of beer\n");
+    console.log("Take one down and pass it around "  + j + " bottles of beer on the wall\n");
+    console.log("\n");
+    i--;
 
+    if(i === 1) {
+        console.log(i + " bottles of beer on the wall " + i + " bottles of beer\n");
+        console.log("Take one down and pass it around no bottles of beer on the wall\n");
+        break;
+    }
 
-
-
-
+}
 
 
 
