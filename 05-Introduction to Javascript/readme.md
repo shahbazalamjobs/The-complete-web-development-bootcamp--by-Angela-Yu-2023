@@ -872,4 +872,4 @@ if (numbers.includes(targetNumber)) {
 }
 ```
 
-In this example, the `includes()` method is used to check if the `targetNumber` (which is `3` in this case) exists in the `numbers` array. The output will vary depending on whether the target number is found in the array or not.
+- In this example, the `includes()` method is used to check if the `targetNumber` (which is `3` in this case) exists in the `numbers` array. The output will vary depending on whether the target number is found in the array or not.
