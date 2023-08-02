@@ -372,6 +372,9 @@ else
     console.log("No it is not");
 
 /* ---------------- */
+
+// Print no.s from 1 to 100, and print Fizz when no. divisible by 3 comes and Buzz when no. divisible by 5 comes and FizzBuzz when multiple of 15 comes 
+
 // Error in the code below
 
 var output = [];
@@ -382,7 +385,7 @@ function fizzBuzz(num){
     console.log(output);
     num += 1;
 
-    if(num === 101){
+    if(num === 101){    // This condition does not work properly .. see below code for correct sol
         return;
     }
     fizzBuzz(num);
@@ -397,16 +400,27 @@ var output = [];
 var num = 1;
 
 function fizzBuzz() {
-    output.push(num);
-    console.log(output);
+    if (num % 3 === 0 && num % 5 === 0) {
+        output.push("FizzBuzz");
+    } else if (num % 3 === 0) {
+        output.push("Fizz");
+    } else if (num % 5 === 0) {
+        output.push("Buzz");
+    } else {
+        output.push(num);
+    }
+
     num += 1;
 
-if (num === 101) {
-    return;
-  }
-    fizzBuzz();
+    if (num <= 100) {    // Base condition should be well defined like <= 100 and not like above
+        fizzBuzz();
+    } else {
+        console.log(output);
+    }
 }
+
 fizzBuzz();
+
 
 
 
