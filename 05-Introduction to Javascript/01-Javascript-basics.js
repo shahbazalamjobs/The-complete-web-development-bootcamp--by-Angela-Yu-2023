@@ -569,6 +569,3 @@ function fibonacciGenerator(n) {
     
     return fibonacci;
 }
-
-
-
