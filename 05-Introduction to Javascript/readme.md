@@ -964,3 +964,108 @@ JavaScript provides several types of loops that allow you to repeatedly execute 
    }
    ```
 
+---
+
+## Adding Javascript in website
+
+Adding JavaScript to websites involves including your JavaScript code in the HTML document. There are several ways to do this:
+
+1. **Inline JavaScript:**
+   You can add JavaScript code directly inside HTML elements using event attributes like `onclick`, `onload`, etc.
+
+   Example:
+   ```html
+   <button onclick="alert('Button clicked!')">Click me</button>
+   ```
+
+2. **Internal JavaScript:**
+   You can include JavaScript code within `<script>` tags directly in the HTML file. This can be placed in the `<head>` or at the end of the `<body>`.
+
+   Example:
+   ```html
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title>My Website</title>
+       <script>
+           function showMessage() {
+               alert('Hello, this is JavaScript!');
+           }
+       </script>
+   </head>
+   <body>
+       <button onclick="showMessage()">Click me</button>
+   </body>
+   </html>
+   ```
+
+3. **External JavaScript:**
+   You can create a separate `.js` file containing your JavaScript code and link it to the HTML file using the `src` attribute within a `<script>` tag.
+
+   **index.html:**
+   ```html
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title>My Website</title>
+       <script src="script.js"></script> // Not a good idea to place here
+
+     <!-- place your `<script>` tags before the closing `</body>` tag for optimal performance, as this allows the content of your page to load before executing JavaScript. -->
+   </head>
+   <body>
+       <button onclick="showMessage()">Click me</button>
+   </body>
+   </html>
+   ```
+
+   **script.js:**
+   ```javascript
+   function showMessage() {
+       alert('Hello, this is JavaScript from an external file!');
+   }
+   ```
+
+Remember to place your `<script>` tags before the closing `</body>` tag for optimal performance, as this allows the content of your page to load before executing JavaScript. This can improve the perceived speed of your website.
+
+When adding JavaScript, make sure to:
+- Use proper syntax and structure.
+- Test your code to ensure it functions as expected.
+- Check the browser console for any errors.
+
+Modern web development often involves using tools like package managers (npm), build tools (Webpack, Babel), and frameworks (React, Angular, Vue.js) to manage and optimize JavaScript code. As you progress, you may explore these tools to enhance your JavaScript development process.
+
+---
+### Script Tag before body tag
+Certainly! Placing your `<script>` tags just before the closing `</body>` tag is a best practice in web development. 
+This ensures that your JavaScript code doesn't block the loading and rendering of the page's content. 
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Hello, this is my website</h1>
+    
+    <!-- Other HTML content -->
+    
+    <button onclick="showMessage()">Click me</button>
+
+    <!-- Include JavaScript files -->
+    <script src="other-script.js"></script>
+    <script>
+        function showMessage() {
+            alert('Hello, this is JavaScript!');
+        }
+    </script>
+</body>
+</html>
+```
+
+In this example, the JavaScript code is included in two ways:
+1. An external JavaScript file (`other-script.js`) is linked using the `<script>` tag with the `src` attribute.
+2. Inline JavaScript code is placed directly within a `<script>` tag.
+
+By placing the `<script>` tags just before the closing `</body>` tag, the browser loads and renders the HTML content first, and then processes the JavaScript code. This can lead to better performance and a faster perceived loading time for your website.
