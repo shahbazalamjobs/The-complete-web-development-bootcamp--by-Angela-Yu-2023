@@ -1072,7 +1072,7 @@ By placing the `<script>` tags just before the closing `</body>` tag, the browse
 
 ---
 
-CSS tags, or stylesheets, are often placed in the `<head>` section of an HTML document for several important reasons:
+CSS stylesheets, are often placed in the `<head>` section of an HTML document for several important reasons:
 
 1. **Parsing and Rendering Order:** Browsers parse HTML documents from top to bottom. Placing stylesheets in the `<head>` ensures that the browser fetches and processes the CSS rules before it starts rendering the page's content. This helps prevent a phenomenon known as "Flash of Unstyled Content" (FOUC), where content is briefly displayed without styling before the CSS is applied.
 
