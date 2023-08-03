@@ -513,3 +513,62 @@ function fizzBuzz() {
 
 fizzBuzz();
 
+
+/* ---------------- */
+/* Fibonacci Number
+Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 ...
+Where every number is the sum of the two previous ones.
+
+e.g. 0, 1, 1, 2, 3, 5 comes from
+
+0 + 1 = 1
+1 + 1 = 2
+1 + 2 = 3
+2 + 3 = 5
+
+Where n is the number of items in the sequence.
+fibonacciGenerator(3) and get
+
+[0,1,1]
+
+The first two numbers in the sequence must be 0 and 1.
+
+*/
+// Sol 1
+function fibonacciGenerator (n) {
+    
+    var num1 = 0, num2 = 1, c, i;
+    var arr = [0, 1];
+    
+    if(n === 1){
+        return [0];
+    }
+    else {
+        for (i = 2; i < n; i++){
+            c = num1 + num2;
+            num1 = num2;
+            num2 = c;
+            arr.push(c);
+        }
+    }
+    
+    return arr;
+}
+
+// Sol 2
+function fibonacciGenerator(n) {
+    if (n === 0) return [];
+    if (n === 1) return [0];
+
+    const fibonacci = [0, 1];
+    
+    for (let i = 2; i < n; i++) {
+        const nextFibonacci = fibonacci[i - 1] + fibonacci[i - 2];
+        fibonacci.push(nextFibonacci);
+    }
+    
+    return fibonacci;
+}
+
+
+
