@@ -1646,7 +1646,7 @@ These concepts form the foundation of working with the DOM. By understanding and
 ![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/2c17172c-875b-44f4-8b9d-a217ef36c2cf)
 
 ---
-
+DOM  manipulation simple code 
 ```html
 <!DOCTYPE html>
 <html>
@@ -1690,6 +1690,7 @@ These concepts form the foundation of working with the DOM. By understanding and
 
 ```
 
+Aboves code DOM Tree
 ```html
 HTML
 └── <html>
