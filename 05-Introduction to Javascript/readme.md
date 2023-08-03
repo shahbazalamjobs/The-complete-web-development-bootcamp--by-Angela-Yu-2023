@@ -1639,6 +1639,12 @@ Mastering browser developer tools is essential for inspecting, debugging, and pr
 
 These topics provide a deeper understanding of advanced DOM concepts, performance optimization, and interaction with frameworks, helping you build more sophisticated and effective web applications.
 
-
-
 These concepts form the foundation of working with the DOM. By understanding and practicing these topics, you'll gain the skills needed to interact with and manipulate web page elements effectively.
+
+---
+
+![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/2c17172c-875b-44f4-8b9d-a217ef36c2cf)
+
+
+
+---
