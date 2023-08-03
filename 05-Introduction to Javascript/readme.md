@@ -1706,9 +1706,7 @@ HTML
     │   └── ...
     └── ...
 ```
-![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/a0aa171c-0dcd-4aaa-8420-fb5405bb6b68)
-
-
----
 
 ![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/d7eccd3b-99c6-4391-bfa6-55ed38b5f4b1)
+
+---
