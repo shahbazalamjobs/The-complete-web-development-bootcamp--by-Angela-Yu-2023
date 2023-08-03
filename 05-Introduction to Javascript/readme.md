@@ -1645,6 +1645,63 @@ These concepts form the foundation of working with the DOM. By understanding and
 
 ![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/2c17172c-875b-44f4-8b9d-a217ef36c2cf)
 
-
-
 ---
+
+```js
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Navigation Example</title>
+</head>
+<body>
+    <div id="parent">
+        <p>This is the first paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <div>
+            <p>This is a nested paragraph.</p>
+            <p>This is another nested paragraph.</p>
+        </div>
+    </div>
+
+    <script>
+        // Access the first child of the parent div
+        const parent = document.getElementById("parent");
+        const firstChild = parent.firstElementChild;
+        console.log("First Child:", firstChild);
+
+        // Access the first child of the first child
+        const firstChildFirstChild = firstChild.firstElementChild;
+        console.log("First Child of First Child:", firstChildFirstChild);
+
+        // Access the next sibling of the first child
+        const nextSibling = firstChild.nextElementSibling;
+        console.log("Next Sibling of First Child:", nextSibling);
+
+        // Access the previous sibling of the first child of the first child
+        const previousSibling = firstChildFirstChild.previousElementSibling;
+        console.log("Previous Sibling of First Child of First Child:", previousSibling);
+
+        // Access the parent of the first child of the first child
+        const parentOfFirstChildFirstChild = firstChildFirstChild.parentNode;
+        console.log("Parent of First Child of First Child:", parentOfFirstChildFirstChild);
+    </script>
+</body>
+</html>
+
+```
+
+```css
+HTML
+└── <html>
+    ├── <head>
+    │   ├── <title>DOM Example</title>
+    │   └── ...
+    ├── <body>
+    │   ├── <h1>Hello, DOM!</h1>
+    │   ├── <p>This is a paragraph.</p>
+    │   ├── <div>
+    │   │   ├── <p>This is a nested paragraph.</p>
+    │   │   └── <p>This is another nested paragraph.</p>
+    │   └── ...
+    └── ...
+```
