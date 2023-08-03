@@ -1647,7 +1647,7 @@ These concepts form the foundation of working with the DOM. By understanding and
 
 ---
 
-```js
+```html
 <!DOCTYPE html>
 <html>
 <head>
