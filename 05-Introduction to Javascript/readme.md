@@ -1690,7 +1690,7 @@ These concepts form the foundation of working with the DOM. By understanding and
 
 ```
 
-```css
+```html
 HTML
 └── <html>
     ├── <head>
