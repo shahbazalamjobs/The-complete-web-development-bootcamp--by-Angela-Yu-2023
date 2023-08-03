@@ -1692,8 +1692,8 @@ DOM  manipulation simple code
 
 Aboves code DOM Tree
 ```html
- <html>
-    |
+HTML
+└── <html>
     ├── <head>
     │   ├── <title>DOM Example</title>
     │   └── ...
