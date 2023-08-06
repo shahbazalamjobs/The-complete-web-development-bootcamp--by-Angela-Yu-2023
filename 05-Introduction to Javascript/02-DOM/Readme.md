@@ -154,7 +154,8 @@ usernameInput.placeholder = 'Enter your username';
 - For manipulating of html elements we use javascript but we shouldn't use javascript to change the styling (i.e. styling manipulation)
 - For manipulation of css styling, we add extra class to javascript and styling in respective css class
 - e.g. document.querySelector('text').style.color = "red"; // wrong practice
-- instead do this: document.querySelector
+- instead do this: document.querySelector('text').classList.add('textColor') // this code add class textColor to element with selector 'text'
+- now in css use .textColor { color: "red" };
 
 HTML:
 ```html
