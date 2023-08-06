@@ -63,9 +63,9 @@ Commonly used query selectors:
 
 ## Manipulating HTML elements using Javascript 
 
-Examples of selecting HTML elements using JavaScript. 
-Once selected an element, you can manipulate its properties, attributes, styles, and even add event listeners to create dynamic interactions on your web page.
-You can use various methods and techniques to select elements based on their IDs, classes, tags, attributes, or other criteria.
+- Examples of selecting HTML elements using JavaScript. 
+- Once selected an element, you can manipulate its properties, attributes, styles, and even add event listeners to create dynamic interactions on your web page.
+- You can use various methods and techniques to select elements based on their IDs, classes, tags, attributes, or other criteria.
 
 1. **Select by ID:**
 You can use the `document.getElementById()` method to select an element by its unique ID.
