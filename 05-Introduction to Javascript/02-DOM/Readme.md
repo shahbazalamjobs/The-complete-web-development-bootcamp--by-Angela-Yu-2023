@@ -147,3 +147,72 @@ const usernameInput = document.querySelector('[type="text"]');
 usernameInput.placeholder = 'Enter your username';
 ```
 
+---
+
+## 
+
+- For manipulating of html elements we use javascript but we shouldn't use javascript to change the styling (i.e. styling manipulation)
+- For manipulation of css styling, we add extra class to javascript and styling in respective css class
+- e.g. document.querySelector('text').style.color = "red"; // wrong practice
+- instead do this: document.querySelector
+
+HTML:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Styling and Manipulating Elements</title>
+</head>
+<body>
+    <button id="toggleButton">Toggle Element</button>
+    <div id="content" class="hidden">This is a hidden element.</div>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+CSS (styles.css):
+```css
+/* Styling for the hidden content */
+.hidden {
+    display: none;
+}
+```
+
+JavaScript (script.js):
+```javascript
+const toggleButton = document.getElementById('toggleButton');
+const contentElement = document.getElementById('content');
+
+toggleButton.addEventListener('click', () => {
+    contentElement.classList.toggle('hidden');
+});
+```
+
+- In this example, we have a button (`toggleButton`) and a `div` (`content`) element.
+- The `hidden` class is initially applied to the `content` element, making it hidden due to the CSS `display: none;` property.
+- When the button is clicked, the JavaScript code toggles the `hidden` class on the `content` element, causing it to appear or disappear based on its `display` property.
+
+
+
+1. `const toggleButton = document.getElementById('toggleButton');`
+   - This line selects the HTML element with the ID "toggleButton" using the `getElementById()` method.
+   - The `toggleButton` constant now holds a reference to the button element on the web page.
+
+2. `const contentElement = document.getElementById('content');`
+   - This line selects the HTML element with the ID "content" using the `getElementById()` method.
+   - The `contentElement` constant now holds a reference to the div element that contains the hidden content.
+
+3. `toggleButton.addEventListener('click', () => { ... });`
+   - This line adds an event listener to the `toggleButton` element for the "click" event.
+   - When the button is clicked, the code inside the event listener's curly braces `{ ... }` will be executed.
+
+4. `contentElement.classList.toggle('hidden');`
+   - This line toggles the presence of the CSS class "hidden" on the `contentElement`.
+   - The `classList` property provides access to the element's list of classes.
+   - The `toggle()` method adds the class if it's not present and removes it if it's already present.
+
+Overall, when the button is clicked, the event listener is triggered. Inside the event listener, the `hidden` class is toggled on the `contentElement`, causing it to appear if the class is not present (initially hidden) or disappear if the class is present (hidden due to CSS `display: none;` property). This creates the effect of showing or hiding the content based on the button click.
