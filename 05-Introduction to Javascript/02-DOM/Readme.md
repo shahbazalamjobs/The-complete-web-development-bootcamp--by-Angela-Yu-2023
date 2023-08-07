@@ -157,6 +157,14 @@ usernameInput.placeholder = 'Enter your username';
 - instead do this: document.querySelector('text').classList.add('textColor') // this code add class textColor to element with selector 'text'
 - now in css use .textColor { color: "red" };
 
+- Simple e.g.
+/*
+   html boiler plate code with h1 tag and heading
+   css: huge { font-size: 10rem; }
+   javascript: document.querySelector('h1').classList.add('huge');
+*/
+- In above code we have `h1` tag in html, `huge` selector in CSS and in javascript `querySelector` selects h1 tag and adds class huge to h1 tag by `.classList.add()`   
+
 HTML:
 ```html
 <!DOCTYPE html>
