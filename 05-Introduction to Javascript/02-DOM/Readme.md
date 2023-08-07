@@ -226,3 +226,26 @@ toggleButton.addEventListener('click', () => {
    - The `toggle()` method adds the class if it's not present and removes it if it's already present.
 
 Overall, when the button is clicked, the event listener is triggered. Inside the event listener, the `hidden` class is toggled on the `contentElement`, causing it to appear if the class is not present (initially hidden) or disappear if the class is present (hidden due to CSS `display: none;` property). This creates the effect of showing or hiding the content based on the button click.
+
+---
+### Manipulating HTML element attribute 
+
+```js
+document.querySelector('a');   // input
+<a href=​"https:​/​/​www.google.com">​Google​</a>​   // output
+```
+
+```js
+document.querySelector('a').attributes;   // input
+NamedNodeMap {0: href, href: href, length: 1}   // output
+```
+
+```js
+document.querySelector('a').getAttribute('href');   // input
+'https://www.google.com'   // output
+```
+
+```
+document.querySelector('a').setAttribute('href', 'https://www.bing.com');   //input
+// In output the link change to bing 
+```
