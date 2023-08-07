@@ -230,6 +230,15 @@ Overall, when the button is clicked, the event listener is triggered. Inside the
 ---
 ### Manipulating HTML element attribute 
 
+1. **Accessing Attributes:** Use `.getAttribute('attributeName')` to retrieve the value of an attribute from an HTML element.
+2. **Modifying Attributes:** Utilize `.setAttribute('attributeName', 'newValue')` to change the value of an attribute.
+3. **Removing Attributes:** Use `.removeAttribute('attributeName')` to delete an attribute from an HTML element.
+4. **Checking Existence:** Employ `.hasAttribute('attributeName')` to determine if an attribute exists on an element.
+5. **Dynamic Behavior:** Attributes enable dynamic interactions by adjusting element properties, like href in anchor tags or src in image tags.
+6. **Event Handling:** Attributes like `onclick` allow you to attach JavaScript functions to HTML elements for user interactions.
+
+Remember, while using these methods, replace `'attributeName'` and `'newValue'` with the actual attribute name and desired value, respectively.
+
 ```js
 document.querySelector('a');   // input
 <a href=​"https:​/​/​www.google.com">​Google​</a>​   // output
@@ -237,7 +246,7 @@ document.querySelector('a');   // input
 
 ```js
 document.querySelector('a').attributes;   // input
-NamedNodeMap {0: href, href: href, length: 1}   // output
+NamedNodeMap {0: href, href: href, length: 1}   // output, 
 ```
 
 ```js
@@ -245,7 +254,7 @@ document.querySelector('a').getAttribute('href');   // input
 'https://www.google.com'   // output
 ```
 
-```
+```js
 document.querySelector('a').setAttribute('href', 'https://www.bing.com');   //input
 // In output the link change to bing 
 ```
