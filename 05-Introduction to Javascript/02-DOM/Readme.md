@@ -246,12 +246,12 @@ document.querySelector('a');   // input
 
 ```js
 document.querySelector('a').attributes;   // input
-NamedNodeMap {0: href, href: href, length: 1}   // output, 
+NamedNodeMap {0: href, href: href, length: 1}   // output, give no. of attributes
 ```
 
 ```js
 document.querySelector('a').getAttribute('href');   // input
-'https://www.google.com'   // output
+'https://www.google.com'   // output, gives attirubte value
 ```
 
 ```js
