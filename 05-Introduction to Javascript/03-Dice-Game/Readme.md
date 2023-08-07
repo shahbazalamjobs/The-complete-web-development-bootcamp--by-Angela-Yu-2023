@@ -14,7 +14,7 @@ Source Link: section 12 -> Dice Game: https://www.appbrewery.co/p/web-developmen
 ## Angela yu answer
 
 ### HTML
-```
+```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
