@@ -163,7 +163,8 @@ usernameInput.placeholder = 'Enter your username';
    css: huge { font-size: 10rem; }
    javascript: document.querySelector('h1').classList.add('huge');
 ```
-- In above code we have `h1` tag in html, `huge` selector in CSS and in javascript `querySelector` selects h1 tag and adds class huge to h1 tag by `.classList.add()`   
+- In above code we have `h1` tag in html, `huge` selector in CSS and in javascript `querySelector` selects h1 tag and adds class huge to h1 tag by `.classList.add()`
+- huge css is apllied to h1 then h1 content changes according to the css definiton 
 
 HTML:
 ```html
