@@ -200,3 +200,34 @@ const obj = {
 obj.foo(); // Refers to 'obj' when arrow function is used
 ```
 
+---
+
+### EventListerners in more detail
+
+Certainly! Here's an explanation of event listeners in JavaScript in simple bullet points:
+
+- **Event Listeners**: Event listeners are pieces of code that wait for specific actions (events) to occur, like clicking a button or moving the mouse, and then respond by executing some code.
+
+- **Events**: Events are actions that happen in a web page, such as clicking a button, submitting a form, moving the mouse, pressing a key, etc.
+
+- **Attaching Listeners**: You can attach an event listener to an HTML element (like a button) using JavaScript. This listener "listens" for a particular event to happen to that element.
+
+- **Callback Function**: When the specified event occurs, the listener calls a function (known as a "callback" function) that you provide. This function contains the code you want to run in response to the event.
+
+- **Example**: Let's say you have an HTML button with the id "myButton" and you want to show an alert when it's clicked:
+
+  ```javascript
+  const button = document.getElementById("myButton"); // Get the button element
+  button.addEventListener("click", function() {
+    alert("Button clicked!"); // This function will be called when the button is clicked
+  });
+  ```
+
+- **Event Types**: There are various types of events, such as "click," "mouseover," "submit," "keydown," and more. You choose the event type that you want to listen for.
+- **Removing Listeners**: You can also remove event listeners if you no longer want them to respond to events. This is important to prevent memory leaks and unnecessary actions.
+- **Event Object**: When an event occurs, an event object is created. This object holds information about the event, like which element triggered it and any associated data.
+- **Benefits**: Event listeners are essential for making web pages interactive. They allow you to respond to user actions and create dynamic and engaging user experiences.
+- **Event Bubbling**: Events can "bubble up" from a nested element to its parent elements. This means that if you have an event listener on a parent element, it might be triggered when a child element's event occurs.
+- **Event Delegation**: You can use event delegation to attach a single listener to a parent element and capture events from its children. This can be more efficient when dealing with dynamic or large numbers of elements.
+
+Overall, event listeners provide a way to make your web page responsive and interactive by allowing you to respond to user actions and trigger specific behaviors in your JavaScript code.
