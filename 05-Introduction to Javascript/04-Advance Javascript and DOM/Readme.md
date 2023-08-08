@@ -127,7 +127,7 @@ In this example, `executeTwice` is a higher-order function, and `greet` is a fun
 
 ---
 
-### this keyword in Javascript: 
+### `this` keyword in Javascript: 
 In JavaScript, the `this` keyword refers to the current execution context, which is often determined by how a function is called. It is a special keyword that holds a reference to an object, and its value can change depending on how a function is invoked.
 
 Here are some common scenarios where the value of `this` can change:
