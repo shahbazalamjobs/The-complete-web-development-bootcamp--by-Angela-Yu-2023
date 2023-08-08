@@ -1,3 +1,4 @@
+### HTML
 
 ```html
 
@@ -77,6 +78,7 @@ In this example, the button has a `data-key` attribute with the value `"65"`. It
 
 ---
 
+### Javascript
 
 ```js
 var buttons = document.querySelectorAll(".drum");
@@ -115,6 +117,7 @@ document.onkeydown = function (e) {
 
 ```
 
+### CSS
 
 ```css
 body {
