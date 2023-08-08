@@ -207,9 +207,7 @@ footer {
 }
 
 
-
 img {
-
   background-size: cover;
   position: absolute;
   top: 0;
@@ -217,7 +215,30 @@ img {
 }
 ```
 
+### img selector 
 
+```css
+img {
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+```
+` Above code is useful for displaying text over image, where image is displayed over button`
+
+- This CSS code snippet is styling the `img` elements on a web page:
+- `background-size: cover;`: This property determines how the background image of the `img` element should be sized and positioned.
+- `cover`: This value scales the background image to cover the entire content area of the `img` element, ensuring that the entire area is filled. The image may be cropped or stretched as needed.
+- `position: absolute;`: This property specifies the positioning behavior of the `img` element.
+- `absolute`: When an element has an absolute position, it's taken out of the normal flow of the document. It's positioned relative to its nearest positioned ancestor or the initial containing block (usually the `<body>`). You can then use the `top`, `right`, `bottom`, and `left` properties to position it precisely.
+- `top: 0;`: This property sets the distance between the top edge of the `img` element and its containing element (usually the nearest positioned ancestor).
+- `0`: This value means the top edge of the `img` element will be flush with the top edge of its containing element.
+- `left: 0;`: This property sets the distance between the left edge of the `img` element and its containing element.
+- `0`: This value means the left edge of the `img` element will be flush with the left edge of its containing element.
+
+In summary, the provided CSS code styles `img` elements in a way that positions them absolutely within their containing element. The `background-size: cover;` ensures that the background image of the `img` elements covers the entire area, and the `top: 0;` and `left: 0;` properties position the top-left corner of the `img` elements at the top-left corner of their containing element. This can be useful for creating overlay effects or positioning images precisely within a layout.
+ 
 
 
 
