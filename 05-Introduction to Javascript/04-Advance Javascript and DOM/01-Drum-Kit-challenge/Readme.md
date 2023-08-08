@@ -226,7 +226,7 @@ img {
 ```
 
 ` Above code is useful for displaying text over image, where image is displayed over button`
-- more detail: [Link](https://stackoverflow.com/questions/30324213/text-over-the-image-button)
+- more detail: [Stack Overflow Link](https://stackoverflow.com/questions/30324213/text-over-the-image-button)
   
 - This CSS code snippet is styling the `img` elements on a web page:
 - `background-size: cover;`: This property determines how the background image of the `img` element should be sized and positioned.
