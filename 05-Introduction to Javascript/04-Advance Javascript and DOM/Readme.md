@@ -1,7 +1,6 @@
 # Advance Javascript and DOM manipulation 
 
 ## EventListners
-Certainly! Here's a brief explanation of event listeners along with a simple code example:
 
 Event listeners are JavaScript functions that "listen" for specific events on HTML elements and execute code when those events occur.
 
@@ -38,6 +37,44 @@ Event listeners are JavaScript functions that "listen" for specific events on HT
 5. When the button is clicked, the provided function is executed, which displays an alert saying "Button clicked!".
 
 In this example, the event listener is set up to respond to the "click" event on the button element. You can replace "click" with other events like "mouseover", "keydown", "submit", etc., and provide a function to perform actions when those events occur on the element.
+
+
+**Example : Click Event on Multiple Buttons**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click Event on Multiple Buttons</title>
+</head>
+<body>
+
+<button id="button1">Button 1</button>
+<button id="button2">Button 2</button>
+<button id="button3">Button 3</button>
+
+<script>
+  var buttons = document.querySelectorAll("button");
+
+  // Add a click event listener to each button
+  buttons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      alert("Button " + button.textContent + " clicked!");
+    });
+  });
+</script>
+
+</body>
+</html>
+```
+
+**Explanation:**
+1. We have three `<button>` elements with different IDs.
+2. In the `<script>` section, we use `document.querySelectorAll` to select all buttons on the page.
+3. We iterate through each button using the `forEach` method and add a click event listener.
+4. When any button is clicked, the event listener function displays an alert indicating which button was clicked.
+
+
+
 
 ## `$0` in JavaScript:
 
