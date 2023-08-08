@@ -215,8 +215,7 @@ img {
 }
 ```
 
-### img selector 
-
+- img selector explained in css code 
 ```css
 img {
   background-size: cover;
@@ -225,6 +224,7 @@ img {
   left: 0;
 }
 ```
+
 ` Above code is useful for displaying text over image, where image is displayed over button`
 
 - This CSS code snippet is styling the `img` elements on a web page:
