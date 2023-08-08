@@ -116,8 +116,8 @@ document.onkeydown = function (e) {
 };
 
 ```
-**Javascript Code Explanation**
-Certainly! This JavaScript code is responsible for creating an interactive drum kit that plays different drum sounds when buttons are clicked or keyboard keys are pressed. Here's an explanation of each part:
+**Javascript Code Explanation** 
+- Certainly! This JavaScript code is responsible for creating an interactive drum kit that plays different drum sounds when buttons are clicked or keyboard keys are pressed. Here's an explanation of each part:
 
 1. `var buttons = document.querySelectorAll(".drum");`:
    - This line selects all elements with the class "drum" from the HTML and stores them in the `buttons` variable.
