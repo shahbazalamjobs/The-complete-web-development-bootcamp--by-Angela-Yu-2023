@@ -123,3 +123,80 @@ In this example, `executeTwice` is a higher-order function, and `greet` is a fun
 
 ### Debugger
 ![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/e1581820-29c2-4886-8975-ba330cbcc59b)
+
+
+---
+
+### this keyword in Javascript: 
+In JavaScript, the `this` keyword refers to the current execution context, which is often determined by how a function is called. It is a special keyword that holds a reference to an object, and its value can change depending on how a function is invoked.
+
+Here are some common scenarios where the value of `this` can change:
+
+1. Global Context: In the global context (outside of any function), `this` refers to the global object, which is `window` in a browser environment or `global` in Node.js.
+
+```javascript
+console.log(this); // Refers to the global object (window in browsers)
+```
+
+2. Function Invocation: When a function is called as a standalone function, `this` still refers to the global object (window).
+
+```javascript
+function showThis() {
+  console.log(this);
+}
+
+showThis(); // Refers to the global object (window in browsers)
+```
+
+3. Method Invocation: When a function is called as a method of an object, `this` refers to the object that the method belongs to.
+
+```javascript
+const person = {
+  name: "John",
+  greet: function() {
+    console.log("Hello, my name is " + this.name);
+  }
+};
+
+person.greet(); // Refers to the 'person' object, output: "Hello, my name is John"
+```
+
+4. Constructor Functions: When a function is used as a constructor to create new objects, `this` refers to the newly created instance.
+
+```javascript
+function Car(make) {
+  this.make = make;
+}
+
+const myCar = new Car("Toyota");
+console.log(myCar.make); // Refers to 'myCar' instance, output: "Toyota"
+```
+
+5. Explicit Binding: You can explicitly set the value of `this` using methods like `call()` or `apply()`.
+
+```javascript
+function greet() {
+  console.log("Hello, " + this.name);
+}
+
+const person1 = { name: "Alice" };
+const person2 = { name: "Bob" };
+
+greet.call(person1); // Explicitly bind 'this' to 'person1', output: "Hello, Alice"
+greet.call(person2); // Explicitly bind 'this' to 'person2', output: "Hello, Bob"
+```
+
+6. Arrow Functions: Arrow functions do not have their own `this` context; they inherit it from the surrounding scope.
+
+```javascript
+const obj = {
+  foo: function() {
+    setTimeout(() => {
+      console.log(this); // Inherited from 'obj'
+    }, 100);
+  }
+};
+
+obj.foo(); // Refers to 'obj' when arrow function is used
+```
+
