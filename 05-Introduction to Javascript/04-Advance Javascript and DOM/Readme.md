@@ -120,3 +120,6 @@ executeTwice(greet);
 5. As a result, the `greet` function's logic is executed twice within the `executeTwice` function.
 
 In this example, `executeTwice` is a higher-order function, and `greet` is a function that we pass as an argument. This demonstrates how functions can be treated as values and used to encapsulate behaviors that can be reused across different contexts.
+
+### Debugger
+![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/e1581820-29c2-4886-8975-ba330cbcc59b)
