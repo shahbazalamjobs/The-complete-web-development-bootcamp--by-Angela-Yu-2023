@@ -609,7 +609,11 @@ bellboy1.name
 bellboy1.languages
 // output: (2) ['Hindi', 'English']
 
+
+
 /* *********************** */
+
+
 
 // Make constructor function then call it with including method in it
 
@@ -640,6 +644,8 @@ houseKeeper1.cleaningReport();
 // shows alert: "May I clean your House"
 // Room cleaned
 // Cleaning work completed
+
+
 
 /* *********************** */
 
