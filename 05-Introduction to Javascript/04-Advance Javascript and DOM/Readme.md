@@ -278,3 +278,56 @@ const fullName = person.getFullName(); // Calling the method on the 'person' obj
 ```
 
 In this example, `add` is a function that takes two parameters and returns their sum. `getFullName` is a method associated with the `person` object, and it returns the full name of the person using the object's properties.
+
+---
+
+## Objects their methods and dot notation 
+
+Certainly! Let's delve into objects, their methods, and how dot notation is used with objects in JavaScript:
+
+1. **Objects:**
+   - Objects are data structures that store related data and behaviors (methods) together.
+   - They are represented by key-value pairs, where each key is a property and each value can be of any data type, including other objects or functions.
+
+2. **Methods:**
+   - Methods are functions that are defined within objects and can be called on those objects.
+   - They allow objects to perform actions or computations based on their internal data (properties).
+   - Methods are accessed and called using dot notation.
+
+3. **Dot Notation:**
+   - Dot notation is a way to access properties and methods of an object.
+   - It uses a dot (`.`) followed by the property or method name to access it.
+   - Dot notation is used to both retrieve the value of a property and invoke a method on an object.
+
+Here's an example illustrating objects, their methods, and dot notation:
+
+```javascript
+// Creating an object representing a person
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 30,
+  getFullName() {
+    return this.firstName + ' ' + this.lastName;
+  },
+  greet() {
+    console.log(`Hello, my name is ${this.getFullName()} and I'm ${this.age} years old.`);
+  }
+};
+
+// Accessing properties using dot notation
+console.log(person.firstName); // Output: John
+console.log(person.age);       // Output: 30
+
+// Calling a method using dot notation
+const fullName = person.getFullName(); // Calling the getFullName method
+
+// Calling another method using dot notation
+person.greet(); // Output: Hello, my name is John Doe and I'm 30 years old.
+```
+
+In this example:
+- `person` is an object with properties (`firstName`, `lastName`, `age`) and methods (`getFullName`, `greet`).
+- Dot notation is used to access properties like `person.firstName` and to call methods like `person.getFullName()` and `person.greet()`.
+
+Remember that methods can access other properties and methods of the same object using `this`, which refers to the object itself. Objects and dot notation provide a powerful way to organize data and behaviors in your JavaScript code.
