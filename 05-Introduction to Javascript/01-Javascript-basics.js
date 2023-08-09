@@ -569,3 +569,44 @@ function fibonacciGenerator(n) {
     
     return fibonacci;
 }
+
+
+/* *********************** */
+
+
+// Javascript objects : collection of key and values pairs
+
+var housekeeper1 = {
+    name: "Shahbaz",
+    age: 23,
+    level: "intermediate",
+    languages: ["Hindi", "English", "German"]
+}
+
+console.log(housekeeper1.name + " is working as an housekeeper with " + housekeeper1.age + " years of age with experience of " + housekeeper1.level + " level")
+// output: Shahbaz is working as an housekeeper with 23 years of age with experience of intermediate level
+
+
+/* *********************** */
+
+// Constructor Function
+
+// Constructor function for creating Person objects
+function HouseKeeper(name, age, permit, languages) {
+    this.name = name;
+    this.age = age;
+    this.permit = permit;
+    this.languages = languages;   
+}
+
+// Creating new Person objects using the constructor
+var bellboy1 = new HouseKeeper("Shahbaz", 25, "true", ["Hindi", "English"]);
+
+// Accessing properties and using methods
+bellboy1.name
+// output: 'Shahbaz'
+
+bellboy1.languages
+// output: (2) ['Hindi', 'English']
+
+/* *********************** */
