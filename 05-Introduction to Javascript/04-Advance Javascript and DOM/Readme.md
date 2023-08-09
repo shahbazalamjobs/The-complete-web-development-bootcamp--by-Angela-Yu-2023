@@ -231,3 +231,50 @@ Certainly! Here's an explanation of event listeners in JavaScript in simple bull
 - **Event Delegation**: You can use event delegation to attach a single listener to a parent element and capture events from its children. This can be more efficient when dealing with dynamic or large numbers of elements.
 
 Overall, event listeners provide a way to make your web page responsive and interactive by allowing you to respond to user actions and trigger specific behaviors in your JavaScript code.
+
+
+--- 
+
+## Methods vs Functions
+- The terms "methods" and "functions" are related concepts in programming, but they have distinct meanings and are used in different contexts:
+
+**Functions:**
+- A function is a self-contained block of code that performs a specific task and can be called (invoked) by its name.
+- Functions are generally standalone units of code that can take input parameters and return a value.
+- They can be defined globally or within other functions, and they are not tied to any particular object.
+- Functions can be called from anywhere in the code where they are in scope.
+
+**Methods:**
+- A method is a function that is associated with an object or a class.
+- Methods are actions that an object can perform, and they are called on that object.
+- Methods are defined within a class or an object's prototype, and they can access the object's data (properties) using the `this` keyword.
+- When a method is called, it operates on the specific instance of the object it's called on.
+
+In summary:
+
+- Functions are standalone blocks of code that can take inputs and produce outputs, and they are not tied to any specific object.
+- Methods are functions associated with objects or classes, and they operate on the data contained within those objects.
+
+Here's an example to illustrate the difference:
+
+```javascript
+// Function example
+function add(a, b) {
+  return a + b;
+}
+
+const result = add(2, 3); // Calling the function
+
+// Method example
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  getFullName() {
+    return this.firstName + ' ' + this.lastName;
+  }
+};
+
+const fullName = person.getFullName(); // Calling the method on the 'person' object
+```
+
+In this example, `add` is a function that takes two parameters and returns their sum. `getFullName` is a method associated with the `person` object, and it returns the full name of the person using the object's properties.
