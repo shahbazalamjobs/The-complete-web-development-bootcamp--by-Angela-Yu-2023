@@ -610,3 +610,36 @@ bellboy1.languages
 // output: (2) ['Hindi', 'English']
 
 /* *********************** */
+
+// Make constructor function then call it with including method in it
+
+function HouseKeeper(name, yearsOfExp, languages) {
+    this.name = name,
+    this.yearsOfExp = yearsOfExp,
+    this.languages = languages;
+    this.cleaningReport = function () {
+        alert("May I clean your House");
+        cleanRoom();
+        clean();
+    }
+}
+
+var houseKeeper1 = new HouseKeeper("Shahbaz", 25, ["Hindi", "English", "German"])
+
+function cleanRoom () {
+    console.log("Room cleaned");
+}
+
+function clean () {
+    console.log("Cleaning work completed");
+}
+
+houseKeeper1.cleaningReport();
+
+// Output: 
+// shows alert: "May I clean your House"
+// Room cleaned
+// Cleaning work completed
+
+/* *********************** */
+
