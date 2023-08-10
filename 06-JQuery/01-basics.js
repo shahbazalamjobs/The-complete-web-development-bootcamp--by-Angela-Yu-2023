@@ -24,6 +24,9 @@ It ensures that the code runs after the HTML document's elements have been loade
 4. Uses jQuery library for easier HTML manipulation.
 */
 
+
+/* *********** */
+
 /* 
 $(document).ready(function() { ... });: 
 It can be used when jquery and javascript location are present in head tag 
