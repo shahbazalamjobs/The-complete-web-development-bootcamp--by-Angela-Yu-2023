@@ -410,15 +410,6 @@ These snippets cover a range of common scenarios for manipulating styles with jQ
    $(".item").text("New text for all items");
    ```
 
-10. **Chaining Text Manipulations:**
-    Chain multiple text manipulation methods together.
-    
-    ```javascript
-    $("#myElement")
-        .text("First change")
-        .append(" - Appended text")
-        .prepend("Prepended - ");
-    ```
 
 ---
 
@@ -469,4 +460,195 @@ These snippets cover a range of common scenarios for manipulating styles with jQ
    $("input[type='text']").removeClass("old-style");
    ```
 
-These snippets provide a solid foundation for manipulating attributes using jQuery. Use them to dynamically modify elements' attributes and enhance interactivity on your webpage.
+
+---
+
+
+## Adding event listeners to elements on a webpage:
+
+1. **Click Event:**
+   Add a click event listener to an element.
+   
+   ```javascript
+   $("#myButton").click(function() {
+       // Code to execute on click
+   });
+   ```
+
+2. **Mouse Enter and Mouse Leave Events:**
+   Add mouse enter and mouse leave event listeners.
+   
+   ```javascript
+   $("#myElement").mouseenter(function() {
+       // Code to execute on mouse enter
+   }).mouseleave(function() {
+       // Code to execute on mouse leave
+   });
+   ```
+
+3. **Key Press Event:**
+   Add a key press event listener to an input element.
+   
+   ```javascript
+   $("input#myInput").keypress(function(event) {
+       // Code to execute on key press
+   });
+   ```
+
+4. **Form Submit Event:**
+   Add a form submit event listener.
+   
+   ```javascript
+   $("form#myForm").submit(function(event) {
+       // Code to execute on form submission
+       event.preventDefault(); // Prevent actual form submission
+   });
+   ```
+
+5. **Toggle Event:**
+   Toggle between two functions with a button click.
+   
+   ```javascript
+   $("#toggleButton").click(function() {
+       $("#myElement").toggle();
+   });
+   ```
+
+
+---
+
+
+## Adding and removing elements on a webpage:
+
+1. **Appending Elements:**
+   Append new elements to an existing element.
+   
+   ```javascript
+   $("#myList").append("<li>New item</li>");
+   ```
+
+2. **Prepending Elements:**
+   Prepend new elements before existing content.
+   
+   ```javascript
+   $("#myList").prepend("<li>New item at the beginning</li>");
+   ```
+
+3. **Removing Elements:**
+   Remove elements from the DOM.
+   
+   ```javascript
+   $("#elementToRemove").remove();
+   ```
+
+4. **Emptying Elements:**
+   Remove all child elements from a container.
+   
+   ```javascript
+   $("#container").empty();
+   ```
+
+5. **Replacing Elements:**
+   Replace an element with new content.
+   
+   ```javascript
+   $("#oldElement").replaceWith("<div>New content</div>");
+   ```
+
+
+---
+
+
+## Creating animations on a website:
+
+1. **Fading Elements In/Out:**
+   Apply fading effects to elements.
+   
+   ```javascript
+   $("#fadeInButton").click(function() {
+       $("#myElement").fadeIn();
+   });
+   
+   $("#fadeOutButton").click(function() {
+       $("#myElement").fadeOut();
+   });
+   ```
+
+2. **Sliding Elements Up/Down:**
+   Apply sliding effects to elements.
+   
+   ```javascript
+   $("#slideUpButton").click(function() {
+       $("#myElement").slideUp();
+   });
+   
+   $("#slideDownButton").click(function() {
+       $("#myElement").slideDown();
+   });
+   ```
+
+3. **Animating Elements:**
+   Create custom animations for properties like width, height, opacity, etc.
+   
+   ```javascript
+   $("#animateButton").click(function() {
+       $("#myElement").animate({
+           width: "200px",
+           height: "150px",
+           opacity: 0.5
+       }, 1000);
+   });
+   ```
+
+4. **Toggle Animation:**
+   Toggle animations between two states.
+   
+   ```javascript
+   $("#toggleAnimationButton").click(function() {
+       $("#myElement").toggle("slow");
+   });
+   ```
+
+5. **Chaining Animations:**
+   Chain multiple animations together.
+   
+   ```javascript
+   $("#myElement")
+       .slideUp()
+       .delay(1000)
+       .fadeIn();
+   ```
+
+6. **Animate Text Change:**
+   Animate changes in text content.
+   
+   ```javascript
+   $("#textChangeButton").click(function() {
+       $("#myText").fadeOut(function() {
+           $(this).text("New text").fadeIn();
+       });
+   });
+   ```
+
+7. **Animate Scroll Position:**
+   Animate scrolling to a specific position on the page.
+   
+   ```javascript
+   $("#scrollButton").click(function() {
+       $("html, body").animate({ scrollTop: $("#section2").offset().top }, "slow");
+   });
+   ```
+
+8. **Custom Easing Animation:**
+   Use easing functions for custom animations.
+   
+   ```javascript
+   $("#easingButton").click(function() {
+       $("#myElement").animate({
+           marginLeft: "200px"
+       }, {
+           duration: 1000,
+           easing: "easeOutBounce"
+       });
+   });
+   ```
