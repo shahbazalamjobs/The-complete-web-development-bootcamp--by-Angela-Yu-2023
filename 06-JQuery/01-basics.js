@@ -41,8 +41,11 @@ console.log($("h1").css("color"));
 console.log($("h1").css("font-size"));  
 // output: 32px
 
-console.log($("h1").css("font-size", "5rem")); 
+$("h1").css("font-size", "5rem"); 
 // changes the font-size but its not good practice as css is for styling and javascript for behaviour
+
+
+/* *********** */
 
 
 // 1) to change style with jQuery, we will use css
@@ -55,6 +58,8 @@ console.log($("h1").css("font-size", "5rem"));
 // jQuery code
 $("h1").addClass("big-title");    // gives all big-title selector selector
 
+
+/* *********** */
 
 
 // 2) to change multiple things on same element(s) by adding class name 
@@ -71,5 +76,35 @@ $("h1").addClass("big-title margin-50");
 .margin-50 {
     margin: 50px;
 }
+
+
+/* *********** */
+
+
+// 3) to know whether element has particular class or not
+
+$("h1").hasClass("margin-50");
+// output: true
+
+
+/* *********** */
+
+
+// 3) Changing text content
+
+$("h1").text("Bye");    // h1 changes to Bye
+
+$("button").text("Don't Click me");    // all button text becomes  Don't Click me
+
+$("button").html("<em>Press</em>");    // .html work similar in jQuery to .innerHTML in javascript, Hereemphasizing the text press
+
+
+/* *********** */
+
+
+// 3) Manipulating Attibutes
+
+
+
 
 
