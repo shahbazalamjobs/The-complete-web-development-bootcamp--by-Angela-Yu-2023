@@ -1,8 +1,7 @@
 /* *********** */
 
-$("h1").css("color", "red");    // Selects h1 elements then changes their color to red
-
-
+$("h1").css("color", "red");  
+// Selects h1 elements then changes their color to red
 
 /* *********** */
 
@@ -14,6 +13,7 @@ $(document).ready(function() ) {
 $(document).ready(function() { ... });: 
 This part wraps the code inside a function that will be executed once the document is fully loaded and ready. 
 It ensures that the code runs after the HTML document's elements have been loaded into the browser's memory.
+It can be used when jquery and javascript location are present in head tag 
 */
 
 /*
