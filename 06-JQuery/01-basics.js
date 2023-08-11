@@ -113,4 +113,61 @@ $("h1").attr("class");    // Gives all classes of selected element
 
 
 
+/* *********** */
 
+// EventListeners in jQuery
+
+// on click h1 changing color to purple
+$("h1").click(function () {
+    $("h1").css("color", "purple")
+});
+
+
+/* *********** */
+
+
+// changing color of h1 when click any single button of all the buttons
+// for that we need to use for loop in javascript as it can select 1 element at a time
+// but in jQuery we can select multiple elements at a time
+
+$("button").click(function () {
+    $("h1").css("color", "purple");
+});
+
+
+
+/* *********** */
+
+// while writing in input, text is displayed in console
+$("input").keydown(function (event) {
+    console.log(event.key);
+});
+
+// while writing in input, text is displayed in heading
+$("input").keydown(function (event) {
+    $("h1").text(event.key);
+});
+
+
+/* *********** */
+
+// on method
+
+$("h1").on("mouseover", function () {
+    $("h1").css("color", "purple");
+});
+
+// changes h1 color after mouse is hovered over h1
+
+/* *********** */
+
+
+$("h1").before("<button>New 1</button>");     // Places button before h1
+
+$("h1").after("<button>New 2</button>");     // Places button after h1
+
+$("h1").prepend("<button>New 3</button>");     // Places button before h1 in same line
+
+$("h1").append("<button>New 4</button>");     // Places button before h1 in same line
+
+$("button").remove();   // Removes all button
