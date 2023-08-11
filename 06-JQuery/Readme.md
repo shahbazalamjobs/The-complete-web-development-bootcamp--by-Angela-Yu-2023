@@ -652,3 +652,26 @@ These snippets cover a range of common scenarios for manipulating styles with jQ
        });
    });
    ```
+
+---
+
+## `on` Method
+
+Sure, here's an example of using the `.on()` method to attach event listeners to elements in jQuery:
+
+```javascript
+$(document).ready(function () {
+    $("button").on("click", function () {
+        $("h1").css("color", "purple");
+    });
+});
+```
+
+In this example, when any `<button>` element is clicked, the color of all `<h1>` elements will be changed to purple.
+
+- The `.on()` method is a versatile way to attach event handlers in jQuery.
+- It allows you to specify the type of event you want to listen for ("click" in this case) and a function that will be executed when the event occurs.
+- This method is particularly useful when working with dynamically added elements or when you want to delegate events to a parent element.
+
+  
+
