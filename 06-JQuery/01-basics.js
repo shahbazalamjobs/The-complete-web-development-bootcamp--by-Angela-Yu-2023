@@ -104,6 +104,12 @@ $("button").html("<em>Press</em>");    // .html work similar in jQuery to .inner
 
 // 3) Manipulating Attibutes
 
+console.log($("img").attr("src"));      // Get src attribute 
+
+console.log($("a").attr("href", "https://www.yahoo.com"));      // set href attribute 
+ 
+$("h1").attr("class");    // Gives all classes of selected element
+// output: 'big-title margin-50'
 
 
 
