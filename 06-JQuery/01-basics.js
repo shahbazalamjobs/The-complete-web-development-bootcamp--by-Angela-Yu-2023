@@ -171,3 +171,79 @@ $("h1").prepend("<button>New 3</button>");     // Places button before h1 in sam
 $("h1").append("<button>New 4</button>");     // Places button before h1 in same line
 
 $("button").remove();   // Removes all button
+
+
+
+/* *********** */
+
+
+
+// Animation using jQuery
+
+// Hide h1 when click button
+$("button").on("click", function () {
+    $("h1").hide();
+});
+
+// Togglw h1 by clicking button
+$("button").on("click", function () {
+    $("h1").toggle();
+});
+
+// hide slowly
+$("button").on("click", function () {
+    $("h1").fadeOut();
+});
+
+// slowly comes
+$("button").on("click", function () {
+    $("h1").fadeIn();
+});
+
+// toggles fade
+$("button").on("click", function () {
+    $("h1").fadeToggle();
+});
+
+// slides up
+$("button").on("click", function () {
+    $("h1").slideUp();
+});
+
+// slides Down
+$("button").on("click", function () {
+    $("h1").slideDown();
+});
+//  toggles slide
+$("button").on("click", function () {
+    $("h1").slideToggle();
+});
+
+
+// Using custom animation using css .. css code inside animate({});
+
+// Reduces opacity to 50% by clicking
+$("button").on("click", function () {
+    $("h1").animate({ opacity: 0.5 });
+});
+
+// but cannot do many things like changing color
+$("button").on("click", function () {
+    $("h1").animate({ color: red }); // error: red not defined
+});
+
+
+// Multiple animation in single click
+// First slideUp, then slideDown then reduce opacity to 50%
+$("button").on("click", function () {
+    $("h1").slideUp().slideDown().animate({ opacity: 0.5 });
+});
+
+
+//jQuery Animation:  https://api.jquery.com/category/effects/
+
+
+
+/* *********** */
+
+
