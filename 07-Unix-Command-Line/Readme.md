@@ -32,10 +32,21 @@ Remember, these components work together: the shell provides a user-friendly way
 `ls -a :` shows all files including hidden ones <br>
 
 
-- Others: <br>
+- Directory: <br>
 `cd /` : brings you to highest level of hierarchy (in my Pc it brings me to /MINGW64) <br>
 `cd ..` : brings you to previous folder <br>
 `cd c:` : Users/hp/OneDrive/Desktop : bring directly to Desktop location <br>
 `cd c:`  : takes you to c drive folder <br>
+
+- Files: <br>
+`touch document.txt` : Creates a file name document.txt <br>
+`rm document.txt` : Deletes file name document.txt if it's present in current directory <br>
+`code array.c` : Creates a code file called array.c and it opens in vscode <br>
+`rm array.c` : remove file name array.c <br>
+`rm *` : removes all file inside the directory but not the folders <br>
+[Note]: `rm *` is quite dangerous so  be careful while using it <br>
+`rm -r document.txt` : remove file name document.txt in current directory <br>
+
+
 
 
