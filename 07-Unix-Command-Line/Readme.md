@@ -44,7 +44,7 @@ Remember, these components work together: the shell provides a user-friendly way
 `code array.c` : Creates a code file called array.c and it opens in vscode <br>
 `rm array.c` : remove file name array.c <br>
 `rm *` : removes all file inside the directory but not the folders <br>
- `rm *` : `is quite dangerous so  be careful while using it` <br>
+ `rm *` : `is quite dangerous so  be careful while using it, check the directory you are` <br>
 `rm -r document.txt` : remove file name document.txt in current directory <br>
 
 
