@@ -49,5 +49,5 @@ Remember, these components work together: the shell provides a user-friendly way
 
 ---
 
-Basics: https://dev.to/rudrakshi99/linux-basics-2onj
+Basics: https://dev.to/rudrakshi99/linux-basics-2onj <br>
 Tutorials for beginners: http://www.ee.surrey.ac.uk/Teaching/Unix/
