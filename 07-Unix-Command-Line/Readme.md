@@ -21,3 +21,21 @@ Certainly! Here's a concise explanation of shell, command-line interface, and ke
 - Acts as a bridge between hardware and software layers, executing system calls from user programs.
 
 Remember, these components work together: the shell provides a user-friendly way to interact with the kernel through the command-line interface.
+
+---
+
+## Bash commands
+- Simple:
+`mkdir` Music: making a new directory (makes a new folder called Music in current location)
+`pwd` : current directory
+`ls` : shows all folder
+`ls -a :` shows all files including hidden ones
+
+
+- Others:
+`cd /` : brings you to highest level of hierarchy (in my Pc it brings me to /MINGW64)
+`cd ..` : brings you to previous folder
+`cd c:`Users/hp/OneDrive/Desktop : bring directly to Desktop location
+`cd c:`  : reaches 
+
+
