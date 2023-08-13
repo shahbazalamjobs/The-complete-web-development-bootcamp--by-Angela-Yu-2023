@@ -35,7 +35,7 @@ Remember, these components work together: the shell provides a user-friendly way
 - Others: <br>
 `cd /` : brings you to highest level of hierarchy (in my Pc it brings me to /MINGW64) <br>
 `cd ..` : brings you to previous folder <br>
-`cd c:`Users/hp/OneDrive/Desktop : bring directly to Desktop location <br>
+`cd c:` : Users/hp/OneDrive/Desktop : bring directly to Desktop location <br>
 `cd c:`  : takes you to c drive folder <br>
 
 
