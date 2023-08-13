@@ -47,6 +47,6 @@ Remember, these components work together: the shell provides a user-friendly way
  `rm *` : `is quite dangerous so  be careful while using it, check the directory you are` <br>
 `rm -r document.txt` : remove file name document.txt in current directory <br>
 
+---
 
-
-
+Basics: https://dev.to/rudrakshi99/linux-basics-2onj
