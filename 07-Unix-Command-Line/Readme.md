@@ -26,7 +26,7 @@ Remember, these components work together: the shell provides a user-friendly way
 
 ## Bash commands
 - Simple: <br>
-`mkdir` Music: making a new directory (makes a new folder called Music in current location) <br>
+`mkdir Music` : making a new directory (makes a new folder called Music in current location) <br>
 `pwd` : current directory <br>
 `ls` : shows all folder <br>
 `ls -a :` shows all files including hidden ones <br>
