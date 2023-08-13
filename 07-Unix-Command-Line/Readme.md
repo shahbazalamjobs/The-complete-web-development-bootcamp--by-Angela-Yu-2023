@@ -26,16 +26,16 @@ Remember, these components work together: the shell provides a user-friendly way
 
 ## Bash commands
 - Simple:
-`mkdir` Music: making a new directory (makes a new folder called Music in current location)
-`pwd` : current directory
-`ls` : shows all folder
-`ls -a :` shows all files including hidden ones
+`mkdir` Music: making a new directory (makes a new folder called Music in current location) <br>
+`pwd` : current directory <br>
+`ls` : shows all folder <br>
+`ls -a :` shows all files including hidden ones <br>
 
 
 - Others:
-`cd /` : brings you to highest level of hierarchy (in my Pc it brings me to /MINGW64)
-`cd ..` : brings you to previous folder
-`cd c:`Users/hp/OneDrive/Desktop : bring directly to Desktop location
-`cd c:`  : takes you to c drive folder
+`cd /` : brings you to highest level of hierarchy (in my Pc it brings me to /MINGW64) <br>
+`cd ..` : brings you to previous folder <br>
+`cd c:`Users/hp/OneDrive/Desktop : bring directly to Desktop location <br>
+`cd c:`  : takes you to c drive folder <br>
 
 
