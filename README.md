@@ -15,4 +15,4 @@ Original old course free: https://appbrewery.com/p/legacy-complete-web-developme
 | My Third Bootstrap site   | https://shahbazalamjobs.github.io/Move-It/     |
 
 Other Notes: https://github.com/sdkdeepa/Udemy-web-bootcamp <br>
-Old Lectures Link: [Link](https://appbrewery.com/p/legacy-complete-web-development-course/?utm_campaign=2023-04-14&utm_term=31334738&utm_content=educational&utm_source=email-sendgrid&utm_medium=1565838)
+Old Lectures: [Link](https://appbrewery.com/p/legacy-complete-web-development-course/?utm_campaign=2023-04-14&utm_term=31334738&utm_content=educational&utm_source=email-sendgrid&utm_medium=1565838)
