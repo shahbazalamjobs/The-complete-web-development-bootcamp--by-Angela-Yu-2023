@@ -188,7 +188,7 @@ Is this OK? (yes) y
 ---
 
 - Using documentation writing code and then getting output 
-```
+```json
 var generateName = require('sillyname');
 var sillyName = generateName();
 
@@ -196,4 +196,13 @@ console.log(`My name is ${sillyName}.`);
 ```
 - "We're importing the 'sillyname' package to create amusing names.
 - By calling the 'generateName()' function, we get a random name, which we then display with the sentence 'My name is [random silly name].' using a template literal."
-- 
+
+---
+
+- Understanding  tempelate literal
+```javascript
+const age = 30;
+console.log(`I am ${age} years old.`);
+```
+- In this example, the template literal `${age}` is used to interpolate the value of the `age` variable into the string, resulting in the output: "I am 30 years old."
+
