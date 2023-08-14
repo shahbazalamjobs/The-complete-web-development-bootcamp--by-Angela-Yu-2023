@@ -105,7 +105,8 @@ fs.readFile("message.txt", 'utf8', (err, data) => {
 });
 ```
 
-- Gives output the text present inside message.txt <br>
+- Gives output the text present inside message.txt 
+- `utf-8` argument should be present otherwise will give buffer or cannot see our text <br>
 
 The provided code snippet uses the `fs.readFile` method from the "fs" module in Node.js to read the contents of a file named "message.txt" in UTF-8 encoding. Once the operation is complete, a callback function is executed:
 
@@ -120,4 +121,10 @@ The provided code snippet uses the `fs.readFile` method from the "fs" module in 
 5. `console.log(data);`: If the file read operation is successful (no error), this line logs the read data (contents of the file) to the console.
 
 In summary, the code reads the contents of the "message.txt" file in UTF-8 encoding, handles potential errors, and logs either the error message or the file contents based on the outcome of the operation.
+
+---
+
+### Node Package Manager (NPM)
+
+npm (Node Package Manager) is a package manager for Node.js, which is a JavaScript runtime environment. npm allows developers to easily install, manage, and share reusable code packages (libraries, frameworks, and tools) that can be used in Node.js applications. It comes pre-installed with Node.js and is used to install, manage, and share code packages in Node.js applications, facilitating development and enhancing code reuse.
 
