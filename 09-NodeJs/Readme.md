@@ -104,7 +104,7 @@ In summary, JavaScript is primarily used for client-side scripting within web br
 Certainly! Here are the top 20 common questions about Node.js along with their answers:
 
 1. **Question:** What is Node.js and why is it popular for web development?
-   **Answer:** Node.js is a server-side runtime environment for executing JavaScript code. Its event-driven, non-blocking architecture makes it efficient for building scalable network applications like web servers and APIs.
+-   **Answer:** Node.js is a server-side runtime environment for executing JavaScript code. Its event-driven, non-blocking architecture makes it efficient for building scalable network applications like web servers and APIs.
 
 2. **Question:** How do you install Node.js on different operating systems?
    **Answer:** You can download the installer from the official Node.js website and follow the installation instructions provided for your specific operating system.
