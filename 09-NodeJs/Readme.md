@@ -23,3 +23,48 @@ Key features and characteristics of Node.js include:
 
 ---
 
+Node.js is chosen for its event-driven, non-blocking architecture, ideal for real-time applications and handling concurrent connections. Unlike traditional server setups, it uses a single language (JavaScript) for both client and server, streamlining development. This unified environment, along with its extensive package ecosystem, boosts productivity, making it a popular choice for building scalable, high-performance applications compared to other technologies.
+
+---
+
+## Simple commands
+
+1. `node -version` : to know the version
+2. `node` : to enter Node.js REPL" (Read-Eval-Print Loop)
+
+- The Node.js app where you can write commands is called the "Node.js REPL" (Read-Eval-Print Loop). It provides an interactive environment for executing JavaScript code and seeing the immediate results.
+
+3. `.exit` to exit the REPL or pres `Ctrl + C` to exit
+4. `5+8` gives 13
+5. `let a = 3` , then `a + 5 ` will give 8
+
+- Inside node REPL is similar to javascript console in the browser , only difference is we are doing it out of browser and using node to run javascript code
+
+- Now create file called index.js and write `console.log("hello world");`,
+- Then inside terminal enter to the folder location containing index.js file using comand `cd 'c:/Users/hp/OneDrive/Desktop/08-Nodejs/'`
+- After entering the location execute command `node index.js`
+- It will give us output `hello world`
+
+---
+
+## Native Modules
+
+- Native modules in Node.js are modules that are implemented in languages other than JavaScript, such as C or C++. These modules are compiled into binary code and can be loaded and used just like regular JavaScript modules in Node.js applications.
+
+- Native modules are used when performance or low-level system interaction is required, as they can interact directly with the underlying system or hardware. They often provide bindings to system libraries or hardware-specific functionalities that are not easily accessible or performant when implemented purely in JavaScript.
+
+- To use a native module in Node.js, you typically write a JavaScript wrapper that provides an interface to the underlying C or C++ code. This wrapper allows you to interact with the native functionality using JavaScript code. Node.js provides the "node-gyp" tool for compiling native modules, and it also offers the "N-API" (Node-API) for creating more stable and consistent interfaces between JavaScript and native code, especially when dealing with compatibility across different versions of Node.js.
+
+--- 
+
+### Importing fs (file sharing) modules
+
+`const fs = require("fs");` <br>
+
+The line of code `const fs = require("fs");` is used in Node.js to import and use the "fs" module, which stands for "file system." This module is a core part of Node.js and provides functionalities for interacting with the file system on your computer or server.
+
+1. `const fs`: This declares a constant variable named `fs`, which will be used to access the functions and methods provided by the "fs" module.
+
+2. `require("fs")`: The `require` function is used in Node.js to import external modules. In this case, it's importing the "fs" module. The module name is provided as a string ("fs") within the parentheses. <br>
+
+Once you have imported the "fs" module using this line of code, you can use the `fs` variable to access various methods and functions provided by the module. These functions allow you to perform operations such as reading and writing files, creating directories, renaming files, and more, on your system's file system.
