@@ -27,13 +27,13 @@ Key features and characteristics of Node.js include:
 ### Understanding key terms simple words:
 
 
-### Non-blocking I/O:
+### 1. Non-blocking I/O:
 
 Imagine you're cooking in the kitchen. If you're waiting for water to boil, you can't do anything else until it's done. That's like blocking.
 
 In Node.js, it's like cooking many things at once. While one thing is boiling, you can chop veggies. It doesn't wait, so you get things done faster.
 
-### Asynchronous Programming:
+### 2. Asynchronous Programming:
 
 
 Think of it as having a helper while you cook. Instead of waiting for each task to finish, you ask your helper to keep an eye on it. You go on cooking other stuff, and your helper lets you know when things are ready.
@@ -41,14 +41,23 @@ Think of it as having a helper while you cook. Instead of waiting for each task 
 In Node.js, you use helpers like callbacks, promises, or async/await. You don't wait for tasks to finish, so your program stays busy and efficient. It's like cooking and prepping together, making things smoother and faster.
 
 
-### Server-side scripting (using Node.js):
+### 3. Server-side scripting (using Node.js):
 
 Imagine you're in charge of a restaurant. Customers order food, and you make sure their orders are prepared and served. The kitchen staff, who handle cooking and ingredients, are like the "backend" of the restaurant.
 
 In web development, the "backend" is like the kitchen. It's where data is stored, processed, and prepared for the user. Node.js helps you build this backend using JavaScript. You can handle orders (client requests) and manage ingredients (databases) using the same language. Just like you're the one making sure everything runs smoothly in the restaurant, Node.js helps developers manage the behind-the-scenes part of websites and apps.
 
-### Scalability (using Node.js):
+### 4. Scalability (using Node.js):
 
 Imagine you're hosting a big party. You need to make sure there's enough food, drinks, and space for all your guests. If more people show up, you need a way to handle them without chaos.
 
 Node.js is like the party planner for your web apps. It can handle many guests (concurrent connections and requests) at the same time without getting overwhelmed. It's like smoothly managing a growing number of guests at your party. This makes Node.js great for building apps that can handle lots of users without slowing down, just like your party stays enjoyable even with many guests.
+
+--- 
+
+## Understanding Terms
+
+- Creating web servers:
+  1. Creating web servers involves the process of designing, configuring, and implementing software that enables communication between websites or web applications and clients, such as browsers or mobile devices.
+  2.  This entails selecting a programming language (like Python, JavaScript, or Ruby), a web server software (such as Apache, Nginx, or Node.js), and defining routes and endpoints to handle incoming requests and provide appropriate responses, often involving data retrieval from databases or other sources.
+  3.  The server's role is to serve static files, process dynamic content, manage user sessions, and ensure secure and efficient data transmission, thereby facilitating the functioning of websites and enabling users to access and interact with online content seamlessly.
