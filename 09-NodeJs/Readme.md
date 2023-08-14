@@ -128,3 +128,72 @@ In summary, the code reads the contents of the "message.txt" file in UTF-8 encod
 
 npm (Node Package Manager) is a package manager for Node.js, which is a JavaScript runtime environment. npm allows developers to easily install, manage, and share reusable code packages (libraries, frameworks, and tools) that can be used in Node.js applications. It comes pre-installed with Node.js and is used to install, manage, and share code packages in Node.js applications, facilitating development and enhancing code reuse.
 
+- Inside terminal write command `npm init`, it creates a `package.json` file for your project, guiding you through setup.
+- Write some details like package name, description, author, in rest press enter
+```
+package name: (03--npm) learning-npm
+version: (1.0.0)
+description: I'm learning about npm
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Shahbaz
+license: (ISC)
+```
+- Output: About to write to C:\Users\hp\OneDrive\Desktop\Web Dev\08-NodeJs\03- NPM\package.json:
+- It creates a `package.json` file
+```
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "I'm learning about npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahbaz",
+  "license": "ISC"
+}
+
+Is this OK? (yes) y
+```
+
+---
+
+### Install npm packages
+
+- `npm install <package>`: Installs a package and its dependencies for your project.
+- `npm install <package1> <package2> <package3>` for installing multiple packages.
+- This is a `package.json` file, which is a configuration file used by Node.js projects to specify project details, dependencies, scripts, and more.
+
+
+- Installing package sillyname
+- `npm i sillyname` : i short for install
+- Updates the json file with adding dependencies :
+```
+"dependencies": {
+    "sillyname": "^0.1.0"
+  }
+```
+
+Let's break down the key fields:
+
+- `"name"`: The name of the project.
+- `"version"`: The project's version number.
+- `"description"`: A brief description of the project.
+- `"main"`: The entry point for the project (usually the main JavaScript file).
+- `"scripts"`: Defines custom scripts you can run using `npm run`.
+- `"author"`: The author of the project.
+- `"license"`: The license type for the project.
+- `"dependencies"`: Lists external packages that your project depends on, along with their required versions.
+
+---
+
+
+- 
+
+
+
+
+
