@@ -72,18 +72,16 @@ Once you have imported the "fs" module using this line of code, you can use the 
 2. Step 2:
    
 ```
-    fs.writeFile("message.txt" "Hello from NodeJs!", (err) => {
-        if(err) throw err;
-        console.log("The file has been saved!");
-    });
+ fs.writeFile("message.txt" "Hello from NodeJs!", (err) => {
+     if(err) throw err;
+     console.log("The file has been saved!");
+ });
 ```
 
   The given code snippet uses the `fs.writeFile` method from the "fs" module in Node.js to create or overwrite a file named "message.txt" with the content "Hello from NodeJs!". After the operation is complete, a callback function is executed:
   
-  1. `fs.writeFile("message.txt", "Hello from NodeJs!", (err) => {`: This line initiates the process of writing the specified content to the "message.txt" file. The callback function `(err) => { ... }` is passed as the third argument, which will be executed once the operation is finished.
-  
-  2. `if (err) throw err;`: Inside the callback, this line checks if there's an error during the file write operation. If an error occurs, it is thrown, potentially halting the program execution and displaying the error message.
-  
-  3. `console.log("The file has been saved!");`: If the file write operation is successful (no error), this line logs a message indicating that the file has been saved.
+   - `fs.writeFile("message.txt", "Hello from NodeJs!", (err) => {`: This line initiates the process of writing the specified content to the "message.txt" file. The callback function `(err) => { ... }` is passed as the third argument, which will be executed once the operation is finished.
+   - `if (err) throw err;`: Inside the callback, this line checks if there's an error during the file write operation. If an error occurs, it is thrown, potentially halting the program execution and displaying the error message.
+   - `console.log("The file has been saved!");`: If the file write operation is successful (no error), this line logs a message indicating that the file has been saved.
 
 In summary, the code writes the specified content to a file named "message.txt," handles potential errors, and logs a success message once the operation is completed.
