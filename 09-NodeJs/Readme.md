@@ -166,18 +166,15 @@ Is this OK? (yes) y
 - `npm install <package>`: Installs a package and its dependencies for your project.
 - `npm install <package1> <package2> <package3>` for installing multiple packages.
 - This is a `package.json` file, which is a configuration file used by Node.js projects to specify project details, dependencies, scripts, and more.
-
-
+  
 - Installing package sillyname
 - `npm i sillyname` : i short for install
-- Updates the json file with adding dependencies :
+- It install package sillyname with creating module folder with all sillyname files and updates json file with adding
 ```json
 "dependencies": {
     "sillyname": "^0.1.0"
   }
 ```
-
-Let's break down the key fields:
 
 - `"name"`: The name of the project.
 - `"version"`: The project's version number.
