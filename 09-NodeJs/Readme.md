@@ -44,6 +44,8 @@ B. **Asynchronous Cooking (Non-blocking)**:
 
 In programming, this helps Node.js handle many tasks without waiting. Just like cooking, it speeds things up. Useful for waiting tasks like reading files or using databases, making programs faster and responsive.
 
+---
+
 2. Event-Driven Programming Simplified:
 
 Event-driven programming guides how a program runs based on events, like user actions or messages. It's like hosting a party: you react to what guests do. If someone arrives, you greet them. If music stops, you play more. Similarly, in coding:
@@ -53,6 +55,8 @@ B. **Handlers**: Special functions react to events.
 C. **Non-Blocking**: No waiting; program keeps doing tasks.
 
 Node.js uses this for tasks like handling user requests or interactions. It's great for many tasks at once, like web servers. Node.js listens for events and acts, making programs quick and responsive.
+
+---
 
 3. Creating Web Servers and APIs Explained
 
