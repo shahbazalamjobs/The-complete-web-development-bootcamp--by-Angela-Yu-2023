@@ -24,7 +24,8 @@ Key features and characteristics of Node.js include:
 ---
 
 
-- Understanding key terms simple words:
+### Understanding key terms simple words:
+
 1) Asynchronous Programming: 
 
 Analogy: **Cooking Tasks at Home**
