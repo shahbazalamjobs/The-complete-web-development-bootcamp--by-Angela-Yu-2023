@@ -143,7 +143,7 @@ license: (ISC)
 ```
 - Output: About to write to C:\Users\hp\OneDrive\Desktop\Web Dev\08-NodeJs\03- NPM\package.json:
 - It creates a `package.json` file
-```
+```json
 {
   "name": "learning-npm",
   "version": "1.0.0",
