@@ -224,3 +224,21 @@ ECMAScript Modules (ESM):
 - **Browser Support**: ESM is now widely supported in modern browsers, making it suitable for front-end development as well.
 
 In summary, CommonJS (CJS) is the traditional module system used in Node.js, while ECMAScript Modules (ESM) is the newer, more modern module system defined by the JavaScript specification, suitable for both browsers and Node.js.
+
+---
+
+### Why json file is created
+
+When you install npm packages in your project, a `package.json` file is created or updated to keep track of the packages you've installed and their versions. This file serves several important purposes:
+
+1. **Dependency Tracking**: The `package.json` file lists the dependencies your project relies on. This ensures that other developers working on the project or deploying it can easily install the same set of dependencies.
+
+2. **Version Control**: By specifying the exact versions of the dependencies in the `package.json` file, you ensure consistency across different environments and avoid potential compatibility issues.
+
+3. **Reproducibility**: Having a `package.json` file makes it easier to recreate the exact development environment and reproduce the behavior of your application. This is crucial when sharing code with others or deploying to different servers.
+
+4. **npm Scripts**: The `package.json` file also allows you to define custom npm scripts, which are commands that can be executed using the `npm run` command. This simplifies tasks like building, testing, and deployment.
+
+5. **Project Metadata**: The `package.json` file contains essential metadata about your project, such as its name, version, description, author, and license. This information helps identify and manage your project.
+
+Overall, the `package.json` file acts as a central configuration file for your Node.js project, enabling consistent development practices, version control, and easy collaboration. It's automatically created or updated when you install or remove npm packages to ensure your project's dependencies are accurately tracked.
