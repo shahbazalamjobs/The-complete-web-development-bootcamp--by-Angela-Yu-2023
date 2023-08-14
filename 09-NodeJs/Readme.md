@@ -105,8 +105,7 @@ fs.readFile("message.txt", 'utf8', (err, data) => {
 });
 ```
 
-- Gives output: `Hello from NodeJs!` <br>
-
+- Gives output the text present inside message.txt <br>
 
 The provided code snippet uses the `fs.readFile` method from the "fs" module in Node.js to read the contents of a file named "message.txt" in UTF-8 encoding. Once the operation is complete, a callback function is executed:
 
