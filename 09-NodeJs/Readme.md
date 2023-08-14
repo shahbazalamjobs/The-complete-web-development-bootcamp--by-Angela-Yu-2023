@@ -171,7 +171,7 @@ Is this OK? (yes) y
 - Installing package sillyname
 - `npm i sillyname` : i short for install
 - Updates the json file with adding dependencies :
-```
+```json
 "dependencies": {
     "sillyname": "^0.1.0"
   }
