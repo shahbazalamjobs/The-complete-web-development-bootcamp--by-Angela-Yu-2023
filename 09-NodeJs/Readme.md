@@ -187,10 +187,13 @@ Is this OK? (yes) y
 
 ---
 
+- Using documentation writing code and then getting output 
+```
+var generateName = require('sillyname');
+var sillyName = generateName();
 
+console.log(`My name is ${sillyName}.`);
+```
+- "We're importing the 'sillyname' package to create amusing names.
+- By calling the 'generateName()' function, we get a random name, which we then display with the sentence 'My name is [random silly name].' using a template literal."
 - 
-
-
-
-
-
