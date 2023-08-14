@@ -72,12 +72,14 @@ The line of code `const fs = require("fs");` is used in Node.js to import and us
 Once you have imported the "fs" module using this line of code, you can use the `fs` variable to access various methods and functions provided by the module. These functions allow you to perform operations such as reading and writing files, creating directories, renaming files, and more, on your system's file system.
 
 2. Step 2:
-   
+
+- Look into `fs.write` method do the change and copy rest of code
+  
 ```
- fs.writeFile("message.txt" "Hello from NodeJs!", (err) => {
-     if(err) throw err;
-     console.log("The file has been saved!");
- });
+fs.writeFile("message.txt", "Hello from NodeJs!", (err) => {
+    if (err) throw err;
+    console.log("The file has been saved!");
+});
 ```
 
   The given code snippet uses the `fs.writeFile` method from the "fs" module in Node.js to create or overwrite a file named "message.txt" with the content "Hello from NodeJs!". After the operation is complete, a callback function is executed:
@@ -87,3 +89,6 @@ Once you have imported the "fs" module using this line of code, you can use the 
    - `console.log("The file has been saved!");`: If the file write operation is successful (no error), this line logs a message indicating that the file has been saved.
 
 In summary, the code writes the specified content to a file named "message.txt," handles potential errors, and logs a success message once the operation is completed.
+
+---
+
