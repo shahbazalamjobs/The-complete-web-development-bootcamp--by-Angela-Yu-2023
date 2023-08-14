@@ -60,13 +60,12 @@ Node.js is chosen for its event-driven, non-blocking architecture, ideal for rea
 ### Importing fs (file system) modules
 
 1. Step 1:
-`const fs = require("fs");` <br>
+```const fs = require("fs");``` 
 
 The line of code `const fs = require("fs");` is used in Node.js to import and use the "fs" module, which stands for "file system." This module is a core part of Node.js and provides functionalities for interacting with the file system on your computer or server.
 
-1. `const fs`: This declares a constant variable named `fs`, which will be used to access the functions and methods provided by the "fs" module.
-
-2. `require("fs")`: The `require` function is used in Node.js to import external modules. In this case, it's importing the "fs" module. The module name is provided as a string ("fs") within the parentheses. <br>
+   -  `const fs`: This declares a constant variable named `fs`, which will be used to access the functions and methods provided by the "fs" module.
+   -  `require("fs")`: The `require` function is used in Node.js to import external modules. In this case, it's importing the "fs" module. The module name is provided as a string ("fs") within the parentheses. <br>
 
 Once you have imported the "fs" module using this line of code, you can use the `fs` variable to access various methods and functions provided by the module. These functions allow you to perform operations such as reading and writing files, creating directories, renaming files, and more, on your system's file system.
 
