@@ -95,4 +95,7 @@ Sure, here's the question and answer presented in a table format:
 
 | **Question:** Is JavaScript used in writing code for Node.js? |
 |---------------------------------------------|
-| **Answer:** Yes, exactly! JavaScript is used for writing code in Node.js. Node.js allows you to run JavaScript code on the server-side, which means you can use JavaScript to build web servers, APIs, backend applications, and more. This is a powerful feature because it lets developers use the same language, JavaScript, for both client-side (web browsers) and server-side (Node.js) programming tasks, making the development process more consistent and efficient. |
+| **Answer:** 
+- Yes, exactly! JavaScript is used for writing code in Node.js.
+- Node.js allows you to run JavaScript code on the server-side, which means you can use JavaScript to build web servers, APIs, backend applications, and more.
+- This is a powerful feature because it lets developers use the same language, JavaScript, for both client-side (web browsers) and server-side (Node.js) programming tasks, making the development process more consistent and efficient. |
