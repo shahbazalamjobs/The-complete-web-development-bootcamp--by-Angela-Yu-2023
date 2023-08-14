@@ -59,6 +59,7 @@ Node.js is chosen for its event-driven, non-blocking architecture, ideal for rea
 
 ### Importing fs (file system) modules
 
+1. Step 1:
 `const fs = require("fs");` <br>
 
 The line of code `const fs = require("fs");` is used in Node.js to import and use the "fs" module, which stands for "file system." This module is a core part of Node.js and provides functionalities for interacting with the file system on your computer or server.
@@ -68,3 +69,22 @@ The line of code `const fs = require("fs");` is used in Node.js to import and us
 2. `require("fs")`: The `require` function is used in Node.js to import external modules. In this case, it's importing the "fs" module. The module name is provided as a string ("fs") within the parentheses. <br>
 
 Once you have imported the "fs" module using this line of code, you can use the `fs` variable to access various methods and functions provided by the module. These functions allow you to perform operations such as reading and writing files, creating directories, renaming files, and more, on your system's file system.
+
+2. Step 2:
+   
+```
+    fs.writeFile("message.txt" "Hello from NodeJs!", (err) => {
+        if(err) throw err;
+        console.log("The file has been saved!");
+    });
+```
+
+  The given code snippet uses the `fs.writeFile` method from the "fs" module in Node.js to create or overwrite a file named "message.txt" with the content "Hello from NodeJs!". After the operation is complete, a callback function is executed:
+  
+  1. `fs.writeFile("message.txt", "Hello from NodeJs!", (err) => {`: This line initiates the process of writing the specified content to the "message.txt" file. The callback function `(err) => { ... }` is passed as the third argument, which will be executed once the operation is finished.
+  
+  2. `if (err) throw err;`: Inside the callback, this line checks if there's an error during the file write operation. If an error occurs, it is thrown, potentially halting the program execution and displaying the error message.
+  
+  3. `console.log("The file has been saved!");`: If the file write operation is successful (no error), this line logs a message indicating that the file has been saved.
+
+In summary, the code writes the specified content to a file named "message.txt," handles potential errors, and logs a success message once the operation is completed.
