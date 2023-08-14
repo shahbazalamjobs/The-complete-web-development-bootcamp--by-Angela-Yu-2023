@@ -206,3 +206,21 @@ console.log(`I am ${age} years old.`);
 ```
 - In this example, the template literal `${age}` is used to interpolate the value of the `age` variable into the string, resulting in the output: "I am 30 years old."
 
+
+---
+
+### CJS vs ESM
+- CommonJS (CJS) and ECMAScript Modules (ESM) are two different systems for organizing and sharing code in JavaScript. Here's a brief comparison:
+
+CommonJS (CJS):
+- **Usage**: CommonJS is the module system primarily used in Node.js for server-side JavaScript.
+- **Import/Export**: Imports and exports are synchronous and use `require()` to import and `module.exports` or `exports` to export.
+- **Dynamic Loading**: Modules are loaded synchronously, making it less suitable for browser-based environments due to potential performance bottlenecks.
+
+ECMAScript Modules (ESM):
+- **Usage**: ESM is the official module system defined in the ECMAScript (JavaScript) specification, usable both in browsers and Node.js.
+- **Import/Export**: Imports and exports are asynchronous and use `import` and `export` statements.
+- **Static Analysis**: ESM allows for static analysis, enabling tools to optimize and tree-shake code during bundling for better performance.
+- **Browser Support**: ESM is now widely supported in modern browsers, making it suitable for front-end development as well.
+
+In summary, CommonJS (CJS) is the traditional module system used in Node.js, while ECMAScript Modules (ESM) is the newer, more modern module system defined by the JavaScript specification, suitable for both browsers and Node.js.
