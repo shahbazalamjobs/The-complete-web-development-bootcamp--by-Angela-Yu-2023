@@ -60,7 +60,9 @@ Node.js is chosen for its event-driven, non-blocking architecture, ideal for rea
 ### Importing fs (file system) modules
 
 1. Step 1:
-```const fs = require("fs");``` 
+```
+const fs = require("fs");
+``` 
 
 The line of code `const fs = require("fs");` is used in Node.js to import and use the "fs" module, which stands for "file system." This module is a core part of Node.js and provides functionalities for interacting with the file system on your computer or server.
 
