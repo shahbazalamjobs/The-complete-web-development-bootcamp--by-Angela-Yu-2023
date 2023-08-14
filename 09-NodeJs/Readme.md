@@ -81,8 +81,9 @@ fs.writeFile("message.txt", "Hello from NodeJs!", (err) => {
     console.log("The file has been saved!");
 });
 ```
-
-  The given code snippet uses the `fs.writeFile` method from the "fs" module in Node.js to create or overwrite a file named "message.txt" with the content "Hello from NodeJs!". After the operation is complete, a callback function is executed:
+- After executing the code, it creates a file calle dmessage.txt by nodejs <br>
+ 
+The given code snippet uses the `fs.writeFile` method from the "fs" module in Node.js to create or overwrite a file named "message.txt" with the content "Hello from NodeJs!". After the operation is complete, a callback function is executed:
   
    - `fs.writeFile("message.txt", "Hello from NodeJs!", (err) => {`: This line initiates the process of writing the specified content to the "message.txt" file. The callback function `(err) => { ... }` is passed as the third argument, which will be executed once the operation is finished.
    - `if (err) throw err;`: Inside the callback, this line checks if there's an error during the file write operation. If an error occurs, it is thrown, potentially halting the program execution and displaying the error message.
