@@ -88,14 +88,14 @@ Q. Is javascript use in writing code for node js ?
 
 Sure, here's the question and answer presented in a table format:
 
-| Question                                  | Answer                                                                                                         |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Is JavaScript used in writing code for Node.js? | - Yes, JavaScript is used for writing code in Node.js. <br> - Node.js allows you to run JavaScript code on the server-side, which means you can use JavaScript to build web servers, APIs, backend applications, and more. <br> - This is a powerful feature because you can use the same language for both client-side (web browsers) and server-side (Node.js) programming tasks, making development more consistent and efficient. |
 
+
+
+Certainly, here's the information presented in a table format:
 
 | **Question:** Is JavaScript used in writing code for Node.js? |
-|---------------------------------------------|
-| **Answer:** 
-- Yes, exactly! JavaScript is used for writing code in Node.js.
-- Node.js allows you to run JavaScript code on the server-side, which means you can use JavaScript to build web servers, APIs, backend applications, and more.
-- This is a powerful feature because it lets developers use the same language, JavaScript, for both client-side (web browsers) and server-side (Node.js) programming tasks, making the development process more consistent and efficient. |
+|-------------------------------------------------------------|
+| **Answer:**                                                 |
+| - Yes, exactly! JavaScript is used for writing code in Node.js. |
+| - Node.js allows you to run JavaScript code on the server-side, enabling you to build web servers, APIs, backend applications, and more. |
+| - This feature is powerful because it lets developers use the same language, JavaScript, for both client-side (web browsers) and server-side (Node.js) programming tasks, making the development process more consistent and efficient. |
