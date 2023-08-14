@@ -188,7 +188,7 @@ Is this OK? (yes) y
 ---
 
 - Using documentation writing code and then getting output 
-```json
+```js
 var generateName = require('sillyname');
 var sillyName = generateName();
 
