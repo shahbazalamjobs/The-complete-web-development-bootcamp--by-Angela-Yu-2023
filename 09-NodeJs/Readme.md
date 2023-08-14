@@ -57,7 +57,7 @@ Node.js is chosen for its event-driven, non-blocking architecture, ideal for rea
 
 --- 
 
-### Importing fs (file sharing) modules
+### Importing fs (file system) modules
 
 `const fs = require("fs");` <br>
 
