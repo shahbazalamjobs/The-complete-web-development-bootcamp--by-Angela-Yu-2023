@@ -60,7 +60,7 @@ Node.js is chosen for its event-driven, non-blocking architecture, ideal for rea
 ### Importing fs (file system) modules and creating and manipulating text file using nodejs
 
 1. Step 1:
-```
+```js
 const fs = require("fs");
 ``` 
 
@@ -75,7 +75,7 @@ Once you have imported the "fs" module using this line of code, you can use the 
 
 - Look into `fs.write` method do the change and copy rest of code
   
-```
+```js
 fs.writeFile("message.txt", "Hello from NodeJs!", (err) => {
     if (err) throw err;
     console.log("The file has been saved!");
@@ -95,7 +95,7 @@ In summary, the code writes the specified content to a file named "message.txt,"
 
 ### Reading text file using nodeJs
 
-```
+```js
 fs.readFile("message.txt", 'utf8', (err, data) => {
     if (err) {
         console.error(err);
