@@ -283,4 +283,5 @@ CommonJS (CJS) and ECMAScript Modules (ESM) are two different module systems use
 
 <br>
 
-In summary, while CommonJS has been widely used, especially in server-side JavaScript with Node.js, ECMAScript Modules (ESM) offer a more modern and browser-compatible approach to modular code. The choice between the two largely depends on the target environment and the specific requirements of the project.
+- In summary, while CommonJS has been widely used, especially in server-side JavaScript with Node.js, ECMAScript Modules (ESM) offer a more modern and browser-compatible approach to modular code.
+- The choice between the two largely depends on the target environment and the specific requirements of the project.
