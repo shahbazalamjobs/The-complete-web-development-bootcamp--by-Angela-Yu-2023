@@ -299,3 +299,10 @@ console.log("My name is " + name + " and I am happy about it.");
 //=> 'Spider-Ham'
 ```
 
+It can also work like this: 
+```js
+import a from "superheroes";
+a.all;
+var name = a.random();
+console.log("My name is " + name + " and I am happy about it.");
+```
