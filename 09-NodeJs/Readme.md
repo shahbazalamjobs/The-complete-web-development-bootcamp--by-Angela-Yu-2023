@@ -271,7 +271,7 @@ CommonJS (CJS) and ECMAScript Modules (ESM) are two different module systems use
    
    - **ESM:** Modules in ESM are loaded asynchronously by default, allowing for better parallelism and performance in applications, particularly in web browsers. <br>
 
-Here's the information organized in a table format:
+
 
 | Aspect                 | CommonJS                             | ESM                                          |
 |------------------------|-------------------------------------|----------------------------------------------|
