@@ -187,7 +187,7 @@ Is this OK? (yes) y
 
 ---
 
-- Using documentation writing code and then getting output 
+- Using documentation writing code and then getting output using commonjs module
 ```js
 var generateName = require('sillyname');
 var sillyName = generateName();
@@ -285,3 +285,15 @@ CommonJS (CJS) and ECMAScript Modules (ESM) are two different module systems use
 
 - In summary, while CommonJS has been widely used, especially in server-side JavaScript with Node.js, ECMAScript Modules (ESM) offer a more modern and browser-compatible approach to modular code.
 - The choice between the two largely depends on the target environment and the specific requirements of the project.
+
+---
+
+### Implementing sillyName generator using esm modules
+
+```js
+import generateName from "sillyName";
+var sillyName = generateName();
+
+console.log(`My name is ${sillyName}.`);
+```
+
