@@ -128,7 +128,7 @@ In summary, the code reads the contents of the "message.txt" file in UTF-8 encod
 
 npm (Node Package Manager) is a package manager for Node.js, which is a JavaScript runtime environment. npm allows developers to easily install, manage, and share reusable code packages (libraries, frameworks, and tools) that can be used in Node.js applications. It comes pre-installed with Node.js and is used to install, manage, and share code packages in Node.js applications, facilitating development and enhancing code reuse.
 
-- Inside terminal write command `npm init`, it creates a `package.json` file for your project, guiding you through setup.
+- Inside terminal write command `npm init -y`, it creates a `package.json` file for your project, guiding you through setup.
 - Write some details like package name, description, author, in rest press enter
 ```
 package name: (03--npm) learning-npm
