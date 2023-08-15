@@ -292,8 +292,6 @@ CommonJS (CJS) and ECMAScript Modules (ESM) are two different module systems use
 
 ```js
 import superheroes from "superheroes";
-superheroes.all;
-//=> ['3-D Man', 'A-Bomb', …]
 var name = superheroes.random();
 console.log("My name is " + name + " and I am happy about it.");
 //=> 'Spider-Ham'
@@ -302,11 +300,10 @@ console.log("My name is " + name + " and I am happy about it.");
 It can also work like this: 
 ```js
 import a from "superheroes";
-a.all;
 var name = a.random();
 console.log("My name is " + name + " and I am happy about it.");
 ```
 
 - Its like `import` variableName from `"superheroes"`
 
--  
+
