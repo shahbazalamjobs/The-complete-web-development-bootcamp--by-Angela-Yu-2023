@@ -288,7 +288,7 @@ CommonJS (CJS) and ECMAScript Modules (ESM) are two different module systems use
 
 ---
 
-### Implementing sillyName generator using esm modules
+### Implementing superheroes name generator using esm modules
 
 ```js
 import superheroes from "superheroes";
