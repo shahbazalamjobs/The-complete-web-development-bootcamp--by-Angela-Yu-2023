@@ -307,6 +307,6 @@ var name = a.random();
 console.log("My name is " + name + " and I am happy about it.");
 ```
 
-- its like `import` variableName from `"superheroes"`
+- Its like `import` variableName from `"superheroes"`
 
 -  
