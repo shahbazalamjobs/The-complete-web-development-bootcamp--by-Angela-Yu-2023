@@ -271,18 +271,16 @@ CommonJS (CJS) and ECMAScript Modules (ESM) are two different module systems use
    
    - **ESM:** Modules in ESM are loaded asynchronously by default, allowing for better parallelism and performance in applications, particularly in web browsers. <br>
 
-CommonJS:
-- Loaded synchronously, potential performance bottlenecks in servers.
-- Evaluated at runtime, limits build-time optimizations.
-- Handles circular dependencies with cached modules.
-- Primarily for servers, needs bundling for browser use.
-- Traditional in Node.js, transitioning to ESM. <br>
+Here's the information organized in a table format:
 
-ESM:
-- Loaded asynchronously, better parallelism and browser performance.
-- Evaluated statically, enables advanced build-time optimizations.
-- Tricky circular dependency handling due to static analysis.
-- Works natively in modern browsers, less need for bundling.
-- Modern standard for JavaScript module management. <br>
+| Aspect                 | CommonJS                             | ESM                                          |
+|------------------------|-------------------------------------|----------------------------------------------|
+| Loading Behavior       | Synchronously loaded, potential bottlenecks | Asynchronously loaded, better parallelism    |
+| Static Analysis        | Evaluated at runtime, limits optimizations | Evaluated statically, advanced optimizations |
+| Circular Dependencies | Handled with cached modules          | Trickier due to static analysis               |
+| Browser Compatibility | Primarily for servers, needs bundling | Natively works in modern browsers            |
+| Migration and Compatibility | Traditional in Node.js, transitioning to ESM | Modern standard, more future-proof        |
+
+<br>
 
 In summary, while CommonJS has been widely used, especially in server-side JavaScript with Node.js, ECMAScript Modules (ESM) offer a more modern and browser-compatible approach to modular code. The choice between the two largely depends on the target environment and the specific requirements of the project.
