@@ -199,3 +199,95 @@ In summary, when a client, such as a web browser, sends an HTTP GET request to t
 - Installing nodemon globally: dont have to restart the server for every changes, only refresh required
 - Install: `npm i nodemon`
 - Use it : `nodemon index.js`
+
+---
+
+### Endpoints
+
+- Endpoints in Express.js are specific URLs that your application exposes to handle incoming HTTP requests.
+- Each endpoint corresponds to a unique route and serves a particular purpose or functionality.
+- Express defines endpoints using HTTP methods (GET, POST, PUT, DELETE, etc.) and route paths.
+- They are often organized based on resources and can include dynamic parameters.
+- Middleware can be used for additional processing, and response data is sent back to clients from endpoint handlers.
+- Endpoints enable you to create a structured and feature-rich API or web application.
+
+- Endpoints in Express.js are like different doors in a building.
+- When you want something from a specific room, you go through the right door.
+- Each door (endpoint) leads to a different place (function) where you get what you need.
+- These endpoints help your web app understand what users want and serve them accordingly.
+
+Sure, let's consider a simple website for a bakery named "Sweet Delights." This website will have a few pages with different content. Here's an example of how the website's structure and content might look:
+
+1. Home Page ("/")
+2. Menu Page ("/menu")
+3. About Page ("/about")
+4. Contact Page ("/contact")
+5. Order Page ("/order")
+6. Gallery Page ("/gallery")
+
+Each of these pages corresponds to a different endpoint in the Express.js application that serves the website. For instance:
+
+```javascript
+const express = require('express');
+const app = express();
+
+// Define routes for different pages
+app.get('/', (req, res) => {
+  // Logic for rendering the home page
+});
+
+app.get('/menu', (req, res) => {
+  // Logic for rendering the menu page
+});
+
+app.get('/about', (req, res) => {
+  // Logic for rendering the about page
+});
+
+app.get('/contact', (req, res) => {
+  // Logic for rendering the contact page
+});
+
+app.get('/order', (req, res) => {
+  // Logic for rendering the order page
+});
+
+app.get('/gallery', (req, res) => {
+  // Logic for rendering the gallery page
+});
+
+app.listen(3000, () => {
+  console.log('Server is listening on port 3000');
+});
+```
+
+In this example, each endpoint handles a specific page's logic and content rendering, allowing users to navigate the different sections of the Sweet Delights Bakery website.
+
+---
+
+### Create server to handle endpoints "/", "/about", "/contact"
+
+```js
+import express from "express";
+const app = express();
+const port = 3000;
+
+app.get("/", (req, res) => {
+    res.send("<h1> Hello! this is the root page </h1>");
+});
+
+app.get("/contact", (req, res) => {
+    res.send("<h1>Contact</h1> <p>Hello! My phone no. is 99864778</p>");
+});
+
+
+app.get("/about", (req, res) => {
+    res.send("<h1>About</h1> <p>Hello I am a full stack developer</p>");
+});
+
+
+app.listen(port, () => {
+    console.log(`Server running on port ${port}.`)
+});
+
+```
