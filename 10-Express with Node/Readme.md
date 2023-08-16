@@ -73,6 +73,79 @@ app.listen(port, () => {
 // o/p: Cannot GET /
 ```
 
+---
+
+### HTTP Request
+
+HTTP (Hypertext Transfer Protocol) requests are the foundation of communication between a client (typically a web browser or another application) and a server. These requests are used to send and receive data over the internet, allowing users to interact with web applications and retrieve resources from servers. There are several types of HTTP requests, each serving a specific purpose:
+
+1. **GET Request:**
+   A GET request is used to retrieve data from a server. It is the most common type of request and is used when you visit a website or access a resource through a URL. GET requests should not have a request body, as they are meant to be idempotent (i.e., multiple requests should have the same effect as a single request).
+
+   Example:
+   ```http
+   GET /api/posts HTTP/1.1
+   Host: example.com
+   ```
+
+2. **POST Request:**
+   A POST request is used to send data to the server to create or update a resource. It is often used when submitting forms or uploading files. Unlike GET requests, POST requests include a request body containing the data to be sent to the server.
+
+   Example:
+   ```http
+   POST /api/posts HTTP/1.1
+   Host: example.com
+   Content-Type: application/json
+
+   {"title": "New Post", "content": "This is a new post."}
+   ```
+
+3. **PUT Request:**
+   A PUT request is similar to POST but is used to update or create a resource at a specific URL. If the resource already exists, the server updates it; if it doesn't exist, the server creates it.
+
+   Example:
+   ```http
+   PUT /api/posts/123 HTTP/1.1
+   Host: example.com
+   Content-Type: application/json
+
+   {"title": "Updated Post", "content": "This post has been updated."}
+   ```
+
+4. **PATCH Request:**
+   A PATCH request is used to make partial updates to a resource. It only updates the fields provided in the request, leaving other fields unchanged.
+
+   Example:
+   ```http
+   PATCH /api/posts/123 HTTP/1.1
+   Host: example.com
+   Content-Type: application/json
+
+   {"content": "Updated content."}
+   ```
+
+5. **DELETE Request:**
+   A DELETE request is used to delete a resource from the server.
+
+   Example:
+   ```http
+   DELETE /api/posts/123 HTTP/1.1
+   Host: example.com
+   ```
+
+6. **OPTIONS Request:**
+   An OPTIONS request is used to determine the communication options for a target resource. It is often used in CORS (Cross-Origin Resource Sharing) scenarios.
+
+   Example:
+   ```http
+   OPTIONS /api/posts HTTP/1.1
+   Host: example.com
+   ```
+
+These are the fundamental HTTP request methods used for communication between clients and servers. Each method serves a specific purpose and is an integral part of web development when building applications that interact with servers.
+
+---
+
 ### Creating server using Express with output
 
 ```js
@@ -91,3 +164,40 @@ app.listen(port, () => {
 
 // o/p: Hello, express!
 ```
+
+### Express.js Route Handler Explanation
+
+The given code snippet represents a route handler in an Express.js application. This handler is responsible for processing an HTTP GET request made to the root path ("/") of the server. Let's break down the code step by step:
+
+1. **Route Definition:**
+    ```javascript
+    app.get("/", (req, res) => {
+        // Route handler logic
+    });
+    ```
+    In this section, a route handler is defined using the `app.get()` method. This method specifies that the handler will respond to HTTP GET requests targeting the root path ("/").
+
+2. **Callback Function:**
+    ```javascript
+    (req, res) => {
+        // Callback function logic
+    }
+    ```
+    Within the route handler, an arrow function is used as the callback. This function takes two parameters: `req` (request) and `res` (response). These parameters represent the incoming request from the client and the response that will be sent back to the client.
+
+3. **Sending Response:**
+    ```javascript
+    res.send("<h1>Hello World! ff</h1>");
+    ```
+    Inside the callback function, the `res` (response) object is utilized to send a response to the client. The `send` method is employed to send an HTML response, in this case, containing the text "Hello World! ff" wrapped in an `<h1>` (header) HTML element.
+
+In summary, when a client, such as a web browser, sends an HTTP GET request to the root path ("/") of the server, the Express.js application responds with an HTML page that displays the text "Hello World! ff" in a prominent header ("h1") format.
+
+Please note that this example showcases hardcoded content. In a real-world application, the response content might be dynamically generated based on data from various sources.
+
+
+---
+
+- Installing nodemon globally: dont have to restart the server for every changes, only refresh required
+- Install: `npm i nodemon`
+- Use it : `nodemon index.js`
