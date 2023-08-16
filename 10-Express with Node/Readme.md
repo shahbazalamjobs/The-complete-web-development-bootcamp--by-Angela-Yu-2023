@@ -291,3 +291,11 @@ app.listen(port, () => {
 });
 
 ```
+
+---
+
+### Postman
+
+1. Postman is a popular software tool used by developers and API (Application Programming Interface) testers to interact with APIs.
+2. It provides a user-friendly interface for making requests to APIs, testing endpoints, and viewing responses.
+3. With Postman, you can create, send, and manage HTTP requests, as well as organize and save API endpoints for future use.
