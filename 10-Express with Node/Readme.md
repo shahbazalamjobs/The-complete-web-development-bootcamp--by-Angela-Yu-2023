@@ -52,3 +52,21 @@ app.listen(3000, () => {
 In this example, when a GET request is made to the root URL ('/'), the server responds with "Hello, Express!".
 
 Express.js is known for its simplicity, flexibility, and vibrant ecosystem. It has a large community and a wealth of third-party packages that can be easily integrated to extend its functionality. It's a great choice for building web applications and APIs using Node.js.
+
+---
+
+### Creating server using Express
+
+```js
+import express from "express";
+const app = express();
+const port = 3000;
+
+// app.listen(3000, () => {     // without var port 
+//     console.log("Server running on port 3000.");
+// });
+
+app.listen(port, () => {
+    console.log(`Server running on port ${port}.`)
+});
+```
