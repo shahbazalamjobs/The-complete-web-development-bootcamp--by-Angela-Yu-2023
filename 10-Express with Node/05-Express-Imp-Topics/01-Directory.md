@@ -81,7 +81,7 @@ This approach ensures platform-independent path handling while using ESM modules
 
 ---
 
-Certainly, I'll explain these two steps in more detail:
+## Using ESM module
 
 1. **Convert the `import.meta.url` to a file path:**
 
