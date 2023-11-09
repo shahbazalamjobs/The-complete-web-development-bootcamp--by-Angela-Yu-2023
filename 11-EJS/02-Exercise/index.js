@@ -23,7 +23,7 @@ function weekEnjoyOrWork(req, res, next) {
 app.use(weekEnjoyOrWork);
 
 app.get('/', (req, res) => {
-    res.render(__dirname + '/views/index.ejs', {
+    res.render(__dirname + '/index.ejs', {
         weekValue: week
     });
 });
