@@ -12,9 +12,9 @@ function weekEnjoyOrWork(req, res, next) {
     let date = new Date();
     let day = date.getDay();
 
-    if (day >= 0 && day < 5) {
+    if (day >= 1 && day < 5) {
         week = "It's a weekday, it's time to work hard!";
-    } else if (day >= 5 && day <= 6) {
+    } else if (day = 0 || day = 6) {
         week = "It's a weekend, it's time to have fun!";
     }
     next();
