@@ -1,0 +1,20 @@
+<!-- 
+    If we use without locals .. if(fruits) only then
+    It will give error will not act like if condition in Js
+ -->
+
+<!-- locals refers to an object that contains local variables
+    accessible within the template. It's a way to pass data
+    from your server-side code to your EJS templates.
+ -->
+
+<% if(locals.fruits) { %>
+    <ul>
+        <% fruits.forEach(fruit=> { %>
+            <li>
+                <% fruit %>
+            </li>
+
+            <% }) %>
+    </ul>
+    <% } %>
