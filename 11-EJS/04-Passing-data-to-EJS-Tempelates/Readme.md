@@ -51,6 +51,7 @@
 - This separation of concerns helps keep your server-side and client-side code modular and maintainable.
 
 ```js
+// server.js file 
 app.get('/fruits', (req, res) => {
   // Some server-side logic to fetch fruits from a database or another source
   const fruits = ['Apple', 'Banana', 'Orange', 'Grapes'];
@@ -61,6 +62,7 @@ app.get('/fruits', (req, res) => {
 ```
 
 ```ejs
+<!-- fruits.ejs file -->
 <body>
   <% if (locals.fruits) { %>
     <h1>List of Fruits:</h1>
