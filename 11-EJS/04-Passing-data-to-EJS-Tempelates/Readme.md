@@ -43,4 +43,35 @@
    </form>
    ```
 
+   
+## Use of local 
 
+- Using locals allows you to inject dynamic content into your templates.
+- For example, you might fetch some data from a database or perform some server-side logic, and then pass the result to the template using locals.
+- This separation of concerns helps keep your server-side and client-side code modular and maintainable.
+
+```js
+app.get('/fruits', (req, res) => {
+  // Some server-side logic to fetch fruits from a database or another source
+  const fruits = ['Apple', 'Banana', 'Orange', 'Grapes'];
+
+  // Render the 'fruits' template and pass the 'fruits' array to it using 'locals'
+  res.render('fruits', { fruits: fruits });
+});
+```
+
+```ejs
+<body>
+  <% if (locals.fruits) { %>
+    <h1>List of Fruits:</h1>
+    <ul>
+      <% locals.fruits.forEach(fruit => { %>
+        <li><%= fruit %></li>
+      <% }); %>
+    </ul>
+  <% } else { %>
+    <p>No fruits available.</p>
+  <% } %>
+</body>
+```
+- `locals.fruits` dynamically generate the HTML content based on the array of fruits received from the server.
