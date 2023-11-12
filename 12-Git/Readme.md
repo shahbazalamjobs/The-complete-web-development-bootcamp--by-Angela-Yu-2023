@@ -56,3 +56,9 @@
 - `git checkout` is like changing the lens through which you view your project.
 - Whether you want to explore a different branch, time-travel to a previous commit, or create a new branch to try out something new, `git checkout` helps you navigate the different snapshots of your code's journey.
 - It's your tool for exploring and experimenting within your project's history.
+
+9) `git diff file.txt`: 
+- `git diff file.txt`: shows the differences between the current state of `file.txt` in your working directory and the last committed version.
+- It's a quick way to see what changes you've made locally.
+
+10) 
