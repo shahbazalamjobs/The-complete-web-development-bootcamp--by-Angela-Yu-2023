@@ -31,6 +31,7 @@
 - `git add`:  -is like saying, "Hey Git, pay attention to these changes!"
 - It stages modifications or new files, preparing them for the next commit.
 - It's the first step to tell Git which changes you want to include in your project's history.
+- `git add .` : Adding all files in staging area in directory. 
 
 4) `git status`
 - git add is like telling Git, "Hey, pay attention to these changes!" It stages your modifications or new files, getting them ready for the next commit.
@@ -48,4 +49,10 @@
 - It shows a chronological list of all the commits made, who made them, when, and the accompanying commit messages.
 - It's a quick way to see the journey your code has taken over time.
 
-7)  
+7) Working Directory and local repository.
+-  The working directory is where you actively make changes, and the local repository is where Git keeps track of the history of those changes
+
+8) `git checkout`
+- `git checkout` is like changing the lens through which you view your project.
+- Whether you want to explore a different branch, time-travel to a previous commit, or create a new branch to try out something new, `git checkout` helps you navigate the different snapshots of your code's journey.
+- It's your tool for exploring and experimenting within your project's history.
