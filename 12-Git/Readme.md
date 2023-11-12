@@ -27,20 +27,25 @@
 - In order to add them in staging area use `git add`.
 - Then it shows red text untracked file in  green color means ready for commit, i.e. tracked file.
 
-3) `git status`
+3) `git add` 
+- `git add`:  -is like saying, "Hey Git, pay attention to these changes!"
+- It stages modifications or new files, preparing them for the next commit.
+- It's the first step to tell Git which changes you want to include in your project's history.
+
+4) `git status`
 - git add is like telling Git, "Hey, pay attention to these changes!" It stages your modifications or new files, getting them ready for the next commit.
 - It's the first step before locking in your changes with git commit.
 - You can use it to selectively choose which changes you want to include in the next commit.
-
-4) `git commit -m "Complete chapter 1"`
+  
+5) `git commit -m "Complete chapter 1"`
 - git commit is like sealing an envelope with your changes.
 - After using git add to stage what you want to include, git commit packages those changes into a commit—a snapshot of your project at that moment.
 - You also get to leave a note (commit message) explaining what you did in present tense.
 - It's like saving a checkpoint in your project's history.
 
-5) `git log`
+6) `git log`
 - `git log` is your project's history book.
 - It shows a chronological list of all the commits made, who made them, when, and the accompanying commit messages.
 - It's a quick way to see the journey your code has taken over time.
 
-6)  aa
+7)  
