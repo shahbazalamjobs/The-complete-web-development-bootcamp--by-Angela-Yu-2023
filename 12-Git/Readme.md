@@ -11,7 +11,7 @@
 - Imagine you're working on a project, and you decide to make some changes. Without version control, you might end up with multiple copies of files, confusion about who did what, and the constant fear of messing things up irreversibly.
 
 
-`Git is used to control repository, track all changes, commit all changes and to perform version control`.
+`Git is used to control repository, track all changes, commit all changes and to perform version control.`
 
 ### List of Code
 - Initialise Git Repository : `git init`
