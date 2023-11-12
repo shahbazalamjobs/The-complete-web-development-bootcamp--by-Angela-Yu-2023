@@ -38,4 +38,9 @@
 - You also get to leave a note (commit message) explaining what you did in present tense.
 - It's like saving a checkpoint in your project's history.
 
-5) sss
+5) `git log`
+- `git log` is your project's history book.
+- It shows a chronological list of all the commits made, who made them, when, and the accompanying commit messages.
+- It's a quick way to see the journey your code has taken over time.
+
+6)  aa
