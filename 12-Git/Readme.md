@@ -14,5 +14,28 @@
 `Git is used to control repository, track all changes, commit all changes and to perform version control.`
 
 ### List of Code
-- Initialise Git Repository : `git init`
-- 
+
+1) `git init`
+-  To initialise Git Repository.
+-  After running this command, you'll see a hidden folder named .git in your project directory.
+-  This folder contains all the information Git needs to manage version control for your project.
+
+2) `git status`
+- is like asking Git, "What's going on?" It shows you the current status of your repository—what files have been changed, what's staged for the next commit, and what's not tracked.
+- It's your go-to command for a quick snapshot of your project's state.
+- It shows untracked file in red text, inside the working directory but not yet at the staging area.
+- In order to add them in staging area use `git add`.
+- Then it shows red text untracked file in  green color means ready for commit, i.e. tracked file.
+
+3) `git status`
+- git add is like telling Git, "Hey, pay attention to these changes!" It stages your modifications or new files, getting them ready for the next commit.
+- It's the first step before locking in your changes with git commit.
+- You can use it to selectively choose which changes you want to include in the next commit.
+
+4) `git commit -m "Complete chapter 1"`
+- git commit is like sealing an envelope with your changes.
+- After using git add to stage what you want to include, git commit packages those changes into a commit—a snapshot of your project at that moment.
+- You also get to leave a note (commit message) explaining what you did in present tense.
+- It's like saving a checkpoint in your project's history.
+
+5) sss
