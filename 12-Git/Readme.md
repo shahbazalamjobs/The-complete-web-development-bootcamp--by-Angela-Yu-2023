@@ -1,3 +1,17 @@
+### Git Basic Use
+
+1. initialiste git local repo: git init
+2. add file to staging area: git add filename
+3. check file status tracked or in stagin area: git status
+4. commit the staged files: git commit -m "Message in present tense"
+5. to check all commits: git log
+6. to bring the changed file back to early commit: git checkout
+7. differences between the current state of file.txt in your working directory and the last committed version : git diff file.txt 
+8. adding a remote named "origin" to your local Git repository : git remote add origin https://github.com/a/b.git
+9. Git to push the local "main" branch to the "main" : git push -u origin main
+
+
+---
 
 ![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/118df5ca-b030-42a6-8a3c-2cf231ce43fb)
 
@@ -51,8 +65,7 @@
 - It's a quick way to see the journey your code has taken over time.
 
 7) Working Directory and local repository.
--  The working directory is where you actively make changes, and the local repository is where Git keeps track of the history of those changes![Uploading image.png…]()
-
+-  The working directory is where you actively make changes, and the local repository is where Git keeps track of the history of those changes
 
 8) `git checkout`
 - `git checkout` is like changing the lens through which you view your project.
