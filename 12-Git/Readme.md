@@ -221,3 +221,7 @@ Certainly! Here's a concise step-by-step with code snippets:
    git merge upstream/main
    git push origin <branch-name>
    ```
+
+---
+
+## Now practice open source: 
