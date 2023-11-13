@@ -61,4 +61,12 @@
 - `git diff file.txt`: shows the differences between the current state of `file.txt` in your working directory and the last committed version.
 - It's a quick way to see what changes you've made locally.
 
-10) 
+10) `git remote add origin https://github.com/shahbazalamjobs/Story.git`
+- Looks like you're adding a remote named "origin" to your local Git repository. This remote points to the GitHub repository at the specified URL.
+-  Once you've set this up, you can use "origin" as a shorthand reference for this remote repository when interacting with Git commands, like pushing or pulling changes.
+
+11) `git push -u origin main`
+- This command tells Git to push the local "main" branch to the "main" branch on the remote repository named "origin."
+- If you have a different branch name locally, replace "main" with the actual name of your branch: master -> main : `git branch -m master main`
+
+12)  a
