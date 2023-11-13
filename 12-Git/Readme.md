@@ -142,3 +142,8 @@ Remember, the .gitignore file itself should be committed to the repository so th
 
 - "git clone" is like making a copy of a project from the internet onto your computer. Just grab the repository URL and let the cloning magic begin!
 - Cloning: `git clone <repository_URL>`
+
+---
+
+- Free version of products: https://github.com/awesome-selfhosted/awesome-selfhosted
+- Clone some repo and run them locally
