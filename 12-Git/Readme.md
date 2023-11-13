@@ -164,3 +164,12 @@ Remember, the .gitignore file itself should be committed to the repository so th
 
 - Here is the git merging and branching 
 https://github.com/shahbazalamjobs/Story/tree/alien-plot
+
+---
+
+### Forking:
+- Forking is the process of creating a personal copy of someone else's project on a platform like GitHub.
+Navigate to the repository you want to contribute to on GitHub and click the "Fork" button. This creates a copy in your GitHub account.
+
+### Clone:
+- After forking, clone the repository to your local machine using git clone <your-fork-url>.
