@@ -139,3 +139,6 @@ Remember, the .gitignore file itself should be committed to the repository so th
 ---
 
 - If using node modules then to hide the files using gitignore .. there is prebuilt .gitignore file : [Link](https://github.com/github/gitignore/blob/main/Node.gitignore)
+
+- "git clone" is like making a copy of a project from the internet onto your computer. Just grab the repository URL and let the cloning magic begin!
+- Cloning: `git clone <repository_URL>`
