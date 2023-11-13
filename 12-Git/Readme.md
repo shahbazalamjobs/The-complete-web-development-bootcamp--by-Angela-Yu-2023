@@ -1,4 +1,6 @@
 
+![image](https://github.com/shahbazalamjobs/The-complete-web-development-bootcamp--by-Angela-Yu-2023/assets/125631878/118df5ca-b030-42a6-8a3c-2cf231ce43fb)
+
 ### Git 
 - Git is a version control system that tracks changes in your code.
 - It helps you collaborate with a team, undo mistakes, and manage different project versions.
@@ -9,7 +11,6 @@
 - Version control is like having a time machine for your code.
 - It allows you to track changes, collaborate with others, and rewind to previous states if things go south.
 - Imagine you're working on a project, and you decide to make some changes. Without version control, you might end up with multiple copies of files, confusion about who did what, and the constant fear of messing things up irreversibly.
-
 
 `Git is used to control repository, track all changes, commit all changes and to perform version control.`
 
@@ -50,12 +51,14 @@
 - It's a quick way to see the journey your code has taken over time.
 
 7) Working Directory and local repository.
--  The working directory is where you actively make changes, and the local repository is where Git keeps track of the history of those changes
+-  The working directory is where you actively make changes, and the local repository is where Git keeps track of the history of those changes![Uploading image.png…]()
+
 
 8) `git checkout`
 - `git checkout` is like changing the lens through which you view your project.
 - Whether you want to explore a different branch, time-travel to a previous commit, or create a new branch to try out something new, `git checkout` helps you navigate the different snapshots of your code's journey.
 - It's your tool for exploring and experimenting within your project's history.
+- Code : `git checkout <commit_hash_or_branch_name> -- <file_path>`
 
 9) `git diff file.txt`: 
 - `git diff file.txt`: shows the differences between the current state of `file.txt` in your working directory and the last committed version.
