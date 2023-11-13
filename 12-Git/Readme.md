@@ -89,12 +89,6 @@
 
 ### Gitignore
 
-- Ah, the humble .gitignore! It's like the bouncer for your Git repository, deciding who gets into the party and who stays out.
-- Basically, it tells Git which files or directories to ignore when tracking changes.
-
----
-
-
 Ah, the humble .gitignore! It's like the bouncer for your Git repository, deciding who gets into the party and who stays out. Basically, it tells Git which files or directories to ignore when tracking changes.
 
 Here are the basics:
