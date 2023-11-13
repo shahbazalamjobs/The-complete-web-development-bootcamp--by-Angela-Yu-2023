@@ -158,4 +158,9 @@ Remember, the .gitignore file itself should be committed to the repository so th
 
 - Testing and experimentation: Branches allow you to try out new ideas without messing up the stable version of your project. If the experiment fails, just delete the branch.
 
--
+---
+
+### 
+
+- Here is the git merging and branching 
+https://github.com/shahbazalamjobs/Story/tree/alien-plot
