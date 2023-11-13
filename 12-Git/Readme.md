@@ -135,3 +135,7 @@ Here are the basics:
      ```
 
 Remember, the .gitignore file itself should be committed to the repository so that everyone working on the project knows what to ignore. And that's it—a little file with a big impact!
+
+---
+
+- If using node modules then to hide the files using gitignore .. there is prebuilt .gitignore file : [Link](https://github.com/github/gitignore/blob/main/Node.gitignore)
