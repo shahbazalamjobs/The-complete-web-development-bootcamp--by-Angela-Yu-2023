@@ -17,7 +17,7 @@
 2. https://bored-api.appbrewery.com
 
 - Send GET req to api url
-- Add query parameters and vaue after base url starting with ? : http://base-url.com?query1=value1&query2=value2 <br>
+- Add query parameters and vaue after (base url / end-point) starting with ? : http://base-url.com/end-point?query1=value1&query2=value2 <br>
   E.g.: https://bored-api.appbrewery.com/filter?type=education
 
 
