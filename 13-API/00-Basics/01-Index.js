@@ -2,8 +2,6 @@
 /* API allows different software applications to communicate with each other. 
 In the context of web development, APIs are commonly used to enable communication between a front-end application (like a website) and a back-end server.*/
 
-
-
 import express from 'express';
 const port = 3000;
 const app = express();
