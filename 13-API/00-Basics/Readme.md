@@ -1,3 +1,6 @@
+
+## API Basics
+
 1. **API Overview:**
    - API stands for Application Programming Interface, allowing different software applications to communicate.
    - In web development, APIs facilitate communication between front-end and back-end servers.
