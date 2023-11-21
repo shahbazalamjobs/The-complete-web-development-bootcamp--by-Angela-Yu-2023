@@ -1,13 +1,22 @@
-import fetch from 'node-fetch';
+import https from 'https';
 
-(async () => {
-    try {
-        const response = await fetch('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY');
-        const json = await response.json();
+const options = {
+    hostname: 'jsonplaceholder.typicode.com',
+    port: 443,
+    path: '/todos',
+    method: 'GET',
+};
 
-        console.log(json.url);
-        console.log(json.explanation);
-    } catch (error) {
-        console.log(error.response.body);
-    }
-})();
+const req = https.request(options, res => {
+    console.log(`statusCode: ${res.statusCode}`);
+
+    res.on('data', d => {
+        process.stdout.write(d);
+    });
+});
+
+req.on('error', error => {
+    console.error(error);
+});
+
+req.end();
