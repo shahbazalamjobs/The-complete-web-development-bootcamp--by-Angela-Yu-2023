@@ -54,41 +54,62 @@ APIs are the unsung heroes behind the scenes, making our apps and services play 
 
 ---
 
-## 1. API request using only node
+## 1. API request using only http
 ```js
+const express = require('express');
 const http = require('http');
 
-// Options for the HTTP request
-const options = {
-  hostname: 'jsonplaceholder.typicode.com',
-  path: '/todos/1',
-  method: 'GET',
-};
+const app = express();
+const port = 3000;
 
-// Make the HTTP request
-const req = http.request(options, (res) => {
-  let data = '';
+// Define a route that makes an HTTP request
+app.get('/http-api', (req, res) => {
+  // Options for the HTTP request
+  const options = {
+    hostname: 'jsonplaceholder.typicode.com',
+    path: '/todos/1',
+    method: 'GET',
+  };
 
-  // A chunk of data has been received.
-  res.on('data', (chunk) => {
-    data += chunk;
+  // Make the HTTP request
+  const httpRequest = http.request(options, (httpResponse) => {
+    let data = '';
+
+    // A chunk of data has been received.
+    httpResponse.on('data', (chunk) => {
+      data += chunk;
+    });
+
+    // The whole response has been received.
+    httpResponse.on('end', () => {
+      try {
+        // Parse the JSON data
+        const jsonData = JSON.parse(data);
+
+        // Send the data as a JSON response
+        res.json(jsonData);
+      } catch (error) {
+        // Handle JSON parsing errors
+        console.error('Error parsing JSON data:', error.message);
+        res.status(500).send('Internal Server Error');
+      }
+    });
   });
 
-  // The whole response has been received.
-  res.on('end', () => {
-    // Parse the JSON data and log it
-    const jsonData = JSON.parse(data);
-    console.log(jsonData);
+  // Handle errors in the HTTP request
+  httpRequest.on('error', (error) => {
+    console.error('Error making HTTP request:', error.message);
+    res.status(500).send('Internal Server Error');
   });
+
+  // End the HTTP request
+  httpRequest.end();
 });
 
-// Handle errors
-req.on('error', (error) => {
-  console.error('Error making HTTP request:', error.message);
+// Start the server
+app.listen(port, () => {
+  console.log(`Server is running at http://localhost:${port}`);
 });
-
-// End the request
-req.end();
 ```
 
 
@@ -124,27 +145,40 @@ app.listen(port, () => {
 ### 3. API request using fetch
 
 ```js
+const express = require('express');
 const fetch = require('node-fetch');
 
-// URL for the API request
-const apiUrl = 'https://jsonplaceholder.typicode.com/todos/1';
+const app = express();
+const port = 3000;
 
-// Make the fetch request
-fetch(apiUrl)
-  .then(response => {
+// Define a route that makes a fetch request
+app.get('/fetch-api', async (req, res) => {
+  try {
+    // URL for the API request
+    const apiUrl = 'https://jsonplaceholder.typicode.com/todos/1';
+
+    // Make the fetch request
+    const response = await fetch(apiUrl);
+
     // Check if the request was successful (status code 200)
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    // Parse the JSON data and log it
-    return response.json();
-  })
-  .then(data => {
-    console.log(data);
-  })
-  .catch(error => {
+    // Parse the JSON data
+    const data = await response.json();
+
+    // Send the data as a JSON response
+    res.json(data);
+  } catch (error) {
     // Handle errors
     console.error('Error fetching data from the API:', error.message);
-  });
+    res.status(500).send('Internal Server Error');
+  }
+});
+
+// Start the server
+app.listen(port, () => {
+  console.log(`Server is running at http://localhost:${port}`);
+});
 ```
