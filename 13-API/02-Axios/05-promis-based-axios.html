@@ -1,0 +1,63 @@
+<!-- client side code for Axios's promise-based structure for either traditional promise chaining or modern async/await-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios Promise Chaining Example</title>
+</head>
+<body>
+    <button onclick="makeRequest()">Make Request</button>
+    <!-- Display the response data or error message here -->
+    <div id="responseData"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        function makeRequest() {
+            const apiUrl = 'https://jsonplaceholder.typicode.com/posts/1';
+            // Traditional Promise Chaining
+            axios.get(apiUrl)
+                .then(response => {
+                    return processResponse(response);
+                })
+                .then(result => {
+                    displayResult(result);
+                })
+                .catch(error => {
+                    displayError(error);
+                });
+
+
+
+            // Async/Await with Axios
+            // Uncomment the lines below to use async/await
+            async function fetchData() {
+              try {
+                const response = await axios.get(apiUrl);
+                const result = await processResponse(response);
+                displayResult(result);
+              } catch (error) {
+                displayError(error);
+              }
+            }
+            fetchData();
+        }
+        function processResponse(response) {
+            // Process the response data here
+            return response.data;
+        }
+        function displayResult(result) {
+            // Update the content of the 'responseData' div with the result data
+            document.getElementById('responseData').innerHTML = JSON.stringify(
+                result, null, 2);
+            alert('Request successful! Check the displayed data.');
+        }
+        function displayError(error) {
+            // Update the content of the 'responseData' div with the error message
+            document.getElementById('responseData').innerHTML =
+                `Error: ${error.message}`;
+            console.error('Error:', error);
+            alert('An error occurred! Check the console for details.');
+        }
+    </script>
+</body>
+</html>
