@@ -29,6 +29,7 @@ app.get('/', async (req, res) => {
     console.log(rParticipants);
 
     res.render("index.ejs", {
+      rResult: result,
       activity: rActivity,
       type: rType,
       participants: rParticipants,
@@ -62,6 +63,7 @@ app.post("/", async (req, res) => {
 
     // Render the template with the random result
     res.render("index.ejs", {
+      rResult: randomResult,
       activity: rActivity,
       type: rType,
       participants: rParticipants,
