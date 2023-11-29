@@ -24,9 +24,11 @@ app.get('/', async (req, res) => {
     const rType = result.type;
     const rParticipants = result.participants;
 
-    console.log(rActivity);
-    console.log(rType);
-    console.log(rParticipants);
+    // ------------ Testing purposes-------------
+
+    // console.log(rActivity);
+    // console.log(rType);
+    // console.log(rParticipants);
 
     res.render("index.ejs", {
       rResult: result,
@@ -34,6 +36,7 @@ app.get('/', async (req, res) => {
       type: rType,
       participants: rParticipants,
     });
+
   } catch (error) {
     console.error("Failed to make request:", error.message);
     res.render("index.ejs", {
@@ -60,6 +63,12 @@ app.post("/", async (req, res) => {
 
     // Destructure the random result for cleaner code
     const { activity: rActivity, type: rType, participants: rParticipants } = randomResult;
+
+    // --------------- Above is shortform of --------------
+    // const rActivity = randomResult.activity;
+    // const rType = randomResult.type;
+    // const rParticipants = randomResult.participants;
+
 
     // Render the template with the random result
     res.render("index.ejs", {
