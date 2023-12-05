@@ -300,7 +300,7 @@ CREATE TABLE SampleTable (
 
 ---
 
-## 5. INSERT, SELECT, UPDATE, DELETE
+## 5. Crud operations:  INSERT, SELECT, UPDATE, DELETE
 
 ```sql
 -- INSERT: Add a new record to the SampleTable
@@ -324,7 +324,7 @@ WHERE id = 1;
 
 ---
 
-## 6. INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN:
+## 6. Joins: INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN:
 
 ```sql
 -- INNER JOIN: Retrieve matching records from both tables
@@ -366,3 +366,102 @@ Explanation in comments:
    - Comment: Retrieve all records when there is a match in either the left or right table.
    - Explanation: FULL OUTER JOIN returns all rows when there is a match in either the left or right table. If there is no match, NULL values are returned for columns from the table without a match.
 
+---
+
+## 7. Aggregation Functions: COUNT, SUM, AVG, MIN, and MAX
+
+```sql
+-- COUNT: Count the number of records in the Orders table
+SELECT COUNT(*) AS order_count
+FROM Orders;
+
+-- SUM: Calculate the total order amount in the OrderDetails table
+SELECT SUM(unit_price * quantity) AS total_order_amount
+FROM OrderDetails;
+
+-- AVG: Calculate the average age of employees in the Employees table
+SELECT AVG(DATEDIFF(CURDATE(), birth_date)) AS average_age
+FROM Employees;
+
+-- MIN: Find the earliest order date in the Orders table
+SELECT MIN(order_date) AS earliest_order_date
+FROM Orders;
+
+-- MAX: Find the highest product price in the Products table
+SELECT MAX(price) AS highest_price
+FROM Products;
+```
+
+---
+
+## 8. Views
+
+```sql
+-- Creating a view: Create a view to display information about high-value orders
+CREATE VIEW HighValueOrders AS
+SELECT
+    order_id,
+    customer_id,
+    order_date,
+    total_price
+FROM
+    Orders
+WHERE
+    total_price > 1000;
+
+-- Selecting from a view: Retrieve data from the created view
+SELECT * FROM HighValueOrders;
+```
+
+-  The CREATE VIEW statement creates a virtual table called HighValueOrders based on a SELECT query.
+-  This view includes orders with a total price greater than 1000.
+-  The SELECT statement retrieves data from the HighValueOrders view.
+-  This allows users to query high-value orders without needing to understand the underlying complexity of the SQL query that defines the view.
+
+## 9. ACID properties
+
+Certainly! Here's a simple SQL code snippet that illustrates the concepts of ACID properties (Atomicity, Consistency, Isolation, Durability) using `BEGIN TRANSACTION`, `COMMIT`, and `ROLLBACK`:
+
+```sql
+-- Understanding ACID Properties
+
+-- Create a sample table
+CREATE TABLE BankAccounts (
+    account_id INT PRIMARY KEY,
+    balance DECIMAL(10, 2) NOT NULL
+);
+
+-- Insert initial data
+INSERT INTO BankAccounts (account_id, balance) VALUES (1, 1000), (2, 1500);
+
+-- Atomicity and Consistency: Begin a transaction
+BEGIN TRANSACTION;
+
+-- Atomicity and Consistency: Perform multiple operations as part of a transaction
+UPDATE BankAccounts SET balance = balance - 100 WHERE account_id = 1;
+UPDATE BankAccounts SET balance = balance + 100 WHERE account_id = 2;
+
+-- Isolation: Simulate another session trying to read uncommitted data
+-- Uncomment the following line to observe the isolation behavior
+-- ROLLBACK; -- Uncomment this line to observe the isolation behavior
+
+-- Durability: Commit the transaction to make changes permanent
+COMMIT;
+
+-- Check the final state of the BankAccounts table
+SELECT * FROM BankAccounts;
+```
+
+Explanation:
+
+1. **Atomicity and Consistency:**
+   - Comment: Begin a transaction and perform multiple operations.
+   - Explanation: The `BEGIN TRANSACTION` statement starts a transaction. The subsequent `UPDATE` statements modify data within the transaction. If any part of the transaction fails, the changes will be rolled back to maintain consistency.
+
+2. **Isolation:**
+   - Comment: Simulate another session trying to read uncommitted data.
+   - Explanation: Uncomment the `ROLLBACK` statement to simulate another session attempting to read uncommitted data. In a real-world scenario, this demonstrates the isolation property, where changes made within a transaction are not visible to other transactions until committed.
+
+3. **Durability:**
+   - Comment: Commit the transaction to make changes permanent.
+   - Explanation: The `COMMIT` statement finalizes the transaction, making all the changes made during the transaction permanent. Once committed, the changes are durable and will survive system failures.
