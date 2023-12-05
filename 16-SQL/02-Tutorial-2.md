@@ -213,14 +213,11 @@ A foreign key is a field in a table that refers to the primary key of another ta
 
 Indexes are data structures that improve the speed of data retrieval operations on a database table. They work similar to the index in a book, allowing the database engine to quickly locate and access the rows in a table. Indexes can be created on one or more columns of a table, and they enhance the performance of SELECT queries but may slightly slow down data modification operations (INSERT, UPDATE, DELETE).
 
-In summary, a well-designed database involves careful consideration of schemas, tables, relationships, and the use of primary keys, foreign keys, and indexes to ensure data integrity and optimize query performance.
 
 ---
 
-Certainly! I'll provide you with an example using SQL (Structured Query Language), which is commonly used for working with relational databases. 
-Keep in mind that the exact syntax may vary depending on the database management system you are using (e.g., MySQL, PostgreSQL, SQLite, etc.).
 
-Let's create a simple database with two tables, `Students` and `Courses`, to illustrate the concepts:
+- Let's create a simple database with two tables, `Students` and `Courses`, to illustrate the concepts:
 
 ```sql
 -- Create Database Schema
@@ -280,4 +277,89 @@ VALUES (1, 101),
        (2, 102);
 ```
 
-This example demonstrates the basic structure and relationships in a database. Adjust the code based on your specific requirements and the database system you are using.
+---
+
+## 4. Data types in SQL 
+
+-- Creating a SampleTable with Commonly Used Data Types
+
+CREATE TABLE SampleTable (
+    id INT,                           -- Integer: Unique identifier for each record
+    name VARCHAR(50),                 -- Variable-length string: Stores names with a maximum length of 50 characters
+    description CHAR(100),            -- Fixed-length string: Stores fixed-length descriptions with a length of 100 characters
+    details TEXT,                     -- Variable-length text: Stores large amounts of text, suitable for long descriptions
+    birth_date DATE,                  -- Date: Stores the birth date of an entity
+    event_timestamp TIMESTAMP,        -- Timestamp: Records the date and time of an event
+    is_active BOOLEAN,                -- Boolean: Represents true or false for activation status
+    price DECIMAL(10, 2),             -- Decimal: Stores monetary values with a precision of 10 digits, 2 of which are after the decimal point
+    temperature FLOAT,                -- Float: Stores floating-point numbers, like temperature readings
+    status ENUM('active', 'inactive', 'pending')  -- Enum: Represents a status with predefined values
+);
+
+
+---
+
+## 5. INSERT, SELECT, UPDATE, DELETE
+
+-- INSERT: Add a new record to the SampleTable
+INSERT INTO SampleTable (id, name, description, birth_date, is_active)
+VALUES (1, 'John Doe', 'Author', '1990-01-15', true);
+
+-- SELECT: Retrieve information from the SampleTable
+SELECT id, name, description, birth_date, is_active
+FROM SampleTable
+WHERE is_active = true;
+
+-- UPDATE: Modify the name for the record with id=1 in SampleTable
+UPDATE SampleTable
+SET name = 'Jane Doe'
+WHERE id = 1;
+
+-- DELETE: Remove the record with id=1 from SampleTable
+DELETE FROM SampleTable
+WHERE id = 1;
+
+---
+
+## 6. INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN:
+
+```sql
+-- INNER JOIN: Retrieve matching records from both tables
+SELECT Orders.order_id, Customers.customer_name
+FROM Orders
+INNER JOIN Customers ON Orders.customer_id = Customers.customer_id;
+
+-- LEFT JOIN: Retrieve all records from the left table and matching records from the right table
+SELECT Customers.customer_name, Orders.order_id
+FROM Customers
+LEFT JOIN Orders ON Customers.customer_id = Orders.customer_id;
+
+-- RIGHT JOIN: Retrieve all records from the right table and matching records from the left table
+SELECT Orders.order_id, Customers.customer_name
+FROM Orders
+RIGHT JOIN Customers ON Orders.customer_id = Customers.customer_id;
+
+-- FULL OUTER JOIN: Retrieve all records when there is a match in either the left or right table
+SELECT Customers.customer_name, Orders.order_id
+FROM Customers
+FULL OUTER JOIN Orders ON Customers.customer_id = Orders.customer_id;
+```
+
+Explanation in comments:
+
+1. **INNER JOIN:**
+   - Comment: Retrieve matching records from both tables.
+   - Explanation: INNER JOIN returns only the rows where there is a match in both tables based on the specified condition.
+
+2. **LEFT JOIN:**
+   - Comment: Retrieve all records from the left table and matching records from the right table.
+   - Explanation: LEFT JOIN returns all rows from the left table and the matching rows from the right table. If there is no match, NULL values are returned for the columns from the right table.
+
+3. **RIGHT JOIN:**
+   - Comment: Retrieve all records from the right table and matching records from the left table.
+   - Explanation: RIGHT JOIN returns all rows from the right table and the matching rows from the left table. If there is no match, NULL values are returned for the columns from the left table.
+
+4. **FULL OUTER JOIN:**
+   - Comment: Retrieve all records when there is a match in either the left or right table.
+   - Explanation: FULL OUTER JOIN returns all rows when there is a match in either the left or right table. If there is no match, NULL values are returned for columns from the table without a match.
+
