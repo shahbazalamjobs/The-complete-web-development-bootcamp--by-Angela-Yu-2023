@@ -283,6 +283,7 @@ VALUES (1, 101),
 
 -- Creating a SampleTable with Commonly Used Data Types
 
+```sql
 CREATE TABLE SampleTable (
     id INT,                           -- Integer: Unique identifier for each record
     name VARCHAR(50),                 -- Variable-length string: Stores names with a maximum length of 50 characters
@@ -295,12 +296,13 @@ CREATE TABLE SampleTable (
     temperature FLOAT,                -- Float: Stores floating-point numbers, like temperature readings
     status ENUM('active', 'inactive', 'pending')  -- Enum: Represents a status with predefined values
 );
-
+```
 
 ---
 
 ## 5. INSERT, SELECT, UPDATE, DELETE
 
+```sql
 -- INSERT: Add a new record to the SampleTable
 INSERT INTO SampleTable (id, name, description, birth_date, is_active)
 VALUES (1, 'John Doe', 'Author', '1990-01-15', true);
@@ -318,6 +320,7 @@ WHERE id = 1;
 -- DELETE: Remove the record with id=1 from SampleTable
 DELETE FROM SampleTable
 WHERE id = 1;
+```
 
 ---
 
