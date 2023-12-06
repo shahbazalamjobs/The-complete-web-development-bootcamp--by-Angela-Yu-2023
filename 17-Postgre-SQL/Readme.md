@@ -75,6 +75,7 @@
     - PostgreSQL allows infinite databases but has a maximum table size limit of 32 TB.
 
 11. **What are the different data types supported by PostgreSQL?**
+
     - PostgreSQL supports a wide range of data types, including:
     - Numeric types: integer, numeric, real, double precision
     - Character types: char, varchar, text
@@ -88,7 +89,8 @@
     - Network address types: inet, CIDR
     - Custom types created by users
 
-12. What are the different data types in PostgreSQL?
+13. **What are the different data types in PostgreSQL?**
+
     - PostgreSQL supports a myriad of data types:
     - Boolean
     - Numeric Types
@@ -100,3 +102,18 @@
     - Store
     - Geometric data and other special types
     
+15. **What is the difference between CHAR and VARCHAR data types?**
+ 
+   - CHAR is a fixed-length character type, while VARCHAR is a variable-length character type. CHAR always reserves the specified length, padding with spaces if necessary, whereas VARCHAR only stores the actual characters entered.
+   
+14. **Explain the difference between DELETE and TRUNCATE commands.**
+ 
+   - DELETE is a DML (Data Manipulation Language) command used to remove rows from a table based on a condition.
+   - TRUNCATE is a DDL (Data Definition Language) command used to remove all rows from a table, but it does not log individual row deletions and is faster than DELETE.
+
+15. **What is an index, and how does it improve performance?**
+  
+   - An index is a database object that provides a quick and efficient method of locating rows in a table.
+   - It improves performance by reducing the number of rows that need to be scanned during query execution.
+   - Indexes are created on columns that are frequently used in WHERE clauses or JOIN conditions.
+
