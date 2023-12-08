@@ -1,14 +1,14 @@
 ## SQL code
 
 ### Unique and Not Null
-
+```sql
 CREATE TABLE world_food (
     id SERIAL PRIMARY KEY,
     country VARCHAR(45) UNIQUE NOT NULL, -- Unique and not null constraint for the country column
     rice DOUBLE PRECISION,
     wheat DOUBLE PRECISION
 );
-
+```
 
 ### Like 
 
