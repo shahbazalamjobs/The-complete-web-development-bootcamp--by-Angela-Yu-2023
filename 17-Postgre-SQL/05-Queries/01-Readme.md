@@ -1,3 +1,17 @@
+## SQL code
+
+### Unique and Not Null
+
+CREATE TABLE world_food (
+    id SERIAL PRIMARY KEY,
+    country VARCHAR(45) UNIQUE NOT NULL, -- Unique and not null constraint for the country column
+    rice DOUBLE PRECISION,
+    wheat DOUBLE PRECISION
+);
+
+
+### Like 
+
 In PostgreSQL, the `LIKE` keyword is used in conjunction with the `WHERE` clause to perform pattern matching in a query. It allows you to search for a specified pattern within a column.
 
 Here's a simple breakdown:
