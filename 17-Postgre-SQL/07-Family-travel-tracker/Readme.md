@@ -89,8 +89,10 @@ Here's a quick example:
 
 ```sql
 SELECT first_name AS "First Name", last_name AS "Last Name"
-FROM employees AS e;Certainly! Let's say you have a `students` table with columns `student_id`, `full_name`, and `grade`. You want to retrieve the student names and their grades, but you want to use aliases for better readability:
+FROM employees AS e;
 ```
+- Certainly! Let's say you have a `students` table with columns `student_id`, `full_name`, and `grade`. You want to retrieve the student names and their grades, but you want to use aliases for better readability:
+
 
 ```sql
 -- Using aliases for table and column names
