@@ -1,4 +1,10 @@
+
+# Clasases
+
 Ah, classes in JavaScript—a sprinkle of syntactic sugar to make object-oriented programming a bit sweeter! Let me show you the basics:
+
+-  A class is a blueprint for creating objects with shared properties and methods. It provides a way to define and create objects in a more structured and object-oriented manner.
+
 
 ```javascript
 // Traditional way with prototypes
