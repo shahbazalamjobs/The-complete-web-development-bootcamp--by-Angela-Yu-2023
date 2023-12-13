@@ -64,3 +64,78 @@ for (const value of mySet) {
 ```
 
 Both `Map` and `Set` provide efficient ways to handle certain data structures, offering advantages over traditional objects or arrays in specific use cases. They are particularly useful when you need to work with unique values or key-value pairs. How do you feel about these new data structures in ES6? Anything specific you'd like to explore or discuss further?
+
+
+---
+
+
+Certainly! Let's delve a bit deeper into some additional features and use cases for `Map` and `Set`.
+
+### Map:
+
+#### Iterating Over Keys and Values:
+
+```javascript
+const myMap = new Map([
+  ['name', 'Alice'],
+  ['age', 25],
+  ['city', 'Wonderland']
+]);
+
+// Iterating over keys
+for (const key of myMap.keys()) {
+  console.log(key);
+}
+
+// Iterating over values
+for (const value of myMap.values()) {
+  console.log(value);
+}
+
+// Iterating over entries (key-value pairs)
+for (const [key, value] of myMap.entries()) {
+  console.log(`${key}: ${value}`);
+}
+```
+
+#### Using Objects as Keys:
+
+```javascript
+const objectKey = { key: 'objectKey' };
+const mapWithObjectKey = new Map();
+
+mapWithObjectKey.set(objectKey, 'Value associated with an object key');
+
+console.log(mapWithObjectKey.get(objectKey)); // 'Value associated with an object key'
+```
+
+### Set:
+
+#### Checking Size:
+
+```javascript
+const mySet = new Set(['apple', 'banana', 'orange']);
+
+console.log(mySet.size); // 3
+```
+
+#### Converting Set to Array:
+
+```javascript
+const mySet = new Set(['apple', 'banana', 'orange']);
+
+const arrayFromSet = Array.from(mySet);
+console.log(arrayFromSet); // ['apple', 'banana', 'orange']
+```
+
+#### Combining Sets:
+
+```javascript
+const set1 = new Set(['apple', 'banana']);
+const set2 = new Set(['banana', 'orange']);
+
+const unionSet = new Set([...set1, ...set2]);
+console.log(unionSet); // Set { 'apple', 'banana', 'orange' }
+```
+
+These additional features showcase the flexibility and utility of `Map` and `Set` in various scenarios. Is there anything specific you'd like to explore further, or any particular aspect of `Map` and `Set` you'd like to discuss?
