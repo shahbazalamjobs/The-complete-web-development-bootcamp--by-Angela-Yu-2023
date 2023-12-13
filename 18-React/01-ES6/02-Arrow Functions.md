@@ -115,3 +115,108 @@ Expected output for the arrow function:
 ```
 
 This separation clarifies the behavior of the traditional function and the arrow function in the context of the `Counter` instance.
+
+
+---
+
+## Normal Functions Vs Arrow Functions using this
+
+Certainly! Let's go through each point and provide code examples for both normal functions and arrow functions:
+
+### Normal Functions:
+
+1. The this keyword in a normal function refers to the object that the function is a method of.
+
+```javascript
+const obj = {
+  name: 'John',
+  sayName: function() {
+    console.log(this.name);
+  }
+};
+
+obj.sayName(); // Output: John
+```
+
+2. If a function is called as a method of an object, this refers to that object.
+
+```javascript
+const person = {
+  name: 'Alice',
+  greet: function() {
+    console.log(`Hello, ${this.name}!`);
+  }
+};
+
+person.greet(); // Output: Hello, Alice!
+```
+
+3. If a function is called as a standalone function, this refers to the global object (window in a browser, global in Node.js).
+
+```javascript
+function globalFunction() {
+  console.log(this === globalThis);
+}
+
+globalFunction(); // Output: true (in a browser environment)
+```
+
+4. The this keyword can be changed using call(), apply(), or bind() methods.
+
+```javascript
+const obj1 = { value: 42 };
+
+function printValue() {
+  console.log(this.value);
+}
+
+printValue.call(obj1); // Output: 42
+```
+
+### Arrow Functions:
+
+5. The this keyword in an arrow function does not bind its own this, but rather inherits it from the surrounding code.
+
+```javascript
+const obj = {
+  name: 'Sarah',
+  printName: function() {
+    setTimeout(() => {
+      console.log(this.name);
+    }, 1000);
+  }
+};
+
+obj.printName(); // Output: Sarah (lexical this from the surrounding code)
+```
+
+6. The this keyword in an arrow function is lexically bound, meaning it uses this from the code that contains the arrow function.
+
+```javascript
+const outerFunction = () => {
+  const innerFunction = () => {
+    console.log(this === globalThis);
+  };
+
+  innerFunction();
+};
+
+outerFunction(); // Output: true (lexical this from outerFunction)
+```
+
+7. This means that an arrow function does not have its own this, it uses the this value of the enclosing execution context.
+
+```javascript
+const outerObj = {
+  value: 10,
+  arrowFunction: () => {
+    console.log(this.value); // Output: undefined (lexical this from the enclosing scope)
+  }
+};
+
+outerObj.arrowFunction();
+```
+
+8. This behavior is known as lexical this.
+
+No additional code is needed for this point as it's a summary of the behavior mentioned in points 5-7.
