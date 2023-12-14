@@ -226,6 +226,7 @@ No additional code is needed for this point as it's a summary of the behavior me
 
 9. This keyword behavior with normal and arrow functions
 
+```js
 function regularFunction() {
   this.value = 42;
   setTimeout(function() {
@@ -233,7 +234,9 @@ function regularFunction() {
     console.log(this.value); // undefined
   }, 1000);
 }
+```
 
+```js
 function arrowFunction() {
   this.value = 42;
   setTimeout(() => {
@@ -244,3 +247,4 @@ function arrowFunction() {
 
 regularFunction();
 arrowFunction();
+```
