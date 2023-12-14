@@ -220,3 +220,27 @@ outerObj.arrowFunction();
 8. This behavior is known as lexical this.
 
 No additional code is needed for this point as it's a summary of the behavior mentioned in points 5-7.
+
+
+---
+
+9. This keyword behavior with normal and arrow functions
+
+function regularFunction() {
+  this.value = 42;
+  setTimeout(function() {
+    // In a regular function, 'this' would refer to the global object (or undefined in strict mode)
+    console.log(this.value); // undefined
+  }, 1000);
+}
+
+function arrowFunction() {
+  this.value = 42;
+  setTimeout(() => {
+    // In an arrow function, 'this' refers to the 'this' value of the enclosing context
+    console.log(this.value); // 42
+  }, 1000);
+}
+
+regularFunction();
+arrowFunction();
