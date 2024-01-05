@@ -113,4 +113,7 @@ React works by using a virtual DOM (Document Object Model) and a component-based
 
 ---
 
-## Q7. 
+## Q7.  npm and npx
+
+ - `npm` is primarily a package manager for installing and managing Node.js packages
+ - while npx is a tool for executing packages, especially for one-off commands or tools that you don't want to install globally.
