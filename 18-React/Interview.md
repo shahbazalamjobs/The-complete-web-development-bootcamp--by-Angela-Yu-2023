@@ -362,7 +362,7 @@ Remember that the specific structure may vary based on project requirements, tea
 
 ---
 
-## Q.12 
+## Q.12 Functional component in react
 
 In React, hooks are functions that let you use state and other React features in functional components. They were introduced in React 16.8 to allow developers to use state and lifecycle features in functional components, which were previously only available in class components. Here are some commonly used React hooks:
 
