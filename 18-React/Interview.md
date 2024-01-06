@@ -186,7 +186,7 @@ export default App;
 ---
 
 
-## Q9. Creating react element
+## Q9. Creating react element using createElement
 
 - The `React.createElement` function is used to create React elements without using JSX. It takes three arguments:
 
