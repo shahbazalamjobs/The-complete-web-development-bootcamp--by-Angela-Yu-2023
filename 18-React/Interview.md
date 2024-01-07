@@ -408,9 +408,61 @@ In React, hooks are functions that let you use state and other React features in
 
 ---
 
+## Q.13 Counter using useStateHook
+
+```js
+
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  function countUp() {
+    if (count < 20) {
+      setCount(count + 1)
+    }
+  }
+
+  function countDown() {
+
+    if (count > 0) {
+      setCount(count - 1)
+    }
+  }
+
+  return (
+    <>
+      <h1>Counter Value is: {count}</h1>
+      <button onClick={countUp}> Count Up </button>
+      <button onClick={countDown}> Count Down </button>
+    </>
+  )
+}
+
+export default App
+```
+
+[Note]: Sometime We are not required to import react library, when we are not using JSX explicitly
+
 ---
 
-## Q.13 
+## How useState works internally
+
+1. **Initialization:**
+   - `useState` initializes state in React functional components.
+   - Returns an array with the current state value and a function to update the state.
+
+2. **Rendering:**
+   - Component renders based on the current state value.
+
+3. **Updating State:**
+   - Calling the update function schedules a re-render with the new state value.
+   - React intelligently updates only the affected parts of the virtual DOM.
+
+4. **Re-rendering:**
+   - React re-renders the component with the updated state.
+   - The updated state becomes the current state, and the UI reflects the changes.
 
 ---
 
@@ -427,56 +479,85 @@ In React, hooks are functions that let you use state and other React features in
 
 ---
 
-## Q.1
+## Q.17
 
 ---
 
 
-## Q.1
+## Q.18
 
 ---
 
-## Q.1
+## Q.19
 
 ---
 
-## Q.1
+## Q.20
 
 ---
 
-## Q.1
+## Q.21
 
 ---
 
-## Q.1
+## Q.22
 
 ---
 
-## Q.1
+## Q.23
 
 ---
 
-## Q.1
+## Q.24
 
 ---
 
-## Q.1
+## Q.25
 
 ---
 
-## Q.1
+## Q.26
 
 ---
 
-## Q.1
+## Q.27
 
 ---
 
-## Q.1
+## Q.28
 
 ---
 
-## Q.1
+## Q.29
+
+---
+
+## Q.30
+
+---
+
+## Q.3
+
+---
+
+
+## Q.3
+
+---
+
+## Q.3
+
+---
+
+## Q.3
+
+---
+
+## Q.3
+
+---
+
+## Q.3
 
 ---
 
