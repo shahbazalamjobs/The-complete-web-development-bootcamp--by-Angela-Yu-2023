@@ -468,6 +468,44 @@ export default App
 
 ## Q.14
 
+- How React works internally.
+
+1. **Component Rendering:**
+   - React applications are built using components. When a component's state or props change, React triggers a re-render of that component.
+
+2. **Virtual DOM:**
+   - React maintains a virtual DOM, which is an in-memory representation of the actual DOM. The virtual DOM allows React to optimize the process of updating the UI.
+
+3. **Reconciliation Algorithm:**
+   - React uses a diffing algorithm during the reconciliation process to efficiently identify the differences between the current virtual DOM and the new virtual DOM.
+
+4. **Reconciliation Process:**
+   - React compares the new virtual DOM with the previous one element by element, determining additions, removals, and changes.
+   - It calculates the minimal set of changes needed to update the actual DOM.
+
+5. **Fiber Architecture:**
+   - React Fiber is a reimplementation of the core algorithm for rendering and updating components. It introduces features like asynchronous rendering and incremental updates.
+   - Fiber allows React to interrupt rendering to work on high-priority tasks, improving responsiveness.
+
+6. **Concurrent Mode:**
+   - Concurrent Mode, introduced in React 18, enables React to work on multiple tasks concurrently. This enhances the responsiveness of the application.
+
+7. **Time Slicing:**
+   - Time Slicing is a feature within Concurrent Mode that divides rendering work into smaller chunks (time slices). This supports incremental rendering and prevents long-running tasks from blocking the main thread.
+
+8. **Priority Scheduling:**
+   - Concurrent Mode introduces priority scheduling, allowing React to prioritize high-priority tasks over less critical rendering work. This helps in maintaining a responsive user interface.
+
+9. **Suspense and Error Boundaries:**
+   - Suspense is a mechanism for handling asynchronous operations more effectively.
+   - Error Boundaries allow components to catch JavaScript errors during rendering and handle them gracefully.
+
+10. **React Server Components (Experimental):**
+    - React Server Components is an experimental feature that enables server rendering of certain components to reduce client-side rendering needs.
+
+Remember, the internal workings of React are subject to change as the library evolves. For the latest and most accurate information, it's recommended to check the official React documentation and release notes.
+
+
 ---
 
 
