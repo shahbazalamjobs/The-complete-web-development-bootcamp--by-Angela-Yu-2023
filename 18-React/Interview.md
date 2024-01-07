@@ -64,42 +64,43 @@ React works by using a virtual DOM (Document Object Model) and a component-based
 
 ---
 
-## Q5. How React works internally
+## Q5. How React works internally.
 
-1. **JSX Compilation:**
-   - React code often utilizes JSX, a syntax extension that looks similar to XML or HTML. JSX is compiled into JavaScript using tools like Babel. The compiled code represents React elements.
+1. **Component Rendering:**
+   - React applications are built using components. When a component's state or props change, React triggers a re-render of that component.
 
-2. **Element Creation:**
-   - React elements are JavaScript objects that describe what the UI should look like. These elements are created either through JSX or React.createElement calls.
+2. **Virtual DOM:**
+   - React maintains a virtual DOM, which is an in-memory representation of the actual DOM. The virtual DOM allows React to optimize the process of updating the UI.
 
-3. **Fiber Reconciliation:**
-   - React's reconciliation algorithm, known as Fiber, handles the process of updating the virtual DOM efficiently. It breaks the process into smaller, interruptible units called fibers, allowing React to prioritize and schedule updates effectively.
+3. **Reconciliation Algorithm:**
+   - React uses a diffing algorithm during the reconciliation process to efficiently identify the differences between the current virtual DOM and the new virtual DOM.
 
-4. **Render and Commit Phases:**
-   - The reconciliation process is divided into two phases: render and commit.
-      - **Render Phase:** In this phase, React determines what changes need to be made to the virtual DOM.
-      - **Commit Phase:** This is where the actual DOM is updated based on the changes identified in the render phase.
+4. **Reconciliation Process:**
+   - React compares the new virtual DOM with the previous one element by element, determining additions, removals, and changes.
+   - It calculates the minimal set of changes needed to update the actual DOM.
 
-5. **Diffing Algorithm:**
-   - React uses a heuristic algorithm for diffing virtual DOM trees. It compares old and new trees, identifying added, removed, or changed elements. This process is key to optimizing updates.
+5. **Fiber Architecture:**
+   - React Fiber is a reimplementation of the core algorithm for rendering and updating components. It introduces features like asynchronous rendering and incremental updates.
+   - Fiber allows React to interrupt rendering to work on high-priority tasks, improving responsiveness.
 
-6. **Reconciler and Renderer:**
-   - React's reconciler is responsible for the diffing and updating process. The renderer, like ReactDOM for web applications, is responsible for committing changes to the actual DOM.
+6. **Concurrent Mode:**
+   - Concurrent Mode, introduced in React 18, enables React to work on multiple tasks concurrently. This enhances the responsiveness of the application.
 
-7. **State Management:**
-   - React components can have state, and when the state changes, React triggers a re-render of the component. State updates are asynchronous to optimize performance and are batched for efficiency.
+7. **Time Slicing:**
+   - Time Slicing is a feature within Concurrent Mode that divides rendering work into smaller chunks (time slices). This supports incremental rendering and prevents long-running tasks from blocking the main thread.
 
-8. **Virtual DOM Updates:**
-   - React's virtual DOM allows it to keep track of changes without directly manipulating the actual DOM. This minimizes the number of DOM manipulations, improving performance.
+8. **Priority Scheduling:**
+   - Concurrent Mode introduces priority scheduling, allowing React to prioritize high-priority tasks over less critical rendering work. This helps in maintaining a responsive user interface.
 
-9. **Event Delegation:**
-   - React utilizes a synthetic event system to handle events consistently. It uses event delegation, capturing events at a higher level in the DOM and efficiently distributing them to the appropriate React components.
+9. **Suspense and Error Boundaries:**
+   - Suspense is a mechanism for handling asynchronous operations more effectively.
+   - Error Boundaries allow components to catch JavaScript errors during rendering and handle them gracefully.
 
-10. **Component Lifecycle Methods:**
-    - Components in React go through various lifecycle methods such as `componentDidMount` and `componentDidUpdate`. These methods allow developers to perform actions at specific points in a component's lifecycle.
+10. **React Server Components (Experimental):**
+    - React Server Components is an experimental feature that enables server rendering of certain components to reduce client-side rendering needs.
 
-11. **Hooks:**
-    - With the introduction of Hooks, developers can use state and lifecycle features in functional components, reducing the need for class components and making code more concise.
+Remember, the internal workings of React are subject to change as the library evolves. For the latest and most accurate information, it's recommended to check the official React documentation and release notes.
+
 
 ---
 
@@ -468,42 +469,6 @@ export default App
 
 ## Q.14
 
-- How React works internally.
-
-1. **Component Rendering:**
-   - React applications are built using components. When a component's state or props change, React triggers a re-render of that component.
-
-2. **Virtual DOM:**
-   - React maintains a virtual DOM, which is an in-memory representation of the actual DOM. The virtual DOM allows React to optimize the process of updating the UI.
-
-3. **Reconciliation Algorithm:**
-   - React uses a diffing algorithm during the reconciliation process to efficiently identify the differences between the current virtual DOM and the new virtual DOM.
-
-4. **Reconciliation Process:**
-   - React compares the new virtual DOM with the previous one element by element, determining additions, removals, and changes.
-   - It calculates the minimal set of changes needed to update the actual DOM.
-
-5. **Fiber Architecture:**
-   - React Fiber is a reimplementation of the core algorithm for rendering and updating components. It introduces features like asynchronous rendering and incremental updates.
-   - Fiber allows React to interrupt rendering to work on high-priority tasks, improving responsiveness.
-
-6. **Concurrent Mode:**
-   - Concurrent Mode, introduced in React 18, enables React to work on multiple tasks concurrently. This enhances the responsiveness of the application.
-
-7. **Time Slicing:**
-   - Time Slicing is a feature within Concurrent Mode that divides rendering work into smaller chunks (time slices). This supports incremental rendering and prevents long-running tasks from blocking the main thread.
-
-8. **Priority Scheduling:**
-   - Concurrent Mode introduces priority scheduling, allowing React to prioritize high-priority tasks over less critical rendering work. This helps in maintaining a responsive user interface.
-
-9. **Suspense and Error Boundaries:**
-   - Suspense is a mechanism for handling asynchronous operations more effectively.
-   - Error Boundaries allow components to catch JavaScript errors during rendering and handle them gracefully.
-
-10. **React Server Components (Experimental):**
-    - React Server Components is an experimental feature that enables server rendering of certain components to reduce client-side rendering needs.
-
-Remember, the internal workings of React are subject to change as the library evolves. For the latest and most accurate information, it's recommended to check the official React documentation and release notes.
 
 
 ---
