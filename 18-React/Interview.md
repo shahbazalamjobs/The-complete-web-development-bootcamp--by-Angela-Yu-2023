@@ -548,8 +548,6 @@ Here are key aspects of React Fiber architecture:
 7. **Side Effects and Rendering Pipeline:**
    - React Fiber introduces a more predictable and deterministic rendering pipeline. Each Fiber node can produce a set of "side effects" during the commit phase, representing the changes that need to be applied to the DOM. This separation of concerns makes it easier to reason about the rendering process.
 
-8. **Error Boundaries:**
-   - Fiber enables the implementation of error boundaries, which are special components that can catch JavaScript errors anywhere in their component tree. This helps prevent entire applications from crashing due to a single error and provides a mechanism for handling errors gracefully.
 
 React Fiber represents a significant advancement in React's internal architecture, focusing on performance, concurrency, and adaptability to future demands of web development. While many of these improvements are under the hood and transparent to developers, they contribute to a more responsive and efficient React framework.
 
@@ -558,7 +556,12 @@ React Fiber represents a significant advancement in React's internal architectur
 ---
 
 
-## Q.15
+## Q.15 Reconcillation
+
+- Reconciliation is the algorithm behind what is popularly understood as the virtual DOM.
+- A high-level description goes something like this: when you render a React application, a tree of nodes that describes the app is generated and saved in memory.
+- This tree is then flushed to the rendering environment — for example, in the case of a browser application, it's translated to a set of DOM operations.
+- When the app is updated (usually via setState), a new tree is generated. The new tree is diffed with the previous tree to compute which operations are needed to update the rendered app.
 
 ---
 
