@@ -318,6 +318,15 @@ When you write JSX code in a React application, the code needs to be transpiled 
     }
     ```
 
+---
+
+[Note]: 
+- React creates a virtual representation of your UI in memory, and when something changes, it creates a new virtual tree.
+- The reconciliation process then compares these virtual trees to figure out what has changed and efficiently updates the actual DOM.
+- So, it's like comparing the before and after snapshots of your UI tree.
+    
+---
+
 5. **Rendering Process:**
    - React uses these JavaScript objects to efficiently update the virtual DOM.
    - During the rendering process, React compares the current virtual DOM with the new one, determining the minimal set of changes needed to update the actual DOM.
@@ -512,7 +521,37 @@ export default App
 
 ---
 
-## Q.14
+## Q.14 React fiber architecture
+
+React Fiber is an internal reimplementation of React's core algorithm. It was introduced to improve the performance and responsiveness of React applications by enabling better control over the rendering process and introducing a more efficient reconciliation algorithm. The Fiber architecture is designed to make React more adaptable to modern user interfaces, concurrent rendering, and incremental updates.
+
+Here are key aspects of React Fiber architecture:
+
+1. **Fiber Data Structure:**
+   - At the core of React Fiber is the introduction of a new data structure called "Fiber." Each component in the virtual DOM tree is represented as a Fiber node. Fibers are lightweight units of work that can be paused, aborted, or resumed, allowing React to prioritize and schedule updates more efficiently.
+
+2. **Time Slicing and Prioritization:**
+   - Fiber introduces the concept of time slicing, which enables React to break the rendering work into smaller units and prioritize high-priority updates, such as user interactions, over less critical tasks. This helps to improve the perceived performance and responsiveness of the application.
+
+3. **Concurrent Rendering:**
+   - Fiber allows React to work on multiple tasks concurrently, making it more suitable for modern, interactive user interfaces. It enables React to pause and resume rendering work, allowing for better handling of tasks like animations and input handling without blocking the main thread.
+
+4. **Reconciliation Algorithm:**
+   - React Fiber uses a more sophisticated reconciliation algorithm compared to the previous stack-based algorithm. The new algorithm allows for incremental updates and more fine-grained control over the rendering process. This helps in avoiding layout thrashing and improving the overall performance of React applications.
+
+5. **Render and Commit Phases:**
+   - The reconciliation process is divided into two phases: the render phase and the commit phase. During the render phase, React constructs the Fiber tree, and during the commit phase, the changes are applied to the actual DOM. This separation allows React to pause and resume rendering work as needed.
+
+6. **Scheduler:**
+   - The scheduler is a crucial part of the Fiber architecture responsible for determining the priority of different tasks and scheduling them accordingly. It helps React decide which tasks to work on next, ensuring that high-priority updates are handled promptly.
+
+7. **Side Effects and Rendering Pipeline:**
+   - React Fiber introduces a more predictable and deterministic rendering pipeline. Each Fiber node can produce a set of "side effects" during the commit phase, representing the changes that need to be applied to the DOM. This separation of concerns makes it easier to reason about the rendering process.
+
+8. **Error Boundaries:**
+   - Fiber enables the implementation of error boundaries, which are special components that can catch JavaScript errors anywhere in their component tree. This helps prevent entire applications from crashing due to a single error and provides a mechanism for handling errors gracefully.
+
+React Fiber represents a significant advancement in React's internal architecture, focusing on performance, concurrency, and adaptability to future demands of web development. While many of these improvements are under the hood and transparent to developers, they contribute to a more responsive and efficient React framework.
 
 
 
