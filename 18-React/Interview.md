@@ -846,7 +846,59 @@ Using props allows you to create flexible and dynamic components that can be reu
 
 ---
 
-## Q.18
+## Q.18 Using previous latest state in function to update the state
+
+Certainly! Here's an example illustrating the potential issue when calling `setState` in quick succession without using the `prevState` function:
+
+```jsx
+import React, { useState } from 'react';
+
+const CounterWithoutPrevState = () => {
+  const [count, setCount] = useState(0);
+
+  const increment = () => {
+    // Potential issue: Calling setState in quick succession
+    setCount(count + 1);
+  };
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment</button>
+    </div>
+  );
+};
+
+export default CounterWithoutPrevState;
+```
+
+If you use this component and click the "Increment" button quickly multiple times, you might not get the expected incremented values due to React batching the state updates.
+
+Now, let's address the issue using the `prevState` function:
+
+```jsx
+import React, { useState } from 'react';
+
+const CounterWithPrevState = () => {
+  const [count, setCount] = useState(0);
+
+  const increment = () => {
+    // Using prevState function to ensure correct state updates
+    setCount((prevCount) => prevCount + 1);
+  };
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment</button>
+    </div>
+  );
+};
+
+export default CounterWithPrevState;
+```
+
+- In this version, using the `prevState` function ensures that you are working with the latest state, even if `increment` is called in quick succession.
 
 ---
 
