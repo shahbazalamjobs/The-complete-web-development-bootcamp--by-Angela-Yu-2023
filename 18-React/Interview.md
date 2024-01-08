@@ -539,9 +539,10 @@ Remember that the specific structure may vary based on project requirements, tea
    - With the introduction of React's Fiber architecture, functional components with hooks can perform exceptionally well, and the need for class components has diminished.
 
 Functional components, combined with React Hooks, have become the preferred way to write components in modern React applications. They offer a cleaner and more functional programming-style approach to building UIs.
+
 ---
 
-## Q.13 Counter using useStateHook
+## Q13 Counter using useStateHook
 
 ```js
 
@@ -599,7 +600,7 @@ export default App
 
 ---
 
-## Q.14 React fiber architecture
+## Q14 React fiber architecture
 
 React Fiber is an internal reimplementation of React's core algorithm. It was introduced to improve the performance and responsiveness of React applications by enabling better control over the rendering process and introducing a more efficient reconciliation algorithm. The Fiber architecture is designed to make React more adaptable to modern user interfaces, concurrent rendering, and incremental updates.
 
