@@ -324,54 +324,6 @@ While using JSX is more common and readable, understanding `React.createElement`
 
 ---
 
-
-## How above react code runs internally
-
-Great question! Understanding how the code runs internally in React can help you grasp the React rendering process.
-
-1. **JSX Compilation:**
-   When you write JSX code, like in the examples I provided, it needs to be compiled into JavaScript before it can run. This compilation step is typically done using tools like Babel. JSX gets translated into `React.createElement` calls. For example, the JSX:
-
-   ```jsx
-   <div>
-     <h1>Hello, React!</h1>
-     <p>This is a simple React element.</p>
-   </div>
-   ```
-
-   gets compiled into:
-
-   ```jsx
-   React.createElement('div', null,
-     React.createElement('h1', null, 'Hello, React!'),
-     React.createElement('p', null, 'This is a simple React element.')
-   );
-   ```
-
-2. **React.createElement Execution:**
-   The `React.createElement` calls create a virtual DOM representation of your UI. Each call returns a JavaScript object representing a React element. This virtual DOM is a lightweight copy of the actual DOM elements.
-
-3. **Reconciliation and Rendering:**
-   React then takes this virtual DOM and compares it with the previous one (if any) using a process called reconciliation. React identifies the differences (changes in state or props) and updates only the parts of the actual DOM that need to change, rather than re-rendering the entire DOM.
-
-   In the example:
-
-   ```jsx
-   React.createElement('div', null,
-     React.createElement('h1', null, 'Hello, React!'),
-     React.createElement('p', null, 'This is a simple React element.')
-   );
-   ```
-
-   React would create a virtual DOM structure with a `div` containing an `h1` and a `p`. If there were changes in state or props, React would efficiently update the actual DOM.
-
-4. **Component Lifecycle Methods (if applicable):**
-   If you have class components, React also invokes lifecycle methods like `componentDidMount`, `componentDidUpdate`, or `componentWillUnmount` at appropriate times during the component's lifecycle.
-
-This process ensures that React applications are efficient and only update what is necessary, providing a smooth user experience.
-
----
-
 ## In depth understanding
 
 When you write JSX code in a React application, the code needs to be transpiled into JavaScript that can be understood by browsers. This transpilation process is typically done using a tool like Babel. Here's a step-by-step overview of how React code, written in JSX, is converted into JavaScript objects:
