@@ -802,10 +802,49 @@ In summary, the `key` attribute in React is crucial for optimizing the rendering
 
 ---
 
-## Q.17
+## Q.17 Props
+
+Props in React are like parameters in a function—they allow you to pass data from a parent component to a child component. Think of a React component as a reusable piece of code, and props as the way that code can receive and use external data.
+
+When you create a component, you can define and use props like this:
+
+```jsx
+// ParentComponent.jsx
+import React from 'react';
+import ChildComponent from './ChildComponent';
+
+function ParentComponent() {
+  const dataToSend = "Hello from Parent!";
+
+  return (
+    <div>
+      <ChildComponent propValue={dataToSend} />
+    </div>
+  );
+}
+```
+
+And in the child component:
+
+```jsx
+// ChildComponent.jsx
+import React from 'react';
+
+function ChildComponent(props) {
+  return <p>{props.propValue}</p>;
+}
+```
+
+Here, `propValue` is a prop being passed from the parent to the child. You can name your props anything you like. Props can be any type of data, including strings, numbers, arrays, objects, or even functions.
+
+Using props allows you to create flexible and dynamic components that can be reused in different parts of your application.
 
 ---
 
+
+- More Props: https://www.freecodecamp.org/news/how-to-use-props-in-reactjs/
+
+---
 
 ## Q.18
 
