@@ -251,16 +251,30 @@ So, when this component is rendered, it creates a React element representing a `
 ### Babel
 
 - Babel is a JavaScript compiler that can convert modern JavaScript, including JSX, into a version of JavaScript that is compatible with various browsers.
-
 - Babel translates the JSX syntax into JavaScript function calls, typically using `React.createElement`.
 - These function calls create objects representing React elements. This process is part of the build step and is not done at runtime in the browser.
 
-- Babel essentially transforms your modern JavaScript and JSX code into a form that is compatible with a wide range of browsers. 
-- The transpiled code uses React.createElement to create React elements and represents the same logic as your original JSX code but in a syntax that's widely supported.
-
-
 ---
 
+- In this transpiled code, the React.createElement function creates a JavaScript object representing a React element. The resulting object would look like this:
+```
+{
+  type: 'div',
+  props: {
+    children: myProp
+  },
+  key: null, // A key for React to track elements efficiently
+  ref: null // A reference to the underlying DOM node
+}
+
+```
+
+
+### React Element Properties
+
+- **Type:** Represents the type of the React element, in this case, it's the string `'div'`.
+- **Props:** Contains the properties or attributes of the React element. In this example, it has a `children` property with the value of `myProp`.
+- **Key and Ref:** These are additional properties that React uses for performance optimizations and managing references to the DOM nodes.
 
 
 ---
