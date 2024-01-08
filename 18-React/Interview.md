@@ -257,7 +257,8 @@ So, when this component is rendered, it creates a React element representing a `
 ---
 
 - In this transpiled code, the React.createElement function creates a JavaScript object representing a React element. The resulting object would look like this:
-```
+  
+```js
 {
   type: 'div',
   props: {
