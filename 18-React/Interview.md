@@ -167,10 +167,10 @@ Certainly! Let's break down the steps involved in a typical React application li
    - When state or props change, React generates a new Virtual DOM tree.
    - React then performs a process called "reconciliation" (or "diffing") to identify the differences between the new and old Virtual DOM trees.
 
-### 6. **Re-rendering and Component Lifecycle:**
-   - If a component's state or props change, React triggers a re-render of that component.
-   - Class components have lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` that can be utilized for side effects during different phases of the component's life.
-
+### 6. **Re-rendering and Hooks:**
+   - Functional components are commonly used, often accompanied by hooks like useState and useEffect.
+   - When state or props change, React triggers a re-render of the component, applying the changes through the functional component's body.
+     
 ### 7. **Updating the Virtual DOM:**
    - The reconciled changes are used to update the Virtual DOM, representing the new state of the application.
 
@@ -190,9 +190,7 @@ Certainly! Let's break down the steps involved in a typical React application li
    - React employs various optimizations like memoization, PureComponent, and React.memo to avoid unnecessary re-renders and improve performance.
 
 ### 12. **Cleanup and Unmounting:**
-   - When a component is removed from the UI (unmounted), React calls the `componentWillUnmount` lifecycle method (for class components) to perform cleanup tasks.
-
-In summary, a React app goes through a process of compilation, rendering, reconciliation, and updating the actual DOM. The Virtual DOM and React's internal algorithms work together to ensure efficient updates and provide a smooth user experience. The component-based architecture and declarative nature of React make it a powerful library for building dynamic and interactive user interfaces.
+   - When a component is removed from the UI (unmounted), React executes cleanup tasks, often using the useEffect hook with a cleanup function in functional components.
 
 
 ---
