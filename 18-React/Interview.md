@@ -461,9 +461,8 @@ Remember that the specific structure may vary based on project requirements, tea
 ---
 
 ## Q12 Functional component in react
-Functional components are a type of component in React that is primarily defined as a JavaScript function. In the latest versions of React, functional components have gained more prominence and capabilities, largely due to the introduction of React Hooks.
-
-Here's an overview of functional components in the latest React:
+- A functional component in React is a JavaScript function that defines a reusable piece of user interface (UI) without managing its own state or lifecycle methods.
+- Originally, functional components were stateless and primarily used for rendering UI elements. However, with the introduction of React Hooks, functional components gained the ability to manage state and side effects, making them more powerful and versatile.
 
 ### Basics of Functional Components:
 1. **Syntax:**
