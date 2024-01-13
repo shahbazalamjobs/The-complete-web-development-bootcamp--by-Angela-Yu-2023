@@ -908,7 +908,62 @@ export default CounterWithPrevState;
 
 ---
 
-## Q.20
+## Q.20 Custom Hooks
+
+In React, custom hooks are JavaScript functions that allow you to reuse stateful logic across different components. Creating custom hooks can help you organize and share code between components, making your codebase more modular and maintainable. Here's a step-by-step guide on how to create custom hooks in React:
+
+1. **Create a new file for your custom hook:**
+   Start by creating a new JavaScript file for your custom hook. The filename convention for custom hooks is to start with "use" followed by the hook's functionality. For example, if you're creating a custom hook for managing some state, you might name it `useCustomState.js`.
+
+2. **Define your custom hook:**
+   In the new file, define your custom hook using the `use` keyword. Here's a simple example:
+
+   ```jsx
+   // useCustomState.js
+   import { useState } from 'react';
+
+   const useCustomState = (initialState) => {
+     const [value, setValue] = useState(initialState);
+
+     const handleChange = (newValue) => {
+       setValue(newValue);
+     };
+
+     return [value, handleChange];
+   };
+
+   export default useCustomState;
+   ```
+
+3. **Use the custom hook in a component:**
+   Now, you can use your custom hook in a React component. Import the hook at the beginning of your component file, and then call it within your component function.
+
+   ```jsx
+   // MyComponent.js
+   import React from 'react';
+   import useCustomState from './useCustomState';
+
+   const MyComponent = () => {
+     const [customValue, setCustomValue] = useCustomState('initial value');
+
+     return (
+       <div>
+         <p>Custom Value: {customValue}</p>
+         <input
+           type="text"
+           value={customValue}
+           onChange={(e) => setCustomValue(e.target.value)}
+         />
+       </div>
+     );
+   };
+
+   export default MyComponent;
+   ```
+
+   Now, the `MyComponent` uses the custom hook `useCustomState` to manage its state logic.
+
+Now you have a reusable custom hook (`useCustomState`) that encapsulates stateful logic, and you can easily use it in multiple components. Custom hooks can be powerful tools for abstracting and sharing complex logic across your React application.
 
 ---
 
