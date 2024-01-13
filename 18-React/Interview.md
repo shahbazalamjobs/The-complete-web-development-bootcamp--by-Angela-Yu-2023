@@ -967,9 +967,85 @@ Now you have a reusable custom hook (`useCustomState`) that encapsulates statefu
 
 ---
 
-## Q.21
+## Q.21 React modern Lifecycle methods using hooks
+
+- React Hooks allow functional components to achieve similar behavior to lifecycle methods in class components by providing a way to manage stateful logic and side effects. The primary hook for handling lifecycle-like behavior is the `useEffect` hook.
+
+- Here's how React Hooks achieve functionalities similar to component lifecycle methods:
+
+### 1. **useEffect Hook:**
+
+- The `useEffect` hook allows you to perform side effects in your functional components. It's used for tasks that are typically associated with lifecycle methods in class components. The `useEffect` hook accepts two arguments:
+
+```jsx
+useEffect(() => {
+  // Effect code
+  // ...
+
+  // Cleanup function (optional)
+  return () => {
+    // Cleanup code
+    // ...
+  };
+}, [/* dependencies */]);
+```
+
+- The first argument is a function containing the code to run after the component renders.
+- The second argument is an array of dependencies. If any of the dependencies change between renders, the effect will run again. If you want the effect to run only once on mount, you can pass an empty dependency array (`[]`).
+
+### 2. **useState Hook:**
+
+- The `useState` hook allows functional components to manage local state, providing an alternative to the `this.state` and `this.setState` used in class components. It returns an array with the current state value and a function to update it:
+
+```jsx
+const [state, setState] = useState(initialState);
+```
+
+### 3. **Other Hooks:**
+
+- **useReducer:** An alternative to `useState` for more complex state logic. It uses a reducer function to manage state transitions.
+
+- **useContext:** Allows functional components to subscribe to a context and read its current value.
+
+- **useMemo and useCallback:** These hooks are used for memoization, helping to optimize performance by preventing unnecessary recalculations or renders.
+
+### Example: Fetching Data on Mount using `useEffect`:
+
+```jsx
+import React, { useEffect, useState } from 'react';
+
+const MyComponent = () => {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // Fetch data when the component mounts
+    fetchData()
+      .then((result) => {
+        setData(result);
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+
+    // Cleanup function (optional)
+    return () => {
+      // Cleanup logic goes here (if needed)
+    };
+  }, []); // Empty dependency array means this effect runs only on mount
+
+  return (
+    <div>
+      {/* Render logic using the fetched data */}
+    </div>
+  );
+};
+```
+
+In this example, `useEffect` is used to fetch data when the component mounts. The cleanup function (if provided) will be executed before the component is unmounted, simulating the behavior of `componentDidMount` and `componentWillUnmount` in class components.
+
 
 ---
+
 
 ## Q.22
 
