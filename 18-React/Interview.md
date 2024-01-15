@@ -1152,7 +1152,7 @@ These are the basic concepts of React Router. As your application grows, you can
 
 ---
 
-- React Router in more Details: [------- Learning Link ---------](https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/)
+- React Router in more Details: [https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/](https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/)
 
 ---
 
