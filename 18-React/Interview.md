@@ -1105,6 +1105,9 @@ export default App;
 ---
 
 - React Router 6 in more Details: [https://www.freecodecamp.org/news/how-to-use-react-router-version-6/](https://www.freecodecamp.org/news/how-to-use-react-router-version-6/)
+- React Router V6 Web Dev Simplified
+    1. Blog:[ https://blog.webdevsimplified.com/2022-07/react-router/]( https://blog.webdevsimplified.com/2022-07/react-router/)
+    2. Tutorial: [https://www.youtube.com/watch?v=Ul3y1LXxzdU](https://www.youtube.com/watch?v=Ul3y1LXxzdU)
 
 ---
 
