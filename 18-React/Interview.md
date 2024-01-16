@@ -1052,107 +1052,59 @@ In this example, `useEffect` is used to fetch data when the component mounts. Th
 - React Router is a popular library for handling routing in React applications.
 - It allows you to navigate between different components or pages in a React application without the need for a full-page reload. Here are the basics of using React Router:
 
-### 1. Installation:
-
-First, you need to install React Router in your project. You can do this using npm or yarn:
-
-```bash
-npm install react-router-dom
-```
-
-### 2. Basic Usage:
-
-Once installed, you need to wrap your main component with the `BrowserRouter` component. This provides the routing functionality to your application.
-
 ```jsx
-// Import necessary components from react-router-dom
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-// Wrap your main component with the Router
-function App() {
+// Functional component for the Home page
+const Home = () => <h2>Home</h2>;
+
+// Functional component for the About page
+const About = () => <h2>About</h2>;
+
+// Functional component for the Contact page
+const Contact = () => <h2>Contact</h2>;
+
+// Main App component
+const App = () => {
   return (
+    // Wrap the entire application with the Router component to enable routing
     <Router>
-      {/* Your application content goes here */}
+      {/* Navigation Links */}
+      <nav>
+        <ul>
+          {/* Link components for navigation */}
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+        </ul>
+      </nav>
+
+      {/* Route Declarations */}
+      {/* Routes component to declare individual routes */}
+      <Routes>
+        {/* Route for the Home page */}
+        <Route path="/" element={<Home />} />
+
+        {/* Route for the About page */}
+        <Route path="/about" element={<About />} />
+
+        {/* Route for the Contact page */}
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </Router>
   );
-}
+};
+
+// Export the main App component for use in other parts of the application
+export default App;
+
 ```
 
-### 3. Route Component:
-
-Use the `Route` component to define routes and the components associated with them.
-
-```jsx
-import { Route } from 'react-router-dom';
-
-function Home() {
-  return <div>Home Page</div>;
-}
-
-function About() {
-  return <div>About Page</div>;
-}
-
-function App() {
-  return (
-    <Router>
-      <Route path="/" exact component={Home} />
-      <Route path="/about" component={About} />
-    </Router>
-  );
-}
-```
-
-In the above example:
-- The `path` prop specifies the URL path for the route.
-- The `exact` prop ensures that the route is only matched when the path is an exact match.
-
-### 4. Link Component:
-
-Use the `Link` component to create navigation links between different routes.
-
-```jsx
-import { Link } from 'react-router-dom';
-
-function Navigation() {
-  return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-      </ul>
-    </nav>
-  );
-}
-```
-
-### 5. Switch Component: 
-Wrap your `Route` components with a `Switch` component to ensure that only the first matching route is rendered.
-
-```jsx
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route component={NotFound} />
-      </Switch>
-    </Router>
-  );
-}
-```
-
-In the above example, if none of the routes match, the `NotFound` component will be rendered.
-
-These are the basic concepts of React Router. As your application grows, you can explore more advanced features such as nested routes, route parameters, and programmatic navigation.
 
 ---
 
-- React Router in more Details: [https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/](https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/)
+- React Router 6 in more Details: [https://www.freecodecamp.org/news/how-to-use-react-router-version-6/](https://www.freecodecamp.org/news/how-to-use-react-router-version-6/)
 
 ---
 
