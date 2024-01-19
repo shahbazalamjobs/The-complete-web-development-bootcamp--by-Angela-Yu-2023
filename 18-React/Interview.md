@@ -1111,7 +1111,78 @@ export default App;
 
 ---
 
-## Q.23
+## Q.23 `useContext` hook
+
+`useContext` is a hook in React that allows functional components to subscribe to the context changes. Context in React provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+Here are the basics of using `useContext` in React:
+
+1. **Create a Context:**
+   First, you need to create a context using `React.createContext()`. This function returns an object with `Provider` and `Consumer` components.
+
+    ```jsx
+    // ExampleContext.js
+    import React from 'react';
+
+    const ExampleContext = React.createContext();
+
+    export default ExampleContext;
+    ```
+
+2. **Create a Provider:**
+   Wrap your component tree or part of it with a `Provider` component. The `Provider` component accepts a `value` prop, which will be the data that you want to share.
+
+    ```jsx
+    // App.js
+    import React from 'react';
+    import ExampleContext from './ExampleContext';
+
+    const App = () => {
+      const contextValue = "Hello from Context!";
+
+      return (
+        <ExampleContext.Provider value={contextValue}>
+          {/* Your component tree goes here */}
+        </ExampleContext.Provider>
+      );
+    };
+
+    export default App;
+    ```
+
+3. **Consume Context using `useContext`:**
+   In any functional component that is a descendant of the `Provider`, you can use the `useContext` hook to access the context's value.
+
+    ```jsx
+    // ChildComponent.js
+    import React, { useContext } from 'react';
+    import ExampleContext from './ExampleContext';
+
+    const ChildComponent = () => {
+      const contextValue = useContext(ExampleContext);
+
+      return (
+        <div>
+          {contextValue}
+        </div>
+      );
+    };
+
+    export default ChildComponent;
+    ```
+
+   Here, `useContext(ExampleContext)` is used to access the current value of the `ExampleContext`.
+
+4. **Fallback Value (optional):**
+   You can provide a fallback value in case the component is not wrapped with the `Provider`.
+
+    ```jsx
+    const contextValue = useContext(ExampleContext) || "Default Value";
+    ```
+
+   This way, if the component is not within the context provider, it will use the default value.
+
+Remember that `useContext` can only be used in functional components and cannot be used in class components. The `Provider` can be nested, and the closest ancestor `Provider` will take precedence.
 
 ---
 
